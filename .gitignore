@@ -6,6 +6,12 @@ out/
 __pycache__/
 *.pyc
 
+# Environment files — never commit secrets.
+# .env.example stays trackable so docs can show the shape without values.
+.env
+.env.*
+!.env.example
+
 # Raw upstream sources, re-fetched by npm run import:oshb.
 # Exception: data/sources/kjv is tracked and read at runtime (see NOTICE).
 data/imports/
