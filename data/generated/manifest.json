@@ -1,0 +1,10 @@
+{
+  "status": "imported",
+  "source": "Open Scriptures Hebrew Bible",
+  "release": "v.2.2",
+  "sourceUrl": "https://github.com/openscriptures/morphhb/tree/v.2.2",
+  "sha256": "db25009b0c6f7f4d76ebf1b54c0124121c2b8036a5dd2646e68e270fbb70f5a9",
+  "books": 39,
+  "verses": 23213,
+  "words": 305507
+}

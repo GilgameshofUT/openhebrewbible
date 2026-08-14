@@ -1,0 +1,3752 @@
+{
+  "sourceUrl": "https://www.youtube.com/@GilgameshofUtah",
+  "channelId": "UCZf-IYjLW8R1lsyNwGjbwUA",
+  "resources": [
+    {
+      "id": "youtube:video:2OKN7a7GSWE",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=2OKN7a7GSWE",
+      "embedUrl": "https://www.youtube.com/embed/2OKN7a7GSWE",
+      "title": "Vocabulary word אֲחַשְׁדַּרְפַּן (ʾaḥašdarpan) \"satrap\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:anc"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:AvJDqNejDqM",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=AvJDqNejDqM",
+      "embedUrl": "https://www.youtube.com/embed/AvJDqNejDqM",
+      "title": "Hezekiah's Music - Isaiah 38 Part 2",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:38"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:cYWmlV61Qmc",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=cYWmlV61Qmc",
+      "embedUrl": "https://www.youtube.com/embed/cYWmlV61Qmc",
+      "title": "Vocabulary word פַּרְדֵּס (pardēs) \"garden\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:kjp"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:C8LDhRsDAmE",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=C8LDhRsDAmE",
+      "embedUrl": "https://www.youtube.com/embed/C8LDhRsDAmE",
+      "title": "Vocabulary word קִנָּמוֹן (qinnāmôn) \"cinnamon\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:lji"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:BJw143IBTto",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=BJw143IBTto",
+      "embedUrl": "https://www.youtube.com/embed/BJw143IBTto",
+      "title": "Vocabulary word  אֵפוֹד (ʾēpôd) \"ephod\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:azo"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:vb5xunt3kAk",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=vb5xunt3kAk",
+      "embedUrl": "https://www.youtube.com/embed/vb5xunt3kAk",
+      "title": "Hezekiah’s Illness and Sundial Significance",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:38"
+      ],
+      "status": "published",
+      "mappingMethod": "user-confirmed-document-mapping",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:VJ0vYl2P2lg",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=VJ0vYl2P2lg",
+      "embedUrl": "https://www.youtube.com/embed/VJ0vYl2P2lg",
+      "title": "Vocabulary word רְפָאִים (rᵉp̄āʾîm) \"ghosts/giants\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:mbu",
+        "lemma:oshb-lexicon:mbt"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:UIIpmA9puE8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=UIIpmA9puE8",
+      "embedUrl": "https://www.youtube.com/embed/UIIpmA9puE8",
+      "title": "Vocabulary word אֲהָהּ (ʾăhāh) \"AHAHAHAH!!!!\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:agp"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:AqntP3VZogM",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=AqntP3VZogM",
+      "embedUrl": "https://www.youtube.com/embed/AqntP3VZogM",
+      "title": "The Sassy Daughter of Zion - Isaiah 37 Part 2",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:37"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:h0u-HGnneVY",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=h0u-HGnneVY",
+      "embedUrl": "https://www.youtube.com/embed/h0u-HGnneVY",
+      "title": "Vocabulary word שַׁעַטְנֵז (šaʿaṭnēz) \"mixed fabric\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:ndi"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:P3i37z8MTa8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=P3i37z8MTa8",
+      "embedUrl": "https://www.youtube.com/embed/P3i37z8MTa8",
+      "title": "Vocabulary word בְּהֵמָה (bᵉhēmâ) \"beast\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:bkx"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:2d8v6S2OKUw",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=2d8v6S2OKUw",
+      "embedUrl": "https://www.youtube.com/embed/2d8v6S2OKUw",
+      "title": "Vocabulary word נוס (n-w-s) \"flee\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:icn"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:Sz6mszKRA-8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Sz6mszKRA-8",
+      "embedUrl": "https://www.youtube.com/embed/Sz6mszKRA-8",
+      "title": "Hezekiah Goes to the Temple - Isaiah 37 Part 1",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:37"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:Ey9ML6lVppc",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Ey9ML6lVppc",
+      "embedUrl": "https://www.youtube.com/embed/Ey9ML6lVppc",
+      "title": "Vocabulary word נֶגֶב (negev) \"south\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:hzi"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:npzMjnuddAQ",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=npzMjnuddAQ",
+      "embedUrl": "https://www.youtube.com/embed/npzMjnuddAQ",
+      "title": "Vocabulary word חזק (ḥ-z-q) \"strong\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:dsn",
+        "lemma:oshb-lexicon:dso",
+        "lemma:oshb-lexicon:dsm",
+        "lemma:oshb-lexicon:dsl",
+        "lemma:oshb-lexicon:dsp"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:OzsyNyUFjiY",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=OzsyNyUFjiY",
+      "embedUrl": "https://www.youtube.com/embed/OzsyNyUFjiY",
+      "title": "Vocabulary word מִשְׁפָּחָה (mišpāḥāh) “family” from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:hve"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:EHGQ4JFWVGE",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=EHGQ4JFWVGE",
+      "embedUrl": "https://www.youtube.com/embed/EHGQ4JFWVGE",
+      "title": "Siege of Jerusalem: Can You Trust the Narrative? Isaiah 36 Analysis",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:36"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:jGGwYPQiYN8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jGGwYPQiYN8",
+      "embedUrl": "https://www.youtube.com/embed/jGGwYPQiYN8",
+      "title": "Vocabulary word כַּף (kap) \"palm\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:fwl",
+        "lemma:oshb-lexicon:fwk"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:Syki7NWwLRM",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Syki7NWwLRM",
+      "embedUrl": "https://www.youtube.com/embed/Syki7NWwLRM",
+      "title": "Vocabulary word יָד (yād) \"hand\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:eug",
+        "lemma:oshb-lexicon:okt"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:6wjt3d0whtc",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=6wjt3d0whtc",
+      "embedUrl": "https://www.youtube.com/embed/6wjt3d0whtc",
+      "title": "6 Real Ways AI Can Actually Help You Study the Hebrew Bible",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:raPNxuxGmSQ",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=raPNxuxGmSQ",
+      "embedUrl": "https://www.youtube.com/embed/raPNxuxGmSQ",
+      "title": "Vocabulary word נַחַל (naḥal) \"wadi\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:idx",
+        "lemma:oshb-lexicon:idu",
+        "lemma:oshb-lexicon:idv"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:ykStyYyxxhI",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ykStyYyxxhI",
+      "embedUrl": "https://www.youtube.com/embed/ykStyYyxxhI",
+      "title": "Vocabulary word גֶּפֶן (gepen) \"vine\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:cmw"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:MeeuhHaRDhU",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=MeeuhHaRDhU",
+      "embedUrl": "https://www.youtube.com/embed/MeeuhHaRDhU",
+      "title": "Sennacherib vs. Hezekiah: The Real Story Not in the Bible",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:UQ1r_qIu74U",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=UQ1r_qIu74U",
+      "embedUrl": "https://www.youtube.com/embed/UQ1r_qIu74U",
+      "title": "Vocabulary word נְחֹשֶׁת (nᵉḥōšet) \"bronze\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:iew",
+        "lemma:oshb-lexicon:iex"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:NPLRMVKlQ2o",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=NPLRMVKlQ2o",
+      "embedUrl": "https://www.youtube.com/embed/NPLRMVKlQ2o",
+      "title": "Vocabulary word קלל (q-l-l) \"curse\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:lhw",
+        "lemma:oshb-lexicon:lhx"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:_dJfd7LwAlA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=_dJfd7LwAlA",
+      "embedUrl": "https://www.youtube.com/embed/_dJfd7LwAlA",
+      "title": "Vocabulary word מלך (m-l-k) \"king\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:hae",
+        "lemma:oshb-lexicon:haf",
+        "lemma:oshb-lexicon:oow",
+        "lemma:oshb-lexicon:oov",
+        "lemma:oshb-lexicon:hai",
+        "lemma:oshb-lexicon:hag",
+        "lemma:oshb-lexicon:hah"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:kj9LOJbt4P0",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=kj9LOJbt4P0",
+      "embedUrl": "https://www.youtube.com/embed/kj9LOJbt4P0",
+      "title": "Who ACTUALLY Killed Goliath? The hidden hero you didn't expect.",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:7_xs09uWpoY",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=7_xs09uWpoY",
+      "embedUrl": "https://www.youtube.com/embed/7_xs09uWpoY",
+      "title": "Vocabulary word שלך (š-l-k) \"throw\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:mwl",
+        "lemma:oshb-lexicon:mwm"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:68ic3dYaA3A",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=68ic3dYaA3A",
+      "embedUrl": "https://www.youtube.com/embed/68ic3dYaA3A",
+      "title": "Vocabulary word חוּץ (ḥûṣ) \"outside\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:dra"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:-0pb4XT0Q5c",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=-0pb4XT0Q5c",
+      "embedUrl": "https://www.youtube.com/embed/-0pb4XT0Q5c",
+      "title": "Zion Restored! Exiles Return! - Isaiah 35",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:35"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:caKZhBEJTBc",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=caKZhBEJTBc",
+      "embedUrl": "https://www.youtube.com/embed/caKZhBEJTBc",
+      "title": "Vocabulary word חסר (ḥ-s-r) \"lacking/want\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:ojo",
+        "lemma:oshb-lexicon:edk",
+        "lemma:oshb-lexicon:edj",
+        "lemma:oshb-lexicon:edi",
+        "lemma:oshb-lexicon:edl"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:Z-SbxSOuDD4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Z-SbxSOuDD4",
+      "embedUrl": "https://www.youtube.com/embed/Z-SbxSOuDD4",
+      "title": "Lilith: Queen of Hell - Isaiah 34",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:34"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:gBasXUSYTjo",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=gBasXUSYTjo",
+      "embedUrl": "https://www.youtube.com/embed/gBasXUSYTjo",
+      "title": "Vocabulary word קָהָל (qāhāl) \"assembly\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:ldz",
+        "lemma:oshb-lexicon:lea"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:I9nuMPBGFm0",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=I9nuMPBGFm0",
+      "embedUrl": "https://www.youtube.com/embed/I9nuMPBGFm0",
+      "title": "Vocabulary word  לחם (l-ḥ-m) \"war\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:gey",
+        "lemma:oshb-lexicon:onq",
+        "lemma:oshb-lexicon:gez",
+        "lemma:oshb-lexicon:gfb",
+        "lemma:oshb-lexicon:gfa"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:E0JpvcQTQJ8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=E0JpvcQTQJ8",
+      "embedUrl": "https://www.youtube.com/embed/E0JpvcQTQJ8",
+      "title": "Vocabulary word לֶחֶם (leḥem) \"bread\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:gey",
+        "lemma:oshb-lexicon:onq",
+        "lemma:oshb-lexicon:gez",
+        "lemma:oshb-lexicon:gfb",
+        "lemma:oshb-lexicon:gfa"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:ztE5yt-Sht8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ztE5yt-Sht8",
+      "embedUrl": "https://www.youtube.com/embed/ztE5yt-Sht8",
+      "title": "Vocabulary word  ישע (y-š-ʿ) \"save\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:flu",
+        "lemma:oshb-lexicon:flt"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:SyaqXDKv0rc",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=SyaqXDKv0rc",
+      "embedUrl": "https://www.youtube.com/embed/SyaqXDKv0rc",
+      "title": "Isaiah 33:15-24: Who Can Dwell with the Consuming Fire?",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:33"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:Cp_ElLnaeMg",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Cp_ElLnaeMg",
+      "embedUrl": "https://www.youtube.com/embed/Cp_ElLnaeMg",
+      "title": "Vocabulary word סֻכָּה (sukkâ) \"booth\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:itj"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:5Il0TM4GcH0",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=5Il0TM4GcH0",
+      "embedUrl": "https://www.youtube.com/embed/5Il0TM4GcH0",
+      "title": "The Bizarre Secrets & Forgeries of the Dead Sea Scrolls",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:abh8ubjWQXk",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=abh8ubjWQXk",
+      "embedUrl": "https://www.youtube.com/embed/abh8ubjWQXk",
+      "title": "Vocabulary word נשׁק (n-š-q) \"to kiss\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:ioi",
+        "lemma:oshb-lexicon:iok",
+        "lemma:oshb-lexicon:ioj"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:MGcGZ8sNOIc",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=MGcGZ8sNOIc",
+      "embedUrl": "https://www.youtube.com/embed/MGcGZ8sNOIc",
+      "title": "Vocabulary word סֶ֫לָה (selāh) ? from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:iui",
+        "lemma:oshb-lexicon:iuk",
+        "lemma:oshb-lexicon:iuj"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:3WTOjBGufnA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=3WTOjBGufnA",
+      "embedUrl": "https://www.youtube.com/embed/3WTOjBGufnA",
+      "title": "The Destroyer and the Assyrian Locusts Isaiah 33:1-14",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:33"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:WFOEW9kQDqg",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=WFOEW9kQDqg",
+      "embedUrl": "https://www.youtube.com/embed/WFOEW9kQDqg",
+      "title": "Vocabulary word מַיִם (mayim) \"water\"  from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:gvs"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:QCD-mPNfS2Q",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=QCD-mPNfS2Q",
+      "embedUrl": "https://www.youtube.com/embed/QCD-mPNfS2Q",
+      "title": "Vocabulary word לַיְלָה (laylāh) \"night,\"  from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:gfp"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:lSNGTH7QuzM",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=lSNGTH7QuzM",
+      "embedUrl": "https://www.youtube.com/embed/lSNGTH7QuzM",
+      "title": "Isaiah 32:9-20 Explained: Thorns, Ruins, and the Outpouring of the Spirit",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:32"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:VXUc6nuqotA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=VXUc6nuqotA",
+      "embedUrl": "https://www.youtube.com/embed/VXUc6nuqotA",
+      "title": "Vocabulary word חטא (ḥ-ṭ-ʾ) \"sin\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:dsy",
+        "lemma:oshb-lexicon:dsw",
+        "lemma:oshb-lexicon:dsx"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:8CoBYByf_jo",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=8CoBYByf_jo",
+      "embedUrl": "https://www.youtube.com/embed/8CoBYByf_jo",
+      "title": "Vocabulary word עַפְעַפִּים (ʿapʿappîm) \"Eyelashes\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:עפעף"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:ypNnDfcnC9g",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ypNnDfcnC9g",
+      "embedUrl": "https://www.youtube.com/embed/ypNnDfcnC9g",
+      "title": "Vocabulary word  אֶפֶס (ʾepes) \"Nothing\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:bab",
+        "lemma:oshb-lexicon:baa",
+        "lemma:oshb-lexicon:bac"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:jWQARHUmgno",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jWQARHUmgno",
+      "embedUrl": "https://www.youtube.com/embed/jWQARHUmgno",
+      "title": "Vocabulary word מַלְאָךְ (malʾāk) \"Angel\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:gzb",
+        "lemma:oshb-lexicon:ooq"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:vPUom6BeBCY",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=vPUom6BeBCY",
+      "embedUrl": "https://www.youtube.com/embed/vPUom6BeBCY",
+      "title": "Beyond the Grave: Mummies, Ghosts, and Sheol in Ancient Cultures and Bible",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:tpuLQ4Dz-W8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=tpuLQ4Dz-W8",
+      "embedUrl": "https://www.youtube.com/embed/tpuLQ4Dz-W8",
+      "title": "Vocabulary word נקם (n-q-m) \"vengeance\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:imq",
+        "lemma:oshb-lexicon:imr"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:YP1XZ_D8YT8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=YP1XZ_D8YT8",
+      "embedUrl": "https://www.youtube.com/embed/YP1XZ_D8YT8",
+      "title": "The Perfect King is Coming: Deep Dive into Isaiah 32",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:32"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:THii40auTu4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=THii40auTu4",
+      "embedUrl": "https://www.youtube.com/embed/THii40auTu4",
+      "title": "Vocabulary word  ישׁב (y-š-b) \"Sit\" or \"Dwell\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:fke"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:TgUF_cPt2_Y",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=TgUF_cPt2_Y",
+      "embedUrl": "https://www.youtube.com/embed/TgUF_cPt2_Y",
+      "title": "Vocabulary word תעה (t-ʿ-h) \"Wandering/Staggering\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:nve"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:gkuqeaA9Fow",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=gkuqeaA9Fow",
+      "embedUrl": "https://www.youtube.com/embed/gkuqeaA9Fow",
+      "title": "Vocabulary word כֹּהֵן (kōhēn) \"priest\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:fpk",
+        "lemma:oshb-lexicon:fpl",
+        "lemma:oshb-lexicon:omc"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:uVFB_RXzHvI",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=uVFB_RXzHvI",
+      "embedUrl": "https://www.youtube.com/embed/uVFB_RXzHvI",
+      "title": "Vocabulary word תַּנִּין (tannîn) \"Sea Monster\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:pcp",
+        "lemma:oshb-lexicon:nux"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:HSLNM8IP1nc",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=HSLNM8IP1nc",
+      "embedUrl": "https://www.youtube.com/embed/HSLNM8IP1nc",
+      "title": "Yahweh vs. Shamash: The Hidden War of Words in Genesis 1",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:yTQNqOrVArs",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=yTQNqOrVArs",
+      "embedUrl": "https://www.youtube.com/embed/yTQNqOrVArs",
+      "title": "Vocabulary word כָּבוֹד (kābôd) \"glory\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:foc",
+        "lemma:oshb-lexicon:fod"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:TOFa6irSX-Y",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=TOFa6irSX-Y",
+      "embedUrl": "https://www.youtube.com/embed/TOFa6irSX-Y",
+      "title": "Noah's Ark vs. The Epic of Gilgamesh: The Hidden Truth",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:gL_MlAepu5g",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=gL_MlAepu5g",
+      "embedUrl": "https://www.youtube.com/embed/gL_MlAepu5g",
+      "title": "Vocabulary word דַּעַת (daʿat) \"knowledge\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:cvy"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:8z8Rm-oJGgY",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=8z8Rm-oJGgY",
+      "embedUrl": "https://www.youtube.com/embed/8z8Rm-oJGgY",
+      "title": "Vocabulary word ישׁר (y-š-r) \"Straight\" or \"Just\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:fmc",
+        "lemma:oshb-lexicon:fmb",
+        "lemma:oshb-lexicon:fme",
+        "lemma:oshb-lexicon:fmd"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:0jKWB5P0rxI",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=0jKWB5P0rxI",
+      "embedUrl": "https://www.youtube.com/embed/0jKWB5P0rxI",
+      "title": "Hidden Parallel in Isaiah 31 #biblestudy",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:31"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:EeMhwbrQSRU",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=EeMhwbrQSRU",
+      "embedUrl": "https://www.youtube.com/embed/EeMhwbrQSRU",
+      "title": "Vocabulary word דּוֹר (dôr) \"generation\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:csr",
+        "lemma:oshb-lexicon:ofj",
+        "lemma:oshb-lexicon:csp",
+        "lemma:oshb-lexicon:csq"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:ztY9UGfJgy8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ztY9UGfJgy8",
+      "embedUrl": "https://www.youtube.com/embed/ztY9UGfJgy8",
+      "title": "Vocabulary word חכם (ḥ-k-m) \"wisdom\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:duz",
+        "lemma:oshb-lexicon:dva"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:nb7olRJPWsc",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=nb7olRJPWsc",
+      "embedUrl": "https://www.youtube.com/embed/nb7olRJPWsc",
+      "title": "Vocabulary word חָלָב (ḥālāb) \"milk\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:dvl",
+        "lemma:oshb-lexicon:dvk",
+        "lemma:oshb-lexicon:dvm"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:h6YVHEcnsgs",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=h6YVHEcnsgs",
+      "embedUrl": "https://www.youtube.com/embed/h6YVHEcnsgs",
+      "title": "Dagon! God of the Philistines",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:n27bkCDbAR0",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=n27bkCDbAR0",
+      "embedUrl": "https://www.youtube.com/embed/n27bkCDbAR0",
+      "title": "Vocabulary word תְּפִלָּה (tᵉpillâ) \"prayer\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:nwh",
+        "lemma:oshb-lexicon:nwg"
+      ],
+      "status": "published",
+      "mappingMethod": "user-document-target",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:LwionNyNon4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=LwionNyNon4",
+      "embedUrl": "https://www.youtube.com/embed/LwionNyNon4",
+      "title": "ISAIAH 30 EXPLAINED: The Mysterious Teacher & The Origin of Hell (18-33)",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:30"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:1ZOuz28umsw",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=1ZOuz28umsw",
+      "embedUrl": "https://www.youtube.com/embed/1ZOuz28umsw",
+      "title": "The Ancient House That Reveals the True Origins of Israel",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:jzzboBGr6lA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jzzboBGr6lA",
+      "embedUrl": "https://www.youtube.com/embed/jzzboBGr6lA",
+      "title": "Isaiah 30:8-17 Explained: False Prophets, Crashing Walls, & Swift Horses",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:30"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:jziAtEJILM4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jziAtEJILM4",
+      "embedUrl": "https://www.youtube.com/embed/jziAtEJILM4",
+      "title": "The \"Camel Problem\" in the Bible: What Archaeology Actually Reveals",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:ueI86IWRhKY",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ueI86IWRhKY",
+      "embedUrl": "https://www.youtube.com/embed/ueI86IWRhKY",
+      "title": "What the Bible Teaches about Oil in the Middle East",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:p0CnwTtW8ek",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=p0CnwTtW8ek",
+      "embedUrl": "https://www.youtube.com/embed/p0CnwTtW8ek",
+      "title": "The \"Tanks\" of the Biblical World: Why Israel Feared the Horse",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:9YMNO28l7ns",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=9YMNO28l7ns",
+      "embedUrl": "https://www.youtube.com/embed/9YMNO28l7ns",
+      "title": "Flying Fiery Serpents & The Lazy Sea Monster: Isaiah 30:1-7",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:30"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:syNNE6YFdV4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=syNNE6YFdV4",
+      "embedUrl": "https://www.youtube.com/embed/syNNE6YFdV4",
+      "title": "Ancient Israel Was a Superpower, Judah Was a Village",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:LCnpJ-NWu_Y",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=LCnpJ-NWu_Y",
+      "embedUrl": "https://www.youtube.com/embed/LCnpJ-NWu_Y",
+      "title": "The Terrifying Reality of Lions in the Bible",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:TDuXbJDriOk",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=TDuXbJDriOk",
+      "embedUrl": "https://www.youtube.com/embed/TDuXbJDriOk",
+      "title": "God Turns the World Upside Down With a Book: Isaiah 29:9-24",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:29"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:OVBDMQ3_d34",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=OVBDMQ3_d34",
+      "embedUrl": "https://www.youtube.com/embed/OVBDMQ3_d34",
+      "title": "The Theology of Rain: Egypt Had the Nile, Israel Had God",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:gIf11ojh9aY",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=gIf11ojh9aY",
+      "embedUrl": "https://www.youtube.com/embed/gIf11ojh9aY",
+      "title": "\"Like a Ghost from the Earth\" Isaiah’s Strangest Prophecy: Isaiah 29:1-8",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:29"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:I9m-9dr59ko",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=I9m-9dr59ko",
+      "embedUrl": "https://www.youtube.com/embed/I9m-9dr59ko",
+      "title": "Where did Israel start? You might be surprised.",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:KRaZV3DnGPg",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=KRaZV3DnGPg",
+      "embedUrl": "https://www.youtube.com/embed/KRaZV3DnGPg",
+      "title": "A Botanist Explains Isaiah 28:23-29 The Parable of the Farmer",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:28"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:tXAJX4Vb6N8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=tXAJX4Vb6N8",
+      "embedUrl": "https://www.youtube.com/embed/tXAJX4Vb6N8",
+      "title": "Isaiah 28: Why the \"Bed is Too Short\" for Jerusalem - Isaiah 28:14-22",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:28"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:4bbvaxRHx_M",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=4bbvaxRHx_M",
+      "embedUrl": "https://www.youtube.com/embed/4bbvaxRHx_M",
+      "title": "Biblical Hebrew is a Dead Language (And That’s Good)",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:K-uL7tXV5VQ",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=K-uL7tXV5VQ",
+      "embedUrl": "https://www.youtube.com/embed/K-uL7tXV5VQ",
+      "title": "God teaches children line upon line: Isaiah 28-Part 2",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:28"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:Bxc0Pj6ac0w",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Bxc0Pj6ac0w",
+      "embedUrl": "https://www.youtube.com/embed/Bxc0Pj6ac0w",
+      "title": "Drunken Prophets and God's Wrath: Isaiah 28-Part 1",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:28"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:2fZberZmMC8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=2fZberZmMC8",
+      "embedUrl": "https://www.youtube.com/embed/2fZberZmMC8",
+      "title": "Toppling Asherah and Breaking Altars - Isaiah 27  Part 3",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:27"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:X0yCas5vnuM",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=X0yCas5vnuM",
+      "embedUrl": "https://www.youtube.com/embed/X0yCas5vnuM",
+      "title": "The Bible's Vav Conversive: A 2,000 Year Mystery",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:PPz6ZXky2QM",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=PPz6ZXky2QM",
+      "embedUrl": "https://www.youtube.com/embed/PPz6ZXky2QM",
+      "title": "Vineyard Under Attack: Isaiah 27 - Part 2",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:27"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:AYArS2q0xRE",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=AYArS2q0xRE",
+      "embedUrl": "https://www.youtube.com/embed/AYArS2q0xRE",
+      "title": "10 Bible Names for Boys (You Should Definitely Use)",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:g2i5ACHHJg4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=g2i5ACHHJg4",
+      "embedUrl": "https://www.youtube.com/embed/g2i5ACHHJg4",
+      "title": "Who is Leviathan? You may not know. Isaiah 27:1",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:27"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:tg0SvNxSpc4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=tg0SvNxSpc4",
+      "embedUrl": "https://www.youtube.com/embed/tg0SvNxSpc4",
+      "title": "The Hidden Code in the Bible. You Won't See it in English",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:yBVHP4lU6Ow",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=yBVHP4lU6Ow",
+      "embedUrl": "https://www.youtube.com/embed/yBVHP4lU6Ow",
+      "title": "The true meaning of the word  שׁמר (š-m-r) from the Hebrew Bible",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:WsQoJuPjpGI",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=WsQoJuPjpGI",
+      "embedUrl": "https://www.youtube.com/embed/WsQoJuPjpGI",
+      "title": "The true meaning of the word שֵׁם (šēm) from the Hebrew Bible",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:I_Pmmwkm_cM",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=I_Pmmwkm_cM",
+      "embedUrl": "https://www.youtube.com/embed/I_Pmmwkm_cM",
+      "title": "Resurrection and the Dew of Light: Isaiah 26 Part 2 Bible Study",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:26"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:LQSO_eiTB0I",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=LQSO_eiTB0I",
+      "embedUrl": "https://www.youtube.com/embed/LQSO_eiTB0I",
+      "title": "The true meaning of the word  שְׁאוֹל (šᵉʾôl) from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:mfl",
+        "lemma:oshb-lexicon:mfm"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:Tsy3nZTEPDA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Tsy3nZTEPDA",
+      "embedUrl": "https://www.youtube.com/embed/Tsy3nZTEPDA",
+      "title": "Zion's gates, Peace peace, and Chiasm: Isaiah 26 Part 1",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:26"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:uyP8l0uX6n4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=uyP8l0uX6n4",
+      "embedUrl": "https://www.youtube.com/embed/uyP8l0uX6n4",
+      "title": "The true meaning of the word נֶפֶשׁ (nepeš) from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:ikr",
+        "lemma:oshb-lexicon:ikq"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:EC0IsJ2V8uY",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=EC0IsJ2V8uY",
+      "embedUrl": "https://www.youtube.com/embed/EC0IsJ2V8uY",
+      "title": "A Swim in a Cesspool: Isaiah 25 Part 3",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:25"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:fO5rAjQ2thU",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=fO5rAjQ2thU",
+      "embedUrl": "https://www.youtube.com/embed/fO5rAjQ2thU",
+      "title": "God Swallows Death: Isaiah 25 Part 2",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:25"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:V6u0KMCQWDw",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=V6u0KMCQWDw",
+      "embedUrl": "https://www.youtube.com/embed/V6u0KMCQWDw",
+      "title": "The true meaning of the word רשׁע (r-š-ʿ) from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:mej",
+        "lemma:oshb-lexicon:mei",
+        "lemma:oshb-lexicon:mek"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:eAEYkwheUkk",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=eAEYkwheUkk",
+      "embedUrl": "https://www.youtube.com/embed/eAEYkwheUkk",
+      "title": "Archaeologists discover 10 People from the Bible",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:3ZiYUcgg3Lk",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=3ZiYUcgg3Lk",
+      "embedUrl": "https://www.youtube.com/embed/3ZiYUcgg3Lk",
+      "title": "The true meaning of the word מִשְׁפָּט (mišpāṭ) from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:hvf"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:SfYQ-yU-VO8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=SfYQ-yU-VO8",
+      "embedUrl": "https://www.youtube.com/embed/SfYQ-yU-VO8",
+      "title": "Lord Thou Art my God! Isaiah 25 Part 1",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:25"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:jyVjIwnL-T0",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jyVjIwnL-T0",
+      "embedUrl": "https://www.youtube.com/embed/jyVjIwnL-T0",
+      "title": "The true meaning of the word  חָמָס (ḥāmās) from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:dzu",
+        "lemma:oshb-lexicon:dzv"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:5eCqtuiRftQ",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=5eCqtuiRftQ",
+      "embedUrl": "https://www.youtube.com/embed/5eCqtuiRftQ",
+      "title": "Apocalypse of Isaiah - World Ends: Isaiah 24",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:24"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:R9w7rtX5F6A",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=R9w7rtX5F6A",
+      "embedUrl": "https://www.youtube.com/embed/R9w7rtX5F6A",
+      "title": "The true meaning of the word כֻּתֹנֶת from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:gal"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:JaGbKxb-oKE",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=JaGbKxb-oKE",
+      "embedUrl": "https://www.youtube.com/embed/JaGbKxb-oKE",
+      "title": "Lebanese sex worker finances Jerusalem Temple: Isaiah 23",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:23"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:CkXKEnps4sE",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=CkXKEnps4sE",
+      "embedUrl": "https://www.youtube.com/embed/CkXKEnps4sE",
+      "title": "The true meaning of the word יָתֵד from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:fmo"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:0QjDlOVrVIQ",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=0QjDlOVrVIQ",
+      "embedUrl": "https://www.youtube.com/embed/0QjDlOVrVIQ",
+      "title": "The true meaning of the word כרת from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:fzh"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:u3VuZJkR8kw",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=u3VuZJkR8kw",
+      "embedUrl": "https://www.youtube.com/embed/u3VuZJkR8kw",
+      "title": "The true meaning of the word מֶמְשָׁלָה from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:hcc"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:ziGTaZ1DRxM",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ziGTaZ1DRxM",
+      "embedUrl": "https://www.youtube.com/embed/ziGTaZ1DRxM",
+      "title": "The true meaning of the word תקע from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:nxd",
+        "lemma:oshb-lexicon:nxc"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:eUzqCz6FwIU",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=eUzqCz6FwIU",
+      "embedUrl": "https://www.youtube.com/embed/eUzqCz6FwIU",
+      "title": "Jerusalem appoints new minister: Isaiah 22 Part 3",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:22"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:xOqF5V_chz0",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=xOqF5V_chz0",
+      "embedUrl": "https://www.youtube.com/embed/xOqF5V_chz0",
+      "title": "History of Biblical Hebrew Revealed",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:fUBL-1XVzp4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=fUBL-1XVzp4",
+      "embedUrl": "https://www.youtube.com/embed/fUBL-1XVzp4",
+      "title": "Jerusalem's minister tossed out: Isaiah 22 Part 2",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:22"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:ouRkDulnbK8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ouRkDulnbK8",
+      "embedUrl": "https://www.youtube.com/embed/ouRkDulnbK8",
+      "title": "The true meaning of the word עַיִן from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:jil",
+        "lemma:oshb-lexicon:ote",
+        "lemma:oshb-lexicon:jim",
+        "lemma:oshb-lexicon:jio",
+        "lemma:oshb-lexicon:jin"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:qyEyyamQE1Q",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=qyEyyamQE1Q",
+      "embedUrl": "https://www.youtube.com/embed/qyEyyamQE1Q",
+      "title": "The true meaning of the word קוֹל from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:leq"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:tLMCxjM9iwk",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=tLMCxjM9iwk",
+      "embedUrl": "https://www.youtube.com/embed/tLMCxjM9iwk",
+      "title": "Jerusalem under siege: Isaiah 22",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:22"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:7Rc6drbsCcw",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=7Rc6drbsCcw",
+      "embedUrl": "https://www.youtube.com/embed/7Rc6drbsCcw",
+      "title": "The true meaning of the word פֶּסֶל from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:khn",
+        "lemma:oshb-lexicon:khm"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:RVsDu3YDAXs",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=RVsDu3YDAXs",
+      "embedUrl": "https://www.youtube.com/embed/RVsDu3YDAXs",
+      "title": "The true meaning of the word שֵׁבֶט from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:oza",
+        "lemma:oshb-lexicon:mhb",
+        "lemma:oshb-lexicon:mha"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:b6Zr-BHCfsA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=b6Zr-BHCfsA",
+      "embedUrl": "https://www.youtube.com/embed/b6Zr-BHCfsA",
+      "title": "Bible Prophecy of Arabia: Isaiah 21 Part 3",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:21"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:tH6mXz5C_pk",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=tH6mXz5C_pk",
+      "embedUrl": "https://www.youtube.com/embed/tH6mXz5C_pk",
+      "title": "The true meaning of the word נחש from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:iep",
+        "lemma:oshb-lexicon:ieo",
+        "lemma:oshb-lexicon:oqu",
+        "lemma:oshb-lexicon:ieq",
+        "lemma:oshb-lexicon:ier"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:JqfeRM6GRCg",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=JqfeRM6GRCg",
+      "embedUrl": "https://www.youtube.com/embed/JqfeRM6GRCg",
+      "title": "The true meaning of the word חרב from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:ojq",
+        "lemma:oshb-lexicon:ehb",
+        "lemma:oshb-lexicon:ehh",
+        "lemma:oshb-lexicon:ehe",
+        "lemma:oshb-lexicon:ehd",
+        "lemma:oshb-lexicon:ehg",
+        "lemma:oshb-lexicon:ehc",
+        "lemma:oshb-lexicon:ehf",
+        "lemma:oshb-lexicon:ehi",
+        "lemma:oshb-lexicon:ehj"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:wg4Lr6Zb7JY",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=wg4Lr6Zb7JY",
+      "embedUrl": "https://www.youtube.com/embed/wg4Lr6Zb7JY",
+      "title": "Watchman, What of the night? Isaiah 21 Part 2",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:21"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:jkWVjDbFNQA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jkWVjDbFNQA",
+      "embedUrl": "https://www.youtube.com/embed/jkWVjDbFNQA",
+      "title": "The true meaning of the word תֹּ֫הוּ from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:noq"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:fkbKQ4SEsLg",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=fkbKQ4SEsLg",
+      "embedUrl": "https://www.youtube.com/embed/fkbKQ4SEsLg",
+      "title": "The true meaning of the word דשׁא from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:cxh",
+        "lemma:oshb-lexicon:cxg"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:c4gtD1wd108",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=c4gtD1wd108",
+      "embedUrl": "https://www.youtube.com/embed/c4gtD1wd108",
+      "title": "The true meaning of the word קָדֹשׁ from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:lds",
+        "lemma:oshb-lexicon:ldp",
+        "lemma:oshb-lexicon:ldt",
+        "lemma:oshb-lexicon:ldq",
+        "lemma:oshb-lexicon:ldr"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:r5dQfbdUvzM",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=r5dQfbdUvzM",
+      "embedUrl": "https://www.youtube.com/embed/r5dQfbdUvzM",
+      "title": "The true meaning of the word תְּהוֹם from the Hebrew Bible -",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:nor"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:9GyQ2H0uG6E",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=9GyQ2H0uG6E",
+      "embedUrl": "https://www.youtube.com/embed/9GyQ2H0uG6E",
+      "title": "Babylon's idols are smashed!-Isaiah 21 Part 1",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:21"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:IWifA3C9toQ",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=IWifA3C9toQ",
+      "embedUrl": "https://www.youtube.com/embed/IWifA3C9toQ",
+      "title": "The true meaning of the word כָּנָף from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:fuz",
+        "lemma:oshb-lexicon:fva"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:t2y9Sii5Gm0",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=t2y9Sii5Gm0",
+      "embedUrl": "https://www.youtube.com/embed/t2y9Sii5Gm0",
+      "title": "The true meaning of the word צום from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:krj",
+        "lemma:oshb-lexicon:kri"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:B1DpIfWJJSE",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=B1DpIfWJJSE",
+      "embedUrl": "https://www.youtube.com/embed/B1DpIfWJJSE",
+      "title": "Religious Leader found naked in Jerusalem - Isaiah 20",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:20"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:sBiQRSFQ-3c",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=sBiQRSFQ-3c",
+      "embedUrl": "https://www.youtube.com/embed/sBiQRSFQ-3c",
+      "title": "The true meaning of the word זרע from the Hebrew Bible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:dlx",
+        "lemma:oshb-lexicon:dlw",
+        "lemma:oshb-lexicon:ohx",
+        "lemma:oshb-lexicon:dlv"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:OF_GN9KrY3I",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=OF_GN9KrY3I",
+      "embedUrl": "https://www.youtube.com/embed/OF_GN9KrY3I",
+      "title": "The true meaning of the word רָקִיעַ from the Hebrew Bible -",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:mdw"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:jhPZg7zdALE",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jhPZg7zdALE",
+      "embedUrl": "https://www.youtube.com/embed/jhPZg7zdALE",
+      "title": "The true meaning of the word צָבָא from the Hebrew Bible -",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:kox",
+        "lemma:oshb-lexicon:ovu",
+        "lemma:oshb-lexicon:koy",
+        "lemma:oshb-lexicon:koz"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-lexicon-headword",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:1Yls_QIUbWo",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=1Yls_QIUbWo",
+      "embedUrl": "https://www.youtube.com/embed/1Yls_QIUbWo",
+      "title": "The Lord rides a cloud to Egypt - Isaiah 19",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:19"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:6UPWP1NpT7U",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=6UPWP1NpT7U",
+      "embedUrl": "https://www.youtube.com/embed/6UPWP1NpT7U",
+      "title": "The Pharaohs were Black and They're Coming to Zion: Isaiah 18",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:18"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:bQ0APO3sD6c",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=bQ0APO3sD6c",
+      "embedUrl": "https://www.youtube.com/embed/bQ0APO3sD6c",
+      "title": "Israel, Syria, and Tumbleweeds: Isaiah 17",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:17"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:xW63PD1l6uA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=xW63PD1l6uA",
+      "embedUrl": "https://www.youtube.com/embed/xW63PD1l6uA",
+      "title": "Using Biblia Hebraica Stuttgartensia And why BHQ is better",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:jpFGgrkjL9M",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jpFGgrkjL9M",
+      "embedUrl": "https://www.youtube.com/embed/jpFGgrkjL9M",
+      "title": "Take in the Refugees of Moab: Isaiah 16",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:16"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:B2SJnh7ZX80",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=B2SJnh7ZX80",
+      "embedUrl": "https://www.youtube.com/embed/B2SJnh7ZX80",
+      "title": "God weeps at Moab's Destruction: Isaiah 15",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:15"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:rHApqHYGlFw",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=rHApqHYGlFw",
+      "embedUrl": "https://www.youtube.com/embed/rHApqHYGlFw",
+      "title": "The Fiery Flying Serpent. Isaiah 14 Part 3",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:14"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:CoXMYiU2tY4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=CoXMYiU2tY4",
+      "embedUrl": "https://www.youtube.com/embed/CoXMYiU2tY4",
+      "title": "Cast out of Heaven into Hell, Helel Ben Shahar; Isaiah 14 Part 2",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:14"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:0BKQI9lPw4I",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=0BKQI9lPw4I",
+      "embedUrl": "https://www.youtube.com/embed/0BKQI9lPw4I",
+      "title": "Bottom Rail on Top This Time; Isaiah 14 Part 1",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:14"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:KzIkrZoEGUM",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=KzIkrZoEGUM",
+      "embedUrl": "https://www.youtube.com/embed/KzIkrZoEGUM",
+      "title": "God Overthrows Babylon like Sodom and Gomorrah: Isaiah 13",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:13"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:BoZRzqMnumI",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=BoZRzqMnumI",
+      "embedUrl": "https://www.youtube.com/embed/BoZRzqMnumI",
+      "title": "Discovering Joy: Wells of Salvation and Songs of Praise: Isaiah 12",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:12"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:qCDRRY87A_g",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=qCDRRY87A_g",
+      "embedUrl": "https://www.youtube.com/embed/qCDRRY87A_g",
+      "title": "The Mighty Prophecy: The Wolf, The Lamb, The Child, and The Branch: Isaiah 11",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:11"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:V7NoaAs3VoE",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=V7NoaAs3VoE",
+      "embedUrl": "https://www.youtube.com/embed/V7NoaAs3VoE",
+      "title": "Oldest Bible Text in Existence. Scholars Proven Wrong!",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:qqBJ6PBQIUM",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=qqBJ6PBQIUM",
+      "embedUrl": "https://www.youtube.com/embed/qqBJ6PBQIUM",
+      "title": "He shakes his fist at the daughter of Zion: Isaiah 10 Part 4",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:10"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:_0pRGiyab4Q",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=_0pRGiyab4Q",
+      "embedUrl": "https://www.youtube.com/embed/_0pRGiyab4Q",
+      "title": "A remnant will return to the Mighty God - Isaiah 10 Part 3",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:10"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:pLa6PCynZ1E",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=pLa6PCynZ1E",
+      "embedUrl": "https://www.youtube.com/embed/pLa6PCynZ1E",
+      "title": "Woe to Assyria! 🔥 God Brings Downfall of a Superpower; Isaiah 10 Part 1",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:10"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:IeDn5GyYkcU",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=IeDn5GyYkcU",
+      "embedUrl": "https://www.youtube.com/embed/IeDn5GyYkcU",
+      "title": "One shattered stone changed the Bible; preserved the Name of God",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:c0T66PzdFxE",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=c0T66PzdFxE",
+      "embedUrl": "https://www.youtube.com/embed/c0T66PzdFxE",
+      "title": "The hand of the LORD strikes! Isaiah 9 Part 2",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:9"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:-J2NSh6roEY",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=-J2NSh6roEY",
+      "embedUrl": "https://www.youtube.com/embed/-J2NSh6roEY",
+      "title": "El Shaddai: Secret meaning of the Name of God",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:LLEM6i5ShiI",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=LLEM6i5ShiI",
+      "embedUrl": "https://www.youtube.com/embed/LLEM6i5ShiI",
+      "title": "The Prince of Peace Isaiah 9 Part 1",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:9"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:mu3474xHq00",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=mu3474xHq00",
+      "embedUrl": "https://www.youtube.com/embed/mu3474xHq00",
+      "title": "Discovered Apocalypse Prophecy Proves Bible",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:yNXQrzxorEk",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=yNXQrzxorEk",
+      "embedUrl": "https://www.youtube.com/embed/yNXQrzxorEk",
+      "title": "Necromancers vs the Sealed Book Isaiah 8 Part 3",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:8"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:CAyeIiMn8SE",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=CAyeIiMn8SE",
+      "embedUrl": "https://www.youtube.com/embed/CAyeIiMn8SE",
+      "title": "Your Bible Translation is Wrong!",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:Aui6w8bziU8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Aui6w8bziU8",
+      "embedUrl": "https://www.youtube.com/embed/Aui6w8bziU8",
+      "title": "Emmanuel Fights the Mighty River Isaiah 8 Part 2",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:8"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:rKJL35ISxgU",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=rKJL35ISxgU",
+      "embedUrl": "https://www.youtube.com/embed/rKJL35ISxgU",
+      "title": "Isaiah, The Prophetess, and Their Son Isaiah 8 Part 1",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:8"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:CSOPL-mPOXY",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=CSOPL-mPOXY",
+      "embedUrl": "https://www.youtube.com/embed/CSOPL-mPOXY",
+      "title": "What is the Bible? More Significant Than You Ever Knew",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:x3SplMniOZs",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=x3SplMniOZs",
+      "embedUrl": "https://www.youtube.com/embed/x3SplMniOZs",
+      "title": "Two Bible words reveal the secret meaning of Law and Sin",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:xJfquu6aZkc",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=xJfquu6aZkc",
+      "embedUrl": "https://www.youtube.com/embed/xJfquu6aZkc",
+      "title": "The Immanuel Prophecy Isaiah 7 Part 2",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:7"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:8C6SraLQoes",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=8C6SraLQoes",
+      "embedUrl": "https://www.youtube.com/embed/8C6SraLQoes",
+      "title": "Let's read from the Dead Sea Scrolls!",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:NpMMZzFM_84",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=NpMMZzFM_84",
+      "embedUrl": "https://www.youtube.com/embed/NpMMZzFM_84",
+      "title": "Prophecy: A Remnant will Return Isaiah 7 Part 1",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:7"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:tBRJ6XVOgkA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=tBRJ6XVOgkA",
+      "embedUrl": "https://www.youtube.com/embed/tBRJ6XVOgkA",
+      "title": "7 Tools to read the Hebrew Bible",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:jhtCv11nWLU",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jhtCv11nWLU",
+      "embedUrl": "https://www.youtube.com/embed/jhtCv11nWLU",
+      "title": "Isaiah 6: Biblically Accurate Theophany",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:6"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:T0XzZ9k7LXI",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=T0XzZ9k7LXI",
+      "embedUrl": "https://www.youtube.com/embed/T0XzZ9k7LXI",
+      "title": "Unlock the Bible With This Book?",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:BtQ-52mL0rk",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=BtQ-52mL0rk",
+      "embedUrl": "https://www.youtube.com/embed/BtQ-52mL0rk",
+      "title": "Isaiah 5: The Haunting Prophecy of Destruction!",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:5"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:bJeN9vuJ6gs",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=bJeN9vuJ6gs",
+      "embedUrl": "https://www.youtube.com/embed/bJeN9vuJ6gs",
+      "title": "The Man Who Saved the Bible",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:sbMeLPwx-VU",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=sbMeLPwx-VU",
+      "embedUrl": "https://www.youtube.com/embed/sbMeLPwx-VU",
+      "title": "The Bible's Secret Connection to Egyptian Culture",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:Xpx3PmrhqcI",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Xpx3PmrhqcI",
+      "embedUrl": "https://www.youtube.com/embed/Xpx3PmrhqcI",
+      "title": "Isaiah 5 - Party in the Vineyard Part 1",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:5"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:ral7WUIDf58",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ral7WUIDf58",
+      "embedUrl": "https://www.youtube.com/embed/ral7WUIDf58",
+      "title": "Three words from the Bible that change everything",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:uWpYIPHMqEA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=uWpYIPHMqEA",
+      "embedUrl": "https://www.youtube.com/embed/uWpYIPHMqEA",
+      "title": "Bible Study Isaiah 4 - The Branch and his Seven Brides",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:4"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:_uzqSG2yX7k",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=_uzqSG2yX7k",
+      "embedUrl": "https://www.youtube.com/embed/_uzqSG2yX7k",
+      "title": "Non organic heart ripped from his chest - Ezekiel 36:26",
+      "targetType": "verse",
+      "targets": [
+        "verse:ezek:36:26"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:T5oIyGCsyzU",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=T5oIyGCsyzU",
+      "embedUrl": "https://www.youtube.com/embed/T5oIyGCsyzU",
+      "title": "The Light that Dispels Fear - Psalm 27:1",
+      "targetType": "verse",
+      "targets": [
+        "verse:ps:27:1"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:3bpKmbKhFTM",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=3bpKmbKhFTM",
+      "embedUrl": "https://www.youtube.com/embed/3bpKmbKhFTM",
+      "title": "Wash your heart - Jeremiah 4:14",
+      "targetType": "verse",
+      "targets": [
+        "verse:jer:4:14"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:MsVcLDMHJdA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=MsVcLDMHJdA",
+      "embedUrl": "https://www.youtube.com/embed/MsVcLDMHJdA",
+      "title": "Isaiah 3 - Corrupt Politicians and Daughters Taken as Slaves",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:3"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:x49VzDy3qcs",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=x49VzDy3qcs",
+      "embedUrl": "https://www.youtube.com/embed/x49VzDy3qcs",
+      "title": "The Eyelashes of Dawn - Job 3:9",
+      "targetType": "verse",
+      "targets": [
+        "verse:job:3:9"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:y2q6Vy233Ww",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=y2q6Vy233Ww",
+      "embedUrl": "https://www.youtube.com/embed/y2q6Vy233Ww",
+      "title": "An Army of Stars - Isaiah 40:22",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:40:22"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:nVCPEfdDEwg",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=nVCPEfdDEwg",
+      "embedUrl": "https://www.youtube.com/embed/nVCPEfdDEwg",
+      "title": "Exodus 3:2 - The Angel of the Lord shares Hair Care Products",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:2"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:qOfU34EsV9I",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=qOfU34EsV9I",
+      "embedUrl": "https://www.youtube.com/embed/qOfU34EsV9I",
+      "title": "Isaiah 2 - Plowshare, Swords and World Peace",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:2"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:D8ZMABY0a6s",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=D8ZMABY0a6s",
+      "embedUrl": "https://www.youtube.com/embed/D8ZMABY0a6s",
+      "title": "The Wife of God? Lady Wisdom - Proverbs 8:22-23",
+      "targetType": "verse",
+      "targets": [
+        "verse:prov:8:22"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:vfSrTOeJLe8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=vfSrTOeJLe8",
+      "embedUrl": "https://www.youtube.com/embed/vfSrTOeJLe8",
+      "title": "Isaiah 1 - The Scarlet Sins",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:1"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:NUROjWXgvX0",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=NUROjWXgvX0",
+      "embedUrl": "https://www.youtube.com/embed/NUROjWXgvX0",
+      "title": "Isaiah - Introduction Part 3 The Master of Language",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:RsI3lAllM7g",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=RsI3lAllM7g",
+      "embedUrl": "https://www.youtube.com/embed/RsI3lAllM7g",
+      "title": "10 Bible Verses That Can't be Translated",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:jAfBgFCz5mM",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jAfBgFCz5mM",
+      "embedUrl": "https://www.youtube.com/embed/jAfBgFCz5mM",
+      "title": "Isaiah 40:9 Go Tell it on the Mountain",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:40:9"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:G3Btn3w82e4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=G3Btn3w82e4",
+      "embedUrl": "https://www.youtube.com/embed/G3Btn3w82e4",
+      "title": "Isaiah - Introduction Part 2 Isaiah's Origin Story",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:NgW_IIqzJl0",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=NgW_IIqzJl0",
+      "embedUrl": "https://www.youtube.com/embed/NgW_IIqzJl0",
+      "title": "Isaiah - Introduction Part 1 Politics of the 8th Century BCE",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:xzFG8N_mJQo",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=xzFG8N_mJQo",
+      "embedUrl": "https://www.youtube.com/embed/xzFG8N_mJQo",
+      "title": "Announcing a New Series on Isaiah, the Greatest Hebrew Prophet",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:TBaPV12ccsQ",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=TBaPV12ccsQ",
+      "embedUrl": "https://www.youtube.com/embed/TBaPV12ccsQ",
+      "title": "The rejection of the Gods - Psalm 82",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:ps:82"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:sxF-q4v3RBw",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=sxF-q4v3RBw",
+      "embedUrl": "https://www.youtube.com/embed/sxF-q4v3RBw",
+      "title": "The Oath Ruth 1:17",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:17"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:XZDgj88vb6E",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=XZDgj88vb6E",
+      "embedUrl": "https://www.youtube.com/embed/XZDgj88vb6E",
+      "title": "The Conversion Ruth 1:16",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:16"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:6UCtp9j5DeM",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=6UCtp9j5DeM",
+      "embedUrl": "https://www.youtube.com/embed/6UCtp9j5DeM",
+      "title": "The Shadow of Death Psalm 23:4",
+      "targetType": "verse",
+      "targets": [
+        "verse:ps:23:4"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:N196ItdxAFY",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=N196ItdxAFY",
+      "embedUrl": "https://www.youtube.com/embed/N196ItdxAFY",
+      "title": "A look at Jeremiah 1:1 and an old manuscript",
+      "targetType": "verse",
+      "targets": [
+        "verse:jer:1:1"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:-Pm0YfuN9KU",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=-Pm0YfuN9KU",
+      "embedUrl": "https://www.youtube.com/embed/-Pm0YfuN9KU",
+      "title": "Genesis 6:2 Giants!!",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:6:2"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:p13gPQBw_2A",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=p13gPQBw_2A",
+      "embedUrl": "https://www.youtube.com/embed/p13gPQBw_2A",
+      "title": "That's the Power of Love - Song of Songs (Song of Solomon) 8:6",
+      "targetType": "verse",
+      "targets": [
+        "verse:song:8:6"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:_992eezqWhw",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=_992eezqWhw",
+      "embedUrl": "https://www.youtube.com/embed/_992eezqWhw",
+      "title": "Exploring Ezekiel 1 16",
+      "targetType": "verse",
+      "targets": [
+        "verse:ezek:1:16"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:r31Y1OLUfKg",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=r31Y1OLUfKg",
+      "embedUrl": "https://www.youtube.com/embed/r31Y1OLUfKg",
+      "title": "Exploring Isaiah 14:9",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:14:9"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:o_gF5cN-Ouw",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=o_gF5cN-Ouw",
+      "embedUrl": "https://www.youtube.com/embed/o_gF5cN-Ouw",
+      "title": "Exploring 2 Chronicles 1:4",
+      "targetType": "verse",
+      "targets": [
+        "verse:chr2:1:4"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:yJS_zB0wmpc",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=yJS_zB0wmpc",
+      "embedUrl": "https://www.youtube.com/embed/yJS_zB0wmpc",
+      "title": "Exploring Joel 4:10",
+      "targetType": "verse",
+      "targets": [
+        "verse:joel:4:10"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:m1ptNtGVNZc",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=m1ptNtGVNZc",
+      "embedUrl": "https://www.youtube.com/embed/m1ptNtGVNZc",
+      "title": "Exploring Deuteronomy 32:1",
+      "targetType": "verse",
+      "targets": [
+        "verse:deut:32:1"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:DYORj7KvoiE",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=DYORj7KvoiE",
+      "embedUrl": "https://www.youtube.com/embed/DYORj7KvoiE",
+      "title": "Explore Jeremiah 2:13",
+      "targetType": "verse",
+      "targets": [
+        "verse:jer:2:13"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:IBn7z1KfjC4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=IBn7z1KfjC4",
+      "embedUrl": "https://www.youtube.com/embed/IBn7z1KfjC4",
+      "title": "Isaiah 2:2 - Explained",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:2:2"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Mapped from the user-maintained Google Docs table; existing target preserved where present."
+    },
+    {
+      "id": "youtube:video:IrkK-MloRFw",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=IrkK-MloRFw",
+      "embedUrl": "https://www.youtube.com/embed/IrkK-MloRFw",
+      "title": "Genesis 1:1 BHQ with Accordance",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "No target assigned; requires user clarification."
+    },
+    {
+      "id": "youtube:video:_fX2SkxmWs0",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=_fX2SkxmWs0",
+      "embedUrl": "https://www.youtube.com/embed/_fX2SkxmWs0",
+      "title": "Vocabulary word שָׁוְא (šāwʾ) \"Vain\" or \"False\"  from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:mle",
+        "lemma:oshb-lexicon:mlf"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:0R67GooyxLE",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=0R67GooyxLE",
+      "embedUrl": "https://www.youtube.com/embed/0R67GooyxLE",
+      "title": "Vocabulary word אֲדָמָה (ʾadāmâ) \"ground\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:afj"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:2EHpP03o2rU",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=2EHpP03o2rU",
+      "embedUrl": "https://www.youtube.com/embed/2EHpP03o2rU",
+      "title": "Vocabulary words  לֹא (lōʾ) and אַל (ʾal) \"no\" or \"not\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:gav",
+        "lemma:oshb-lexicon:onf",
+        "lemma:oshb-lexicon:aqu",
+        "lemma:oshb-lexicon:oae"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:7jq23lvgEIg",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=7jq23lvgEIg",
+      "embedUrl": "https://www.youtube.com/embed/7jq23lvgEIg",
+      "title": "Vocabulary word תֵּבָה (tēbāh) \"ark\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:nnu"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:8LikEnPVRsg",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=8LikEnPVRsg",
+      "embedUrl": "https://www.youtube.com/embed/8LikEnPVRsg",
+      "title": "Vocabulary word מֶרְכָּבָה (merkābāh) \"Chariot\"  from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:hpy"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:ASawwrf4bV8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ASawwrf4bV8",
+      "embedUrl": "https://www.youtube.com/embed/ASawwrf4bV8",
+      "title": "Vocabulary word  שָׁבַע (šābaʿ) \"oath\" \"seven\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:mic",
+        "lemma:oshb-lexicon:mhz",
+        "lemma:oshb-lexicon:mia",
+        "lemma:oshb-lexicon:mib"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:Bku7NXWdeZY",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Bku7NXWdeZY",
+      "embedUrl": "https://www.youtube.com/embed/Bku7NXWdeZY",
+      "title": "Vocabulary word זכר (z-k-r)  \"Remember\"  from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:dig",
+        "lemma:oshb-lexicon:die"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:CiAm1M5bI9c",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=CiAm1M5bI9c",
+      "embedUrl": "https://www.youtube.com/embed/CiAm1M5bI9c",
+      "title": "Vocabulary word גאל (g-ʾ-l) \"redeem\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:cca"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:CTVdcKbLGg0",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=CTVdcKbLGg0",
+      "embedUrl": "https://www.youtube.com/embed/CTVdcKbLGg0",
+      "title": "Vocabulary word כִּסֵּא (kissēʾ) \"throne\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:fvg"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:El1sc4Dum0w",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=El1sc4Dum0w",
+      "embedUrl": "https://www.youtube.com/embed/El1sc4Dum0w",
+      "title": "Vocabulary word עַמּוּד (ʿammûd) \"pillar\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:jmz"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:eZo9850mBw8",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=eZo9850mBw8",
+      "embedUrl": "https://www.youtube.com/embed/eZo9850mBw8",
+      "title": "Vocabulary word כֶּסֶף (kesep) \"silver\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:fwe",
+        "lemma:oshb-lexicon:fwd",
+        "lemma:oshb-lexicon:omo"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:f83QC3qhUwA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=f83QC3qhUwA",
+      "embedUrl": "https://www.youtube.com/embed/f83QC3qhUwA",
+      "title": "Vocabulary word חֶסֶד (ḥesed) \"grace\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:ecs",
+        "lemma:oshb-lexicon:ecp",
+        "lemma:oshb-lexicon:eco"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:fjigA0ZzpPI",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=fjigA0ZzpPI",
+      "embedUrl": "https://www.youtube.com/embed/fjigA0ZzpPI",
+      "title": "Vocabulary word שֶׁמֶן (šemen) \"oil\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:nad",
+        "lemma:oshb-lexicon:nab",
+        "lemma:oshb-lexicon:nac",
+        "lemma:oshb-lexicon:nae"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:GhGvnv_nAX4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=GhGvnv_nAX4",
+      "embedUrl": "https://www.youtube.com/embed/GhGvnv_nAX4",
+      "title": "Vocabulary word  עֹלָם (ʿôlām), \"eternity\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:jma",
+        "lemma:oshb-lexicon:oto"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:hFiUR7qGN10",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=hFiUR7qGN10",
+      "embedUrl": "https://www.youtube.com/embed/hFiUR7qGN10",
+      "title": "Vocabulary word  בָּשָׂר (bāśār) \"flesh\" or \"good news\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:caq",
+        "lemma:oshb-lexicon:car",
+        "lemma:oshb-lexicon:odx"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:HTWAK4pAG4w",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=HTWAK4pAG4w",
+      "embedUrl": "https://www.youtube.com/embed/HTWAK4pAG4w",
+      "title": "Vocabulary word משׁח (m-š-ḥ)  \"anoint\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:hsr",
+        "lemma:oshb-lexicon:opt"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:In_wFO9Tf0g",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=In_wFO9Tf0g",
+      "embedUrl": "https://www.youtube.com/embed/In_wFO9Tf0g",
+      "title": "Vocabulary word הַר (har) \"mountain,\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:dda"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:jch60toowcA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jch60toowcA",
+      "embedUrl": "https://www.youtube.com/embed/jch60toowcA",
+      "title": "Vocabulary word מַצֵּבָה (maṣṣēbâ) \"Standing Stone\"  from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:hkd"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:jgo_SMz_gDk",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jgo_SMz_gDk",
+      "embedUrl": "https://www.youtube.com/embed/jgo_SMz_gDk",
+      "title": "Vocabulary word  בְּרִית (bᵉrît) \"Covenant\"  from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:bzf"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:Kc7FABtjhHw",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Kc7FABtjhHw",
+      "embedUrl": "https://www.youtube.com/embed/Kc7FABtjhHw",
+      "title": "Vocabulary word עלה (ʿ-l-h) \"To go up\"  from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:jkx"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:mPUhHtgwDQ4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=mPUhHtgwDQ4",
+      "embedUrl": "https://www.youtube.com/embed/mPUhHtgwDQ4",
+      "title": "Vocabulary word חיה (ḥ-y-h) \"life\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:dts",
+        "lemma:oshb-lexicon:dtv",
+        "lemma:oshb-lexicon:dty"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:mrks9SCyCVc",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=mrks9SCyCVc",
+      "embedUrl": "https://www.youtube.com/embed/mrks9SCyCVc",
+      "title": "Vocabulary word ספר (s-p-r) \"count/scroll\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:osf",
+        "lemma:oshb-lexicon:ixn",
+        "lemma:oshb-lexicon:ixo",
+        "lemma:oshb-lexicon:ixm"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:nG-KLueCQCQ",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=nG-KLueCQCQ",
+      "embedUrl": "https://www.youtube.com/embed/nG-KLueCQCQ",
+      "title": "Vocabulary word  ירד (y-r-d) \"To go down\"  from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:fik"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:nJgqHOaWjxc",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=nJgqHOaWjxc",
+      "embedUrl": "https://www.youtube.com/embed/nJgqHOaWjxc",
+      "title": "Vocabulary word דֶּלֶת (delet) \"door\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:cuu"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:OP9o4NX4RgI",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=OP9o4NX4RgI",
+      "embedUrl": "https://www.youtube.com/embed/OP9o4NX4RgI",
+      "title": "Vocabulary word  יסד (y-s-d) \"lay a foundation\"  from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:fdb",
+        "lemma:oshb-lexicon:fda"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:OQpgh6dO_e0",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=OQpgh6dO_e0",
+      "embedUrl": "https://www.youtube.com/embed/OQpgh6dO_e0",
+      "title": "Vocabulary word אַמָּה (ʾammâ) \"cubit\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:auy",
+        "lemma:oshb-lexicon:oal"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:Ot1_WOhpZu4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Ot1_WOhpZu4",
+      "embedUrl": "https://www.youtube.com/embed/Ot1_WOhpZu4",
+      "title": "Vocabulary word פרץ (p-r-ṣ) \"break through\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:klq"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:PLOPOjiTQJA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=PLOPOjiTQJA",
+      "embedUrl": "https://www.youtube.com/embed/PLOPOjiTQJA",
+      "title": "Vocabulary word כשׁף (k-š-p) \"sorcery\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:fzu",
+        "lemma:oshb-lexicon:fzs"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:pSpJKvOq528",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=pSpJKvOq528",
+      "embedUrl": "https://www.youtube.com/embed/pSpJKvOq528",
+      "title": "Vocabulary word עשׂה (ʿ-ś-h) \"do\" or \"make\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:jxj"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:q45R_ka6kuA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=q45R_ka6kuA",
+      "embedUrl": "https://www.youtube.com/embed/q45R_ka6kuA",
+      "title": "Vocabulary word אָדָם (ʾādām) \"man\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:afb",
+        "lemma:oshb-lexicon:afa"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:SlHBOpV2_rA",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=SlHBOpV2_rA",
+      "embedUrl": "https://www.youtube.com/embed/SlHBOpV2_rA",
+      "title": "Vocabulary word צוה (ṣ-w-h) \"command\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:krd"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:TKQFH5utK84",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=TKQFH5utK84",
+      "embedUrl": "https://www.youtube.com/embed/TKQFH5utK84",
+      "title": "Vocabulary word אֹהֶל (ʾōhel) \"tent\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:agu",
+        "lemma:oshb-lexicon:agx",
+        "lemma:oshb-lexicon:agw"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:tURFdTnCgac",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=tURFdTnCgac",
+      "embedUrl": "https://www.youtube.com/embed/tURFdTnCgac",
+      "title": "Vocabulary word  אֱמֶת (ʾemet) \"truth\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:aww"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:u-1WsESreIQ",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=u-1WsESreIQ",
+      "embedUrl": "https://www.youtube.com/embed/u-1WsESreIQ",
+      "title": "Vocabulary word בַּיִת (bayit) \"house\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:bog",
+        "lemma:oshb-lexicon:odc"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:Uwzj1aXiUAU",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Uwzj1aXiUAU",
+      "embedUrl": "https://www.youtube.com/embed/Uwzj1aXiUAU",
+      "title": "Vocabulary word ברך (b-r-k) \"blessing\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:bzi",
+        "lemma:oshb-lexicon:odu",
+        "lemma:oshb-lexicon:bzh",
+        "lemma:oshb-lexicon:odt"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:VB3cekWb-rE",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=VB3cekWb-rE",
+      "embedUrl": "https://www.youtube.com/embed/VB3cekWb-rE",
+      "title": "Vocabulary word  רעה (r-ʿ-h) \"shepherd\"  from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:maj",
+        "lemma:oshb-lexicon:mai",
+        "lemma:oshb-lexicon:mah",
+        "lemma:oshb-lexicon:mae",
+        "lemma:oshb-lexicon:maf",
+        "lemma:oshb-lexicon:mak"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:VIR30NhsF8o",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=VIR30NhsF8o",
+      "embedUrl": "https://www.youtube.com/embed/VIR30NhsF8o",
+      "title": "Vocabulary word  כפר (k-p-r) \"atonement\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:fxa",
+        "lemma:oshb-lexicon:fxb",
+        "lemma:oshb-lexicon:fxf",
+        "lemma:oshb-lexicon:fxd",
+        "lemma:oshb-lexicon:fxe",
+        "lemma:oshb-lexicon:fxg"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:VMev3j_zvHo",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=VMev3j_zvHo",
+      "embedUrl": "https://www.youtube.com/embed/VMev3j_zvHo",
+      "title": "Vocabulary word קסם (q-s-m) \"Divination\"  from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:ljp",
+        "lemma:oshb-lexicon:ljo"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:WAM6MSS91kM",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=WAM6MSS91kM",
+      "embedUrl": "https://www.youtube.com/embed/WAM6MSS91kM",
+      "title": "Vocabulary word זִכָּרוֹן (zikkārôn) \"Memorial\"  from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:dii"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:WCgBubrwtXE",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=WCgBubrwtXE",
+      "embedUrl": "https://www.youtube.com/embed/WCgBubrwtXE",
+      "title": "Vocabulary word  אֶבֶן (ʾeben) \"stone\"  from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:acs",
+        "lemma:oshb-lexicon:nyz"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:xj_FEtTpJa4",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=xj_FEtTpJa4",
+      "embedUrl": "https://www.youtube.com/embed/xj_FEtTpJa4",
+      "title": "Vocabulary word גּוֹרָל (gôrāl) \"Dice/lot\"  from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:chs"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    },
+    {
+      "id": "youtube:video:Xxn4sOrpcrc",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Xxn4sOrpcrc",
+      "embedUrl": "https://www.youtube.com/embed/Xxn4sOrpcrc",
+      "title": "Vocabulary word נצח (n-ṣ-ḥ) \"strength\" \"forever\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:ilk",
+        "lemma:oshb-lexicon:orj",
+        "lemma:oshb-lexicon:ili",
+        "lemma:oshb-lexicon:ilj"
+      ],
+      "status": "published",
+      "mappingMethod": "user-approved-title-lexicon-targets",
+      "notes": "Vocabulary Short without a corresponding longform vocabulary video; targets reviewed and approved by the user."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+.git
+.gitignore
+node_modules
+.next
+out
+local
+Screenshots
+.openchamber
+tests
+*.tsbuildinfo
+npm-debug.log*
+.DS_Store
+__pycache__
+*.pyc
+
+# Regenerated inside the image by the data stage.
+data/generated
+data/sources
+!data/sources/kjv

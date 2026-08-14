@@ -1,0 +1,11 @@
+Ezra SIL 2.51
+
+The Ezra SIL font software is distributed under the SIL Open Font License
+(OFL). The Hebrew layout intelligence is distributed under the MIT/X11
+license.
+
+Only SILEOT.woff is bundled here, which is the subset this application loads
+at runtime. The complete upstream package, including Licenses.txt,
+OFL-FAQ.txt, and source notices, is available from SIL at the URL below.
+
+Upstream: https://software.sil.org/ezra/

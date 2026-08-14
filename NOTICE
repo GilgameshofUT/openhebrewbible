@@ -1,0 +1,61 @@
+Web Tanakh — third-party content and attribution
+================================================
+
+The MIT license in LICENSE covers this project's source code. The texts,
+lexicon, and font below are third-party works under their own terms.
+
+
+Hebrew text — Open Scriptures Hebrew Bible (OSHB)
+-------------------------------------------------
+Westminster Leningrad Codex with morphological tagging.
+
+  Release:  v.2.2
+  Source:   https://github.com/openscriptures/morphhb
+  License:  CC BY 4.0
+  SHA-256:  recorded in data/generated/manifest.json
+
+Redistributed in data/generated/oshb-corpus.json.
+
+
+Lexicon — Brown-Driver-Briggs
+------------------------------
+Hebrew and English Lexicon of the Old Testament, public domain (1906), with
+the machine-readable encoding maintained by Open Scriptures.
+
+  Source:   https://github.com/openscriptures/HebrewLexicon
+  License:  CC BY 4.0
+
+Redistributed in data/generated/oshb-lexicon.json.
+
+
+English translation — JPS 1917
+-------------------------------
+The Holy Scriptures According to the Masoretic Text, Jewish Publication
+Society, 1917. Public domain in the United States.
+
+Redistributed in data/generated/oshb-corpus.json.
+
+
+English translation — King James Version
+-----------------------------------------
+Public domain in the United States. In the United Kingdom the KJV is subject
+to Crown copyright, administered by Cambridge University Press.
+
+Redistributed in data/sources/kjv/.
+
+
+Font — Ezra SIL 2.51
+---------------------
+  Source:   https://software.sil.org/ezra/
+  License:  SIL Open Font License 1.1 (font software)
+            MIT/X11 (Hebrew layout intelligence)
+
+Bundled as public/fonts/SILEOT.woff. See public/fonts/LICENSE.txt.
+
+
+External resources
+-------------------
+The catalogues in data/external/ contain links and identifiers only. No
+third-party audio, video, or manuscript imagery is copied or rehosted; those
+resources are embedded or linked from their original providers, which retain
+all rights.
