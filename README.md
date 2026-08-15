@@ -20,7 +20,7 @@ frequently does not.
 ```bash
 npm install
 npm run import:oshb       # fetches the pinned OSHB corpus + BDB lexicon (~45 s)
-npm run import:citations  # builds the Hebrew -> English versification map
+npm run import:citations  # builds the Jewish -> Christian versification map
 npm run build:derived     # splits the corpus per book, indexes lemmas
 npm run dev
 ```
@@ -50,7 +50,7 @@ byte-identical to the previous build (SHA-256 recorded in
 | `npm run lint` | ESLint (flat config) |
 | `npm run typecheck` | `tsc --noEmit` |
 | `npm run import:oshb` | Import the pinned OSHB release and BDB lexicon |
-| `npm run import:citations` | Build the Hebrew→English versification map |
+| `npm run import:citations` | Build the Jewish→Christian versification map |
 | `npm run build:derived` | Derive per-book files and the occurrence index |
 | `npm run catalog:external` | Rebuild external resource catalogues |
 
@@ -126,14 +126,14 @@ data/generated/books/, occurrence-index.json   (gitignored, derived)
 | `sources/kjv/*.json` | KJV text, read at runtime | **yes** |
 | `oshb-corpus.json` | Full corpus, 57 MB | no |
 | `oshb-lexicon.json` | BDB entries keyed by lemma | no |
-| `jewish-to-english-citation-map.json` | Hebrew→English versification | no |
+| `jewish-to-christian-citation-map.json` | Jewish→Christian versification | no |
 | `books/<id>.json` | Per-book chapters, read at request time | no |
 | `occurrence-index.json` | Lemma → verse references | no |
 
 ### Two things that will trip you up
 
-**Hebrew versification is canonical.** English chapter and verse numbers are
-mapped through `jewish-to-english-citation-map.json`. Psalms and Joel diverge
+**Jewish versification is canonical.** Christian chapter and verse numbers are
+mapped through `jewish-to-christian-citation-map.json`. Psalms and Joel diverge
 substantially. Never assume alignment.
 
 **Lexicon keys are not entry ids.** `oshb-lexicon.json` is keyed by Strong's-style

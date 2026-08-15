@@ -24,7 +24,7 @@ Screenshots/
 # Generated corpus data. All of it is reproducible from pinned upstream
 # sources, so none of it is committed:
 #   npm run import:oshb       -> oshb-corpus.json, oshb-lexicon.json, manifest.json
-#   npm run import:citations  -> jewish-to-english-citation-map.json
+#   npm run import:citations  -> jewish-to-christian-citation-map.json
 #   npm run build:derived     -> books/, occurrence-index.json
 # manifest.json is tracked as the provenance record (release + SHA-256).
 data/generated/*.json

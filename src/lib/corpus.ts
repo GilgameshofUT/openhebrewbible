@@ -64,7 +64,7 @@ export type LexiconEntry = {
 }
 
 export type Lexicon = Record<string, LexiconEntry>
-export type CitationMap = { jewishToEnglish: Record<string, { book: string; chapter: number; verse: number }> }
+export type CitationMap = { jewishToChristian: Record<string, { book: string; chapter: number; verse: number }> }
 /** entryId -> [bookId, chapter, verse][] */
 export type OccurrenceIndex = Record<string, Array<[string, number, number]>>
 
@@ -120,7 +120,7 @@ export const getBook = memoizeByKey<BookChapters>((bookId) =>
 export const getLexicon = memoize(() => readJson<Lexicon>(join(generated, 'oshb-lexicon.json')))
 
 export const getCitationMap = memoize(() =>
-  readJson<CitationMap>(join(generated, 'jewish-to-english-citation-map.json')),
+  readJson<CitationMap>(join(generated, 'jewish-to-christian-citation-map.json')),
 )
 
 export const getOccurrenceIndex = memoize(() =>

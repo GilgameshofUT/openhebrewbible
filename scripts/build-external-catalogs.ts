@@ -15,7 +15,7 @@ type CatalogResource = {
   targets: string[]
   status: 'published' | 'review'
   mappingMethod: string
-  sourceReferenceSystem?: 'jewish' | 'english'
+  sourceReferenceSystem?: 'jewish' | 'christian'
   sourceReferences?: string[]
   flags?: string[]
   notes?: string
@@ -77,13 +77,13 @@ function soundcloudEmbedUrl(url: string) {
 type CitationMap = Map<string, Array<{ book: string; chapter: number; verse: number }>>
 
 async function loadCitationMap(): Promise<CitationMap> {
-  const source = await fetchText('https://raw.githubusercontent.com/GilgameshofUT/Hebrew-Citation-Converter/main/hebrew-english-verse-convert.py')
+  const source = await fetchText('https://raw.githubusercontent.com/GilgameshofUT/Hebrew-Citation-Converter/main/jewish-christian-verse-convert.py')
   const map: CitationMap = new Map()
   const pattern = /\(\s*["']([^"']+)["']\s*,\s*(\d+)\s*,\s*(\d+)\s*\)\s*:\s*\(\s*["']([^"']+)["']\s*,\s*(\d+)\s*,\s*(\d+)\s*\)/g
   for (const match of source.matchAll(pattern)) {
     const jewish = { book: match[1], chapter: Number(match[2]), verse: Number(match[3]) }
-    const englishKey = `${match[4]}:${match[5]}:${match[6]}`
-    map.set(englishKey, [...(map.get(englishKey) ?? []), jewish])
+    const christianKey = `${match[4]}:${match[5]}:${match[6]}`
+    map.set(christianKey, [...(map.get(christianKey) ?? []), jewish])
   }
   return map
 }
@@ -357,13 +357,13 @@ async function buildDdoh(citationMap: CitationMap) {
       targets,
       status: targets.length && !isQna && !numberingMismatch ? 'published' : 'review',
       mappingMethod: targets.length ? 'title-reference' : 'title-review',
-      sourceReferenceSystem: references.length ? 'english' : undefined,
+      sourceReferenceSystem: references.length ? 'christian' : undefined,
       sourceReferences: references.map((reference) => reference.label),
       flags: [isQna ? 'q-and-a' : '', numberingMismatch ? 'numbering-converted-review-required' : ''].filter(Boolean),
-      notes: isQna ? 'Specific English-system reference parsed from a Q&A title and converted to the Jewish target system; verify individually before publication.' : numberingMismatch ? `Parsed English-system reference(s): ${references.map((reference) => reference.label).join('; ')}; at least one target changes under Hebrew-Citation-Converter, so verify the video scope and title individually.` : references.length ? `Parsed English-system reference(s): ${references.map((reference) => reference.label).join('; ')}; targets align with the Jewish system after conversion.` : 'No canonical verse reference parsed from title.',
+      notes: isQna ? 'Specific Christian-system reference parsed from a Q&A title and converted to the Jewish target system; verify individually before publication.' : numberingMismatch ? `Parsed Christian-system reference(s): ${references.map((reference) => reference.label).join('; ')}; at least one target changes under Hebrew-Citation-Converter, so verify the video scope and title individually.` : references.length ? `Parsed Christian-system reference(s): ${references.map((reference) => reference.label).join('; ')}; targets align with the Jewish system after conversion.` : 'No canonical verse reference parsed from title.',
     })
   }
-  return { sourceUrl: 'https://www.youtube.com/@dailydoseofhebrew', channelId: source.channel_id, citationConverter: 'https://github.com/GilgameshofUT/Hebrew-Citation-Converter', sourceReferenceSystem: 'english', targetReferenceSystem: 'jewish', crawledAt: new Date().toISOString(), resources }
+  return { sourceUrl: 'https://www.youtube.com/@dailydoseofhebrew', channelId: source.channel_id, citationConverter: 'https://github.com/GilgameshofUT/Hebrew-Citation-Converter', sourceReferenceSystem: 'christian', targetReferenceSystem: 'jewish', crawledAt: new Date().toISOString(), resources }
 }
 
 function markdown(title: string, sourceUrl: string, resources: CatalogResource[], columns: string[]) {

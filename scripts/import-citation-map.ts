@@ -3,7 +3,7 @@ import { join } from 'node:path'
 
 const root = process.cwd()
 const outputDir = join(root, 'data', 'generated')
-const converterUrl = 'https://raw.githubusercontent.com/GilgameshofUT/Hebrew-Citation-Converter/main/hebrew-english-verse-convert.py'
+const converterUrl = 'https://raw.githubusercontent.com/GilgameshofUT/Hebrew-Citation-Converter/main/jewish-christian-verse-convert.py'
 
 const books = [
   ['gen', 'Gen'], ['exod', 'Ex'], ['lev', 'Lev'], ['num', 'Num'], ['deut', 'Deut'], ['josh', 'Josh'], ['judg', 'Judg'], ['ruth', 'Ruth'],
@@ -27,21 +27,21 @@ async function main() {
   }
 
   const corpus = JSON.parse(await readFile(join(root, 'data', 'generated', 'oshb-corpus.json'), 'utf8')) as Record<string, Record<string, Array<{ number: number }>>>
-  const jewishToEnglish: Record<string, Reference> = {}
+  const jewishToChristian: Record<string, Reference> = {}
   for (const [bookId, chapters] of Object.entries(corpus)) {
-    const englishBook = books.find(([id]) => id === bookId)?.[1]
-    if (!englishBook) continue
+    const christianBook = books.find(([id]) => id === bookId)?.[1]
+    if (!christianBook) continue
     for (const [chapter, verses] of Object.entries(chapters)) for (const verse of verses) {
-      const jewishKey = `${englishBook}:${chapter}:${verse.number}`
+      const jewishKey = `${christianBook}:${chapter}:${verse.number}`
       const mapped = exceptions.get(jewishKey)
-      const english = mapped ?? { book: englishBook, chapter: Number(chapter), verse: verse.number }
-      jewishToEnglish[`${bookId}:${chapter}:${verse.number}`] = english
+      const christian = mapped ?? { book: christianBook, chapter: Number(chapter), verse: verse.number }
+      jewishToChristian[`${bookId}:${chapter}:${verse.number}`] = christian
     }
   }
 
   await mkdir(outputDir, { recursive: true })
-  await writeFile(join(outputDir, 'jewish-to-english-citation-map.json'), `${JSON.stringify({ source: converterUrl, generatedAt: new Date().toISOString(), jewishToEnglish }, null, 2)}\n`)
-  console.log(`Generated ${Object.keys(jewishToEnglish).length} Jewish-to-English verse mappings.`)
+  await writeFile(join(outputDir, 'jewish-to-christian-citation-map.json'), `${JSON.stringify({ source: converterUrl, generatedAt: new Date().toISOString(), jewishToChristian }, null, 2)}\n`)
+  console.log(`Generated ${Object.keys(jewishToChristian).length} Jewish-to-Christian verse mappings.`)
 }
 
 void main()

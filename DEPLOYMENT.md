@@ -18,7 +18,7 @@ upstream sources during deployment.
 | Step | Command | Produces | Time |
 | --- | --- | --- | --- |
 | 1 | `npm run import:oshb` | `oshb-corpus.json`, `oshb-lexicon.json` | ~45 s |
-| 2 | `npm run import:citations` | `jewish-to-english-citation-map.json` | ~10 s |
+| 2 | `npm run import:citations` | `jewish-to-christian-citation-map.json` | ~10 s |
 | 3 | `npm run build:derived` | `books/`, `occurrence-index.json` | ~20 s |
 
 This was verified from a clean clone: the regenerated corpus is **byte-identical**

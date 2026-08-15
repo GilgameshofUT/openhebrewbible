@@ -28,12 +28,12 @@ export async function GET(request: Request) {
   let verses: CorpusVerse[] = selected
 
   if (translationParam === 'kjv') {
-    // Hebrew versification is canonical; the KJV text is joined through the
+    // Jewish versification is canonical; the KJV text is joined through the
     // explicit citation map rather than assuming chapter/verse alignment.
     const citationMap = await getCitationMap()
     const kjv = await getKjvBook(book.kjvFile)
     verses = selected.map((verse) => {
-      const mapped = citationMap.jewishToEnglish[`${book.id}:${chapter}:${verse.number}`]
+      const mapped = citationMap.jewishToChristian[`${book.id}:${chapter}:${verse.number}`]
       if (!mapped) return { ...verse, english: '' }
       return {
         ...verse,

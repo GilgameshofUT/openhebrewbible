@@ -255,10 +255,10 @@ places that had to be kept in sync. It now lives only in
 `src/components/reader/hebrew-text.tsx`, and a test asserts every `wordClass(`
 call site also emits `data-qere`. Do not reintroduce a second copy.
 
-### Hebrew versification is canonical
+### Jewish versification is canonical
 
-English editions are joined through `jewish-to-english-citation-map.json`. Never
-assume Hebrew and English chapter/verse numbers align — they frequently do not,
+English editions are joined through `jewish-to-christian-citation-map.json`. Never
+assume Jewish and Christian chapter/verse numbers align — they frequently do not,
 especially in Psalms and Joel.
 
 ### Lexicon keys are not entry ids
