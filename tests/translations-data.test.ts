@@ -25,17 +25,26 @@ function readBook(translationId: string, kjvFile: string) {
   }
 }
 
-// The citation map ends these Jewish verses at a Christian verse that does not
-// exist in the editions (Christian Numbers 25 ends at 18, 1 Chr 12 at 40, and
-// the Christian Psalms number one fewer verse than the Jewish). The KJV join
-// has exactly the same five gaps, so empty text here is expected, not a bug.
-const KNOWN_GAPS = new Set(['num:25:19', 'chr1:12:41', 'ps:52:11', 'ps:75:11', 'ps:142:8'])
+// The citation map used to end some Jewish verses at Christian verses that
+// do not exist in the editions (Christian Numbers 25 ends at 18, 1 Chr 12 at
+// 40, and the Christian Psalms number the superscription differently). Those
+// were fixed in the Hebrew-Citation-Converter repo: every citation-map target
+// now exists in the editions, so every corpus verse has text.
+const FIXED_VERSE_TEXT: Array<[string, string, string]> = [
+  ['num:25:19', 'Numbers', 'plague'], // Jewish 25:19 = Christian Num 26:1
+  ['chr1:12:6', '1Chronicles', 'Eluzai'], // offset from Jewish 12:5 onward
+  ['neh:7:68', 'Nehemiah', 'camels'], // Christian inserts the horses/mules verse
+  ['ps:52:3', 'Psalms', 'boast'], // d=2 front merge
+  ['ps:52:11', 'Psalms', 'I will praise'], // last Jewish verse -> last Christian verse
+  ['ps:75:11', 'Psalms', 'horns'], // psalm was missing from the table entirely
+  ['ps:142:8', 'Psalms', 'prison'], // last verse fell through to identity
+]
 
 maybe('committed translations', () => {
   const corpus = JSON.parse(readFileSync(corpusPath, 'utf8')) as Corpus
 
   for (const id of ['web', 'ylt', 'bsb'] as const) {
-    it(`${id} covers every corpus verse except the five citation-map gaps`, () => {
+    it(`${id} covers every corpus verse`, () => {
       const files = readdirSync(join(sourcesDir, id)).filter((file) => file.endsWith('.json'))
       expect(files).toHaveLength(books.length)
       for (const book of books) {
@@ -50,11 +59,7 @@ maybe('committed translations', () => {
             const key = `${book.id}:${chapter}:${verse.number}`
             const stored = chapterData!.verses.find((item) => item.verse === String(verse.number))
             expect(stored, `${id} ${key}`).toBeDefined()
-            if (KNOWN_GAPS.has(key)) {
-              expect(stored!.text, `${id} ${key} is a known citation-map gap`).toBe('')
-            } else {
-              expect(stored!.text.length, `${id} ${key} should have text`).toBeGreaterThan(0)
-            }
+            expect(stored!.text.length, `${id} ${key} should have text`).toBeGreaterThan(0)
           }
         }
       }
@@ -69,6 +74,16 @@ maybe('committed translations', () => {
     const ps = readBook('bsb', 'Psalms')
     const ps22v2 = ps.chapters.find((item) => item.chapter === '22')!.verses.find((item) => item.verse === '2')!
     expect(ps22v2.text).toContain('My God, my God')
+  })
+
+  it('fixes the citation-map verses that were previously empty or offset', () => {
+    for (const [key, kjvFile, needle] of FIXED_VERSE_TEXT) {
+      const [, chapter, verse] = key.split(':')
+      const data = readBook('bsb', kjvFile)
+      const stored = data.chapters.find((item) => item.chapter === chapter)!.verses.find((item) => item.verse === verse)!
+      expect(stored.text.length, key).toBeGreaterThan(0)
+      expect(stored.text.toLowerCase(), key).toContain(needle.toLowerCase())
+    }
   })
 
   it('sct covers only the books Sefaria has translated', () => {

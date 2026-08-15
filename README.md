@@ -148,11 +148,11 @@ substantially. Never assume alignment.
 **Translation files are pre-converted to Jewish versification.** Christian
 editions (KJV, WEB, YLT, BSB) are converted once at import time
 (`npm run import:translations`) and stored under `data/sources/<id>/` in the
-corpus's own numbering, so the reader never converts at request time. Because
-the Christian editions end Numbers 25, 1 Chronicles 12, and some Psalms one
-verse earlier, five Jewish verses have no text in any edition (`num:25:19`,
-`chr1:12:41`, `ps:52:11`, `ps:75:11`, `ps:142:8`). Edit the committed files
-directly to fix translation errors.
+corpus's own numbering, so the reader never converts at request time. Where an
+edition merges or splits a verse (e.g. Christian Ps 22:1 holds both the
+superscription and the first line), the single verse's text is placed at every
+Jewish verse it corresponds to. Edit the committed files directly to fix
+translation errors.
 
 **Lexicon keys are not entry ids.** `oshb-lexicon.json` is keyed by Strong's-style
 numbers (`"1"`, `"2"`), while each entry's `id` is an opaque code (`"aac"`,
