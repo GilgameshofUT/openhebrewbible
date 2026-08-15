@@ -76,17 +76,6 @@ Translation Committee. Dedicated to the public domain on April 30, 2023.
 Redistributed in data/sources/bsb/.
 
 
-English translation — Sefaria Community Translation
------------------------------------------------------
-A community translation on Sefaria, which follows the Jewish versification.
-
-  Source:   https://developers.sefaria.org/ (Sefaria-Export dataset)
-  License:  CC0
-
-Coverage is partial: 29 of the 39 books currently have SCT text; the
-remaining books are omitted. Redistributed in data/sources/sct/.
-
-
 Christian-system editions (KJV, WEB, YLT, BSB) are stored converted to the
 Jewish versification in data/sources/<id>/, generated once by
 scripts/import-translations.ts from the pinned sources above. The committed

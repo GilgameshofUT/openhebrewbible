@@ -225,8 +225,8 @@ This wasted real time in a previous session. Do not repeat it.
 - The raw XML and JPS files are **not** in a fresh clone. The
   `scripts/rebuild-*.ts` scripts read them, so they only work after
   `npm run import:oshb` has populated the cache.
-- The translation texts `data/sources/{kjv,web,ylt,bsb,sct}/` **are** tracked
-  and are read at runtime by `src/lib/corpus.ts`. The non-KJV ones are
+- The translation texts `data/sources/{kjv,web,ylt,bsb}/` **are** tracked
+  and are read at runtime by `src/lib/corpus.ts`. They are
   generated once by `scripts/import-translations.ts`, converted to the Jewish
   versification, and committed so errors can be fixed by hand. Do not "clean
   up" that inconsistency without checking `git ls-files data/sources` first,

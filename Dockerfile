@@ -62,7 +62,6 @@ COPY --from=builder --chown=nextjs:nodejs /app/data/sources/kjv ./data/sources/k
 COPY --from=builder --chown=nextjs:nodejs /app/data/sources/web ./data/sources/web
 COPY --from=builder --chown=nextjs:nodejs /app/data/sources/ylt ./data/sources/ylt
 COPY --from=builder --chown=nextjs:nodejs /app/data/sources/bsb ./data/sources/bsb
-COPY --from=builder --chown=nextjs:nodejs /app/data/sources/sct ./data/sources/sct
 
 USER nextjs
 EXPOSE 3000

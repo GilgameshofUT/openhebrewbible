@@ -9,10 +9,6 @@
  * behaviour exactly — e.g. Christian Ps 22:1 feeds both Jewish Ps 22:1 and
  * 22:2, since the Jewish system numbers the superscription as verse 1.
  *
- * Sefaria Community Translation already uses Jewish versification, so it is
- * only aligned to the corpus verse list; books Sefaria has not translated
- * are skipped, and untranslated verses become empty strings.
- *
  * Output is written as committed source data under data/sources/<id>/ so
  * conversion mistakes can be fixed by hand rather than by re-running this
  * script. The Docker build copies these files verbatim; it does not re-run
@@ -31,9 +27,7 @@ const root = process.cwd()
 const generated = join(root, 'data', 'generated')
 const outputRoot = join(root, 'data', 'sources')
 
-// Pinned upstream sources so a regeneration is reproducible. The Sefaria
-// export bucket has no commit to pin; its files are recorded in the output
-// and drift is caught by git diff on the committed translation files.
+// Pinned upstream sources so a regeneration is reproducible.
 const PINNED = {
   scrollmapper: 'e1b254cef86d0e65b1a5d1a94b8b112d0f296a2c',
   web: '68669ba3be9719ae4d1135b19d9e0b6587b7c356',
@@ -214,49 +208,6 @@ async function importScrollmapper(id: 'ylt' | 'bsb', corpus: Corpus, reverse: Ma
   await emitTranslation(id, sourceTexts, corpus, [url])
 }
 
-// ---------------------------------------------------------------------- SCT
-// Sefaria-Export GCS bucket, one file per book: `{ text: [[verse, ...], ...] }`
-// with text[chapter-1][verse-1]. Jewish versification natively, so no
-// conversion — but coverage is partial (books and verses may be missing).
-type SefariaText = { text: Array<Array<string>> }
-
-const SEFARIA_ROMAN = new Map<string, string>([
-  ['sam1', 'I Samuel'], ['sam2', 'II Samuel'], ['kgs1', 'I Kings'], ['kgs2', 'II Kings'],
-  ['chr1', 'I Chronicles'], ['chr2', 'II Chronicles'],
-])
-
-const TORAH = new Set(['gen', 'exod', 'lev', 'num', 'deut'])
-const PROPHETS = new Set(['josh', 'judg', 'sam1', 'sam2', 'kgs1', 'kgs2', 'isa', 'jer', 'ezek', 'hos', 'joel', 'amos', 'obad', 'jonah', 'mic', 'nah', 'hab', 'zeph', 'hag', 'zech', 'mal'])
-
-function sctCategory(bookId: string) {
-  if (TORAH.has(bookId)) return 'Torah'
-  if (PROPHETS.has(bookId)) return 'Prophets'
-  return 'Writings'
-}
-
-async function importSct(corpus: Corpus) {
-  const sourceTexts = new Map<JewishKey, string>()
-  const sources: string[] = []
-
-  for (const book of books) {
-    const title = SEFARIA_ROMAN.get(book.id) ?? book.name
-    const url = `https://storage.googleapis.com/sefaria-export/json/Tanakh/${sctCategory(book.id)}/${encodeURIComponent(title)}/English/${encodeURIComponent('Sefaria Community Translation')}.json`
-    sources.push(url)
-    const response = await fetch(url)
-    if (!response.ok) continue // No SCT for this book.
-    const data = (await response.json()) as SefariaText
-    for (const [chapterIndex, verses] of data.text.entries()) {
-      for (const [verseIndex, verse] of verses.entries()) {
-        const text = cleanText(verse ?? '')
-        if (!text) continue
-        sourceTexts.set(`${book.id}:${chapterIndex + 1}:${verseIndex + 1}`, text)
-      }
-    }
-  }
-
-  await emitTranslation('sct', sourceTexts, corpus, sources)
-}
-
 async function main() {
   const corpus = JSON.parse(await readFile(join(generated, 'oshb-corpus.json'), 'utf8')) as Corpus
   const citationMap = JSON.parse(await readFile(join(generated, 'jewish-to-christian-citation-map.json'), 'utf8')) as {
@@ -270,8 +221,6 @@ async function main() {
   await importScrollmapper('ylt', corpus, reverse)
   console.log('Importing BSB (Christian system, converted)…')
   await importScrollmapper('bsb', corpus, reverse)
-  console.log('Importing Sefaria Community Translation (Jewish system, aligned)…')
-  await importSct(corpus)
 }
 
 void main()

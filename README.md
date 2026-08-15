@@ -10,7 +10,7 @@ frequently does not.
 
 - **Text**: Open Scriptures Hebrew Bible (WLC), release `v.2.2`, SHA-256 pinned
 - **Lexicon**: Brown-Driver-Briggs, 9,299 entries
-- **Translations**: JPS 1917, KJV, World English Bible, Young's Literal Translation, Berean Standard Bible, and Sefaria Community Translation
+- **Translations**: JPS 1917, KJV, World English Bible, Young's Literal Translation, Berean Standard Bible
 - **Scale**: 39 books, 23,213 verses, 305,507 morphologically tagged words
 
 ---
@@ -29,7 +29,7 @@ npm run dev
 generated from pinned upstream sources, which keeps the repository at ~9 MB
 instead of ~110 MB. Without them the API returns 503.
 
-The additional English translations (WEB, YLT, BSB, SCT) are committed in
+The additional English translations (WEB, YLT, BSB) are committed in
 `data/sources/<id>/`, already converted to the Jewish versification, so they
 need no build step. Regenerate them only if the pinned sources change:
 
@@ -55,7 +55,7 @@ byte-identical to the previous build (SHA-256 recorded in
 | `npm run typecheck` | `tsc --noEmit` |
 | `npm run import:oshb` | Import the pinned OSHB release and BDB lexicon |
 | `npm run import:citations` | Build the Jewish→Christian versification map |
-| `npm run import:translations` | Re-import WEB, YLT, BSB, SCT from pinned sources |
+| `npm run import:translations` | Re-import WEB, YLT, BSB from pinned sources |
 | `npm run build:derived` | Derive per-book files and the occurrence index |
 | `npm run catalog:external` | Rebuild external resource catalogues |
 
@@ -132,7 +132,6 @@ data/generated/books/, occurrence-index.json   (gitignored, derived)
 | `sources/web/*.json` | World English Bible (converted to Jewish versification) | **yes** |
 | `sources/ylt/*.json` | Young's Literal Translation (converted) | **yes** |
 | `sources/bsb/*.json` | Berean Standard Bible (converted) | **yes** |
-| `sources/sct/*.json` | Sefaria Community Translation (29 books, partial) | **yes** |
 | `oshb-corpus.json` | Full corpus, 57 MB | no |
 | `oshb-lexicon.json` | BDB entries keyed by lemma | no |
 | `jewish-to-christian-citation-map.json` | Jewish→Christian versification | no |

@@ -13,7 +13,7 @@ __pycache__/
 !.env.example
 
 # Raw upstream sources, re-fetched by npm run import:oshb.
-# Exception: the translation texts under data/sources/{kjv,web,ylt,bsb,sct}
+# Exception: the translation texts under data/sources/{kjv,web,ylt,bsb}
 # are committed and read at runtime (see NOTICE). They are generated once,
 # converted to Jewish versification, so errors can be fixed by hand.
 data/imports/
@@ -22,7 +22,6 @@ data/sources/*
 !data/sources/web/
 !data/sources/ylt/
 !data/sources/bsb/
-!data/sources/sct/
 
 # Local screenshots and scratch captures
 Screenshots/

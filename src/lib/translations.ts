@@ -10,7 +10,7 @@
  * for verses where the two systems diverge (e.g. "Ps 22:1" next to the
  * Jewish Ps 22:2).
  */
-export type TranslationId = 'jps' | 'kjv' | 'web' | 'ylt' | 'bsb' | 'sct'
+export type TranslationId = 'jps' | 'kjv' | 'web' | 'ylt' | 'bsb'
 
 export type Translation = {
   id: TranslationId
@@ -27,7 +27,6 @@ export const TRANSLATIONS: Translation[] = [
   { id: 'web', label: 'World English Bible', shortLabel: 'WEB', versification: 'christian' },
   { id: 'ylt', label: "Young's Literal Translation", shortLabel: 'YLT', versification: 'christian' },
   { id: 'bsb', label: 'Berean Standard Bible', shortLabel: 'BSB', versification: 'christian' },
-  { id: 'sct', label: 'Sefaria Community Translation', shortLabel: 'SCT', versification: 'jewish' },
 ]
 
 export const translationsById = new Map<string, Translation>(TRANSLATIONS.map((translation) => [translation.id, translation]))

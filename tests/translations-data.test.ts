@@ -85,21 +85,6 @@ maybe('committed translations', () => {
       expect(stored.text.toLowerCase(), key).toContain(needle.toLowerCase())
     }
   })
-
-  it('sct covers only the books Sefaria has translated', () => {
-    const files = readdirSync(join(sourcesDir, 'sct')).filter((file) => file.endsWith('.json'))
-    expect(files.length).toBeGreaterThan(0)
-    expect(files.length).toBeLessThan(books.length)
-    expect(files).toContain('Genesis.json')
-    expect(files).toContain('Psalms.json')
-    // Books with no Sefaria Community Translation text.
-    expect(files).not.toContain('Ruth.json')
-    expect(files).not.toContain('Hosea.json')
-
-    const gen = readBook('sct', 'Genesis')
-    const gen1v1 = gen.chapters[0].verses.find((item) => item.verse === '1')!
-    expect(gen1v1.text.length).toBeGreaterThan(0)
-  })
 })
 
 describe('chapter payload stays lean', () => {
@@ -120,9 +105,9 @@ describe('chapter payload stays lean', () => {
 })
 
 describe('translation registry', () => {
-  it('lists all six translations with unique ids', () => {
-    expect(TRANSLATIONS.map((translation) => translation.id)).toEqual(['jps', 'kjv', 'web', 'ylt', 'bsb', 'sct'])
-    expect(new Set(TRANSLATIONS.map((translation) => translation.id)).size).toBe(6)
+  it('lists all five translations with unique ids', () => {
+    expect(TRANSLATIONS.map((translation) => translation.id)).toEqual(['jps', 'kjv', 'web', 'ylt', 'bsb'])
+    expect(new Set(TRANSLATIONS.map((translation) => translation.id)).size).toBe(5)
     expect(TRANSLATIONS.filter((translation) => translation.embedded)).toHaveLength(1)
     for (const translation of TRANSLATIONS) {
       expect(translation.label.length).toBeGreaterThan(0)
@@ -132,7 +117,8 @@ describe('translation registry', () => {
 
   it('resolves labels and rejects unknown ids', () => {
     expect(translationLabel('bsb')).toBe('Berean Standard Bible')
-    expect(translationShortLabel('sct')).toBe('SCT')
+    expect(translationShortLabel('web')).toBe('WEB')
+    expect(isTranslationId('sct')).toBe(false)
     expect(isTranslationId('niv')).toBe(false)
     expect(isTranslationId('ylt')).toBe(true)
   })
@@ -140,7 +126,7 @@ describe('translation registry', () => {
 
 describe('joinTranslation', () => {
   const christian = TRANSLATIONS.find((translation) => translation.id === 'bsb')!
-  const jewish = TRANSLATIONS.find((translation) => translation.id === 'sct')!
+  const jewish = TRANSLATIONS.find((translation) => translation.id === 'jps')!
 
   it('looks up text directly by the corpus chapter/verse key', () => {
     const text = new Map([['1:1', 'In the beginning…']])

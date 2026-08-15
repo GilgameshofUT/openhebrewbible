@@ -137,8 +137,7 @@ type TranslationBook = { book: string; chapters: Array<{ chapter: string; verses
  * Translation text keyed as `"<chapter>:<verse>" -> text`, read from the
  * committed data/sources/<translationId> files. Every translation is stored
  * in the corpus's own (Jewish) versification — conversion happens once at
- * import time — so the lookup is direct. Partial editions such as SCT may
- * not translate every book; a missing file yields an empty map.
+ * import time — so the lookup is direct. A missing file yields an empty map.
  */
 export const getTranslationBook = memoizeByKey<Map<string, string>>(async (key) => {
   const [translationId, fileName] = key.split(':')
