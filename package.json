@@ -1,5 +1,5 @@
 {
-  "name": "web-tanakh",
+  "name": "open-hebrew-bible",
   "version": "0.1.0",
   "license": "MIT",
   "description": "A Hebrew-first reader for the Tanakh with morphology, BDB lexicon, and linked study resources.",

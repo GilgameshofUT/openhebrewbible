@@ -1,4 +1,4 @@
-# Working on Web Tanakh
+# Working on Open Hebrew Bible
 
 Instructions for AI agents. Read this before changing anything.
 

@@ -391,7 +391,7 @@ async function main() {
   await writeFile(join(outputDir, 'gilgamesh-vocabulary-videos.md'), markdown('Hebrew Bible with Gilgamesh Vocabulary Catalog', gilgamesh.sourceUrl, gilgamesh.resources, ['ID', 'Title', 'Target', 'URL', 'Status']))
   await writeFile(join(outputDir, 'daily-dose-of-hebrew-videos.md'), markdown('Daily Dose of Hebrew Video Catalog', ddoh.sourceUrl, ddoh.resources, ['ID', 'Title', 'Target(s)', 'URL', 'Status']))
   await writeFile(join(outputDir, '929-soundcloud-chapter-audio.md'), markdown('929 SoundCloud Chapter Audio Catalog', soundcloud.sourceUrl, soundcloud.resources, ['ID', 'Title', 'Target(s)', 'URL', 'Status']))
-  await writeFile(join(outputDir, 'external-resource-catalog.md'), markdown('Web Tanakh External Resource Catalog', 'https://mechon-mamre.org/p/pt/ptmp3prq.htm', catalog, ['ID', 'Title', 'Target(s)', 'URL', 'Status']))
+  await writeFile(join(outputDir, 'external-resource-catalog.md'), markdown('Open Hebrew Bible External Resource Catalog', 'https://mechon-mamre.org/p/pt/ptmp3prq.htm', catalog, ['ID', 'Title', 'Target(s)', 'URL', 'Status']))
   console.log(JSON.stringify({ mechon: mechon.resources.length, soundcloud: soundcloud.resources.length, gilgamesh: gilgamesh.resources.length, ddoh: ddoh.resources.length, ddohMapped: ddoh.resources.filter((item) => item.targets.length).length }, null, 2))
 }
 

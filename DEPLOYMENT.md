@@ -1,6 +1,6 @@
 # Deployment
 
-Web Tanakh is a Next.js application with server-side route handlers. It needs a
+Open Hebrew Bible is a Next.js application with server-side route handlers. It needs a
 Node.js runtime with a writable filesystem. It **cannot** be deployed to GitHub
 Pages or any static-only host, because the API routes read query parameters at
 request time, which Next.js forbids under `output: 'export'`.
@@ -102,16 +102,16 @@ Port 3000 is deliberately **not** opened; Nginx proxies to it over loopback.
 
 ```bash
 su - deploy
-git clone https://github.com/YOUR_USERNAME/web-tanakh.git
-cd web-tanakh
+git clone https://github.com/YOUR_USERNAME/openhebrewbible.git
+cd openhebrewbible
 
-docker build -t web-tanakh .     # ~5 min: installs deps, imports corpus, builds
+docker build -t openhebrewbible .     # ~5 min: installs deps, imports corpus, builds
 
 docker run -d \
-  --name web-tanakh \
+  --name openhebrewbible \
   --restart unless-stopped \
   -p 127.0.0.1:3000:3000 \
-  web-tanakh
+  openhebrewbible
 
 docker ps
 curl -s localhost:3000/api/chapter\?book=gen\&chapter=1 | head -c 200
@@ -123,11 +123,11 @@ except through Nginx.
 ### 5. Updating
 
 ```bash
-cd ~/web-tanakh
+cd ~/openhebrewbible
 git pull
-docker build -t web-tanakh .
-docker stop web-tanakh && docker rm web-tanakh
-docker run -d --name web-tanakh --restart unless-stopped -p 127.0.0.1:3000:3000 web-tanakh
+docker build -t openhebrewbible .
+docker stop openhebrewbible && docker rm openhebrewbible
+docker run -d --name openhebrewbible --restart unless-stopped -p 127.0.0.1:3000:3000 openhebrewbible
 docker image prune -f
 ```
 
@@ -152,8 +152,8 @@ node -v
 ```bash
 adduser --disabled-password --gecos "" deploy
 su - deploy
-git clone https://github.com/YOUR_USERNAME/web-tanakh.git
-cd web-tanakh
+git clone https://github.com/YOUR_USERNAME/openhebrewbible.git
+cd openhebrewbible
 
 npm ci
 npm run import:oshb
@@ -166,15 +166,15 @@ npm run build
 
 ```bash
 exit   # back to root
-cat > /etc/systemd/system/web-tanakh.service <<'UNIT'
+cat > /etc/systemd/system/openhebrewbible.service <<'UNIT'
 [Unit]
-Description=Web Tanakh
+Description=Open Hebrew Bible
 After=network.target
 
 [Service]
 Type=simple
 User=deploy
-WorkingDirectory=/home/deploy/web-tanakh
+WorkingDirectory=/home/deploy/openhebrewbible
 Environment=NODE_ENV=production
 Environment=PORT=3000
 Environment=HOSTNAME=127.0.0.1
@@ -186,15 +186,15 @@ NoNewPrivileges=true
 PrivateTmp=true
 ProtectSystem=strict
 ProtectHome=read-only
-ReadWritePaths=/home/deploy/web-tanakh
+ReadWritePaths=/home/deploy/openhebrewbible
 
 [Install]
 WantedBy=multi-user.target
 UNIT
 
 systemctl daemon-reload
-systemctl enable --now web-tanakh
-systemctl status web-tanakh
+systemctl enable --now openhebrewbible
+systemctl status openhebrewbible
 ```
 
 `output: 'standalone'` bundles the server, but static assets are copied
@@ -210,10 +210,10 @@ cp -r data .next/standalone/
 
 ```bash
 su - deploy
-cd ~/web-tanakh && git pull && npm ci && npm run build
+cd ~/openhebrewbible && git pull && npm ci && npm run build
 cp -r .next/static .next/standalone/.next/ && cp -r public data .next/standalone/
 exit
-systemctl restart web-tanakh
+systemctl restart openhebrewbible
 ```
 
 Re-run the import steps only when the pinned OSHB release changes.
@@ -227,7 +227,7 @@ Required for both options.
 ```bash
 apt install -y nginx certbot python3-certbot-nginx
 
-cat > /etc/nginx/sites-available/web-tanakh <<'CONF'
+cat > /etc/nginx/sites-available/openhebrewbible <<'CONF'
 server {
     listen 80;
     server_name your-domain.com www.your-domain.com;
@@ -263,7 +263,7 @@ server {
 }
 CONF
 
-ln -sf /etc/nginx/sites-available/web-tanakh /etc/nginx/sites-enabled/
+ln -sf /etc/nginx/sites-available/openhebrewbible /etc/nginx/sites-enabled/
 rm -f /etc/nginx/sites-enabled/default
 nginx -t && systemctl reload nginx
 ```
@@ -303,8 +303,8 @@ If `/api/chapter` returns **503**, the derived data is missing — run
 ### Logs
 
 ```bash
-docker logs -f web-tanakh          # Option A
-journalctl -u web-tanakh -f        # Option B
+docker logs -f openhebrewbible          # Option A
+journalctl -u openhebrewbible -f        # Option B
 ```
 
 ### Memory
@@ -316,8 +316,8 @@ requests from ~250 ms to ~4 ms. Do not "fix" it by disabling the cache.
 Cap it under Docker if needed:
 
 ```bash
-docker run -d --name web-tanakh --restart unless-stopped \
-  --memory=768m -p 127.0.0.1:3000:3000 web-tanakh
+docker run -d --name openhebrewbible --restart unless-stopped \
+  --memory=768m -p 127.0.0.1:3000:3000 openhebrewbible
 ```
 
 ### Updating the corpus
@@ -356,4 +356,4 @@ are cached at module scope for the life of the process.
 always from Nginx. Remove it; the app sets its own.
 
 **Nginx 502** — the app is not listening. Check `docker ps` or
-`systemctl status web-tanakh`, and confirm it is bound to `127.0.0.1:3000`.
+`systemctl status openhebrewbible`, and confirm it is bound to `127.0.0.1:3000`.

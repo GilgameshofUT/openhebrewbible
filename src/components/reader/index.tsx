@@ -279,8 +279,8 @@ export default function Reader() {
         />
       )}
 
-      <footer id="about" className="site-footer">
-        <span>Web Tanakh · a work in progress</span>
+      <footer className="site-footer">
+        <span>Open Hebrew Bible · a work in progress</span>
         <span>OSHB Hebrew Bible · Ezra SIL · source details</span>
       </footer>
     </main>

@@ -1,11 +1,11 @@
-# Web Tanakh — production image
+# Open Hebrew Bible — production image
 #
 # The corpus is not committed to git. It is fetched from pinned upstream
 # sources during the build, so the image is self-contained at runtime and the
 # repository stays small.
 #
-# Build:  docker build -t web-tanakh .
-# Run:    docker run -p 3000:3000 web-tanakh
+# Build:  docker build -t openhebrewbible .
+# Run:    docker run -p 3000:3000 openhebrewbible
 
 # ---------------------------------------------------------------- deps
 FROM node:22-alpine AS deps

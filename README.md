@@ -1,4 +1,4 @@
-# Web Tanakh
+# Open Hebrew Bible
 
 A Hebrew-first reader for the Tanakh. Every word is clickable and opens its
 morphological parse and Brown-Driver-Briggs lexicon entry, with links to
@@ -198,8 +198,8 @@ A small VPS (1–2 GB RAM) or any container host works. A Dockerfile is included
 that fetches the corpus during the build, so the image is self-contained.
 
 ```bash
-docker build -t web-tanakh .
-docker run -d -p 127.0.0.1:3000:3000 --restart unless-stopped web-tanakh
+docker build -t openhebrewbible .
+docker run -d -p 127.0.0.1:3000:3000 --restart unless-stopped openhebrewbible
 ```
 
 See [`DEPLOYMENT.md`](DEPLOYMENT.md) for full VPS setup, including Nginx, TLS,
