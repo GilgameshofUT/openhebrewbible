@@ -85,6 +85,25 @@ describe('karaoke widget events', () => {
     expect(karaokeSource).not.toMatch(/\.bind\('READY'/)
     expect(karaokeSource).not.toMatch(/\.bind\('PLAY_PROGRESS'/)
   })
+
+  it('clears the highlight when playback pauses', () => {
+    // Without this the last word stayed lit after stopping, so the text
+    // appeared to keep highlighting even though the audio had stopped.
+    const pauseBinding = karaokeSource.match(/\.bind\('pause'[^\n]*/)?.[0]
+    expect(pauseBinding).toBeDefined()
+    expect(pauseBinding).toMatch(/setActiveWordId\(undefined\)/)
+  })
+})
+
+describe('soundcloud finish handler', () => {
+  const audioSource = readFileSync(join(process.cwd(), 'src', 'components', 'reader', 'use-audio.ts'), 'utf8')
+
+  it('binds finish (lowercase) so the track stops instead of looping', () => {
+    // The player dispatches "finish"; binding "FINISH" never fires, so the
+    // widget rolled on past the end and the reading appeared to loop.
+    expect(audioSource).toMatch(/\.bind\('finish'/)
+    expect(audioSource).not.toMatch(/\.bind\('FINISH'/)
+  })
 })
 
 describe('sof pasuq', () => {

@@ -81,7 +81,7 @@ export function useKaraoke(
           }
         })
         widget!.bind('play', () => { if (!cancelled) { playingRef.current = true; widget!.getPosition(applyPosition) } })
-        widget!.bind('pause', () => { if (!cancelled) playingRef.current = false })
+        widget!.bind('pause', () => { if (!cancelled) { playingRef.current = false; setActiveWordId(undefined) } })
         widget!.bind('seek', () => { if (!cancelled) widget!.getPosition(applyPosition) })
         widget!.bind('finish', () => { if (!cancelled) { playingRef.current = false; setActiveWordId(undefined) } })
         widget!.getPosition(applyPosition)

@@ -54,7 +54,8 @@ export function useAudio(bookId: string, chapter: number) {
     const setupWidget = () => {
       if (cancelled || !window.SC || !frame.current) return
       const widget = window.SC.Widget(frame.current)
-      widget.bind('FINISH', () => widget.pause())
+      // Lowercase: the player dispatches "finish", not "FINISH".
+      widget.bind('finish', () => widget.pause())
     }
     if (window.SC) {
       setupWidget()
