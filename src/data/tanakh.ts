@@ -5,6 +5,8 @@
  * can validate against exactly the same list the reader navigates by.
  */
 export { books, findBook, parseReference, getBookById, type Book, type Division, type ParsedReference } from '@/lib/books'
+import type { TranslationId } from '@/lib/translations'
+export type { TranslationId } from '@/lib/translations'
 
 /**
  * A BDB sense. Verb entries group senses by verbal stem (Qal, Niph., Hiph.),
@@ -79,7 +81,7 @@ type ChapterResponse = {
   }>
 }
 
-export async function loadChapter(bookId: string, chapter: number, translation: 'jps' | 'kjv'): Promise<Verse[]> {
+export async function loadChapter(bookId: string, chapter: number, translation: TranslationId): Promise<Verse[]> {
   const response = await fetch(`/api/chapter?book=${encodeURIComponent(bookId)}&chapter=${chapter}&translation=${translation}`)
   if (!response.ok) return []
   const data = await response.json() as ChapterResponse

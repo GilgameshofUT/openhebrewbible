@@ -14,6 +14,7 @@
     "check": "npm run typecheck && npm run lint && npm run test",
     "import:oshb": "tsx scripts/import-oshb.ts",
     "import:citations": "tsx scripts/import-citation-map.ts",
+    "import:translations": "tsx scripts/import-translations.ts",
     "build:derived": "tsx scripts/build-derived-corpus.ts",
     "catalog:external": "tsx scripts/build-external-catalogs.ts"
   },

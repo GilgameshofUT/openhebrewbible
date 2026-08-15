@@ -10,7 +10,7 @@ frequently does not.
 
 - **Text**: Open Scriptures Hebrew Bible (WLC), release `v.2.2`, SHA-256 pinned
 - **Lexicon**: Brown-Driver-Briggs, 9,299 entries
-- **Translations**: JPS 1917 and KJV
+- **Translations**: JPS 1917, KJV, World English Bible, Young's Literal Translation, Berean Standard Bible, and Sefaria Community Translation
 - **Scale**: 39 books, 23,213 verses, 305,507 morphologically tagged words
 
 ---
@@ -28,6 +28,10 @@ npm run dev
 **All three data steps are required.** No corpus data is committed — it is
 generated from pinned upstream sources, which keeps the repository at ~9 MB
 instead of ~110 MB. Without them the API returns 503.
+
+The additional English translations (WEB, YLT, BSB, SCT) are committed in
+`data/sources/<id>/`, already converted to the Jewish versification, so they
+need no build step. Regenerate them only if the pinned sources change:
 
 The output is reproducible: regenerating from a clean clone produces a corpus
 byte-identical to the previous build (SHA-256 recorded in
@@ -51,6 +55,7 @@ byte-identical to the previous build (SHA-256 recorded in
 | `npm run typecheck` | `tsc --noEmit` |
 | `npm run import:oshb` | Import the pinned OSHB release and BDB lexicon |
 | `npm run import:citations` | Build the Jewish→Christian versification map |
+| `npm run import:translations` | Re-import WEB, YLT, BSB, SCT from pinned sources |
 | `npm run build:derived` | Derive per-book files and the occurrence index |
 | `npm run catalog:external` | Rebuild external resource catalogues |
 
@@ -113,7 +118,7 @@ to, so an unknown book can never reach a file path or an outbound URL.
 ## Data pipeline
 
 ```
-data/sources/      raw upstream files          (gitignored, except kjv/)
+data/sources/      raw upstream files          (gitignored, except the translation dirs)
       ↓  npm run import:oshb
 data/generated/    corpus, lexicon, manifest   (committed)
       ↓  npm run build:derived
@@ -124,6 +129,10 @@ data/generated/books/, occurrence-index.json   (gitignored, derived)
 | --- | --- | --- |
 | `manifest.json` | Source release, SHA-256, counts — the provenance record | **yes** |
 | `sources/kjv/*.json` | KJV text, read at runtime | **yes** |
+| `sources/web/*.json` | World English Bible (converted to Jewish versification) | **yes** |
+| `sources/ylt/*.json` | Young's Literal Translation (converted) | **yes** |
+| `sources/bsb/*.json` | Berean Standard Bible (converted) | **yes** |
+| `sources/sct/*.json` | Sefaria Community Translation (29 books, partial) | **yes** |
 | `oshb-corpus.json` | Full corpus, 57 MB | no |
 | `oshb-lexicon.json` | BDB entries keyed by lemma | no |
 | `jewish-to-christian-citation-map.json` | Jewish→Christian versification | no |
@@ -135,6 +144,15 @@ data/generated/books/, occurrence-index.json   (gitignored, derived)
 **Jewish versification is canonical.** Christian chapter and verse numbers are
 mapped through `jewish-to-christian-citation-map.json`. Psalms and Joel diverge
 substantially. Never assume alignment.
+
+**Translation files are pre-converted to Jewish versification.** Christian
+editions (KJV, WEB, YLT, BSB) are converted once at import time
+(`npm run import:translations`) and stored under `data/sources/<id>/` in the
+corpus's own numbering, so the reader never converts at request time. Because
+the Christian editions end Numbers 25, 1 Chronicles 12, and some Psalms one
+verse earlier, five Jewish verses have no text in any edition (`num:25:19`,
+`chr1:12:41`, `ps:52:11`, `ps:75:11`, `ps:142:8`). Edit the committed files
+directly to fix translation errors.
 
 **Lexicon keys are not entry ids.** `oshb-lexicon.json` is keyed by Strong's-style
 numbers (`"1"`, `"2"`), while each entry's `id` is an opaque code (`"aac"`,

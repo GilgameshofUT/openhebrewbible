@@ -13,7 +13,7 @@ export type Book = {
   abbreviations: string[]
   division: Division
   chapters: number
-  /** Base filename in data/sources/kjv. */
+  /** Base filename in data/sources/<translation>/ for every edition. */
   kjvFile: string
 }
 

@@ -1,6 +1,7 @@
 'use client'
 
 import { books, type Book, type Division } from '@/data/tanakh'
+import { TRANSLATIONS } from '@/lib/translations'
 import type { EnglishMode, TranslationId } from './types'
 
 const divisions: Division[] = ['Torah', 'Nevi\'im', 'Ketuvim']
@@ -168,7 +169,9 @@ export function ReaderToolbar({
           onChange={(event) => setTranslation(event.target.value as TranslationId)}
         >
           <option value="jps">JPS 1917</option>
-          <option value="kjv">KJV</option>
+          {TRANSLATIONS.filter((item) => !item.embedded).map((item) => (
+            <option key={item.id} value={item.id}>{item.label}</option>
+          ))}
         </select>
       </div>
     </section>

@@ -44,6 +44,55 @@ to Crown copyright, administered by Cambridge University Press.
 Redistributed in data/sources/kjv/.
 
 
+English translation — World English Bible
+------------------------------------------
+Public domain. "World English Bible" is a trademark of eBible.org; the text
+itself carries no copyright.
+
+  Source:   https://ebible.org/engwebp/ (mirrored from TehShrike/world-english-bible)
+  License:  Public domain
+
+Redistributed in data/sources/web/.
+
+
+English translation — Young's Literal Translation
+---------------------------------------------------
+By Robert Young, 1898. Public domain.
+
+  Source:   https://github.com/scrollmapper/bible_databases
+  License:  Public domain
+
+Redistributed in data/sources/ylt/.
+
+
+English translation — Berean Standard Bible
+--------------------------------------------
+Produced with Bible Hub, Discovery Bible, OpenBible.com, and the Berean Bible
+Translation Committee. Dedicated to the public domain on April 30, 2023.
+
+  Source:   https://berean.bible/ and https://github.com/scrollmapper/bible_databases
+  License:  Public domain (CC0 dedication)
+
+Redistributed in data/sources/bsb/.
+
+
+English translation — Sefaria Community Translation
+-----------------------------------------------------
+A community translation on Sefaria, which follows the Jewish versification.
+
+  Source:   https://developers.sefaria.org/ (Sefaria-Export dataset)
+  License:  CC0
+
+Coverage is partial: 29 of the 39 books currently have SCT text; the
+remaining books are omitted. Redistributed in data/sources/sct/.
+
+
+Christian-system editions (KJV, WEB, YLT, BSB) are stored converted to the
+Jewish versification in data/sources/<id>/, generated once by
+scripts/import-translations.ts from the pinned sources above. The committed
+files are the authoritative text and may be edited by hand.
+
+
 Font — Ezra SIL 2.51
 ---------------------
   Source:   https://software.sil.org/ezra/

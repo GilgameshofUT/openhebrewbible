@@ -220,14 +220,18 @@ deliberate — it took chapter requests from ~250 ms to ~4 ms. But it means:
 
 This wasted real time in a previous session. Do not repeat it.
 
-### `data/sources/` is gitignored, with one exception
+### `data/sources/` is gitignored, with exceptions
 
 - The raw XML and JPS files are **not** in a fresh clone. The
   `scripts/rebuild-*.ts` scripts read them, so they only work after
   `npm run import:oshb` has populated the cache.
-- `data/sources/kjv/*.json` **is** tracked (39 files, force-added) and is read at
-  runtime by `src/lib/corpus.ts`. Do not "clean up" that inconsistency without
-  checking `git ls-files data/sources` first.
+- The translation texts `data/sources/{kjv,web,ylt,bsb,sct}/` **are** tracked
+  and are read at runtime by `src/lib/corpus.ts`. The non-KJV ones are
+  generated once by `scripts/import-translations.ts`, converted to the Jewish
+  versification, and committed so errors can be fixed by hand. Do not "clean
+  up" that inconsistency without checking `git ls-files data/sources` first,
+  and regenerate them with `npm run import:translations` if you change the
+  pinned sources.
 
 ### Derived artifacts are gitignored
 

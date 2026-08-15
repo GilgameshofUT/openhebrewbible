@@ -28,7 +28,7 @@ export type NoteResource = {
 }
 
 export type EnglishMode = 'hidden' | 'beneath' | 'parallel'
-export type TranslationId = 'jps' | 'kjv'
+export type { TranslationId } from '@/lib/translations'
 
 /** Mechon Mamre entries are plain audio files; everything else is a SoundCloud embed. */
 export const MECHON_PREFIX = 'mechon-mamre:'

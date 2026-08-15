@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { validateBookChapter } from '@/lib/books'
-import { getBook, getCitationMap, getKjvBook, getLexicon, lemmaKey, type CorpusVerse } from '@/lib/corpus'
+import { getBook, getCitationMap, getTranslationBook, getLexicon, lemmaKey, type CorpusVerse } from '@/lib/corpus'
+import { isTranslationId, translationsById, joinTranslation, type Translation } from '@/lib/translations'
 
 export async function GET(request: Request) {
   const params = new URL(request.url).searchParams
@@ -9,10 +10,10 @@ export async function GET(request: Request) {
 
   const { book, chapter } = validated.value
   const translationParam = params.get('translation') ?? 'jps'
-  if (translationParam !== 'jps' && translationParam !== 'kjv') {
+  if (!isTranslationId(translationParam)) {
     return NextResponse.json({ verses: [], error: `Unknown translation "${translationParam}".` }, { status: 400 })
   }
-
+  const translation = translationsById.get(translationParam) as Translation
   let chapters
   try {
     chapters = await getBook(book.id)
@@ -27,19 +28,15 @@ export async function GET(request: Request) {
   const selected = chapters[String(chapter)] ?? []
   let verses: CorpusVerse[] = selected
 
-  if (translationParam === 'kjv') {
-    // Jewish versification is canonical; the KJV text is joined through the
-    // explicit citation map rather than assuming chapter/verse alignment.
-    const citationMap = await getCitationMap()
-    const kjv = await getKjvBook(book.kjvFile)
+  if (!translation.embedded) {
+    // Translations are stored in the corpus's own (Jewish) versification —
+    // conversion happened once at import time. The citation map is only used
+    // to surface the edition's original reference where the systems diverge.
+    const text = await getTranslationBook(`${translationParam}:${book.kjvFile}`)
+    const citationMap = translation.versification === 'christian' ? await getCitationMap() : null
     verses = selected.map((verse) => {
-      const mapped = citationMap.jewishToChristian[`${book.id}:${chapter}:${verse.number}`]
-      if (!mapped) return { ...verse, english: '' }
-      return {
-        ...verse,
-        english: kjv.get(`${mapped.chapter}:${mapped.verse}`) ?? '',
-        englishReference: `${mapped.book} ${mapped.chapter}:${mapped.verse}`,
-      }
+      const citation = citationMap?.jewishToChristian[`${book.id}:${chapter}:${verse.number}`]
+      return { ...verse, ...joinTranslation(verse.number, chapter, translation, text, citation) }
     })
   }
 

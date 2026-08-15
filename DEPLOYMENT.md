@@ -21,6 +21,11 @@ upstream sources during deployment.
 | 2 | `npm run import:citations` | `jewish-to-christian-citation-map.json` | ~10 s |
 | 3 | `npm run build:derived` | `books/`, `occurrence-index.json` | ~20 s |
 
+The additional English translations are **already committed** under
+`data/sources/{web,ylt,bsb,sct}/` in the Jewish versification, so no import
+step is needed at deploy time — the Dockerfile copies them straight into the
+runner image.
+
 This was verified from a clean clone: the regenerated corpus is **byte-identical**
 (SHA-256 `cb802bda…`) to the previously committed file.
 

@@ -13,7 +13,7 @@ import { join } from 'node:path'
 
 const generated = join(process.cwd(), 'data', 'generated')
 const external = join(process.cwd(), 'data', 'external')
-const kjvDir = join(process.cwd(), 'data', 'sources', 'kjv')
+const sourcesDir = join(process.cwd(), 'data', 'sources')
 
 export type CorpusWord = {
   id: string
@@ -131,19 +131,27 @@ export const getExternalCatalog = memoizeByKey<{ resources: ExternalResource[] }
   readJson<{ resources: ExternalResource[] }>(join(external, name)),
 )
 
-type KjvBook = { book: string; chapters: Array<{ chapter: string; verses: Array<{ verse: string; text: string }> }> }
+type TranslationBook = { book: string; chapters: Array<{ chapter: string; verses: Array<{ verse: string; text: string }> }> }
 
 /**
- * KJV text keyed as `"<chapter>:<verse>" -> text`, read from the local
- * `data/sources/kjv` files rather than a third-party CDN.
+ * Translation text keyed as `"<chapter>:<verse>" -> text`, read from the
+ * committed data/sources/<translationId> files. Every translation is stored
+ * in the corpus's own (Jewish) versification — conversion happens once at
+ * import time — so the lookup is direct. Partial editions such as SCT may
+ * not translate every book; a missing file yields an empty map.
  */
-export const getKjvBook = memoizeByKey<Map<string, string>>(async (fileName) => {
-  const book = await readJson<KjvBook>(join(kjvDir, `${fileName}.json`))
-  const byVerse = new Map<string, string>()
-  for (const chapter of book.chapters) {
-    for (const verse of chapter.verses) byVerse.set(`${chapter.chapter}:${verse.verse}`, verse.text)
+export const getTranslationBook = memoizeByKey<Map<string, string>>(async (key) => {
+  const [translationId, fileName] = key.split(':')
+  try {
+    const book = await readJson<TranslationBook>(join(sourcesDir, translationId, `${fileName}.json`))
+    const byVerse = new Map<string, string>()
+    for (const chapter of book.chapters) {
+      for (const verse of chapter.verses) byVerse.set(`${chapter.chapter}:${verse.verse}`, verse.text)
+    }
+    return byVerse
+  } catch {
+    return new Map<string, string>()
   }
-  return byVerse
 })
 
 /**

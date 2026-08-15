@@ -1,18 +1,12 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
+import { citationBooks } from './shared-books'
 
 const root = process.cwd()
 const outputDir = join(root, 'data', 'generated')
 const converterUrl = 'https://raw.githubusercontent.com/GilgameshofUT/Hebrew-Citation-Converter/main/jewish-christian-verse-convert.py'
 
-const books = [
-  ['gen', 'Gen'], ['exod', 'Ex'], ['lev', 'Lev'], ['num', 'Num'], ['deut', 'Deut'], ['josh', 'Josh'], ['judg', 'Judg'], ['ruth', 'Ruth'],
-  ['sam1', '1Sam'], ['sam2', '2Sam'], ['kgs1', '1Kings'], ['kgs2', '2Kings'], ['chr1', '1Chr'], ['chr2', '2Chr'], ['ezra', 'Ezra'], ['neh', 'Neh'],
-  ['esth', 'Esth'], ['job', 'Job'], ['ps', 'Ps'], ['prov', 'Prov'], ['eccl', 'Eccl'], ['song', 'Song'], ['lam', 'Lam'], ['isa', 'Isa'], ['jer', 'Jer'],
-  ['ezek', 'Ezek'], ['dan', 'Dan'], ['hos', 'Hos'], ['joel', 'Joel'], ['amos', 'Am'], ['obad', 'Ob'], ['jonah', 'Jon'], ['mic', 'Mic'], ['nah', 'Nah'],
-  ['hab', 'Hab'], ['zeph', 'Zeph'], ['hag', 'Hag'], ['zech', 'Zech'], ['mal', 'Mal'],
-] as const
-
+const books = citationBooks
 const bookIds = new Map(books.map(([id, name]) => [name, id]))
 
 type Reference = { book: string; chapter: number; verse: number }

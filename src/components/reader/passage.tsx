@@ -2,9 +2,8 @@
 
 import type { Book, Verse, Word } from '@/data/tanakh'
 import { HebrewVerse, Translation } from './hebrew-text'
+import { translationLabel, translationShortLabel } from '@/lib/translations'
 import type { EnglishMode, NoteResource, TranslationId } from './types'
-
-const TRANSLATION_LABELS: Record<TranslationId, string> = { jps: 'JPS 1917', kjv: 'KJV' }
 
 type SharedProps = {
   book: Book
@@ -53,7 +52,7 @@ export function PassageView({
             {englishMode === 'beneath' && (
               <div className="english">
                 <span className="translation-tag">
-                  {translation === 'jps' ? 'JPS' : 'KJV'}{verse.englishReference ? ` · ${verse.englishReference}` : ''}
+                  {translationShortLabel(translation)}{verse.englishReference ? ` · ${verse.englishReference}` : ''}
                 </span>
                 <Translation text={verse.english} />
               </div>
@@ -74,7 +73,7 @@ export function ParallelView({
     <div className="parallel-table" aria-label={`${book.name} chapter ${chapter} parallel text`}>
       <div className="parallel-table-heading">
         <div>Hebrew text <span className="source-chip">OSHB · WLC</span></div>
-        <div>English text <span className="source-chip">{TRANSLATION_LABELS[translation]}</span></div>
+        <div>English text <span className="source-chip">{translationLabel(translation)}</span></div>
       </div>
       {verses.map((verse) => (
         <div className="parallel-row" id={`verse-${book.id}-${chapter}-${verse.number}`} key={verse.number}>

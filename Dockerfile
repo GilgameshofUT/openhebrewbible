@@ -56,7 +56,13 @@ COPY --from=builder --chown=nextjs:nodejs /app/public ./public
 # Read at request time by src/lib/corpus.ts, resolved against process.cwd().
 COPY --from=data    --chown=nextjs:nodejs /app/data/generated ./data/generated
 COPY --from=builder --chown=nextjs:nodejs /app/data/external ./data/external
+# Committed translation texts, converted to Jewish versification at import
+# time, so the runner needs no citation-map work.
 COPY --from=builder --chown=nextjs:nodejs /app/data/sources/kjv ./data/sources/kjv
+COPY --from=builder --chown=nextjs:nodejs /app/data/sources/web ./data/sources/web
+COPY --from=builder --chown=nextjs:nodejs /app/data/sources/ylt ./data/sources/ylt
+COPY --from=builder --chown=nextjs:nodejs /app/data/sources/bsb ./data/sources/bsb
+COPY --from=builder --chown=nextjs:nodejs /app/data/sources/sct ./data/sources/sct
 
 USER nextjs
 EXPOSE 3000
