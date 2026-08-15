@@ -1,13 +1,13 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
-import { isMechonMamre, type AudioResource } from './types'
+import { isMechonMamre, type AudioResource, type SoundCloudWidget } from './types'
 
 const PREFERENCE_KEY = 'web-tanakh-audio-source'
 
 declare global {
   interface Window {
-    SC?: { Widget: (iframe: HTMLIFrameElement) => { bind: (event: string, callback: () => void) => void; pause: () => void } }
+    SC?: { Widget: (iframe: HTMLIFrameElement) => SoundCloudWidget }
   }
 }
 

@@ -36,3 +36,11 @@ export const MECHON_PREFIX = 'mechon-mamre:'
 export function isMechonMamre(resource: Pick<AudioResource, 'id'> | undefined) {
   return Boolean(resource?.id.startsWith(MECHON_PREFIX))
 }
+
+/** The subset of the SoundCloud Widget API the reader uses. */
+export type SoundCloudWidget = {
+  bind: (event: string, handler: (arg?: unknown) => void) => void
+  getPosition: (callback: (position: number) => void) => void
+  getDuration: (callback: (duration: number) => void) => void
+  pause: () => void
+}

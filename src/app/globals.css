@@ -59,6 +59,7 @@ button { cursor: pointer; }
 .word { border: 0; border-radius: 3px; padding: 0 3px; background: transparent; color: inherit; font: inherit; line-height: inherit; }
 .word:hover, .word:focus-visible { outline: 1px solid var(--maroon); background: #ead3d0; }
 .word.selected-word { color: var(--maroon); background: #ead3d0; }
+.word.active-word { background: #f2e2a8; outline: 1px solid #b59a3a; }
 .without-cantillation {  }
 .english { max-width: 720px; margin-top: 15px; color: #4f4740; font-size: 17px; line-height: 1.55; }
 .translation-tag { color: var(--maroon); font: 9px Arial, sans-serif; letter-spacing: .1em; margin-right: 9px; }

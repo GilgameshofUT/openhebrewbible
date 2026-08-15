@@ -9,6 +9,7 @@ import { ParallelView, PassageView } from './passage'
 import { StudyPanel } from './study-panel'
 import type { EnglishMode, NoteResource, Occurrence, PendingReference, TranslationId } from './types'
 import { useAudio } from './use-audio'
+import { useKaraoke } from './use-karaoke'
 import { useNotes } from './use-notes'
 import { useReadingPosition } from './use-reading-position'
 
@@ -43,6 +44,7 @@ export default function Reader() {
   const [translation, setTranslation] = useState<TranslationId>('jps')
 
   const audio = useAudio(book.id, chapter)
+  const { activeWordId } = useKaraoke(audio.frame, audio.open, audio.active, book.id, chapter)
   const { chapterNotes, verseNotes, lemmaNotes, loadLemmaNotes } = useNotes(book.id, chapter)
   useReadingPosition(book, chapter, setBook, setChapter, setPendingReference)
 
@@ -209,6 +211,7 @@ export default function Reader() {
     chapterLoading,
     translation,
     selectedWordId: selectedWord?.id,
+    activeWordId,
     onSelectWord: selectWord,
     verseNotes,
     onOpenNote: setNoteOpen,

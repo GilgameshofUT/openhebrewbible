@@ -11,8 +11,8 @@ export function wordLabel(word: Word) {
     : `${word.lemma}, ${word.morphologyLabel}`
 }
 
-export function wordClass(word: Word, selected: boolean) {
-  return `${selected ? 'word selected-word' : 'word'}${word.qere ? ' has-qere' : ''}`
+export function wordClass(word: Word, selected: boolean, active: boolean) {
+  return `${selected ? 'word selected-word' : 'word'}${active ? ' active-word' : ''}${word.qere ? ' has-qere' : ''}`
 }
 
 /**
@@ -25,12 +25,14 @@ export function wordClass(word: Word, selected: boolean) {
 export function HebrewVerse({
   verse,
   selectedWordId,
+  activeWordId,
   onSelectWord,
   notes,
   onOpenNote,
 }: {
   verse: Verse
   selectedWordId: string | undefined
+  activeWordId: string | undefined
   onSelectWord: (word: Word) => void
   notes: NoteResource[] | undefined
   onOpenNote: (note: NoteResource) => void
@@ -41,7 +43,7 @@ export function HebrewVerse({
       {verse.words.map((word) => (
         <button
           key={word.id}
-          className={wordClass(word, selectedWordId === word.id)}
+          className={wordClass(word, selectedWordId === word.id, activeWordId === word.id)}
           data-qere={word.qere}
           onClick={() => onSelectWord(word)}
           aria-label={wordLabel(word)}

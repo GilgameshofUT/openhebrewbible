@@ -12,6 +12,7 @@ type SharedProps = {
   chapterLoading: boolean
   translation: TranslationId
   selectedWordId: string | undefined
+  activeWordId: string | undefined
   onSelectWord: (word: Word) => void
   verseNotes: Record<string, NoteResource[]>
   onOpenNote: (note: NoteResource) => void
@@ -34,7 +35,7 @@ function ChapterLoading() {
 
 /** Single-column Hebrew reading view, optionally with English beneath. */
 export function PassageView({
-  book, chapter, verses, chapterLoading, translation, selectedWordId, onSelectWord, verseNotes, onOpenNote, englishMode,
+  book, chapter, verses, chapterLoading, translation, selectedWordId, activeWordId, onSelectWord, verseNotes, onOpenNote, englishMode,
 }: SharedProps & { englishMode: EnglishMode }) {
   return (
     <article className="passage" aria-label={`${book.name} chapter ${chapter}`}>
@@ -52,6 +53,7 @@ export function PassageView({
               <HebrewVerse
                 verse={verse}
                 selectedWordId={selectedWordId}
+                activeWordId={activeWordId}
                 onSelectWord={onSelectWord}
                 notes={verseNotes[String(verse.number)]}
                 onOpenNote={onOpenNote}
@@ -75,7 +77,7 @@ export function PassageView({
 
 /** Two-column Hebrew and English view. */
 export function ParallelView({
-  book, chapter, verses, chapterLoading, translation, selectedWordId, onSelectWord, verseNotes, onOpenNote,
+  book, chapter, verses, chapterLoading, translation, selectedWordId, activeWordId, onSelectWord, verseNotes, onOpenNote,
 }: SharedProps) {
   return (
     <div className="parallel-table" aria-label={`${book.name} chapter ${chapter} parallel text`}>
@@ -91,6 +93,7 @@ export function ParallelView({
               <HebrewVerse
                 verse={verse}
                 selectedWordId={selectedWordId}
+                activeWordId={activeWordId}
                 onSelectWord={onSelectWord}
                 notes={verseNotes[String(verse.number)]}
                 onOpenNote={onOpenNote}

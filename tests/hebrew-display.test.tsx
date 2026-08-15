@@ -46,6 +46,47 @@ describe('qere tooltip', () => {
   })
 })
 
+describe('karaoke highlight', () => {
+  it('styles the active word class', () => {
+    expect(css).toMatch(/\.word\.active-word\s*\{/)
+  })
+
+  it('emits the active-word class from wordClass', () => {
+    expect(reader).toContain("active ? ' active-word' : ''")
+  })
+})
+
+describe('karaoke widget events', () => {
+  const karaokeSource = readFileSync(join(process.cwd(), 'src', 'components', 'reader', 'use-karaoke.ts'), 'utf8')
+
+  it('binds the event names the player actually dispatches', () => {
+    // The player posts lowercase method names ("play", "playProgress",
+    // "ready", ...) and api.js dispatches callbacks by that exact string.
+    // SC_PLAY never fired; "PLAY" (uppercase) is also wrong — the dispatcher
+    // looks up callbacks["play"], not callbacks["PLAY"]. This was the reason
+    // the highlight never moved even after the event-name fix landed.
+    expect(karaokeSource).toMatch(/\.bind\('ready'/)
+    expect(karaokeSource).toMatch(/\.bind\('play'/)
+    expect(karaokeSource).toMatch(/\.bind\('pause'/)
+    expect(karaokeSource).toMatch(/\.bind\('seek'/)
+    expect(karaokeSource).toMatch(/\.bind\('finish'/)
+    expect(karaokeSource).toMatch(/\.bind\('playProgress'/)
+  })
+
+  it('never binds the invented SC_* or mis-cased event names', () => {
+    // Match the bind calls themselves, not source comments: the fix
+    // deliberately documents why "SC_PLAY"/"PLAY" are wrong.
+    expect(karaokeSource).not.toMatch(/\.bind\('SC_PLAY'/)
+    expect(karaokeSource).not.toMatch(/\.bind\('SC_PAUSE'/)
+    expect(karaokeSource).not.toMatch(/\.bind\('SC_SEEK'/)
+    expect(karaokeSource).not.toMatch(/\.bind\('PLAY'/)
+    expect(karaokeSource).not.toMatch(/\.bind\('PAUSE'/)
+    expect(karaokeSource).not.toMatch(/\.bind\('SEEK'/)
+    expect(karaokeSource).not.toMatch(/\.bind\('READY'/)
+    expect(karaokeSource).not.toMatch(/\.bind\('PLAY_PROGRESS'/)
+  })
+})
+
 describe('sof pasuq', () => {
   it('pulls the mark flush against the preceding word', () => {
     const rule = css.match(/\.verse-end-mark\s*\{[^}]*\}/)?.[0]
