@@ -1,7 +1,7 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { books, findBook, loadChapter, parseReference, type Book, type LexiconEntry, type Verse, type Word } from '@/data/tanakh'
+import { useEffect, useRef, useState } from 'react'
+import { books, findBook, loadChapter, loadLexiconEntry, parseReference, type Book, type LexiconEntry, type Verse, type Word } from '@/data/tanakh'
 import { ChapterResources } from './chapter-resources'
 import { ContextBar, NavigationDrawer, ReaderToolbar, TopBar } from './chrome'
 import { ImageViewer, NoteModal, OccurrencesModal } from './modals'
@@ -16,9 +16,13 @@ export default function Reader() {
   const [book, setBook] = useState<Book>(books[0])
   const [chapter, setChapter] = useState(1)
   const [verses, setVerses] = useState<Verse[]>([])
+  const [chapterLoading, setChapterLoading] = useState(true)
 
   const [selectedWord, setSelectedWord] = useState<Word | null>(null)
-  const [relatedLexicon, setRelatedLexicon] = useState<LexiconEntry | null>(null)
+  const [selectedEntry, setSelectedEntry] = useState<LexiconEntry | null>(null)
+  const [entryLoading, setEntryLoading] = useState(false)
+  // Guards against a slow lexicon fetch resolving after a newer selection.
+  const entryRequestRef = useRef(0)
 
   const [occurrencesOpen, setOccurrencesOpen] = useState(false)
   const [occurrences, setOccurrences] = useState<Occurrence[]>([])
@@ -44,11 +48,28 @@ export default function Reader() {
 
   useEffect(() => {
     let active = true
-    loadChapter(book.id, chapter, translation).then((loaded) => { if (active) setVerses(loaded) })
+    setChapterLoading(true)
+    loadChapter(book.id, chapter, translation).then((loaded) => {
+      if (active) {
+        setVerses(loaded)
+        setChapterLoading(false)
+      }
+    })
     return () => { active = false }
   }, [book.id, chapter, translation])
 
-  const selectedLexicon = relatedLexicon ?? selectedWord?.lexicon
+  function loadEntry(id: string) {
+    const request = ++entryRequestRef.current
+    setEntryLoading(true)
+    void loadLexiconEntry(id).then((entry) => {
+      if (entryRequestRef.current === request) {
+        setSelectedEntry(entry ?? null)
+        setEntryLoading(false)
+      }
+    })
+  }
+
+  const selectedLexicon = selectedEntry
 
   // Once the target chapter has loaded, select the word that was clicked in
   // the occurrences list and scroll it into view.
@@ -58,6 +79,7 @@ export default function Reader() {
     const targetWord = targetVerse?.words.find((word) => word.lexiconId === selectedWord?.lexiconId)
     if (!targetVerse || !targetWord) return
     setSelectedWord(targetWord)
+    if (targetWord.lexiconId) loadEntry(targetWord.lexiconId)
     setPendingOccurrence(null)
     requestAnimationFrame(() => {
       document
@@ -100,10 +122,12 @@ export default function Reader() {
 
   function selectWord(word: Word) {
     setSelectedWord(word)
-    setRelatedLexicon(null)
+    setSelectedEntry(null)
     setOccurrencesOpen(false)
     setOccurrences([])
     void loadLemmaNotes(word.lexiconId)
+    if (word.lexiconId) loadEntry(word.lexiconId)
+    else setEntryLoading(false)
   }
 
   function goToBook(target: Book) {
@@ -113,6 +137,7 @@ export default function Reader() {
     setQuery('')
     setMenuOpen(false)
     setSelectedWord(null)
+    setSelectedEntry(null)
     setOccurrencesOpen(false)
   }
 
@@ -128,6 +153,7 @@ export default function Reader() {
     setChapter(parsed.chapter)
     setVerses([])
     setSelectedWord(null)
+    setSelectedEntry(null)
     setOccurrencesOpen(false)
     setPendingReference({ bookId: parsed.book.id, chapter: parsed.chapter, verse: parsed.verse })
     setReferenceQuery('')
@@ -140,6 +166,7 @@ export default function Reader() {
     setBook(target)
     setChapter(occurrence.chapter)
     setVerses([])
+    setSelectedEntry(null)
     setPendingOccurrence(occurrence)
     setOccurrencesOpen(false)
   }
@@ -151,15 +178,6 @@ export default function Reader() {
       return
     }
     // The related lemma is absent from this chapter, so show the entry alone.
-    setRelatedLexicon({
-      id: relationship.id,
-      headword: relationship.headword,
-      transliteration: relationship.transliteration,
-      gloss: relationship.gloss,
-      morphology: '',
-      definition: relationship.gloss,
-      references: [],
-    })
     setSelectedWord({
       id: relationship.id,
       text: relationship.headword,
@@ -168,8 +186,11 @@ export default function Reader() {
       morphologyLabel: 'Lexical relationship',
       lexiconId: relationship.id,
     })
+    setSelectedEntry(null)
     setOccurrences([])
     setOccurrencesOpen(false)
+    void loadLemmaNotes(relationship.id)
+    loadEntry(relationship.id)
   }
 
   function renderNoteButton(note: NoteResource) {
@@ -185,6 +206,7 @@ export default function Reader() {
     book,
     chapter,
     verses,
+    chapterLoading,
     translation,
     selectedWordId: selectedWord?.id,
     onSelectWord: selectWord,
@@ -228,7 +250,8 @@ export default function Reader() {
           : <PassageView {...passageProps} englishMode={englishMode} />}
         <StudyPanel
           word={selectedWord}
-          entry={selectedLexicon}
+          entry={selectedLexicon ?? undefined}
+          loading={entryLoading}
           lemmaNotes={lemmaNotes}
           renderNoteButton={renderNoteButton}
           onDismiss={() => setSelectedWord(null)}

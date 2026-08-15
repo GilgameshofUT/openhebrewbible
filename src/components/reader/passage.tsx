@@ -9,6 +9,7 @@ type SharedProps = {
   book: Book
   chapter: number
   verses: Verse[]
+  chapterLoading: boolean
   translation: TranslationId
   selectedWordId: string | undefined
   onSelectWord: (word: Word) => void
@@ -26,9 +27,14 @@ function EmptyChapter() {
   )
 }
 
+/** Shown while a chapter fetch is in flight so the empty state never flashes. */
+function ChapterLoading() {
+  return <div className="chapter-loading" aria-live="polite">Loading chapter…</div>
+}
+
 /** Single-column Hebrew reading view, optionally with English beneath. */
 export function PassageView({
-  book, chapter, verses, translation, selectedWordId, onSelectWord, verseNotes, onOpenNote, englishMode,
+  book, chapter, verses, chapterLoading, translation, selectedWordId, onSelectWord, verseNotes, onOpenNote, englishMode,
 }: SharedProps & { englishMode: EnglishMode }) {
   return (
     <article className="passage" aria-label={`${book.name} chapter ${chapter}`}>
@@ -36,7 +42,9 @@ export function PassageView({
         <span>Hebrew text</span>
         <span className="source-chip">OSHB · WLC</span>
       </div>
-      {verses.length === 0 ? <EmptyChapter /> : verses.map((verse) => (
+      {verses.length === 0
+        ? chapterLoading ? <ChapterLoading /> : <EmptyChapter />
+        : verses.map((verse) => (
         <div className="verse" id={`verse-${book.id}-${chapter}-${verse.number}`} key={verse.number}>
           <div className="verse-number">{verse.number}</div>
           <div className="verse-body">
@@ -67,7 +75,7 @@ export function PassageView({
 
 /** Two-column Hebrew and English view. */
 export function ParallelView({
-  book, chapter, verses, translation, selectedWordId, onSelectWord, verseNotes, onOpenNote,
+  book, chapter, verses, chapterLoading, translation, selectedWordId, onSelectWord, verseNotes, onOpenNote,
 }: SharedProps) {
   return (
     <div className="parallel-table" aria-label={`${book.name} chapter ${chapter} parallel text`}>
@@ -75,7 +83,7 @@ export function ParallelView({
         <div>Hebrew text <span className="source-chip">OSHB · WLC</span></div>
         <div>English text <span className="source-chip">{translationLabel(translation)}</span></div>
       </div>
-      {verses.map((verse) => (
+      {verses.length === 0 && chapterLoading ? <ChapterLoading /> : verses.map((verse) => (
         <div className="parallel-row" id={`verse-${book.id}-${chapter}-${verse.number}`} key={verse.number}>
           <div className="parallel-hebrew">
             <div className="verse-number">{verse.number}</div>

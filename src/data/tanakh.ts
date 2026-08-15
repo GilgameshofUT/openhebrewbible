@@ -48,7 +48,6 @@ export type Word = {
   morphology: string
   morphologyLabel: string
   lexiconId: string
-  lexicon?: LexiconEntry
 }
 
 export type Verse = {
@@ -76,7 +75,6 @@ type ChapterResponse = {
       morphology: string
       morphologyLabel?: string
       lexiconId?: string | null
-      lexicon?: LexiconEntry | null
     }>
   }>
 }
@@ -93,7 +91,14 @@ export async function loadChapter(bookId: string, chapter: number, translation: 
       ...word,
       morphologyLabel: word.morphologyLabel ?? word.morphology,
       lexiconId: word.lexiconId ?? '',
-      lexicon: word.lexicon ?? undefined,
     })),
   }))
+}
+
+/** Fetches the full BDB entry for a selected word on demand. */
+export async function loadLexiconEntry(id: string): Promise<LexiconEntry | undefined> {
+  const response = await fetch(`/api/lexicon?id=${encodeURIComponent(id)}`)
+  if (!response.ok) return undefined
+  const data = await response.json() as { entry?: LexiconEntry }
+  return data.entry
 }

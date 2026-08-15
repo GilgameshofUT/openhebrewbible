@@ -29,6 +29,7 @@ function SenseList({ senses, depth = 0 }: { senses: LexiconSense[]; depth?: numb
 export function StudyPanel({
   word,
   entry,
+  loading,
   lemmaNotes,
   renderNoteButton,
   onDismiss,
@@ -37,13 +38,14 @@ export function StudyPanel({
 }: {
   word: Word | null
   entry: LexiconEntry | undefined
+  loading: boolean
   lemmaNotes: NoteResource[]
   renderNoteButton: (note: NoteResource) => React.ReactNode
   onDismiss: () => void
   onOpenOccurrences: () => void
   onSelectRelationship: (relationship: Relationship) => void
 }) {
-  if (!entry || !word) {
+  if (!word) {
     return (
       <aside className="study-panel" aria-live="polite">
         <div className="study-empty">
@@ -54,6 +56,32 @@ export function StudyPanel({
             <strong>Reading tip</strong>
             <span>Use the Hebrew-only view for a focused reading, or keep the translation beneath the text.</span>
           </div>
+        </div>
+      </aside>
+    )
+  }
+
+  if (loading) {
+    return (
+      <aside className="study-panel" aria-live="polite">
+        <div className="panel-kicker">
+          <span>Word study <span>{word.id}</span></span>
+          <button type="button" className="study-dismiss" onClick={onDismiss} aria-label="Close word study">Close ×</button>
+        </div>
+        <div className="study-loading">Loading lexicon entry…</div>
+      </aside>
+    )
+  }
+
+  if (!entry) {
+    return (
+      <aside className="study-panel" aria-live="polite">
+        <div className="panel-kicker">
+          <span>Word study <span>{word.id}</span></span>
+          <button type="button" className="study-dismiss" onClick={onDismiss} aria-label="Close word study">Close ×</button>
+        </div>
+        <div className="study-empty">
+          <p>No lexicon entry available for this word.</p>
         </div>
       </aside>
     )

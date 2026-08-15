@@ -48,7 +48,6 @@ export async function GET(request: Request) {
         ...word,
         morphologyLabel: word.morphologyLabel ?? word.morphology,
         lexiconId: entry?.id ?? null,
-        lexicon: entry ?? null,
       }
     }),
   }))

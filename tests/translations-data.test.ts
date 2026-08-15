@@ -102,6 +102,23 @@ maybe('committed translations', () => {
   })
 })
 
+describe('chapter payload stays lean', () => {
+  // Regression: the chapter API used to embed the full BDB entry (with its
+  // senses tree) for every word, making Psalm 119 a 1.25 MB response. Entries
+  // are fetched on demand from /api/lexicon for the selected word only.
+  it('does not embed the lexicon entry in chapter responses', () => {
+    const route = readFileSync(join(root, 'src', 'app', 'api', 'chapter', 'route.ts'), 'utf8')
+    expect(route).toContain('lexiconId')
+    expect(route).not.toContain('lexicon: entry')
+  })
+
+  it('serves entries on demand via /api/lexicon', () => {
+    const route = readFileSync(join(root, 'src', 'app', 'api', 'lexicon', 'route.ts'), 'utf8')
+    expect(route).toContain("params.get('id')")
+    expect(route).toContain('getLexicon')
+  })
+})
+
 describe('translation registry', () => {
   it('lists all six translations with unique ids', () => {
     expect(TRANSLATIONS.map((translation) => translation.id)).toEqual(['jps', 'kjv', 'web', 'ylt', 'bsb', 'sct'])
