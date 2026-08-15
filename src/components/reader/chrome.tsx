@@ -54,7 +54,7 @@ function AboutModal({ onClose }: { onClose: () => void }) {
           </li>
           <li>
             <strong>Manuscripts</strong>
-            <span>Leningrad Codex (1008 CE) page images — West Semitic Research (Bruce Zuckerman, USC), courtesy of the Russian National Library; hosted by the <a href="https://www.sefaria.org/manuscripts" target="_blank" rel="noreferrer">Sefaria manuscript viewer</a>.</span>
+            <span>Leningrad Codex (1008 CE) page images — West Semitic Research (Bruce Zuckerman, USC), courtesy of the Russian National Library; mirrored in the public domain on <a href="https://commons.wikimedia.org/wiki/Category:Leningrad_Codex,_color_JPG_images" target="_blank" rel="noreferrer">Wikimedia Commons</a>.</span>
           </li>
         </ul>
       </section>
