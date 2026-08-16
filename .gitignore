@@ -41,3 +41,6 @@ data/generated/books/
 # Everything not required to run the app: planning docs, research reports,
 # one-off provenance scripts, upstream archives. Kept locally, not published.
 local/
+
+# Word-alignment batch scratch (chapter/audio manifest + transcripts).
+scripts/align/.work/

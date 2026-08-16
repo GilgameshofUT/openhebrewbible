@@ -19,6 +19,39 @@ node map.mjs --book gen --chapter 1 \
 #    file, one {id,start,end} entry per word, ids matching the OSHB corpus.
 ```
 
+## Whole-corpus batch (all 929 chapters)
+
+For the full corpus the two single-chapter scripts are driven by a
+`book -> chapter -> audio-file` manifest at `scripts/align/.work/chapters.json`
+(one entry per chapter, e.g. `{"book":"gen","chapter":1,"file":"/path/gen-1.mp3"}`):
+
+```bash
+# 1. Transcribe every chapter (resumable: skips existing transcripts).
+python batch_transcribe.py
+
+# 2. Align every transcript; writes data/external/word-alignment/<book>-<chapter>.json
+#    and prints REJECT for any chapter whose transcript mismatches its text.
+ALIGN_OUT=data/external/word-alignment node batch_align.mjs
+```
+
+`.work/` (transcripts, manifest) is gitignored; only the committed
+`data/external/word-alignment/` files are the product.
+
+## Filename pitfalls in the local audio library
+
+- Recordings named `פרק ידטו` / `פרק ידטז` ("14:15" / "14:16") actually
+  contain chapters 15 and 16; the manifest must map them to the *content*
+  chapter, not the filename numeral (this naming was chosen so the files sort
+  correctly inside audiobook players).
+- Sixty Psalms files in the local copy were truncated to ~37 KB (an ID3 tag
+  with a cover image but no audio stream). Re-downloading them from the 929
+  Omny playlists (`omny.fm/shows/tehilim/playlists/929-<chapter-1>/embed`) and
+  the tehilim podcast RSS restores them; the catalog in
+  `data/external/929-soundcloud-chapter-audio.json` records a YouTube URL for
+  some chapters but the same content is on Omny.
+- Chapters missing from the local library entirely (Numbers 36, 2 Chronicles
+  4/8/10/20/33/34) are also on those Omny playlists (clip "בהקראת עומר פרנקל").
+
 `map.mjs` reads the unpointed book text from `data/generated/books/` and the
 whisper JSON from `--transcript`. It:
 

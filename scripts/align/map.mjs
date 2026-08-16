@@ -161,11 +161,13 @@ for (let i = 0; i < result.length; i++) {
 }
 for (let i = 1; i < result.length; i++) {
   if (result[i].start < result[i - 1].end) result[i].start = result[i - 1].end
+  if (result[i].end <= result[i].start) result[i].end = result[i].start + 300
 }
 
 fs.writeFileSync(outPath, JSON.stringify(result, null, 1))
 let bad = 0
 for (let i = 1; i < result.length; i++) if (result[i].start < result[i - 1].end) bad++
+for (let i = 0; i < result.length; i++) if (result[i].end <= result[i].start) bad++
 console.error(`words: ${result.length}, non-monotonic transitions: ${bad}`)
 console.error(`first word: ${JSON.stringify(result[0])}`)
 console.error(`last word: ${JSON.stringify(result[result.length - 1])}`)
