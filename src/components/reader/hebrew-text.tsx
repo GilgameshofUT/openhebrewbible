@@ -54,7 +54,7 @@ export function HebrewVerse({
       <span className="verse-end-mark" aria-label="sof pasuq">׃</span>
       {notes?.map((note) => (
         <span key={note.id}>
-          <button type="button" className="note-link" onClick={() => onOpenNote(note)}>Note ↗</button>
+          <button type="button" className="note-link" onClick={() => onOpenNote(note)}>Info 📚</button>
         </span>
       ))}
     </>

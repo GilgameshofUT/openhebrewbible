@@ -175,7 +175,7 @@ button { cursor: pointer; }
 .translation-paragraph + .translation-paragraph { margin-top: 12px; }
 .translation-line { display: inline; }
 .divine-name { font-variant: small-caps; letter-spacing: .04em; }
-.note-link { margin-inline-start: 8px; border: 0; background: transparent; color: var(--maroon); font: 11px Arial, sans-serif; cursor: pointer; }
+.note-link { margin-inline-start: 8px; border: 0; background: transparent; color: var(--maroon); font: 14px Arial, sans-serif; cursor: pointer; }
 .chapter-note-links, .lemma-note-links { max-width: 1500px; margin: 0 auto; padding: 8px 5vw; }
 .note-modal iframe { display: block; width: 100%; min-height: 420px; border: 0; }
 .chapter-audio { max-width: 1500px; margin: 0 auto; padding: 16px 5vw 0; }
