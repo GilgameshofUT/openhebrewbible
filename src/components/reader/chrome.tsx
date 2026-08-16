@@ -86,6 +86,9 @@ export function TopBar({
             <span>read closely</span>
           </div>
         </div>
+        <button className="quiet-button" onClick={() => setMenuOpen(!menuOpen)} aria-expanded={menuOpen}>
+          Navigate <span>⌄</span>
+        </button>
         <div className="reference-nav">
           <label htmlFor="reference-search">Go to</label>
           <div className="reference-field">
@@ -99,14 +102,11 @@ export function TopBar({
             <button onClick={() => onNavigateReference(referenceQuery)}>Go</button>
           </div>
         </div>
-        <button className="quiet-button" onClick={() => setMenuOpen(!menuOpen)} aria-expanded={menuOpen}>
-          Navigate <span>⌄</span>
-        </button>
-      </div>
-      <div className="top-actions">
-        <button type="button" className="about-button" onClick={() => setAboutOpen(true)}>About the sources</button>
-        <a className="social-link" href={REPO_URL} target="_blank" rel="noreferrer" aria-label="Open Hebrew Bible on GitHub"><GitHubIcon /></a>
-        <a className="social-link" href={CHANNEL_URL} target="_blank" rel="noreferrer" aria-label="Hebrew Bible with Gilgamesh on YouTube"><img className="social-avatar" src="/gilgamesh-profile.jpg" alt="" /></a>
+        <div className="top-actions">
+          <button type="button" className="about-button" onClick={() => setAboutOpen(true)}>About the sources</button>
+          <a className="social-link" href={REPO_URL} target="_blank" rel="noreferrer" aria-label="Open Hebrew Bible on GitHub"><GitHubIcon /></a>
+          <a className="social-link" href={CHANNEL_URL} target="_blank" rel="noreferrer" aria-label="Hebrew Bible with Gilgamesh on YouTube"><img className="social-avatar" src="/gilgamesh-profile.jpg" alt="" /></a>
+        </div>
       </div>
       {aboutOpen && <AboutModal onClose={() => setAboutOpen(false)} />}
     </header>
