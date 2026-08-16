@@ -45,7 +45,9 @@ export function useKaraoke(
 
   const anchorRef = useRef({ position: 0, at: 0 })
   const playingRef = useRef(false)
+  const pausedRef = useRef(true)
   const readyRef = useRef(false)
+  const lastActiveRef = useRef<string | undefined>(undefined)
   const wordsRef = useRef<AlignedWord[]>([])
   wordsRef.current = words
 
@@ -54,6 +56,19 @@ export function useKaraoke(
     if (!open || !enabled || !frame.current) return
     let cancelled = false
     let widget: SoundCloudWidget | null = null
+
+    // Closing the player unmounts the iframe without dispatching pause or
+    // finish, so teardown must clear the highlight itself. lastActive is
+    // reset too, or a resumed track landing on the same word would never
+    // re-light it.
+    const teardown = () => {
+      cancelled = true
+      readyRef.current = false
+      playingRef.current = false
+      pausedRef.current = true
+      lastActiveRef.current = undefined
+      setActiveWordId(undefined)
+    }
 
     const applyPosition = (position: number) => {
       anchorRef.current = { position, at: Date.now() }
@@ -70,21 +85,22 @@ export function useKaraoke(
         readyRef.current = true
         widget!.bind('playProgress', (arg) => {
           if (cancelled) return
-          // playProgress only fires while playing, so it is the most reliable
-          // signal that playback is live (a seek-to-start can skip play).
-          playingRef.current = true
           const progress = arg as { currentPosition?: number } | undefined
           if (progress && typeof progress.currentPosition === 'number') {
             applyPosition(progress.currentPosition)
           } else {
             widget!.getPosition(applyPosition)
           }
+          // After pause() the widget keeps reporting a settling playhead
+          // (playProgress then SEEK). Those trailing events must not restart
+          // the rAF loop, so playProgress only counts as evidence of live
+          // playback when the widget is not known to be paused.
+          if (!pausedRef.current) playingRef.current = true
         })
-        widget!.bind('play', () => { if (!cancelled) { playingRef.current = true; widget!.getPosition(applyPosition) } })
-        widget!.bind('pause', () => { if (!cancelled) { playingRef.current = false; setActiveWordId(undefined) } })
+        widget!.bind('play', () => { if (!cancelled) { pausedRef.current = false; playingRef.current = true; widget!.getPosition(applyPosition) } })
+        widget!.bind('pause', () => { if (!cancelled) { pausedRef.current = true; playingRef.current = false; setActiveWordId(undefined) } })
         widget!.bind('seek', () => { if (!cancelled) widget!.getPosition(applyPosition) })
-        widget!.bind('finish', () => { if (!cancelled) { playingRef.current = false; setActiveWordId(undefined) } })
-        widget!.getPosition(applyPosition)
+        widget!.bind('finish', () => { if (!cancelled) { pausedRef.current = true; playingRef.current = false; setActiveWordId(undefined) } })
       }
 
       // The player dispatches callbacks by the exact lowercase method name it
@@ -100,6 +116,7 @@ export function useKaraoke(
 
     if (window.SC) {
       setup()
+      return teardown
     } else {
       const existing = document.querySelector<HTMLScriptElement>('script[data-soundcloud-api]')
       const script = existing ?? document.createElement('script')
@@ -110,32 +127,24 @@ export function useKaraoke(
       script.addEventListener('load', setup)
       if (!existing) document.head.appendChild(script)
       return () => {
-        cancelled = true
+        teardown()
         script.removeEventListener('load', setup)
       }
     }
-
-    return () => {
-      cancelled = true
-      readyRef.current = false
-      playingRef.current = false
-    }
   }, [open, enabled, activeId, frame])
-
   // Extrapolate between playProgress anchors and move the highlight on
   // word changes only.
   useEffect(() => {
     if (words.length === 0) return
     let raf = 0
-    let lastActive: string | undefined
 
     const tick = () => {
       if (playingRef.current) {
         const { position, at } = anchorRef.current
         const estimated = position + (Date.now() - at) / 1000 * 1000
         const active = activeWordAt(wordsRef.current, estimated)
-        if (active !== lastActive) {
-          lastActive = active
+        if (active !== lastActiveRef.current) {
+          lastActiveRef.current = active
           setActiveWordId(active)
         }
       }

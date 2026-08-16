@@ -93,6 +93,31 @@ describe('karaoke widget events', () => {
     expect(pauseBinding).toBeDefined()
     expect(pauseBinding).toMatch(/setActiveWordId\(undefined\)/)
   })
+
+  it('clears the highlight when the player is torn down', () => {
+    // Closing the player unmounts the iframe, which fires neither pause nor
+    // finish; only the effect teardown runs. It must clear the highlight and
+    // reset lastActive, or the last word stays lit after the player closes
+    // and a reopened track on the same word never re-lights.
+    const teardown = karaokeSource.match(/const teardown = \(\) => \{[^}]*\}/)?.[0]
+    expect(teardown).toBeDefined()
+    expect(teardown).toMatch(/setActiveWordId\(undefined\)/)
+    expect(teardown).toMatch(/lastActiveRef\.current = undefined/)
+  })
+
+  it('does not let the pause-settle playProgress restart the loop', () => {
+    // After pause() the widget keeps reporting a settling playhead
+    // (playProgress then SEEK). A playProgress handler that unconditionally
+    // sets playingRef=true resurrects the rAF loop, so the highlight stops
+    // for a split second and then keeps animating — exactly what the user
+    // reported. playProgress must only count as live playback when the
+    // widget is not known to be paused.
+    expect(karaokeSource).toMatch(/\.bind\('playProgress'[\s\S]*?if \(!pausedRef\.current\) playingRef\.current = true/)
+    const unconditional = karaokeSource.match(/\.bind\('playProgress'[\s\S]*?\.bind\('play'/)?.[0]
+    expect(unconditional).not.toMatch(/^\s*playingRef\.current = true\s*$/m)
+    expect(karaokeSource).toMatch(/\.bind\('pause'[\s\S]*?pausedRef\.current = true/)
+    expect(karaokeSource).toMatch(/\.bind\('finish'[\s\S]*?pausedRef\.current = true/)
+  })
 })
 
 describe('soundcloud finish handler', () => {
