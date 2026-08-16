@@ -232,7 +232,7 @@ button { cursor: pointer; }
 .note-image-button { display: block; width: 100%; border: 0; padding: 0; background: transparent; cursor: zoom-in; }
 .note-image { display: block; width: 100%; max-height: none; object-fit: contain; background: #eee7dc; }
 .image-viewer-backdrop { position: fixed; z-index: 30; inset: 0; display: grid; place-items: center; padding: 12px; background: rgba(24, 21, 19, .82); overscroll-behavior: contain; touch-action: none; }
-.image-viewer { position: relative; width: min(96vw, 1600px); height: min(96vh, 1200px); overflow: auto; -webkit-overflow-scrolling: touch; background: #eee7dc; max-width: 100%; max-height: 100%; overscroll-behavior: contain; touch-action: pinch-zoom; }
+.image-viewer { position: relative; width: min(96vw, 1600px); height: min(96vh, 1200px); overflow: auto; -webkit-overflow-scrolling: touch; background: #eee7dc; max-width: 100%; max-height: 100%; overscroll-behavior: contain; touch-action: pan-x pan-y pinch-zoom; }
 .image-viewer img { display: block; width: auto; min-width: 100%; max-width: none; height: auto; }
 .image-viewer-close { position: fixed; z-index: 1; top: 22px; right: 28px; width: 38px; height: 38px; border: 0; border-radius: 50%; background: var(--white); color: var(--maroon); font-size: 28px; line-height: 1; cursor: pointer; }
 .resource-group { display: grid; gap: 24px; }

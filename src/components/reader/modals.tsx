@@ -64,7 +64,7 @@ export function ImageViewer({ image, onClose }: { image: NoteResource; onClose: 
   const drag = useRef<{ x: number; y: number; left: number; top: number } | null>(null)
 
   function start(event: React.PointerEvent<HTMLDivElement>) {
-    if (event.pointerType !== 'mouse' || event.button !== 0) return
+    if (event.button !== 0) return
     const viewer = event.currentTarget
     drag.current = { x: event.clientX, y: event.clientY, left: viewer.scrollLeft, top: viewer.scrollTop }
     viewer.setPointerCapture(event.pointerId)
