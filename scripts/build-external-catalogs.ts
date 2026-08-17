@@ -140,7 +140,7 @@ function parseMechonCode(code: string) {
     '01': 'gen', '02': 'exod', '03': 'lev', '04': 'num', '05': 'deut', '06': 'josh', '07': 'judg', '08a': 'sam1', '08b': 'sam2',
     '09a': 'kgs1', '09b': 'kgs2', '10': 'isa', '11': 'jer', '12': 'ezek', '13': 'hos', '14': 'joel', '15': 'amos', '16': 'obad',
     '17': 'jonah', '18': 'mic', '19': 'nah', '20': 'hab', '21': 'zeph', '22': 'hag', '23': 'zech', '24': 'mal', '25a': 'chr1',
-    '25b': 'chr2', '26': 'ps', '26a': 'ps', '26b': 'ps', '26c': 'ps', '26d': 'ps', '26e': 'ps', '26f': 'ps', '27': 'prov', '28': 'job', '29': 'song', '30': 'ruth', '31': 'lam', '32': 'eccl', '33': 'esth', '34': 'dan',
+    '25b': 'chr2', '26': 'ps', '26a': 'ps', '26b': 'ps', '26c': 'ps', '26d': 'ps', '26e': 'ps', '26f': 'ps', '27': 'job', '28': 'prov', '29': 'ruth', '30': 'song', '31': 'eccl', '32': 'lam', '33': 'esth', '34': 'dan',
     '35a': 'ezra', '35b': 'neh',
   }
   const bookId = codeBook[`${String(number).padStart(2, '0')}${match[2]}`]

@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://mechon-mamre.org/p/pt/ptmp3prq.htm",
-  "crawledAt": "2026-08-13T20:59:24.059Z",
+  "crawledAt": "2026-08-17T22:23:05.677Z",
   "resources": [
     {
       "id": "mechon-mamre:t1501",
@@ -1683,10 +1683,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t3201",
+      "id": "mechon-mamre:t3101",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3201.mp3",
+      "url": "https://mechon-mamre.org/mp3/t3101.mp3",
       "title": "Ecclesiastes 1 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -1697,10 +1697,52 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t3202",
+      "id": "mechon-mamre:t3110",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3202.mp3",
+      "url": "https://mechon-mamre.org/mp3/t3110.mp3",
+      "title": "Ecclesiastes 10 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:eccl:10"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t3111",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t3111.mp3",
+      "title": "Ecclesiastes 11 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:eccl:11"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t3112",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t3112.mp3",
+      "title": "Ecclesiastes 12 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:eccl:12"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t3102",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t3102.mp3",
       "title": "Ecclesiastes 2 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -1711,10 +1753,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t3203",
+      "id": "mechon-mamre:t3103",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3203.mp3",
+      "url": "https://mechon-mamre.org/mp3/t3103.mp3",
       "title": "Ecclesiastes 3 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -1725,10 +1767,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t3204",
+      "id": "mechon-mamre:t3104",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3204.mp3",
+      "url": "https://mechon-mamre.org/mp3/t3104.mp3",
       "title": "Ecclesiastes 4 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -1739,14 +1781,70 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t3205",
+      "id": "mechon-mamre:t3105",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3205.mp3",
+      "url": "https://mechon-mamre.org/mp3/t3105.mp3",
       "title": "Ecclesiastes 5 Hebrew reading",
       "targetType": "chapter",
       "targets": [
         "chapter:eccl:5"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t3106",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t3106.mp3",
+      "title": "Ecclesiastes 6 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:eccl:6"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t3107",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t3107.mp3",
+      "title": "Ecclesiastes 7 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:eccl:7"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t3108",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t3108.mp3",
+      "title": "Ecclesiastes 8 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:eccl:8"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t3109",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t3109.mp3",
+      "title": "Ecclesiastes 9 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:eccl:9"
       ],
       "status": "published",
       "mappingMethod": "source-filename",
@@ -5883,10 +5981,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2801",
+      "id": "mechon-mamre:t2701",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2801.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2701.mp3",
       "title": "Job 1 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -5897,10 +5995,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2810",
+      "id": "mechon-mamre:t2710",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2810.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2710.mp3",
       "title": "Job 10 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -5911,10 +6009,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2811",
+      "id": "mechon-mamre:t2711",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2811.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2711.mp3",
       "title": "Job 11 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -5925,10 +6023,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2812",
+      "id": "mechon-mamre:t2712",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2812.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2712.mp3",
       "title": "Job 12 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -5939,10 +6037,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2813",
+      "id": "mechon-mamre:t2713",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2813.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2713.mp3",
       "title": "Job 13 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -5953,10 +6051,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2814",
+      "id": "mechon-mamre:t2714",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2814.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2714.mp3",
       "title": "Job 14 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -5967,10 +6065,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2815",
+      "id": "mechon-mamre:t2715",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2815.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2715.mp3",
       "title": "Job 15 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -5981,10 +6079,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2816",
+      "id": "mechon-mamre:t2716",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2816.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2716.mp3",
       "title": "Job 16 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -5995,10 +6093,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2817",
+      "id": "mechon-mamre:t2717",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2817.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2717.mp3",
       "title": "Job 17 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6009,10 +6107,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2818",
+      "id": "mechon-mamre:t2718",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2818.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2718.mp3",
       "title": "Job 18 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6023,10 +6121,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2819",
+      "id": "mechon-mamre:t2719",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2819.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2719.mp3",
       "title": "Job 19 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6037,10 +6135,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2802",
+      "id": "mechon-mamre:t2702",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2802.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2702.mp3",
       "title": "Job 2 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6051,10 +6149,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2820",
+      "id": "mechon-mamre:t2720",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2820.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2720.mp3",
       "title": "Job 20 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6065,10 +6163,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2821",
+      "id": "mechon-mamre:t2721",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2821.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2721.mp3",
       "title": "Job 21 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6079,10 +6177,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2822",
+      "id": "mechon-mamre:t2722",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2822.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2722.mp3",
       "title": "Job 22 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6093,10 +6191,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2823",
+      "id": "mechon-mamre:t2723",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2823.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2723.mp3",
       "title": "Job 23 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6107,10 +6205,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2824",
+      "id": "mechon-mamre:t2724",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2824.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2724.mp3",
       "title": "Job 24 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6121,10 +6219,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2825",
+      "id": "mechon-mamre:t2725",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2825.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2725.mp3",
       "title": "Job 25 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6135,10 +6233,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2826",
+      "id": "mechon-mamre:t2726",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2826.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2726.mp3",
       "title": "Job 26 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6149,10 +6247,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2827",
+      "id": "mechon-mamre:t2727",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2827.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2727.mp3",
       "title": "Job 27 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6163,10 +6261,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2828",
+      "id": "mechon-mamre:t2728",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2828.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2728.mp3",
       "title": "Job 28 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6177,10 +6275,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2829",
+      "id": "mechon-mamre:t2729",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2829.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2729.mp3",
       "title": "Job 29 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6191,10 +6289,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2803",
+      "id": "mechon-mamre:t2703",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2803.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2703.mp3",
       "title": "Job 3 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6205,10 +6303,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2830",
+      "id": "mechon-mamre:t2730",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2830.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2730.mp3",
       "title": "Job 30 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6219,10 +6317,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2831",
+      "id": "mechon-mamre:t2731",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2831.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2731.mp3",
       "title": "Job 31 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6233,10 +6331,122 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2804",
+      "id": "mechon-mamre:t2732",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2804.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2732.mp3",
+      "title": "Job 32 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:job:32"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t2733",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t2733.mp3",
+      "title": "Job 33 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:job:33"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t2734",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t2734.mp3",
+      "title": "Job 34 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:job:34"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t2735",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t2735.mp3",
+      "title": "Job 35 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:job:35"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t2736",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t2736.mp3",
+      "title": "Job 36 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:job:36"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t2737",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t2737.mp3",
+      "title": "Job 37 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:job:37"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t2738",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t2738.mp3",
+      "title": "Job 38 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:job:38"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t2739",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t2739.mp3",
+      "title": "Job 39 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:job:39"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t2704",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t2704.mp3",
       "title": "Job 4 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6247,10 +6457,52 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2805",
+      "id": "mechon-mamre:t2740",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2805.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2740.mp3",
+      "title": "Job 40 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:job:40"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t2741",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t2741.mp3",
+      "title": "Job 41 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:job:41"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t2742",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t2742.mp3",
+      "title": "Job 42 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:job:42"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t2705",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t2705.mp3",
       "title": "Job 5 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6261,10 +6513,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2806",
+      "id": "mechon-mamre:t2706",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2806.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2706.mp3",
       "title": "Job 6 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6275,10 +6527,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2807",
+      "id": "mechon-mamre:t2707",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2807.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2707.mp3",
       "title": "Job 7 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6289,10 +6541,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2808",
+      "id": "mechon-mamre:t2708",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2808.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2708.mp3",
       "title": "Job 8 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -6303,10 +6555,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2809",
+      "id": "mechon-mamre:t2709",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2809.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2709.mp3",
       "title": "Job 9 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -7717,10 +7969,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t3101",
+      "id": "mechon-mamre:t3201",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3101.mp3",
+      "url": "https://mechon-mamre.org/mp3/t3201.mp3",
       "title": "Lamentations 1 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -7731,52 +7983,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t3110",
+      "id": "mechon-mamre:t3202",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3110.mp3",
-      "title": "Lamentations 10 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:lam:10"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t3111",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3111.mp3",
-      "title": "Lamentations 11 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:lam:11"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t3112",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3112.mp3",
-      "title": "Lamentations 12 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:lam:12"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t3102",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3102.mp3",
+      "url": "https://mechon-mamre.org/mp3/t3202.mp3",
       "title": "Lamentations 2 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -7787,10 +7997,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t3103",
+      "id": "mechon-mamre:t3203",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3103.mp3",
+      "url": "https://mechon-mamre.org/mp3/t3203.mp3",
       "title": "Lamentations 3 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -7801,10 +8011,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t3104",
+      "id": "mechon-mamre:t3204",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3104.mp3",
+      "url": "https://mechon-mamre.org/mp3/t3204.mp3",
       "title": "Lamentations 4 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -7815,70 +8025,14 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t3105",
+      "id": "mechon-mamre:t3205",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3105.mp3",
+      "url": "https://mechon-mamre.org/mp3/t3205.mp3",
       "title": "Lamentations 5 Hebrew reading",
       "targetType": "chapter",
       "targets": [
         "chapter:lam:5"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t3106",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3106.mp3",
-      "title": "Lamentations 6 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:lam:6"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t3107",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3107.mp3",
-      "title": "Lamentations 7 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:lam:7"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t3108",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3108.mp3",
-      "title": "Lamentations 8 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:lam:8"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t3109",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3109.mp3",
-      "title": "Lamentations 9 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:lam:9"
       ],
       "status": "published",
       "mappingMethod": "source-filename",
@@ -9145,10 +9299,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2701",
+      "id": "mechon-mamre:t2801",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2701.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2801.mp3",
       "title": "Proverbs 1 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9159,10 +9313,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2710",
+      "id": "mechon-mamre:t2810",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2710.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2810.mp3",
       "title": "Proverbs 10 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9173,10 +9327,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2711",
+      "id": "mechon-mamre:t2811",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2711.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2811.mp3",
       "title": "Proverbs 11 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9187,10 +9341,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2712",
+      "id": "mechon-mamre:t2812",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2712.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2812.mp3",
       "title": "Proverbs 12 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9201,10 +9355,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2713",
+      "id": "mechon-mamre:t2813",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2713.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2813.mp3",
       "title": "Proverbs 13 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9215,10 +9369,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2714",
+      "id": "mechon-mamre:t2814",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2714.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2814.mp3",
       "title": "Proverbs 14 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9229,10 +9383,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2715",
+      "id": "mechon-mamre:t2815",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2715.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2815.mp3",
       "title": "Proverbs 15 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9243,10 +9397,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2716",
+      "id": "mechon-mamre:t2816",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2716.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2816.mp3",
       "title": "Proverbs 16 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9257,10 +9411,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2717",
+      "id": "mechon-mamre:t2817",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2717.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2817.mp3",
       "title": "Proverbs 17 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9271,10 +9425,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2718",
+      "id": "mechon-mamre:t2818",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2718.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2818.mp3",
       "title": "Proverbs 18 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9285,10 +9439,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2719",
+      "id": "mechon-mamre:t2819",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2719.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2819.mp3",
       "title": "Proverbs 19 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9299,10 +9453,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2702",
+      "id": "mechon-mamre:t2802",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2702.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2802.mp3",
       "title": "Proverbs 2 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9313,10 +9467,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2720",
+      "id": "mechon-mamre:t2820",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2720.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2820.mp3",
       "title": "Proverbs 20 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9327,10 +9481,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2721",
+      "id": "mechon-mamre:t2821",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2721.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2821.mp3",
       "title": "Proverbs 21 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9341,10 +9495,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2722",
+      "id": "mechon-mamre:t2822",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2722.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2822.mp3",
       "title": "Proverbs 22 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9355,10 +9509,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2723",
+      "id": "mechon-mamre:t2823",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2723.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2823.mp3",
       "title": "Proverbs 23 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9369,10 +9523,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2724",
+      "id": "mechon-mamre:t2824",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2724.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2824.mp3",
       "title": "Proverbs 24 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9383,10 +9537,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2725",
+      "id": "mechon-mamre:t2825",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2725.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2825.mp3",
       "title": "Proverbs 25 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9397,10 +9551,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2726",
+      "id": "mechon-mamre:t2826",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2726.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2826.mp3",
       "title": "Proverbs 26 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9411,10 +9565,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2727",
+      "id": "mechon-mamre:t2827",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2727.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2827.mp3",
       "title": "Proverbs 27 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9425,10 +9579,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2728",
+      "id": "mechon-mamre:t2828",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2728.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2828.mp3",
       "title": "Proverbs 28 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9439,10 +9593,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2729",
+      "id": "mechon-mamre:t2829",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2729.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2829.mp3",
       "title": "Proverbs 29 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9453,10 +9607,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2703",
+      "id": "mechon-mamre:t2803",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2703.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2803.mp3",
       "title": "Proverbs 3 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9467,10 +9621,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2730",
+      "id": "mechon-mamre:t2830",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2730.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2830.mp3",
       "title": "Proverbs 30 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9481,10 +9635,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2731",
+      "id": "mechon-mamre:t2831",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2731.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2831.mp3",
       "title": "Proverbs 31 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9495,122 +9649,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2732",
+      "id": "mechon-mamre:t2804",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2732.mp3",
-      "title": "Proverbs 32 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:prov:32"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t2733",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2733.mp3",
-      "title": "Proverbs 33 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:prov:33"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t2734",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2734.mp3",
-      "title": "Proverbs 34 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:prov:34"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t2735",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2735.mp3",
-      "title": "Proverbs 35 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:prov:35"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t2736",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2736.mp3",
-      "title": "Proverbs 36 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:prov:36"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t2737",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2737.mp3",
-      "title": "Proverbs 37 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:prov:37"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t2738",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2738.mp3",
-      "title": "Proverbs 38 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:prov:38"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t2739",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2739.mp3",
-      "title": "Proverbs 39 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:prov:39"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t2704",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2704.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2804.mp3",
       "title": "Proverbs 4 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9621,52 +9663,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2740",
+      "id": "mechon-mamre:t2805",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2740.mp3",
-      "title": "Proverbs 40 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:prov:40"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t2741",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2741.mp3",
-      "title": "Proverbs 41 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:prov:41"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t2742",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2742.mp3",
-      "title": "Proverbs 42 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:prov:42"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t2705",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2705.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2805.mp3",
       "title": "Proverbs 5 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9677,10 +9677,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2706",
+      "id": "mechon-mamre:t2806",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2706.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2806.mp3",
       "title": "Proverbs 6 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9691,10 +9691,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2707",
+      "id": "mechon-mamre:t2807",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2707.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2807.mp3",
       "title": "Proverbs 7 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9705,10 +9705,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2708",
+      "id": "mechon-mamre:t2808",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2708.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2808.mp3",
       "title": "Proverbs 8 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -9719,10 +9719,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2709",
+      "id": "mechon-mamre:t2809",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2709.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2809.mp3",
       "title": "Proverbs 9 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -11833,10 +11833,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t3001",
+      "id": "mechon-mamre:t2901",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3001.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2901.mp3",
       "title": "Ruth 1 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -11847,10 +11847,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t3002",
+      "id": "mechon-mamre:t2902",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3002.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2902.mp3",
       "title": "Ruth 2 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -11861,10 +11861,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t3003",
+      "id": "mechon-mamre:t2903",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3003.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2903.mp3",
       "title": "Ruth 3 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -11875,70 +11875,14 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t3004",
+      "id": "mechon-mamre:t2904",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3004.mp3",
+      "url": "https://mechon-mamre.org/mp3/t2904.mp3",
       "title": "Ruth 4 Hebrew reading",
       "targetType": "chapter",
       "targets": [
         "chapter:ruth:4"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t3005",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3005.mp3",
-      "title": "Ruth 5 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:ruth:5"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t3006",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3006.mp3",
-      "title": "Ruth 6 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:ruth:6"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t3007",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3007.mp3",
-      "title": "Ruth 7 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:ruth:7"
-      ],
-      "status": "published",
-      "mappingMethod": "source-filename",
-      "notes": "Chapter-level recording; no verse timestamps inferred."
-    },
-    {
-      "id": "mechon-mamre:t3008",
-      "provider": "Mechon-Mamre / Talking Bibles International",
-      "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t3008.mp3",
-      "title": "Ruth 8 Hebrew reading",
-      "targetType": "chapter",
-      "targets": [
-        "chapter:ruth:8"
       ],
       "status": "published",
       "mappingMethod": "source-filename",
@@ -12715,10 +12659,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2901",
+      "id": "mechon-mamre:t3001",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2901.mp3",
+      "url": "https://mechon-mamre.org/mp3/t3001.mp3",
       "title": "Song of Songs 1 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -12729,10 +12673,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2902",
+      "id": "mechon-mamre:t3002",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2902.mp3",
+      "url": "https://mechon-mamre.org/mp3/t3002.mp3",
       "title": "Song of Songs 2 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -12743,10 +12687,10 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2903",
+      "id": "mechon-mamre:t3003",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2903.mp3",
+      "url": "https://mechon-mamre.org/mp3/t3003.mp3",
       "title": "Song of Songs 3 Hebrew reading",
       "targetType": "chapter",
       "targets": [
@@ -12757,14 +12701,70 @@
       "notes": "Chapter-level recording; no verse timestamps inferred."
     },
     {
-      "id": "mechon-mamre:t2904",
+      "id": "mechon-mamre:t3004",
       "provider": "Mechon-Mamre / Talking Bibles International",
       "kind": "audio",
-      "url": "https://mechon-mamre.org/mp3/t2904.mp3",
+      "url": "https://mechon-mamre.org/mp3/t3004.mp3",
       "title": "Song of Songs 4 Hebrew reading",
       "targetType": "chapter",
       "targets": [
         "chapter:song:4"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t3005",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t3005.mp3",
+      "title": "Song of Songs 5 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:song:5"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t3006",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t3006.mp3",
+      "title": "Song of Songs 6 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:song:6"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t3007",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t3007.mp3",
+      "title": "Song of Songs 7 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:song:7"
+      ],
+      "status": "published",
+      "mappingMethod": "source-filename",
+      "notes": "Chapter-level recording; no verse timestamps inferred."
+    },
+    {
+      "id": "mechon-mamre:t3008",
+      "provider": "Mechon-Mamre / Talking Bibles International",
+      "kind": "audio",
+      "url": "https://mechon-mamre.org/mp3/t3008.mp3",
+      "title": "Song of Songs 8 Hebrew reading",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:song:8"
       ],
       "status": "published",
       "mappingMethod": "source-filename",
