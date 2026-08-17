@@ -16,6 +16,8 @@ type SharedProps = {
   onSelectWord: (word: Word) => void
   verseNotes: Record<string, NoteResource[]>
   onOpenNote: (note: NoteResource) => void
+  verseStarts: Record<number, number>
+  onPlayFromVerse: (verseNumber: number) => void
 }
 
 function EmptyChapter() {
@@ -33,9 +35,26 @@ function ChapterLoading() {
   return <div className="chapter-loading" aria-live="polite">Loading chapter…</div>
 }
 
+/** A small play button next to a verse number that starts audio at that verse. */
+function VersePlayButton({ verse, verseStarts, onPlayFromVerse }: { verse: Verse; verseStarts: Record<number, number>; onPlayFromVerse: (n: number) => void }) {
+  const start = verseStarts[verse.number]
+  if (start == null) return null
+  return (
+    <button
+      type="button"
+      className="verse-play"
+      onClick={(event) => { event.stopPropagation(); onPlayFromVerse(verse.number) }}
+      aria-label={`Play verse ${verse.number}`}
+      title="Play audio from this verse"
+    >
+      ▶
+    </button>
+  )
+}
+
 /** Single-column Hebrew reading view, optionally with English beneath. */
 export function PassageView({
-  book, chapter, verses, chapterLoading, translation, selectedWordId, activeWordId, onSelectWord, verseNotes, onOpenNote, englishMode,
+  book, chapter, verses, chapterLoading, translation, selectedWordId, activeWordId, onSelectWord, verseNotes, onOpenNote, englishMode, verseStarts, onPlayFromVerse,
 }: SharedProps & { englishMode: EnglishMode }) {
   return (
     <article className="passage" aria-label={`${book.name} chapter ${chapter}`}>
@@ -47,7 +66,10 @@ export function PassageView({
         ? chapterLoading ? <ChapterLoading /> : <EmptyChapter />
         : verses.map((verse) => (
         <div className="verse" id={`verse-${book.id}-${chapter}-${verse.number}`} key={verse.number}>
-          <div className="verse-number">{verse.number}</div>
+          <div className="verse-number">
+            {verse.number}
+            <VersePlayButton verse={verse} verseStarts={verseStarts} onPlayFromVerse={onPlayFromVerse} />
+          </div>
           <div className="verse-body">
             <div className="hebrew" lang="he" dir="rtl">
               <HebrewVerse
@@ -77,7 +99,7 @@ export function PassageView({
 
 /** Two-column Hebrew and English view. */
 export function ParallelView({
-  book, chapter, verses, chapterLoading, translation, selectedWordId, activeWordId, onSelectWord, verseNotes, onOpenNote,
+  book, chapter, verses, chapterLoading, translation, selectedWordId, activeWordId, onSelectWord, verseNotes, onOpenNote, verseStarts, onPlayFromVerse,
 }: SharedProps) {
   return (
     <div className="parallel-table" aria-label={`${book.name} chapter ${chapter} parallel text`}>
@@ -88,7 +110,10 @@ export function ParallelView({
       {verses.length === 0 && chapterLoading ? <ChapterLoading /> : verses.map((verse) => (
         <div className="parallel-row" id={`verse-${book.id}-${chapter}-${verse.number}`} key={verse.number}>
           <div className="parallel-hebrew">
-            <div className="verse-number">{verse.number}</div>
+            <div className="verse-number">
+              {verse.number}
+              <VersePlayButton verse={verse} verseStarts={verseStarts} onPlayFromVerse={onPlayFromVerse} />
+            </div>
             <div className="hebrew" lang="he" dir="rtl">
               <HebrewVerse
                 verse={verse}

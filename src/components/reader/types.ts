@@ -42,5 +42,7 @@ export type SoundCloudWidget = {
   bind: (event: string, handler: (arg?: unknown) => void) => void
   getPosition: (callback: (position: number) => void) => void
   getDuration: (callback: (duration: number) => void) => void
+  play: () => void
+  seekTo: (milliseconds: number) => void
   pause: () => void
 }

@@ -11,8 +11,11 @@ declare global {
   }
 }
 
+type AudioCommand = { kind: 'start' } | { kind: 'seek'; positionMs: number }
+
 /**
- * Loads chapter audio and remembers which provider the reader prefers.
+ * Loads chapter audio, remembers which provider the reader prefers, and owns
+ * the transport commands (play / seek) for whichever player is mounted.
  *
  * The preference is stored as a provider name rather than a resource id,
  * because ids are chapter-specific.
@@ -22,6 +25,10 @@ export function useAudio(bookId: string, chapter: number) {
   const [selectedId, setSelectedId] = useState('')
   const [open, setOpen] = useState(false)
   const frame = useRef<HTMLIFrameElement | null>(null)
+  const nativeAudio = useRef<HTMLAudioElement | null>(null)
+  // A state (not a ref) so issuing a new command while the player is already
+  // open still re-renders and re-delivers it.
+  const [command, setCommand] = useState<AudioCommand | null>(null)
 
   useEffect(() => {
     let active = true
@@ -47,19 +54,22 @@ export function useAudio(bookId: string, chapter: number) {
   const active = resources.find((resource) => resource.id === selectedId) ?? resources[0]
   const isSoundCloud = Boolean(active && !isMechonMamre(active))
 
-  // Stop a finished SoundCloud track instead of letting the widget roll on.
+  // Bind a vanilla SoundCloud widget (no highlight logic — that lives in
+  // use-karaoke) once per mount.
+  const widgetRef = useRef<SoundCloudWidget | null>(null)
   useEffect(() => {
-    if (!open || !isSoundCloud) return
+    if (!open || !isSoundCloud || !frame.current) return
     let cancelled = false
     const setupWidget = () => {
       if (cancelled || !window.SC || !frame.current) return
       const widget = window.SC.Widget(frame.current)
+      widgetRef.current = widget
       // Lowercase: the player dispatches "finish", not "FINISH".
       widget.bind('finish', () => widget.pause())
     }
     if (window.SC) {
       setupWidget()
-      return () => { cancelled = true }
+      return () => { cancelled = true; widgetRef.current = null }
     }
     // Append the provider script at most once per document.
     const existing = document.querySelector<HTMLScriptElement>('script[data-soundcloud-api]')
@@ -71,13 +81,55 @@ export function useAudio(bookId: string, chapter: number) {
     script.addEventListener('load', setupWidget)
     if (!existing) document.head.appendChild(script)
     return () => { cancelled = true; script.removeEventListener('load', setupWidget) }
-  }, [open, isSoundCloud, active?.id])
+  }, [open, isSoundCloud, active?.id, frame])
+
+  // Deliver a queued play/seek once the player exists. The SoundCloud widget
+  // queues commands until it is ready, so transport can be issued immediately;
+  // the native element needs currentTime set after metadata loads.
+  useEffect(() => {
+    if (!open || !active || !command) return
+    const { kind, positionMs } = command as AudioCommand & { positionMs?: number }
+    setCommand(null)
+
+    if (isMechonMamre(active)) {
+      const el = nativeAudio.current
+      if (!el) return
+      const start = () => {
+        if (kind === 'seek' && positionMs != null) el.currentTime = positionMs / 1000
+        void el.play()
+      }
+      // preload="none" means no metadata yet; seeking before it has loaded is a
+      // no-op in some browsers, so wait for the first loadedmetadata event.
+      if (el.readyState >= 1) start()
+      else el.addEventListener('loadedmetadata', start, { once: true })
+      return
+    }
+
+    if (window.SC && frame.current) {
+      const widget = window.SC.Widget(frame.current)
+      if (kind === 'seek' && positionMs != null) widget.seekTo(positionMs)
+      widget.play()
+    }
+  }, [open, active, isSoundCloud, command])
+
+  /** Open the panel and start playback from the beginning of the track. */
+  function playFromStart() {
+    setCommand({ kind: 'start' })
+    setOpen(true)
+  }
+
+  /** Open the panel (if needed), seek to milliseconds in the track, and play. */
+  function playFrom(positionMs: number) {
+    setCommand({ kind: 'seek', positionMs })
+    setOpen(true)
+  }
 
   function choose(resource: AudioResource) {
     setSelectedId(resource.id)
     window.localStorage.setItem(PREFERENCE_KEY, isMechonMamre(resource) ? 'mechon' : 'project-929')
+    setCommand({ kind: 'start' })
     setOpen(true)
   }
 
-  return { resources, active, open, setOpen, choose, frame }
+  return { resources, active, open, setOpen, choose, playFromStart, playFrom, frame, nativeAudio }
 }

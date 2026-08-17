@@ -58,7 +58,9 @@ button { cursor: pointer; }
 .passage-heading { justify-content: space-between; padding-bottom: 12px; border-bottom: 2px solid var(--ink); color: var(--muted); font: 10px Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; }
 .source-chip { color: var(--maroon); font-size: 9px; letter-spacing: .08em; }
 .verse { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 17px; padding: 28px 0 30px; border-bottom: 1px solid var(--line); }
-.verse-number { color: var(--maroon); font: 12px Arial, sans-serif; padding-top: 10px; }
+.verse-number { color: var(--maroon); font: 12px Arial, sans-serif; padding-top: 10px; display: grid; justify-items: start; gap: 8px; }
+.verse-play { border: 1px solid var(--line); border-radius: 2px; padding: 2px 5px; background: transparent; color: var(--maroon); font: 10px Arial, sans-serif; cursor: pointer; line-height: 1; }
+.verse-play:hover, .verse-play:focus-visible { background: var(--paper); color: var(--ink); }
 .hebrew { font-family: 'Ezra SIL', 'Times New Roman', serif; font-size: clamp(26px, 3.2vw, 42px); line-height: 1.75; text-align: right; }
 .word { border: 0; border-radius: 3px; padding: 0 3px; background: transparent; color: inherit; font: inherit; line-height: inherit; }
 .word:hover, .word:focus-visible { outline: 1px solid var(--maroon); background: #ead3d0; }
@@ -188,6 +190,11 @@ button { cursor: pointer; }
 .audio-source-option:last-child { border-right: 0; }
 .audio-source-option:hover, .audio-source-option:focus-visible { color: var(--maroon); background: var(--paper); }
 .audio-source-option.selected { background: var(--maroon); color: var(--white); }
+.audio-speed-options { display: inline-flex; border: 1px solid var(--line); border-radius: 2px; overflow: hidden; background: var(--white); }
+.audio-speed-option { border: 0; border-right: 1px solid var(--line); padding: 7px 9px; background: transparent; color: var(--muted); font: 11px Arial, sans-serif; cursor: pointer; }
+.audio-speed-option:last-child { border-right: 0; }
+.audio-speed-option:hover, .audio-speed-option:focus-visible { color: var(--maroon); background: var(--paper); }
+.audio-speed-option.selected { background: var(--maroon); color: var(--white); }
 .chapter-audio-toggle { width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 12px 0; border: 0; border-top: 1px solid var(--line); background: transparent; color: var(--maroon); text-align: left; }
 .chapter-audio-toggle > span:first-child { display: grid; gap: 4px; }
 .chapter-audio-toggle strong { color: var(--ink); font: 17px Georgia, 'Times New Roman', serif; }

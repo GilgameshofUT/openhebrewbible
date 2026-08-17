@@ -5,35 +5,37 @@ import { activeWordAt, type AlignedWord } from '@/lib/word-timing'
 import { isMechonMamre, type AudioResource, type SoundCloudWidget } from './types'
 
 /**
- * Highlights the word being spoken while a Project 929 track plays.
+ * Highlights the word being spoken while audio plays.
  *
- * The SoundCloud widget reports position via playProgress every ~250 ms;
- * between those anchors a requestAnimationFrame loop extrapolates forward, so
- * the highlight stays glued to the audio instead of stepping. state only
- * changes when the active word actually changes.
+ * Project 929 runs in a SoundCloud iframe: the widget reports position via
+ * playProgress every ~250 ms, and a requestAnimationFrame loop extrapolates
+ * forward between anchors. Mechon Mamre runs in a plain <audio> element whose
+ * timeupdate fires ~4x/sec; there we read currentTime directly and skip the
+ * extrapolation (the audio element is the source of truth).
  */
 export function useKaraoke(
   frame: RefObject<HTMLIFrameElement | null>,
+  nativeAudio: RefObject<HTMLAudioElement | null>,
   open: boolean,
   resource: AudioResource | undefined,
   bookId: string,
   chapter: number,
 ) {
-  const enabled = Boolean(resource && !isMechonMamre(resource))
+  const isMechon = Boolean(resource && isMechonMamre(resource))
+  const enabled = Boolean(resource)
   const activeId = resource?.id
   const [words, setWords] = useState<AlignedWord[]>([])
   const [activeWordId, setActiveWordId] = useState<string | undefined>(undefined)
 
-  // Load this chapter's alignment data. Only SoundCloud (Project 929) has
-  // timestamps; Mechon Mamre's reading pace differs, so no highlight there.
+  // Load this chapter's alignment data. Each provider has its own timing set
+  // because they are different readers at different paces.
   useEffect(() => {
     let live = true
     setActiveWordId(undefined)
-    if (!enabled) {
-      setWords([])
-      return
-    }
-    fetch(`/api/alignment?book=${encodeURIComponent(bookId)}&chapter=${chapter}`)
+    setWords([])
+    if (!enabled) return
+    const source = isMechon ? 'mechon' : ''
+    fetch(`/api/alignment?book=${encodeURIComponent(bookId)}&chapter=${chapter}&source=${source}`)
       .then((response) => response.json())
       .then((data: { words?: AlignedWord[] }) => {
         if (!live) return
@@ -41,7 +43,7 @@ export function useKaraoke(
       })
       .catch(() => { if (live) setWords([]) })
     return () => { live = false }
-  }, [enabled, bookId, chapter, activeId])
+  }, [enabled, isMechon, bookId, chapter, activeId])
 
   const anchorRef = useRef({ position: 0, at: 0 })
   const playingRef = useRef(false)
@@ -51,16 +53,16 @@ export function useKaraoke(
   const wordsRef = useRef<AlignedWord[]>([])
   wordsRef.current = words
 
-  // Bind the widget events whenever the player mounts or the track changes.
+  // Bind playback events whenever the player mounts or the track changes.
   useEffect(() => {
-    if (!open || !enabled || !frame.current) return
+    if (!open || !enabled) return
     let cancelled = false
     let widget: SoundCloudWidget | null = null
 
-    // Closing the player unmounts the iframe without dispatching pause or
-    // finish, so teardown must clear the highlight itself. lastActive is
-    // reset too, or a resumed track landing on the same word would never
-    // re-light it.
+    // Close-unmount teardown: the iframe never dispatches pause/finish when
+    // the panel closes, and the native element just becomes hidden. Clear the
+    // highlight ourselves. lastActive is reset too, or a resumed track landing
+    // on the same word would never re-light it.
     const teardown = () => {
       cancelled = true
       readyRef.current = false
@@ -69,6 +71,37 @@ export function useKaraoke(
       lastActiveRef.current = undefined
       setActiveWordId(undefined)
     }
+
+    // --- Mechon Mamre: native <audio>, timeupdate is the source of truth ---
+    if (isMechon) {
+      const el = nativeAudio.current
+      if (!el) return teardown
+      const onTimeUpdate = () => {
+        if (cancelled) return
+        anchorRef.current = { position: el.currentTime * 1000, at: Date.now() }
+        if (!pausedRef.current) playingRef.current = true
+      }
+      const onPlay = () => { if (!cancelled) { pausedRef.current = false; playingRef.current = true } }
+      const onPause = () => { if (!cancelled) { pausedRef.current = true; playingRef.current = false; setActiveWordId(undefined) } }
+      const onSeeked = onTimeUpdate
+      const onEnded = onPause
+      el.addEventListener('timeupdate', onTimeUpdate)
+      el.addEventListener('play', onPlay)
+      el.addEventListener('pause', onPause)
+      el.addEventListener('seeked', onSeeked)
+      el.addEventListener('ended', onEnded)
+      return () => {
+        el.removeEventListener('timeupdate', onTimeUpdate)
+        el.removeEventListener('play', onPlay)
+        el.removeEventListener('pause', onPause)
+        el.removeEventListener('seeked', onSeeked)
+        el.removeEventListener('ended', onEnded)
+        teardown()
+      }
+    }
+
+    // --- Project 929: SoundCloud widget ---
+    if (!frame.current) return teardown
 
     const applyPosition = (position: number) => {
       anchorRef.current = { position, at: Date.now() }
@@ -131,7 +164,7 @@ export function useKaraoke(
         script.removeEventListener('load', setup)
       }
     }
-  }, [open, enabled, activeId, frame])
+  }, [open, enabled, isMechon, activeId, frame, nativeAudio])
   // Extrapolate between playProgress anchors and move the highlight on
   // word changes only.
   useEffect(() => {
@@ -154,5 +187,5 @@ export function useKaraoke(
     return () => cancelAnimationFrame(raf)
   }, [words])
 
-  return { activeWordId }
+  return { activeWordId, words }
 }

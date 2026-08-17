@@ -1,4 +1,5 @@
 import js from '@eslint/js'
+import globals from 'globals'
 import nextPlugin from '@next/eslint-plugin-next'
 import reactHooks from 'eslint-plugin-react-hooks'
 import tseslint from 'typescript-eslint'
@@ -27,7 +28,7 @@ export default tseslint.config(
     // Plain Node maintenance scripts run outside the bundler.
     files: ['scripts/**/*.mjs', '*.config.mjs'],
     languageOptions: {
-      globals: { process: 'readonly', console: 'readonly' },
+      globals: { ...globals.node },
     },
   },
   {

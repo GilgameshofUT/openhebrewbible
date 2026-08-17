@@ -44,7 +44,17 @@ export default function Reader() {
   const [translation, setTranslation] = useState<TranslationId>('jps')
 
   const audio = useAudio(book.id, chapter)
-  const { activeWordId } = useKaraoke(audio.frame, audio.open, audio.active, book.id, chapter)
+  const { activeWordId, words } = useKaraoke(audio.frame, audio.nativeAudio, audio.open, audio.active, book.id, chapter)
+
+  // Alignment order is identical to the chapter's word order (enforced by the
+  // alignment data-shape tests), so each verse's start is the first word whose
+  // alignment window begins. Used by the verse play icons.
+  const verseStartById = words.length ? new Map(words.map((word) => [word.id, word.start])) : new Map<string, number>()
+  const verseStarts = verses.reduce<Record<number, number>>((map, verse) => {
+    const first = verse.words[0]?.id
+    if (first && verseStartById.has(first)) map[verse.number] = verseStartById.get(first)!
+    return map
+  }, {})
   const { chapterNotes, verseNotes, lemmaNotes, loadLemmaNotes } = useNotes(book.id, chapter)
   useReadingPosition(book, chapter, setBook, setChapter, setPendingReference)
 
@@ -215,6 +225,11 @@ export default function Reader() {
     onSelectWord: selectWord,
     verseNotes,
     onOpenNote: setNoteOpen,
+    verseStarts,
+    onPlayFromVerse: (verseNumber: number) => {
+      const start = verseStarts[verseNumber]
+      if (start != null) audio.playFrom(start)
+    },
   }
 
   return (

@@ -20,6 +20,7 @@ const CORPUS = path.join(ROOT, 'data/generated/books')
 const WORK = path.join(__dirname, '.work')
 const OUT = process.env.ALIGN_OUT ?? path.join(ROOT, 'data/external/word-alignment')
 const chaptersPath = process.env.CHAPTERS ?? path.join(WORK, 'chapters.json')
+const transcriptDir = process.env.TRANSCRIPTS_DIR ?? path.join(WORK, 'transcripts')
 
 const chapters = JSON.parse(fs.readFileSync(chaptersPath, 'utf8'))
 const STRIP = /[\u0591-\u05C7\u05F3\u05F4]/gu
@@ -77,7 +78,7 @@ function align(a, b) {
 
 function processChapter(ch) {
   const { book, chapter } = ch
-  const transcriptPath = path.join(WORK, 'transcripts', `${book}-${chapter}.json`)
+  const transcriptPath = path.join(transcriptDir, `${book}-${chapter}.json`)
   if (!fs.existsSync(transcriptPath)) return null
 
   const gen = readJson(path.join(CORPUS, `${book}.json`))

@@ -2,11 +2,12 @@ import json, os, sys, time
 from faster_whisper import WhisperModel
 
 WORK = os.path.dirname(os.path.abspath(__file__))
-TRANSCRIPTS = os.path.join(WORK, ".work", "transcripts")
+TRANSCRIPTS = os.environ.get("TRANSCRIPTS_DIR", os.path.join(WORK, ".work", "transcripts"))
+MANIFEST = os.environ.get("MANIFEST", os.path.join(WORK, ".work", "chapters.json"))
 FORCE = "--force" in sys.argv
 ONLY = os.path.join(WORK, ".work", "testset.json") if os.path.exists(os.path.join(WORK, ".work", "testset.json")) else None
 
-chapters = json.load(open(ONLY or os.path.join(WORK, ".work", "chapters.json"), encoding="utf-8"))
+chapters = json.load(open(ONLY or MANIFEST, encoding="utf-8"))
 os.makedirs(TRANSCRIPTS, exist_ok=True)
 model = WhisperModel("medium", device="cuda", compute_type="int8_float16")
 
