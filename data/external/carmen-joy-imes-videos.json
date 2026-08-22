@@ -1,0 +1,3869 @@
+{
+  "sourceUrl": "https://www.youtube.com/@CarmenJoyImesPhD",
+  "resources": [
+    {
+      "id": "youtube:video:_1Rum6ycWuY",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=_1Rum6ycWuY",
+      "embedUrl": "https://www.youtube.com/embed/_1Rum6ycWuY",
+      "title": "Torah Tuesday - Exodus 23:9-13",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:23:9",
+        "verse:exod:23:10",
+        "verse:exod:23:11",
+        "verse:exod:23:12",
+        "verse:exod:23:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 23:9,23:10,23:11,23:12,23:13; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:_vyA4qSof08",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=_vyA4qSof08",
+      "embedUrl": "https://www.youtube.com/embed/_vyA4qSof08",
+      "title": "Torah Tuesday - Genesis 3:1-7",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:3:1",
+        "verse:gen:3:2",
+        "verse:gen:3:3",
+        "verse:gen:3:4",
+        "verse:gen:3:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 3:1,3:2,3:3,3:4,3:5,3:6,3:7; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:_yUok53KFM4",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=_yUok53KFM4",
+      "embedUrl": "https://www.youtube.com/embed/_yUok53KFM4",
+      "title": "Torah Tuesday - Exodus 9:19-24",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:9:19",
+        "verse:exod:9:20",
+        "verse:exod:9:21",
+        "verse:exod:9:22",
+        "verse:exod:9:23"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 9:19,9:20,9:21,9:22,9:23,9:24; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:-cllA-JYgo8",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=-cllA-JYgo8",
+      "embedUrl": "https://www.youtube.com/embed/-cllA-JYgo8",
+      "title": "Torah Tuesday - Exodus 5:10-19",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:5:10",
+        "verse:exod:5:11",
+        "verse:exod:5:12",
+        "verse:exod:5:13",
+        "verse:exod:5:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:-d16iqSM16A",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=-d16iqSM16A",
+      "embedUrl": "https://www.youtube.com/embed/-d16iqSM16A",
+      "title": "Torah Tuesday - Exodus 1:1, 7",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:1:1",
+        "verse:exod:1:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 1:1,1:7; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:0eVGxOE9da8",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=0eVGxOE9da8",
+      "embedUrl": "https://www.youtube.com/embed/0eVGxOE9da8",
+      "title": "Torah Tuesday - Genesis 1:14-16 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:14",
+        "verse:gen:1:15",
+        "verse:gen:1:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:14,1:15,1:16; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:0JjAXNd5FQY",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=0JjAXNd5FQY",
+      "embedUrl": "https://www.youtube.com/embed/0JjAXNd5FQY",
+      "title": "Torah Tuesday - Exodus 6:14-19",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:6:14",
+        "verse:exod:6:15",
+        "verse:exod:6:16",
+        "verse:exod:6:17",
+        "verse:exod:6:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 6:14,6:15,6:16,6:17,6:18,6:19; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:0MzBQTrutxI",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=0MzBQTrutxI",
+      "embedUrl": "https://www.youtube.com/embed/0MzBQTrutxI",
+      "title": "Torah Tuesday - Exodus 20:15",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:20:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 20:15; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:0OcgwI_28-s",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=0OcgwI_28-s",
+      "embedUrl": "https://www.youtube.com/embed/0OcgwI_28-s",
+      "title": "Torah Tuesday - Exodus 14:10-14",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:14:10",
+        "verse:exod:14:11",
+        "verse:exod:14:12",
+        "verse:exod:14:13",
+        "verse:exod:14:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 14:10,14:11,14:12,14:13,14:14; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:0qHj1czkVEg",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=0qHj1czkVEg",
+      "embedUrl": "https://www.youtube.com/embed/0qHj1czkVEg",
+      "title": "Torah Tuesday - Genesis 1:27",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:27"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:27; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:0ztw7sxWArI",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=0ztw7sxWArI",
+      "embedUrl": "https://www.youtube.com/embed/0ztw7sxWArI",
+      "title": "Torah Tuesday - Exodus 3:13-15",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:13",
+        "verse:exod:3:14",
+        "verse:exod:3:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 3:13,3:14,3:15; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:1DnVrfO2Xew",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=1DnVrfO2Xew",
+      "embedUrl": "https://www.youtube.com/embed/1DnVrfO2Xew",
+      "title": "Torah Tuesday - Exodus 12:14-20",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:12:14",
+        "verse:exod:12:15",
+        "verse:exod:12:16",
+        "verse:exod:12:17",
+        "verse:exod:12:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 12:14,12:15,12:16,12:17,12:18,12:19,12:20; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:1F574BUc4mI",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=1F574BUc4mI",
+      "embedUrl": "https://www.youtube.com/embed/1F574BUc4mI",
+      "title": "Torah Tuesday - Exodus 13:11-16",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:13:11",
+        "verse:exod:13:12",
+        "verse:exod:13:13",
+        "verse:exod:13:14",
+        "verse:exod:13:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 13:11,13:12,13:13,13:14,13:15,13:16; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:1uVp_H66elc",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=1uVp_H66elc",
+      "embedUrl": "https://www.youtube.com/embed/1uVp_H66elc",
+      "title": "Torah Tuesday - Exodus 16:1-12",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:16:1",
+        "verse:exod:16:2",
+        "verse:exod:16:3",
+        "verse:exod:16:4",
+        "verse:exod:16:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 16:1,16:2,16:3,16:4,16:5,16:6,16:7,16:8,16:9,16:10,16:11,16:12; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:1zA1DekBCKw",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=1zA1DekBCKw",
+      "embedUrl": "https://www.youtube.com/embed/1zA1DekBCKw",
+      "title": "Torah Tuesday - Exodus 24:4-8",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:24:4",
+        "verse:exod:24:5",
+        "verse:exod:24:6",
+        "verse:exod:24:7",
+        "verse:exod:24:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 24:4,24:5,24:6,24:7,24:8; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:24Oc0uwRmGY",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=24Oc0uwRmGY",
+      "embedUrl": "https://www.youtube.com/embed/24Oc0uwRmGY",
+      "title": "Torah Tuesday -  Exodus 10:24-29",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:10:24",
+        "verse:exod:10:25",
+        "verse:exod:10:26",
+        "verse:exod:10:27",
+        "verse:exod:10:28"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 10:24,10:25,10:26,10:27,10:28,10:29; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:2aggom5W04w",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=2aggom5W04w",
+      "embedUrl": "https://www.youtube.com/embed/2aggom5W04w",
+      "title": "Torah Tuesday - Exodus 17:8-16",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:17:8",
+        "verse:exod:17:9",
+        "verse:exod:17:10",
+        "verse:exod:17:11",
+        "verse:exod:17:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 17:8,17:9,17:10,17:11,17:12,17:13,17:14,17:15,17:16; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:2oRb3pRRXA0",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=2oRb3pRRXA0",
+      "embedUrl": "https://www.youtube.com/embed/2oRb3pRRXA0",
+      "title": "Torah Tuesday - Exodus 3:2-3 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:2",
+        "verse:exod:3:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 3:2,3:3; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:2Wbgn-ZDUOo",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=2Wbgn-ZDUOo",
+      "embedUrl": "https://www.youtube.com/embed/2Wbgn-ZDUOo",
+      "title": "Torah Tuesday - Leviticus 17-20",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:lev:17",
+        "chapter:lev:18",
+        "chapter:lev:19",
+        "chapter:lev:20"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): lev 17, lev 18, lev 19, lev 20. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:38qyc0RP3RE",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=38qyc0RP3RE",
+      "embedUrl": "https://www.youtube.com/embed/38qyc0RP3RE",
+      "title": "Torah Tuesday - Exodus 12:3-7",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:12:3",
+        "verse:exod:12:4",
+        "verse:exod:12:5",
+        "verse:exod:12:6",
+        "verse:exod:12:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 12:3,12:4,12:5,12:6,12:7; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:3dqVVp1JpuA",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=3dqVVp1JpuA",
+      "embedUrl": "https://www.youtube.com/embed/3dqVVp1JpuA",
+      "title": "Torah Tuesday - Exodus 21:1-2",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:21:1",
+        "verse:exod:21:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 21:1,21:2; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:3h-dzXO2zjM",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=3h-dzXO2zjM",
+      "embedUrl": "https://www.youtube.com/embed/3h-dzXO2zjM",
+      "title": "Torah Tuesday - Exodus 26:1-14 (Curtains)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:26:1",
+        "verse:exod:26:2",
+        "verse:exod:26:3",
+        "verse:exod:26:4",
+        "verse:exod:26:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 26:1,26:2,26:3,26:4,26:5,26:6,26:7,26:8,26:9,26:10,26:11,26:12,26:13,26:14; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:3LN_Oq3d9pQ",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=3LN_Oq3d9pQ",
+      "embedUrl": "https://www.youtube.com/embed/3LN_Oq3d9pQ",
+      "title": "Torah Tuesday - Exodus 22:14-17",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:22:13",
+        "verse:exod:22:14",
+        "verse:exod:22:15",
+        "verse:exod:22:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 22:14,22:15,22:16,22:17; mapped to 4 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:4XpxFTlDmGo",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=4XpxFTlDmGo",
+      "embedUrl": "https://www.youtube.com/embed/4XpxFTlDmGo",
+      "title": "Torah Tuesday - Exodus 4:25-26",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:4:25",
+        "verse:exod:4:26"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 4:25,4:26; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:4ZcD_X_FoJo",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=4ZcD_X_FoJo",
+      "embedUrl": "https://www.youtube.com/embed/4ZcD_X_FoJo",
+      "title": "Torah Tuesday - Psalm 1:1-3",
+      "targetType": "verse",
+      "targets": [
+        "verse:ps:1:1",
+        "verse:ps:1:2",
+        "verse:ps:1:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ps 1:1,1:2,1:3; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:5aShg4Os2CI",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=5aShg4Os2CI",
+      "embedUrl": "https://www.youtube.com/embed/5aShg4Os2CI",
+      "title": "Torah Tuesday - Exodus 22:28-31",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:22:27",
+        "verse:exod:22:28",
+        "verse:exod:22:29",
+        "verse:exod:22:30"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 22:28,22:29,22:30,22:31; mapped to 4 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:5c9XXIPibME",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=5c9XXIPibME",
+      "embedUrl": "https://www.youtube.com/embed/5c9XXIPibME",
+      "title": "Torah Tuesday - Exodus 10:21-23",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:10:21",
+        "verse:exod:10:22",
+        "verse:exod:10:23"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 10:21,10:22,10:23; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:5HGhgcbYUao",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=5HGhgcbYUao",
+      "embedUrl": "https://www.youtube.com/embed/5HGhgcbYUao",
+      "title": "Torah Tuesday - Exodus 13:1-2",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:13:1",
+        "verse:exod:13:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 13:1,13:2; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:5kY37EnNQP0",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=5kY37EnNQP0",
+      "embedUrl": "https://www.youtube.com/embed/5kY37EnNQP0",
+      "title": "Torah Tuesday - Exodus 20:13",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:20:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 20:13; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:5lB68M1wD_Y",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=5lB68M1wD_Y",
+      "embedUrl": "https://www.youtube.com/embed/5lB68M1wD_Y",
+      "title": "Torah Tuesday - Genesis 1:27 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:27"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:27; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:5nQ4NRcXJ14",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=5nQ4NRcXJ14",
+      "embedUrl": "https://www.youtube.com/embed/5nQ4NRcXJ14",
+      "title": "Torah Tuesday - Exodus 4:24",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:4:24"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 4:24; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:5Rl79Zdpjls",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=5Rl79Zdpjls",
+      "embedUrl": "https://www.youtube.com/embed/5Rl79Zdpjls",
+      "title": "Torah Tuesday - Exodus 26:15-30 (Frames)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:26:15",
+        "verse:exod:26:16",
+        "verse:exod:26:17",
+        "verse:exod:26:18",
+        "verse:exod:26:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 26:15,26:16,26:17,26:18,26:19,26:20,26:21,26:22,26:23,26:24,26:25,26:26,26:27,26:28,26:29,26:30; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:64MHrYA4pHw",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=64MHrYA4pHw",
+      "embedUrl": "https://www.youtube.com/embed/64MHrYA4pHw",
+      "title": "Torah Tuesday - Exodus 3:12, 18 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:12",
+        "verse:exod:3:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 3:12,3:18; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:68XRCwXs5nA",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=68XRCwXs5nA",
+      "embedUrl": "https://www.youtube.com/embed/68XRCwXs5nA",
+      "title": "Torah Tuesday - Exodus 27:9-21 (Courtyard)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:27:9",
+        "verse:exod:27:10",
+        "verse:exod:27:11",
+        "verse:exod:27:12",
+        "verse:exod:27:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 27:9,27:10,27:11,27:12,27:13,27:14,27:15,27:16,27:17,27:18,27:19,27:20,27:21; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:6NDuDH-k2yM",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=6NDuDH-k2yM",
+      "embedUrl": "https://www.youtube.com/embed/6NDuDH-k2yM",
+      "title": "Torah Tuesday - Exodus 22:7-13",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:22:6",
+        "verse:exod:22:7",
+        "verse:exod:22:8",
+        "verse:exod:22:9",
+        "verse:exod:22:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 22:7,22:8,22:9,22:10,22:11,22:12,22:13; mapped to 5 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:6XR-0txq49o",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=6XR-0txq49o",
+      "embedUrl": "https://www.youtube.com/embed/6XR-0txq49o",
+      "title": "Torah Tuesday - Exodus 20:14",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:20:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 20:14; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:7IyXV9n_0sU",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=7IyXV9n_0sU",
+      "embedUrl": "https://www.youtube.com/embed/7IyXV9n_0sU",
+      "title": "Torah Tuesday - Exodus 22:18-20",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:22:17",
+        "verse:exod:22:18",
+        "verse:exod:22:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 22:18,22:19,22:20; mapped to 3 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:7jWJ4wUbuLo",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=7jWJ4wUbuLo",
+      "embedUrl": "https://www.youtube.com/embed/7jWJ4wUbuLo",
+      "title": "Torah Tuesday - Exodus 20:17",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:20:17"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 20:17; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:7sU5IGjEYhk",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=7sU5IGjEYhk",
+      "embedUrl": "https://www.youtube.com/embed/7sU5IGjEYhk",
+      "title": "Torah Tuesday - Genesis 1.24, 26 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:24",
+        "verse:gen:1:26"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:24,1:26; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:8DItB8x-rMw",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=8DItB8x-rMw",
+      "embedUrl": "https://www.youtube.com/embed/8DItB8x-rMw",
+      "title": "Torah Tuesday - Exodus 3:10-12",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:10",
+        "verse:exod:3:11",
+        "verse:exod:3:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 3:10,3:11,3:12; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:8QMRf2mA_pc",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=8QMRf2mA_pc",
+      "embedUrl": "https://www.youtube.com/embed/8QMRf2mA_pc",
+      "title": "Torah Tuesday - Exodus 7:14-18",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:7:14",
+        "verse:exod:7:15",
+        "verse:exod:7:16",
+        "verse:exod:7:17",
+        "verse:exod:7:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 7:14,7:15,7:16,7:17,7:18; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:8SawHOAwhyU",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=8SawHOAwhyU",
+      "embedUrl": "https://www.youtube.com/embed/8SawHOAwhyU",
+      "title": "Torah Tuesday - Exodus 28:1-14 (Ephod)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:28:1",
+        "verse:exod:28:2",
+        "verse:exod:28:3",
+        "verse:exod:28:4",
+        "verse:exod:28:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 28:1,28:2,28:3,28:4,28:5,28:6,28:7,28:8,28:9,28:10,28:11,28:12,28:13,28:14; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:8voUoOpI60g",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=8voUoOpI60g",
+      "embedUrl": "https://www.youtube.com/embed/8voUoOpI60g",
+      "title": "Torah Tuesday - Leviticus 1-7",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:lev:1",
+        "chapter:lev:2",
+        "chapter:lev:3",
+        "chapter:lev:4",
+        "chapter:lev:5",
+        "chapter:lev:6",
+        "chapter:lev:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): lev 1, lev 2, lev 3, lev 4, lev 5, lev 6, lev 7. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:9BpBoBjSb8s",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=9BpBoBjSb8s",
+      "embedUrl": "https://www.youtube.com/embed/9BpBoBjSb8s",
+      "title": "Torah Tuesday - Exodus 2:11-13",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:2:11",
+        "verse:exod:2:12",
+        "verse:exod:2:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 2:11,2:12,2:13; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:9c03weF8kmY",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=9c03weF8kmY",
+      "embedUrl": "https://www.youtube.com/embed/9c03weF8kmY",
+      "title": "Torah Tuesday - Exodus 23:24-33",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:23:24",
+        "verse:exod:23:25",
+        "verse:exod:23:26",
+        "verse:exod:23:27",
+        "verse:exod:23:28"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 23:24,23:25,23:26,23:27,23:28,23:29,23:30,23:31,23:32,23:33; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:9ltECjbEh6k",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=9ltECjbEh6k",
+      "embedUrl": "https://www.youtube.com/embed/9ltECjbEh6k",
+      "title": "Torah Tuesday - Exodus 13:17-19",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:13:17",
+        "verse:exod:13:18",
+        "verse:exod:13:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 13:17,13:18,13:19; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:a_rERP-unOA",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=a_rERP-unOA",
+      "embedUrl": "https://www.youtube.com/embed/a_rERP-unOA",
+      "title": "Torah Tuesday - Exodus 8:25-32",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:8:21",
+        "verse:exod:8:22",
+        "verse:exod:8:23",
+        "verse:exod:8:24",
+        "verse:exod:8:25"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 8:25,8:26,8:27,8:28,8:29,8:30,8:31,8:32; mapped to 5 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:a5VcfUxvhpU",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=a5VcfUxvhpU",
+      "embedUrl": "https://www.youtube.com/embed/a5VcfUxvhpU",
+      "title": "Torah Tuesday - Exodus 25:23-30 (Table)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:25:23",
+        "verse:exod:25:24",
+        "verse:exod:25:25",
+        "verse:exod:25:26",
+        "verse:exod:25:27"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 25:23,25:24,25:25,25:26,25:27,25:28,25:29,25:30; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:ABoVmeUwDQ8",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ABoVmeUwDQ8",
+      "embedUrl": "https://www.youtube.com/embed/ABoVmeUwDQ8",
+      "title": "Torah Tuesday - Exodus 15:1-6",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:15:1",
+        "verse:exod:15:2",
+        "verse:exod:15:3",
+        "verse:exod:15:4",
+        "verse:exod:15:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 15:1,15:2,15:3,15:4,15:5,15:6; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:AFZUBICHQ_4",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=AFZUBICHQ_4",
+      "embedUrl": "https://www.youtube.com/embed/AFZUBICHQ_4",
+      "title": "Torah Tuesday - Exodus 11:7-10",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:11:7",
+        "verse:exod:11:8",
+        "verse:exod:11:9",
+        "verse:exod:11:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 11:7,11:8,11:9,11:10; mapped to 4 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:AGbQjBeAJiI",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=AGbQjBeAJiI",
+      "embedUrl": "https://www.youtube.com/embed/AGbQjBeAJiI",
+      "title": "Torah Tuesday - Exodus 3:7-9",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:7",
+        "verse:exod:3:8",
+        "verse:exod:3:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 3:7,3:8,3:9; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:aIjBQomA-ak",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=aIjBQomA-ak",
+      "embedUrl": "https://www.youtube.com/embed/aIjBQomA-ak",
+      "title": "Torah Tuesday - Exodus 8:8-15",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:8:4",
+        "verse:exod:8:5",
+        "verse:exod:8:6",
+        "verse:exod:8:7",
+        "verse:exod:8:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 8:8,8:9,8:10,8:11,8:12,8:13,8:14,8:15; mapped to 5 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:ALkH7VPexqY",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ALkH7VPexqY",
+      "embedUrl": "https://www.youtube.com/embed/ALkH7VPexqY",
+      "title": "Torah Tuesday - Exodus 4:10-12",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:4:10",
+        "verse:exod:4:11",
+        "verse:exod:4:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 4:10,4:11,4:12; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:aLOwctvody8",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=aLOwctvody8",
+      "embedUrl": "https://www.youtube.com/embed/aLOwctvody8",
+      "title": "Torah Tuesday - Exodus 4:18-31",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:4:18",
+        "verse:exod:4:19",
+        "verse:exod:4:20",
+        "verse:exod:4:21",
+        "verse:exod:4:22"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 4:18,4:19,4:20,4:21,4:22,4:23,4:24,4:25,4:26,4:27,4:28,4:29,4:30,4:31; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:aM8eK9_k3lw",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=aM8eK9_k3lw",
+      "embedUrl": "https://www.youtube.com/embed/aM8eK9_k3lw",
+      "title": "Torah Tuesday - Exodus 20:18-21",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:20:18",
+        "verse:exod:20:19",
+        "verse:exod:20:20",
+        "verse:exod:20:21"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 20:18,20:19,20:20,20:21; mapped to 4 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:ARUlsvFw1Sw",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ARUlsvFw1Sw",
+      "embedUrl": "https://www.youtube.com/embed/ARUlsvFw1Sw",
+      "title": "Torah Tuesday - Exodus 13:20-22",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:13:20",
+        "verse:exod:13:21",
+        "verse:exod:13:22"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 13:20,13:21,13:22; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:AttcUJ48Nrc",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=AttcUJ48Nrc",
+      "embedUrl": "https://www.youtube.com/embed/AttcUJ48Nrc",
+      "title": "Torah Tuesday - Genesis 2:18",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:2:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 2:18; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:azn7Lg2Www8",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=azn7Lg2Www8",
+      "embedUrl": "https://www.youtube.com/embed/azn7Lg2Www8",
+      "title": "Torah Tuesday - Exodus 24:9-11",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:24:9",
+        "verse:exod:24:10",
+        "verse:exod:24:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 24:9,24:10,24:11; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:B23K9-xejUA",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=B23K9-xejUA",
+      "embedUrl": "https://www.youtube.com/embed/B23K9-xejUA",
+      "title": "Torah Tuesday - Exodus 1:11-13",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:1:11",
+        "verse:exod:1:12",
+        "verse:exod:1:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 1:11,1:12,1:13; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:bDbP5Wd0tjQ",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=bDbP5Wd0tjQ",
+      "embedUrl": "https://www.youtube.com/embed/bDbP5Wd0tjQ",
+      "title": "Torah Tuesday - Exodus 20:12",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:20:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 20:12; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:beSBgay7Tcc",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=beSBgay7Tcc",
+      "embedUrl": "https://www.youtube.com/embed/beSBgay7Tcc",
+      "title": "Torah Tuesday - Exodus 22:1-6",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:21:37",
+        "verse:exod:22:1",
+        "verse:exod:22:2",
+        "verse:exod:22:3",
+        "verse:exod:22:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 22:1,22:2,22:3,22:4,22:5,22:6; mapped to 5 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:BKfw1VIh7jk",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=BKfw1VIh7jk",
+      "embedUrl": "https://www.youtube.com/embed/BKfw1VIh7jk",
+      "title": "Torah Tuesday - Genesis 4:1-8",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:4:1",
+        "verse:gen:4:2",
+        "verse:gen:4:3",
+        "verse:gen:4:4",
+        "verse:gen:4:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 4:1,4:2,4:3,4:4,4:5,4:6,4:7,4:8; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:brHt-ZJ28lQ",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=brHt-ZJ28lQ",
+      "embedUrl": "https://www.youtube.com/embed/brHt-ZJ28lQ",
+      "title": "Torah Tuesday - Exodus 20:8-11",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:20:8",
+        "verse:exod:20:9",
+        "verse:exod:20:10",
+        "verse:exod:20:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 20:8,20:9,20:10,20:11; mapped to 4 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:BUmwSJQbFE8",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=BUmwSJQbFE8",
+      "embedUrl": "https://www.youtube.com/embed/BUmwSJQbFE8",
+      "title": "Torah Tuesday - Exodus 12:21-28",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:12:21",
+        "verse:exod:12:22",
+        "verse:exod:12:23",
+        "verse:exod:12:24",
+        "verse:exod:12:25"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 12:21,12:22,12:23,12:24,12:25,12:26,12:27,12:28; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:bwPRxbE6n0w",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=bwPRxbE6n0w",
+      "embedUrl": "https://www.youtube.com/embed/bwPRxbE6n0w",
+      "title": "Torah Tuesday - Exodus 21:7-11",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:21:7",
+        "verse:exod:21:8",
+        "verse:exod:21:9",
+        "verse:exod:21:10",
+        "verse:exod:21:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 21:7,21:8,21:9,21:10,21:11; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:ceC-HQOPn6s",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ceC-HQOPn6s",
+      "embedUrl": "https://www.youtube.com/embed/ceC-HQOPn6s",
+      "title": "Torah Tuesday - Exodus 4:18",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:4:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 4:18; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:CgVfOtOnfMo",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=CgVfOtOnfMo",
+      "embedUrl": "https://www.youtube.com/embed/CgVfOtOnfMo",
+      "title": "Torah Tuesday - Exodus 23:1-8",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:23:1",
+        "verse:exod:23:2",
+        "verse:exod:23:3",
+        "verse:exod:23:4",
+        "verse:exod:23:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 23:1,23:2,23:3,23:4,23:5,23:6,23:7,23:8; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:CMapRfckdSQ",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=CMapRfckdSQ",
+      "embedUrl": "https://www.youtube.com/embed/CMapRfckdSQ",
+      "title": "Torah Tuesday - Exodus 3:21-22",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:21",
+        "verse:exod:3:22"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 3:21,3:22; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:Cy39AHSrrfw",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Cy39AHSrrfw",
+      "embedUrl": "https://www.youtube.com/embed/Cy39AHSrrfw",
+      "title": "Torah Tuesday - Exodus 10:1-6",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:10:1",
+        "verse:exod:10:2",
+        "verse:exod:10:3",
+        "verse:exod:10:4",
+        "verse:exod:10:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 10:1,10:2,10:3,10:4,10:5,10:6; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:d_IFcP4cFUk",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=d_IFcP4cFUk",
+      "embedUrl": "https://www.youtube.com/embed/d_IFcP4cFUk",
+      "title": "Torah Tuesday - Genesis 11:7, 9",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:11:7",
+        "verse:gen:11:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 11:7,11:9; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:Da1ShJsPzGM",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Da1ShJsPzGM",
+      "embedUrl": "https://www.youtube.com/embed/Da1ShJsPzGM",
+      "title": "Torah Tuesday - Exodus 3:6",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 3:6; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:Dh0hcm9jDas",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Dh0hcm9jDas",
+      "embedUrl": "https://www.youtube.com/embed/Dh0hcm9jDas",
+      "title": "Torah Tuesday - Exodus 19:1-6",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:19:1",
+        "verse:exod:19:2",
+        "verse:exod:19:3",
+        "verse:exod:19:4",
+        "verse:exod:19:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 19:1,19:2,19:3,19:4,19:5,19:6; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:dI3YlsmtJVs",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=dI3YlsmtJVs",
+      "embedUrl": "https://www.youtube.com/embed/dI3YlsmtJVs",
+      "title": "Torah Tuesday - Genesis 1:24, 26",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:24",
+        "verse:gen:1:26"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:24,1:26; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:DRAswpRS7Oc",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=DRAswpRS7Oc",
+      "embedUrl": "https://www.youtube.com/embed/DRAswpRS7Oc",
+      "title": "Torah Tuesday - Exodus 1:1, 7 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:1:1",
+        "verse:exod:1:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 1:1,1:7; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:dYiUFkxO38w",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=dYiUFkxO38w",
+      "embedUrl": "https://www.youtube.com/embed/dYiUFkxO38w",
+      "title": "Torah Tuesday - Genesis 3:8-24",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:3:8",
+        "verse:gen:3:9",
+        "verse:gen:3:10",
+        "verse:gen:3:11",
+        "verse:gen:3:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 3:8,3:9,3:10,3:11,3:12,3:13,3:14,3:15,3:16,3:17,3:18,3:19,3:20,3:21,3:22,3:23,3:24; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:e4EG98jewi4",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=e4EG98jewi4",
+      "embedUrl": "https://www.youtube.com/embed/e4EG98jewi4",
+      "title": "Torah Tuesday - Leviticus 16",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:lev:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): lev 16. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:eBLg5knxBe4",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=eBLg5knxBe4",
+      "embedUrl": "https://www.youtube.com/embed/eBLg5knxBe4",
+      "title": "Torah Tuesday - Leviticus 26-27",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:lev:26",
+        "chapter:lev:27"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): lev 26, lev 27. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:ecScnLwuIOM",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ecScnLwuIOM",
+      "embedUrl": "https://www.youtube.com/embed/ecScnLwuIOM",
+      "title": "Torah Tuesday - Exodus 12:38, 43-49",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:12:38",
+        "verse:exod:12:43",
+        "verse:exod:12:44",
+        "verse:exod:12:45",
+        "verse:exod:12:46"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 12:38,12:43,12:44,12:45,12:46,12:47,12:48,12:49; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:ehKSmOb97Xk",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ehKSmOb97Xk",
+      "embedUrl": "https://www.youtube.com/embed/ehKSmOb97Xk",
+      "title": "Torah Tuesday - Genesis 4:9-16",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:4:9",
+        "verse:gen:4:10",
+        "verse:gen:4:11",
+        "verse:gen:4:12",
+        "verse:gen:4:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 4:9,4:10,4:11,4:12,4:13,4:14,4:15,4:16; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:EOHmGvIPHnk",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=EOHmGvIPHnk",
+      "embedUrl": "https://www.youtube.com/embed/EOHmGvIPHnk",
+      "title": "Torah Tuesday - Exodus 24:12-18",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:24:12",
+        "verse:exod:24:13",
+        "verse:exod:24:14",
+        "verse:exod:24:15",
+        "verse:exod:24:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 24:12,24:13,24:14,24:15,24:16,24:17,24:18; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:EtOJqIB8KPk",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=EtOJqIB8KPk",
+      "embedUrl": "https://www.youtube.com/embed/EtOJqIB8KPk",
+      "title": "Torah Tuesday - Exodus 2:10",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:2:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 2:10; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:eW8Sm9_XJlA",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=eW8Sm9_XJlA",
+      "embedUrl": "https://www.youtube.com/embed/eW8Sm9_XJlA",
+      "title": "Torah Tuesday - Exodus 1:15-19 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:1:15",
+        "verse:exod:1:16",
+        "verse:exod:1:17",
+        "verse:exod:1:18",
+        "verse:exod:1:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 1:15,1:16,1:17,1:18,1:19; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:F6fLSdFPIHU",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=F6fLSdFPIHU",
+      "embedUrl": "https://www.youtube.com/embed/F6fLSdFPIHU",
+      "title": "Torah Tuesday - Exodus 2:2-3",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:2:2",
+        "verse:exod:2:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 2:2,2:3; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:f84k6Ooklus",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=f84k6Ooklus",
+      "embedUrl": "https://www.youtube.com/embed/f84k6Ooklus",
+      "title": "Torah Tuesday - Exodus 2:2-3 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:2:2",
+        "verse:exod:2:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 2:2,2:3; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:FGJBXbYCu6E",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=FGJBXbYCu6E",
+      "embedUrl": "https://www.youtube.com/embed/FGJBXbYCu6E",
+      "title": "Torah Tuesday - Exodus 8:20-24",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:8:16",
+        "verse:exod:8:17",
+        "verse:exod:8:18",
+        "verse:exod:8:19",
+        "verse:exod:8:20"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 8:20,8:21,8:22,8:23,8:24; mapped to 5 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:FsiWXnEpIig",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=FsiWXnEpIig",
+      "embedUrl": "https://www.youtube.com/embed/FsiWXnEpIig",
+      "title": "Torah Tuesday - Exodus 3:2-3",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:2",
+        "verse:exod:3:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 3:2,3:3; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:fUkpLpOtOOA",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=fUkpLpOtOOA",
+      "embedUrl": "https://www.youtube.com/embed/fUkpLpOtOOA",
+      "title": "Torah Tuesday - Exodus 20:7",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:20:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 20:7; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:G1ouofAsymE",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=G1ouofAsymE",
+      "embedUrl": "https://www.youtube.com/embed/G1ouofAsymE",
+      "title": "Torah Tuesday - Exodus 17:1-7",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:17:1",
+        "verse:exod:17:2",
+        "verse:exod:17:3",
+        "verse:exod:17:4",
+        "verse:exod:17:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 17:1,17:2,17:3,17:4,17:5,17:6,17:7; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:g7qf0KkZN_8",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=g7qf0KkZN_8",
+      "embedUrl": "https://www.youtube.com/embed/g7qf0KkZN_8",
+      "title": "Torah Tuesday - Exodus 4:27-31",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:4:27",
+        "verse:exod:4:28",
+        "verse:exod:4:29",
+        "verse:exod:4:30",
+        "verse:exod:4:31"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 4:27,4:28,4:29,4:30,4:31; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:gaiqO2rUYq8",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=gaiqO2rUYq8",
+      "embedUrl": "https://www.youtube.com/embed/gaiqO2rUYq8",
+      "title": "Torah Tuesday - Genesis 2:21-25 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:2:21",
+        "verse:gen:2:22",
+        "verse:gen:2:23",
+        "verse:gen:2:24",
+        "verse:gen:2:25"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 2:21,2:22,2:23,2:24,2:25; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:GFqiwbepgPE",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=GFqiwbepgPE",
+      "embedUrl": "https://www.youtube.com/embed/GFqiwbepgPE",
+      "title": "Torah Tuesday - Exodus 9:8-12",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:9:8",
+        "verse:exod:9:9",
+        "verse:exod:9:10",
+        "verse:exod:9:11",
+        "verse:exod:9:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 9:8,9:9,9:10,9:11,9:12; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:Gjsd0tlIri4",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Gjsd0tlIri4",
+      "embedUrl": "https://www.youtube.com/embed/Gjsd0tlIri4",
+      "title": "Torah Tuesday - Exodus 5:22-6:1",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:5:22",
+        "verse:exod:5:23",
+        "verse:exod:6:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 5:22,5:23,6:1; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:gKN5DZ5I61s",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=gKN5DZ5I61s",
+      "embedUrl": "https://www.youtube.com/embed/gKN5DZ5I61s",
+      "title": "Torah Tuesday - Genesis 11:1-3 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:11:1",
+        "verse:gen:11:2",
+        "verse:gen:11:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 11:1,11:2,11:3; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:GKTwIMN316A",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=GKTwIMN316A",
+      "embedUrl": "https://www.youtube.com/embed/GKTwIMN316A",
+      "title": "Torah Tuesday - Exodus 7:8-10",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:7:8",
+        "verse:exod:7:9",
+        "verse:exod:7:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 7:8,7:9,7:10; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:Gx8l33JNzkU",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Gx8l33JNzkU",
+      "embedUrl": "https://www.youtube.com/embed/Gx8l33JNzkU",
+      "title": "Torah Tuesday - Exodus 19:14-25",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:19:14",
+        "verse:exod:19:15",
+        "verse:exod:19:16",
+        "verse:exod:19:17",
+        "verse:exod:19:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 19:14,19:15,19:16,19:17,19:18,19:19,19:20,19:21,19:22,19:23,19:24,19:25; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:h3IsWk0y2qg",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=h3IsWk0y2qg",
+      "embedUrl": "https://www.youtube.com/embed/h3IsWk0y2qg",
+      "title": "Torah Tuesday - Genesis 3:1-7 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:3:1",
+        "verse:gen:3:2",
+        "verse:gen:3:3",
+        "verse:gen:3:4",
+        "verse:gen:3:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 3:1,3:2,3:3,3:4,3:5,3:6,3:7; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:h4b5y3V4gMo",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=h4b5y3V4gMo",
+      "embedUrl": "https://www.youtube.com/embed/h4b5y3V4gMo",
+      "title": "Torah Tuesday - Exodus 2:10 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:2:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 2:10; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:HCD0nERc2GE",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=HCD0nERc2GE",
+      "embedUrl": "https://www.youtube.com/embed/HCD0nERc2GE",
+      "title": "Torah Tuesday - Exodus 21:26-32",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:21:26",
+        "verse:exod:21:27",
+        "verse:exod:21:28",
+        "verse:exod:21:29",
+        "verse:exod:21:30"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 21:26,21:27,21:28,21:29,21:30,21:31,21:32; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:HdwKBYTlkPI",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=HdwKBYTlkPI",
+      "embedUrl": "https://www.youtube.com/embed/HdwKBYTlkPI",
+      "title": "Torah Tuesday - Leviticus 21-22",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:lev:21",
+        "chapter:lev:22"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): lev 21, lev 22. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:HhC7p86fmg4",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=HhC7p86fmg4",
+      "embedUrl": "https://www.youtube.com/embed/HhC7p86fmg4",
+      "title": "Torah Tuesday - Psalm 119 (Spanish)",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:ps:119"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): ps 119. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:hOEEkslwU0I",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=hOEEkslwU0I",
+      "embedUrl": "https://www.youtube.com/embed/hOEEkslwU0I",
+      "title": "Torah Tuesday - Exodus 4:6-9",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:4:6",
+        "verse:exod:4:7",
+        "verse:exod:4:8",
+        "verse:exod:4:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 4:6,4:7,4:8,4:9; mapped to 4 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:hoYaNUJ3Pww",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=hoYaNUJ3Pww",
+      "embedUrl": "https://www.youtube.com/embed/hoYaNUJ3Pww",
+      "title": "Torah Tuesday - Exodus 15:7-12",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:15:7",
+        "verse:exod:15:8",
+        "verse:exod:15:9",
+        "verse:exod:15:10",
+        "verse:exod:15:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 15:7,15:8,15:9,15:10,15:11,15:12; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:IBMWqb3DM6A",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=IBMWqb3DM6A",
+      "embedUrl": "https://www.youtube.com/embed/IBMWqb3DM6A",
+      "title": "Torah Tuesday - Exodus 8:1-7",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:7:26",
+        "verse:exod:7:27",
+        "verse:exod:7:28",
+        "verse:exod:7:29",
+        "verse:exod:8:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 8:1,8:2,8:3,8:4,8:5,8:6,8:7; mapped to 5 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:iBQkmFttwiM",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=iBQkmFttwiM",
+      "embedUrl": "https://www.youtube.com/embed/iBQkmFttwiM",
+      "title": "Torah Tuesday - Exodus 26:31-37 (Veil)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:26:31",
+        "verse:exod:26:32",
+        "verse:exod:26:33",
+        "verse:exod:26:34",
+        "verse:exod:26:35"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 26:31,26:32,26:33,26:34,26:35,26:36,26:37; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:IDEl05Ucsqs",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=IDEl05Ucsqs",
+      "embedUrl": "https://www.youtube.com/embed/IDEl05Ucsqs",
+      "title": "Torah Tuesday - Exodus 20:22-25",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:20:22",
+        "verse:exod:20:23",
+        "verse:exod:20:24",
+        "verse:exod:20:25"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 20:22,20:23,20:24,20:25; mapped to 4 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:IH0eLbXajgo",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=IH0eLbXajgo",
+      "embedUrl": "https://www.youtube.com/embed/IH0eLbXajgo",
+      "title": "Torah Tuesday - Exodus 15, Part 1",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:exod:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): exod 15. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:iJAGAEOgPFI",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=iJAGAEOgPFI",
+      "embedUrl": "https://www.youtube.com/embed/iJAGAEOgPFI",
+      "title": "Torah Tuesday - Exodus 20:3-6",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:20:3",
+        "verse:exod:20:4",
+        "verse:exod:20:5",
+        "verse:exod:20:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 20:3,20:4,20:5,20:6; mapped to 4 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:iQySxsvv17I",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=iQySxsvv17I",
+      "embedUrl": "https://www.youtube.com/embed/iQySxsvv17I",
+      "title": "Torah Tuesday - Genesis 11:7, 9 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:11:7",
+        "verse:gen:11:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 11:7,11:9; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:ix6qrwNaxx8",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ix6qrwNaxx8",
+      "embedUrl": "https://www.youtube.com/embed/ix6qrwNaxx8",
+      "title": "Torah Tuesday - Exodus 12:37",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:12:37"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 12:37; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:j_Va6hzEbPM",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=j_Va6hzEbPM",
+      "embedUrl": "https://www.youtube.com/embed/j_Va6hzEbPM",
+      "title": "Torah Tuesday - Exodus 12:8-13",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:12:8",
+        "verse:exod:12:9",
+        "verse:exod:12:10",
+        "verse:exod:12:11",
+        "verse:exod:12:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 12:8,12:9,12:10,12:11,12:12,12:13; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:JaPGkwHrNGE",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=JaPGkwHrNGE",
+      "embedUrl": "https://www.youtube.com/embed/JaPGkwHrNGE",
+      "title": "Torah Tuesday - Exodus 11:2-6",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:11:2",
+        "verse:exod:11:3",
+        "verse:exod:11:4",
+        "verse:exod:11:5",
+        "verse:exod:11:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 11:2,11:3,11:4,11:5,11:6; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:jgEiCD6xMAg",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jgEiCD6xMAg",
+      "embedUrl": "https://www.youtube.com/embed/jgEiCD6xMAg",
+      "title": "Torah Tuesday - Exodus 15:13-18",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:15:13",
+        "verse:exod:15:14",
+        "verse:exod:15:15",
+        "verse:exod:15:16",
+        "verse:exod:15:17"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 15:13,15:14,15:15,15:16,15:17,15:18; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:jm7Ux01CWw0",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jm7Ux01CWw0",
+      "embedUrl": "https://www.youtube.com/embed/jm7Ux01CWw0",
+      "title": "Torah Tuesday - Exodus 4:21-23",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:4:21",
+        "verse:exod:4:22",
+        "verse:exod:4:23"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 4:21,4:22,4:23; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:JR3cJrqCoew",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=JR3cJrqCoew",
+      "embedUrl": "https://www.youtube.com/embed/JR3cJrqCoew",
+      "title": "Torah Tuesday - Exodus 5:6-9",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:5:6",
+        "verse:exod:5:7",
+        "verse:exod:5:8",
+        "verse:exod:5:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 5:6,5:7,5:8,5:9; mapped to 4 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:JueZ7EpYNJw",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=JueZ7EpYNJw",
+      "embedUrl": "https://www.youtube.com/embed/JueZ7EpYNJw",
+      "title": "Torah Tuesday - Exodus 18:13-18",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:18:13",
+        "verse:exod:18:14",
+        "verse:exod:18:15",
+        "verse:exod:18:16",
+        "verse:exod:18:17"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 18:13,18:14,18:15,18:16,18:17,18:18; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:JUxXTnVw474",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=JUxXTnVw474",
+      "embedUrl": "https://www.youtube.com/embed/JUxXTnVw474",
+      "title": "Torah Tuesday - Exodus 14:1-9",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:14:1",
+        "verse:exod:14:2",
+        "verse:exod:14:3",
+        "verse:exod:14:4",
+        "verse:exod:14:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 14:1,14:2,14:3,14:4,14:5,14:6,14:7,14:8,14:9; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:jy5gwCEfgGw",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jy5gwCEfgGw",
+      "embedUrl": "https://www.youtube.com/embed/jy5gwCEfgGw",
+      "title": "Torah Tuesday - Exodus 25:17-22 (Ark of the Covenant, Part 2)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:25:17",
+        "verse:exod:25:18",
+        "verse:exod:25:19",
+        "verse:exod:25:20",
+        "verse:exod:25:21"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 25:17,25:18,25:19,25:20,25:21,25:22; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:k0VvB0QeIcQ",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=k0VvB0QeIcQ",
+      "embedUrl": "https://www.youtube.com/embed/k0VvB0QeIcQ",
+      "title": "Torah Tuesday - Psalm 1:4-6 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ps:1:4",
+        "verse:ps:1:5",
+        "verse:ps:1:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ps 1:4,1:5,1:6; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:KJibvClDRs0",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=KJibvClDRs0",
+      "embedUrl": "https://www.youtube.com/embed/KJibvClDRs0",
+      "title": "Torah Tuesday - Exodus 3:7-9 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:7",
+        "verse:exod:3:8",
+        "verse:exod:3:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 3:7,3:8,3:9; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:KMMshvq0jD8",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=KMMshvq0jD8",
+      "embedUrl": "https://www.youtube.com/embed/KMMshvq0jD8",
+      "title": "Torah Tuesday - Exodus 6:20-24",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:6:20",
+        "verse:exod:6:21",
+        "verse:exod:6:22",
+        "verse:exod:6:23",
+        "verse:exod:6:24"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 6:20,6:21,6:22,6:23,6:24; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:kYl3HC0cgd0",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=kYl3HC0cgd0",
+      "embedUrl": "https://www.youtube.com/embed/kYl3HC0cgd0",
+      "title": "Torah Tuesday - Genesis 2:21-25",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:2:21",
+        "verse:gen:2:22",
+        "verse:gen:2:23",
+        "verse:gen:2:24",
+        "verse:gen:2:25"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 2:21,2:22,2:23,2:24,2:25; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:L3OuFm02ywQ",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=L3OuFm02ywQ",
+      "embedUrl": "https://www.youtube.com/embed/L3OuFm02ywQ",
+      "title": "Torah Tuesday - Exodus 25:10-16 (Ark of the Covenant)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:25:10",
+        "verse:exod:25:11",
+        "verse:exod:25:12",
+        "verse:exod:25:13",
+        "verse:exod:25:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 25:10,25:11,25:12,25:13,25:14,25:15,25:16; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:LfcSyB1-fUA",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=LfcSyB1-fUA",
+      "embedUrl": "https://www.youtube.com/embed/LfcSyB1-fUA",
+      "title": "Torah Tuesday - Exodus 6:4-5",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:6:4",
+        "verse:exod:6:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 6:4,6:5; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:LNAXVqsm7JM",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=LNAXVqsm7JM",
+      "embedUrl": "https://www.youtube.com/embed/LNAXVqsm7JM",
+      "title": "Torah Tuesday - Exodus 10:7-11",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:10:7",
+        "verse:exod:10:8",
+        "verse:exod:10:9",
+        "verse:exod:10:10",
+        "verse:exod:10:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 10:7,10:8,10:9,10:10,10:11; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:LSE6rqreIfg",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=LSE6rqreIfg",
+      "embedUrl": "https://www.youtube.com/embed/LSE6rqreIfg",
+      "title": "Torah Tuesday - Psalm 119",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:ps:119"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): ps 119. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:M2GTT2hYnt0",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=M2GTT2hYnt0",
+      "embedUrl": "https://www.youtube.com/embed/M2GTT2hYnt0",
+      "title": "Torah Tuesday - Exodus 5:10-19 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:5:10",
+        "verse:exod:5:11",
+        "verse:exod:5:12",
+        "verse:exod:5:13",
+        "verse:exod:5:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:m3wc6W5PuFg",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=m3wc6W5PuFg",
+      "embedUrl": "https://www.youtube.com/embed/m3wc6W5PuFg",
+      "title": "Torah Tuesday - Genesis 11:4-5",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:11:4",
+        "verse:gen:11:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 11:4,11:5; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:M5GjFSckk90",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=M5GjFSckk90",
+      "embedUrl": "https://www.youtube.com/embed/M5GjFSckk90",
+      "title": "Torah Tuesday - Exodus 19:7-13",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:19:7",
+        "verse:exod:19:8",
+        "verse:exod:19:9",
+        "verse:exod:19:10",
+        "verse:exod:19:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 19:7,19:8,19:9,19:10,19:11,19:12,19:13; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:mA0FIVKLkHo",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=mA0FIVKLkHo",
+      "embedUrl": "https://www.youtube.com/embed/mA0FIVKLkHo",
+      "title": "Torah Tuesday - Exodus 28:36-43 (Medallion)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:28:36",
+        "verse:exod:28:37",
+        "verse:exod:28:38",
+        "verse:exod:28:39",
+        "verse:exod:28:40"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 28:36,28:37,28:38,28:39,28:40,28:41,28:42,28:43; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:mApl1byJfbk",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=mApl1byJfbk",
+      "embedUrl": "https://www.youtube.com/embed/mApl1byJfbk",
+      "title": "Torah Tuesday - Exodus 14:15-20",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:14:15",
+        "verse:exod:14:16",
+        "verse:exod:14:17",
+        "verse:exod:14:18",
+        "verse:exod:14:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 14:15,14:16,14:17,14:18,14:19,14:20; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:mtbjvSWG9Sw",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=mtbjvSWG9Sw",
+      "embedUrl": "https://www.youtube.com/embed/mtbjvSWG9Sw",
+      "title": "Torah Tuesday - Exodus 9:27-35",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:9:27",
+        "verse:exod:9:28",
+        "verse:exod:9:29",
+        "verse:exod:9:30",
+        "verse:exod:9:31"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 9:27,9:28,9:29,9:30,9:31,9:32,9:33,9:34,9:35; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:MyKX2jybwx0",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=MyKX2jybwx0",
+      "embedUrl": "https://www.youtube.com/embed/MyKX2jybwx0",
+      "title": "Torah Tuesday - Genesis 3:8-24 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:3:8",
+        "verse:gen:3:9",
+        "verse:gen:3:10",
+        "verse:gen:3:11",
+        "verse:gen:3:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 3:8,3:9,3:10,3:11,3:12,3:13,3:14,3:15,3:16,3:17,3:18,3:19,3:20,3:21,3:22,3:23,3:24; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:N2nfJn8PLW4",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=N2nfJn8PLW4",
+      "embedUrl": "https://www.youtube.com/embed/N2nfJn8PLW4",
+      "title": "Torah Tuesday - Exodus 23:20-23",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:23:20",
+        "verse:exod:23:21",
+        "verse:exod:23:22",
+        "verse:exod:23:23"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 23:20,23:21,23:22,23:23; mapped to 4 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:NEY7YmGnm9I",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=NEY7YmGnm9I",
+      "embedUrl": "https://www.youtube.com/embed/NEY7YmGnm9I",
+      "title": "Torah Tuesday - Exodus 28:31-35 (Robe)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:28:31",
+        "verse:exod:28:32",
+        "verse:exod:28:33",
+        "verse:exod:28:34",
+        "verse:exod:28:35"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 28:31,28:32,28:33,28:34,28:35; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:NFaiBS62SLg",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=NFaiBS62SLg",
+      "embedUrl": "https://www.youtube.com/embed/NFaiBS62SLg",
+      "title": "Torah Tuesday - Exodus 20:16",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:20:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 20:16; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:NIJ9jKJQON4",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=NIJ9jKJQON4",
+      "embedUrl": "https://www.youtube.com/embed/NIJ9jKJQON4",
+      "title": "Torah Tuesday - Exodus 8:16-19",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:8:12",
+        "verse:exod:8:13",
+        "verse:exod:8:14",
+        "verse:exod:8:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 8:16,8:17,8:18,8:19; mapped to 4 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:njP5LWpA5lM",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=njP5LWpA5lM",
+      "embedUrl": "https://www.youtube.com/embed/njP5LWpA5lM",
+      "title": "Torah Tuesday - Genesis 1:21",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:21"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:21; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:NJrUHwauhQ0",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=NJrUHwauhQ0",
+      "embedUrl": "https://www.youtube.com/embed/NJrUHwauhQ0",
+      "title": "Torah Tuesday - Exodus 9:1-7",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:9:1",
+        "verse:exod:9:2",
+        "verse:exod:9:3",
+        "verse:exod:9:4",
+        "verse:exod:9:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 9:1,9:2,9:3,9:4,9:5,9:6,9:7; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:nlWYxKAhjl8",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=nlWYxKAhjl8",
+      "embedUrl": "https://www.youtube.com/embed/nlWYxKAhjl8",
+      "title": "Torah Tuesday - Exodus 10:12-20",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:10:12",
+        "verse:exod:10:13",
+        "verse:exod:10:14",
+        "verse:exod:10:15",
+        "verse:exod:10:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 10:12,10:13,10:14,10:15,10:16,10:17,10:18,10:19,10:20; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:nq7D9QFZQuc",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=nq7D9QFZQuc",
+      "embedUrl": "https://www.youtube.com/embed/nq7D9QFZQuc",
+      "title": "Torah Tuesday - Exodus 12:39-42, 50-51",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:12:39",
+        "verse:exod:12:40",
+        "verse:exod:12:41",
+        "verse:exod:12:42",
+        "verse:exod:12:50"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 12:39,12:40,12:41,12:42,12:50,12:51; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:nukkwV3vqn4",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=nukkwV3vqn4",
+      "embedUrl": "https://www.youtube.com/embed/nukkwV3vqn4",
+      "title": "Torah Tuesday - Exodus 1:11-13 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:1:11",
+        "verse:exod:1:12",
+        "verse:exod:1:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 1:11,1:12,1:13; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:Nx0DjdfNcIQ",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Nx0DjdfNcIQ",
+      "embedUrl": "https://www.youtube.com/embed/Nx0DjdfNcIQ",
+      "title": "Torah Tuesday - Exodus 18:1-5",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:18:1",
+        "verse:exod:18:2",
+        "verse:exod:18:3",
+        "verse:exod:18:4",
+        "verse:exod:18:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 18:1,18:2,18:3,18:4,18:5; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:o_aSM4C2qXE",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=o_aSM4C2qXE",
+      "embedUrl": "https://www.youtube.com/embed/o_aSM4C2qXE",
+      "title": "Torah Tuesday - Exodus 21:3-6",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:21:3",
+        "verse:exod:21:4",
+        "verse:exod:21:5",
+        "verse:exod:21:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 21:3,21:4,21:5,21:6; mapped to 4 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:o2PAgzpRtGI",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=o2PAgzpRtGI",
+      "embedUrl": "https://www.youtube.com/embed/o2PAgzpRtGI",
+      "title": "Torah Tuesday - Exodus 6:25-30",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:6:25",
+        "verse:exod:6:26",
+        "verse:exod:6:27",
+        "verse:exod:6:28",
+        "verse:exod:6:29"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 6:25,6:26,6:27,6:28,6:29,6:30; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:Og9RD7plYvI",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Og9RD7plYvI",
+      "embedUrl": "https://www.youtube.com/embed/Og9RD7plYvI",
+      "title": "Torah Tuesday - Exodus 1:15-19",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:1:15",
+        "verse:exod:1:16",
+        "verse:exod:1:17",
+        "verse:exod:1:18",
+        "verse:exod:1:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 1:15,1:16,1:17,1:18,1:19; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:OIrXKo9n6eQ",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=OIrXKo9n6eQ",
+      "embedUrl": "https://www.youtube.com/embed/OIrXKo9n6eQ",
+      "title": "Torah Tuesday - Exodus 13:3-10",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:13:3",
+        "verse:exod:13:4",
+        "verse:exod:13:5",
+        "verse:exod:13:6",
+        "verse:exod:13:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 13:3,13:4,13:5,13:6,13:7,13:8,13:9,13:10; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:oJUVWRBfXw0",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=oJUVWRBfXw0",
+      "embedUrl": "https://www.youtube.com/embed/oJUVWRBfXw0",
+      "title": "Torah Tuesday - Psalm 1:4-6",
+      "targetType": "verse",
+      "targets": [
+        "verse:ps:1:4",
+        "verse:ps:1:5",
+        "verse:ps:1:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ps 1:4,1:5,1:6; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:oQhfgHGOK0A",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=oQhfgHGOK0A",
+      "embedUrl": "https://www.youtube.com/embed/oQhfgHGOK0A",
+      "title": "Torah Tuesday - Exodus 28:15-21 (Gemstones)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:28:15",
+        "verse:exod:28:16",
+        "verse:exod:28:17",
+        "verse:exod:28:18",
+        "verse:exod:28:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 28:15,28:16,28:17,28:18,28:19,28:20,28:21; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:OT54-NBWoiU",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=OT54-NBWoiU",
+      "embedUrl": "https://www.youtube.com/embed/OT54-NBWoiU",
+      "title": "Torah Tuesday - Exodus 4:13-17",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:4:13",
+        "verse:exod:4:14",
+        "verse:exod:4:15",
+        "verse:exod:4:16",
+        "verse:exod:4:17"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 4:13,4:14,4:15,4:16,4:17; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:owWgJwnMLK4",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=owWgJwnMLK4",
+      "embedUrl": "https://www.youtube.com/embed/owWgJwnMLK4",
+      "title": "Torah Tuesday - Exodus 4:19-20",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:4:19",
+        "verse:exod:4:20"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 4:19,4:20; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:oxXQ4Rx8xJw",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=oxXQ4Rx8xJw",
+      "embedUrl": "https://www.youtube.com/embed/oxXQ4Rx8xJw",
+      "title": "Torah Tuesday - Genesis 5:1-3",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:5:1",
+        "verse:gen:5:2",
+        "verse:gen:5:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 5:1,5:2,5:3; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:PCu4p-9BAOc",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=PCu4p-9BAOc",
+      "embedUrl": "https://www.youtube.com/embed/PCu4p-9BAOc",
+      "title": "Torah Tuesday - Exodus 7:1-2, 6-7",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:7:1",
+        "verse:exod:7:2",
+        "verse:exod:7:6",
+        "verse:exod:7:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 7:1,7:2,7:6,7:7; mapped to 4 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:pdPn01Bq-dU",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=pdPn01Bq-dU",
+      "embedUrl": "https://www.youtube.com/embed/pdPn01Bq-dU",
+      "title": "Torah Tuesday - Genesis 2:18 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:2:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 2:18; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:peMnGzUInRY",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=peMnGzUInRY",
+      "embedUrl": "https://www.youtube.com/embed/peMnGzUInRY",
+      "title": "Torah Tuesday - Genesis 1:26 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:26"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:26; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:pSMgO6XAJ5Y",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=pSMgO6XAJ5Y",
+      "embedUrl": "https://www.youtube.com/embed/pSMgO6XAJ5Y",
+      "title": "Torah Tuesday - Exodus 24:1-3",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:24:1",
+        "verse:exod:24:2",
+        "verse:exod:24:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 24:1,24:2,24:3; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:pTzS67nIF_E",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=pTzS67nIF_E",
+      "embedUrl": "https://www.youtube.com/embed/pTzS67nIF_E",
+      "title": "Torah Tuesday - Exodus 5:10-21",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:5:10",
+        "verse:exod:5:11",
+        "verse:exod:5:12",
+        "verse:exod:5:13",
+        "verse:exod:5:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20,5:21; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:q2VqdtJ6hgo",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=q2VqdtJ6hgo",
+      "embedUrl": "https://www.youtube.com/embed/q2VqdtJ6hgo",
+      "title": "Torah Tuesday - Exodus 3:6 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 3:6; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:q6NnnpxSvOE",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=q6NnnpxSvOE",
+      "embedUrl": "https://www.youtube.com/embed/q6NnnpxSvOE",
+      "title": "Torah Tuesday - Genesis 11:1-3",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:11:1",
+        "verse:gen:11:2",
+        "verse:gen:11:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 11:1,11:2,11:3; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:qCasPBPQMRw",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=qCasPBPQMRw",
+      "embedUrl": "https://www.youtube.com/embed/qCasPBPQMRw",
+      "title": "Torah Tuesday - Exodus 15:19-21",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:15:19",
+        "verse:exod:15:20",
+        "verse:exod:15:21"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 15:19,15:20,15:21; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:qI11__Dxt3s",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=qI11__Dxt3s",
+      "embedUrl": "https://www.youtube.com/embed/qI11__Dxt3s",
+      "title": "Torah Tuesday - Exodus 22:21-27",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:22:20",
+        "verse:exod:22:21",
+        "verse:exod:22:22",
+        "verse:exod:22:23",
+        "verse:exod:22:24"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 22:21,22:22,22:23,22:24,22:25,22:26,22:27; mapped to 5 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:qOcTCNIv-V0",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=qOcTCNIv-V0",
+      "embedUrl": "https://www.youtube.com/embed/qOcTCNIv-V0",
+      "title": "Torah Tuesday - Genesis 1:14-16",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:14",
+        "verse:gen:1:15",
+        "verse:gen:1:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:14,1:15,1:16; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:qUV9mS-vprM",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=qUV9mS-vprM",
+      "embedUrl": "https://www.youtube.com/embed/qUV9mS-vprM",
+      "title": "Torah Tuesday - Exodus 3:12, 18",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:12",
+        "verse:exod:3:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 3:12,3:18; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:QzyttH1rnlo",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=QzyttH1rnlo",
+      "embedUrl": "https://www.youtube.com/embed/QzyttH1rnlo",
+      "title": "Torah Tuesday - Exodus 9:13-18",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:9:13",
+        "verse:exod:9:14",
+        "verse:exod:9:15",
+        "verse:exod:9:16",
+        "verse:exod:9:17"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 9:13,9:14,9:15,9:16,9:17,9:18; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:RcL54I4pHwg",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=RcL54I4pHwg",
+      "embedUrl": "https://www.youtube.com/embed/RcL54I4pHwg",
+      "title": "Torah Tuesday - Genesis 3 (Spanish)",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:gen:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): gen 3. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:Rl12y7GLDqE",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Rl12y7GLDqE",
+      "embedUrl": "https://www.youtube.com/embed/Rl12y7GLDqE",
+      "title": "Torah Tuesday - Exodus 20:1-2",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:20:1",
+        "verse:exod:20:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 20:1,20:2; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:RlkndSn-vF8",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=RlkndSn-vF8",
+      "embedUrl": "https://www.youtube.com/embed/RlkndSn-vF8",
+      "title": "Torah Tuesday - Genesis 5:1-3 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:5:1",
+        "verse:gen:5:2",
+        "verse:gen:5:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 5:1,5:2,5:3; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:SiZB6PYL8FU",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=SiZB6PYL8FU",
+      "embedUrl": "https://www.youtube.com/embed/SiZB6PYL8FU",
+      "title": "Torah Tuesday - Genesis 3",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:gen:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): gen 3. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:sqzgQqCoNNw",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=sqzgQqCoNNw",
+      "embedUrl": "https://www.youtube.com/embed/sqzgQqCoNNw",
+      "title": "Torah Tuesday - Leviticus 25",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:lev:25"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): lev 25. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:sVxQXFD4kgg",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=sVxQXFD4kgg",
+      "embedUrl": "https://www.youtube.com/embed/sVxQXFD4kgg",
+      "title": "Torah Tuesday - Exodus 2:5-9",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:2:5",
+        "verse:exod:2:6",
+        "verse:exod:2:7",
+        "verse:exod:2:8",
+        "verse:exod:2:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 2:5,2:6,2:7,2:8,2:9; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:szrkPuQUuB4",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=szrkPuQUuB4",
+      "embedUrl": "https://www.youtube.com/embed/szrkPuQUuB4",
+      "title": "Torah Tuesday - Exodus 21:22-25",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:21:22",
+        "verse:exod:21:23",
+        "verse:exod:21:24",
+        "verse:exod:21:25"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 21:22,21:23,21:24,21:25; mapped to 4 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:t2EVrlwtIpI",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=t2EVrlwtIpI",
+      "embedUrl": "https://www.youtube.com/embed/t2EVrlwtIpI",
+      "title": "Torah Tuesday - Exodus 4:1-5",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:4:1",
+        "verse:exod:4:2",
+        "verse:exod:4:3",
+        "verse:exod:4:4",
+        "verse:exod:4:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 4:1,4:2,4:3,4:4,4:5; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:tcOwz5SwJwI",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=tcOwz5SwJwI",
+      "embedUrl": "https://www.youtube.com/embed/tcOwz5SwJwI",
+      "title": "Torah Tuesday - Exodus 16:13-18",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:16:13",
+        "verse:exod:16:14",
+        "verse:exod:16:15",
+        "verse:exod:16:16",
+        "verse:exod:16:17"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 16:13,16:14,16:15,16:16,16:17,16:18; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:tCRerxyOuso",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=tCRerxyOuso",
+      "embedUrl": "https://www.youtube.com/embed/tCRerxyOuso",
+      "title": "Torah Tuesday - Leviticus 11-15",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:lev:11",
+        "chapter:lev:12",
+        "chapter:lev:13",
+        "chapter:lev:14",
+        "chapter:lev:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): lev 11, lev 12, lev 13, lev 14, lev 15. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:TEntZc0u21c",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=TEntZc0u21c",
+      "embedUrl": "https://www.youtube.com/embed/TEntZc0u21c",
+      "title": "Torah Tuesday - Leviticus 24",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:lev:24"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): lev 24. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:ToVWOlNO6uQ",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ToVWOlNO6uQ",
+      "embedUrl": "https://www.youtube.com/embed/ToVWOlNO6uQ",
+      "title": "Torah Tuesday - Exodus 2:11-13 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:2:11",
+        "verse:exod:2:12",
+        "verse:exod:2:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 2:11,2:12,2:13; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:TZ-165KxNB4",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=TZ-165KxNB4",
+      "embedUrl": "https://www.youtube.com/embed/TZ-165KxNB4",
+      "title": "Torah Tuesday - Exodus 16:31-36",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:16:31",
+        "verse:exod:16:32",
+        "verse:exod:16:33",
+        "verse:exod:16:34",
+        "verse:exod:16:35"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 16:31,16:32,16:33,16:34,16:35,16:36; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:u0tDALtcItw",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=u0tDALtcItw",
+      "embedUrl": "https://www.youtube.com/embed/u0tDALtcItw",
+      "title": "Torah Tuesday - Exodus 5:3-5",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:5:3",
+        "verse:exod:5:4",
+        "verse:exod:5:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 5:3,5:4,5:5; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:ubO2gSqu16U",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ubO2gSqu16U",
+      "embedUrl": "https://www.youtube.com/embed/ubO2gSqu16U",
+      "title": "Torah Tuesday - Exodus 21:12-17",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:21:12",
+        "verse:exod:21:13",
+        "verse:exod:21:14",
+        "verse:exod:21:15",
+        "verse:exod:21:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 21:12,21:13,21:14,21:15,21:16,21:17; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:UI8_OBbEYwM",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=UI8_OBbEYwM",
+      "embedUrl": "https://www.youtube.com/embed/UI8_OBbEYwM",
+      "title": "Torah Tuesday - Exodus 18:19-27",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:18:19",
+        "verse:exod:18:20",
+        "verse:exod:18:21",
+        "verse:exod:18:22",
+        "verse:exod:18:23"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 18:19,18:20,18:21,18:22,18:23,18:24,18:25,18:26,18:27; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:uPi9lZEdtCY",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=uPi9lZEdtCY",
+      "embedUrl": "https://www.youtube.com/embed/uPi9lZEdtCY",
+      "title": "Torah Tuesday - Exodus 27:1-8 (Bronze Altar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:27:1",
+        "verse:exod:27:2",
+        "verse:exod:27:3",
+        "verse:exod:27:4",
+        "verse:exod:27:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 27:1,27:2,27:3,27:4,27:5,27:6,27:7,27:8; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:uqfBeFoeL1s",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=uqfBeFoeL1s",
+      "embedUrl": "https://www.youtube.com/embed/uqfBeFoeL1s",
+      "title": "Torah Tuesday - Exodus 2:5-9 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:2:5",
+        "verse:exod:2:6",
+        "verse:exod:2:7",
+        "verse:exod:2:8",
+        "verse:exod:2:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 2:5,2:6,2:7,2:8,2:9; mapped to 5 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:UT6hSQ1MiSU",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=UT6hSQ1MiSU",
+      "embedUrl": "https://www.youtube.com/embed/UT6hSQ1MiSU",
+      "title": "Torah Tuesday - Exodus 11:1",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:11:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 11:1; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:v0mGTX1BhUM",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=v0mGTX1BhUM",
+      "embedUrl": "https://www.youtube.com/embed/v0mGTX1BhUM",
+      "title": "Torah Tuesday - Exodus 6:2-3a",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:6:2",
+        "verse:exod:6:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 6:2,6:3; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:V4hO4nDf-X4",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=V4hO4nDf-X4",
+      "embedUrl": "https://www.youtube.com/embed/V4hO4nDf-X4",
+      "title": "Torah Tuesday - Exodus 28:22-30 (Divination)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:28:22",
+        "verse:exod:28:23",
+        "verse:exod:28:24",
+        "verse:exod:28:25",
+        "verse:exod:28:26"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 28:22,28:23,28:24,28:25,28:26,28:27,28:28,28:29,28:30; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:vDMAsWyHbcU",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=vDMAsWyHbcU",
+      "embedUrl": "https://www.youtube.com/embed/vDMAsWyHbcU",
+      "title": "Torah Tuesday - Leviticus 8-10",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:lev:8",
+        "chapter:lev:9",
+        "chapter:lev:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): lev 8, lev 9, lev 10. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:vuBdt4kOI84",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=vuBdt4kOI84",
+      "embedUrl": "https://www.youtube.com/embed/vuBdt4kOI84",
+      "title": "Torah Tuesday - Exodus 7:19-25",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:7:19",
+        "verse:exod:7:20",
+        "verse:exod:7:21",
+        "verse:exod:7:22",
+        "verse:exod:7:23"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 7:19,7:20,7:21,7:22,7:23,7:24,7:25; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:w-upTgo3KsM",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=w-upTgo3KsM",
+      "embedUrl": "https://www.youtube.com/embed/w-upTgo3KsM",
+      "title": "Torah Tuesday - Genesis 1:26",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:26"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:26; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:W9x4l0xEmWI",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=W9x4l0xEmWI",
+      "embedUrl": "https://www.youtube.com/embed/W9x4l0xEmWI",
+      "title": "Torah Tuesday - Exodus 29:1-14 (Ordination, Part 1)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:29:1",
+        "verse:exod:29:2",
+        "verse:exod:29:3",
+        "verse:exod:29:4",
+        "verse:exod:29:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 29:1,29:2,29:3,29:4,29:5,29:6,29:7,29:8,29:9,29:10,29:11,29:12,29:13,29:14; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:WcWzWB-wzh4",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=WcWzWB-wzh4",
+      "embedUrl": "https://www.youtube.com/embed/WcWzWB-wzh4",
+      "title": "Torah Tuesday - Genesis 11:4-5 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:11:4",
+        "verse:gen:11:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 11:4,11:5; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:WF10JyXsN1A",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=WF10JyXsN1A",
+      "embedUrl": "https://www.youtube.com/embed/WF10JyXsN1A",
+      "title": "Torah Tuesday - Exodus 15:22-27",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:15:22",
+        "verse:exod:15:23",
+        "verse:exod:15:24",
+        "verse:exod:15:25",
+        "verse:exod:15:26"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 15:22,15:23,15:24,15:25,15:26,15:27; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:wfP-NzSyb_Q",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=wfP-NzSyb_Q",
+      "embedUrl": "https://www.youtube.com/embed/wfP-NzSyb_Q",
+      "title": "Torah Tuesday - Exodus 6:3b",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:6:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 6:3; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:wjh0mo0J-lk",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=wjh0mo0J-lk",
+      "embedUrl": "https://www.youtube.com/embed/wjh0mo0J-lk",
+      "title": "Torah Tuesday - Exodus 7:11-13",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:7:11",
+        "verse:exod:7:12",
+        "verse:exod:7:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 7:11,7:12,7:13; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:wPtitGN2Vog",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=wPtitGN2Vog",
+      "embedUrl": "https://www.youtube.com/embed/wPtitGN2Vog",
+      "title": "Torah Tuesday - Exodus 3:21-22 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:21",
+        "verse:exod:3:22"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 3:21,3:22; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:wTYt1-iJXAg",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=wTYt1-iJXAg",
+      "embedUrl": "https://www.youtube.com/embed/wTYt1-iJXAg",
+      "title": "Torah Tuesday - Exodus 2.15-22",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:2:15",
+        "verse:exod:2:16",
+        "verse:exod:2:17",
+        "verse:exod:2:18",
+        "verse:exod:2:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 2:15,2:16,2:17,2:18,2:19,2:20,2:21,2:22; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:Wv-Q_AwkQvQ",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Wv-Q_AwkQvQ",
+      "embedUrl": "https://www.youtube.com/embed/Wv-Q_AwkQvQ",
+      "title": "Torah Tuesday - Exodus 12:29-36",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:12:29",
+        "verse:exod:12:30",
+        "verse:exod:12:31",
+        "verse:exod:12:32",
+        "verse:exod:12:33"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 12:29,12:30,12:31,12:32,12:33,12:34,12:35,12:36; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:WxiRQQxcl8g",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=WxiRQQxcl8g",
+      "embedUrl": "https://www.youtube.com/embed/WxiRQQxcl8g",
+      "title": "Torah Tuesday - Genesis 1:21 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:21"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:21; mapped to 1 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:WXp4wuVH7ug",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=WXp4wuVH7ug",
+      "embedUrl": "https://www.youtube.com/embed/WXp4wuVH7ug",
+      "title": "Torah Tuesday - Exodus 6:9-11",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:6:9",
+        "verse:exod:6:10",
+        "verse:exod:6:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 6:9,6:10,6:11; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:X7f5xrQVv9w",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=X7f5xrQVv9w",
+      "embedUrl": "https://www.youtube.com/embed/X7f5xrQVv9w",
+      "title": "Torah Tuesday - Exodus 18:6-12",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:18:6",
+        "verse:exod:18:7",
+        "verse:exod:18:8",
+        "verse:exod:18:9",
+        "verse:exod:18:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 18:6,18:7,18:8,18:9,18:10,18:11,18:12; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:xA3AhfFr2CI",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=xA3AhfFr2CI",
+      "embedUrl": "https://www.youtube.com/embed/xA3AhfFr2CI",
+      "title": "Torah Tuesday - Exodus 16:19-30",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:16:19",
+        "verse:exod:16:20",
+        "verse:exod:16:21",
+        "verse:exod:16:22",
+        "verse:exod:16:23"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 16:19,16:20,16:21,16:22,16:23,16:24,16:25,16:26,16:27,16:28,16:29,16:30; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:XFHRC-vNUSY",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=XFHRC-vNUSY",
+      "embedUrl": "https://www.youtube.com/embed/XFHRC-vNUSY",
+      "title": "Torah Tuesday - Exodus 14:21-31",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:14:21",
+        "verse:exod:14:22",
+        "verse:exod:14:23",
+        "verse:exod:14:24",
+        "verse:exod:14:25"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 14:21,14:22,14:23,14:24,14:25,14:26,14:27,14:28,14:29,14:30,14:31; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:y6WWtbKJPb8",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=y6WWtbKJPb8",
+      "embedUrl": "https://www.youtube.com/embed/y6WWtbKJPb8",
+      "title": "Torah Tuesday - Exodus 7:3-5",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:7:3",
+        "verse:exod:7:4",
+        "verse:exod:7:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 7:3,7:4,7:5; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:Y8xb2JEMKoE",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Y8xb2JEMKoE",
+      "embedUrl": "https://www.youtube.com/embed/Y8xb2JEMKoE",
+      "title": "Torah Tuesday - Exodus 1:8-10",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:1:8",
+        "verse:exod:1:9",
+        "verse:exod:1:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 1:8,1:9,1:10; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:yAUQhLhr9D0",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=yAUQhLhr9D0",
+      "embedUrl": "https://www.youtube.com/embed/yAUQhLhr9D0",
+      "title": "Torah Tuesday - Exodus 15, Part 2",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:exod:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): exod 15. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:YCI0UK0Gt60",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=YCI0UK0Gt60",
+      "embedUrl": "https://www.youtube.com/embed/YCI0UK0Gt60",
+      "title": "Torah Tuesday -  Exodus 12:1-2",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:12:1",
+        "verse:exod:12:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 12:1,12:2; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:YF1Yf83ASfc",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=YF1Yf83ASfc",
+      "embedUrl": "https://www.youtube.com/embed/YF1Yf83ASfc",
+      "title": "Torah Tuesday - Exodus 23:14-19",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:23:14",
+        "verse:exod:23:15",
+        "verse:exod:23:16",
+        "verse:exod:23:17",
+        "verse:exod:23:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 23:14,23:15,23:16,23:17,23:18,23:19; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:YP-RZd-tZfk",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=YP-RZd-tZfk",
+      "embedUrl": "https://www.youtube.com/embed/YP-RZd-tZfk",
+      "title": "Torah Tuesday - Psalm 1:1-3 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ps:1:1",
+        "verse:ps:1:2",
+        "verse:ps:1:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ps 1:1,1:2,1:3; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:ypMkoq1n-D4",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ypMkoq1n-D4",
+      "embedUrl": "https://www.youtube.com/embed/ypMkoq1n-D4",
+      "title": "Torah Tuesday - Exodus 3:10-12 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:10",
+        "verse:exod:3:11",
+        "verse:exod:3:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 3:10,3:11,3:12; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:Z2ryTsJpjJM",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Z2ryTsJpjJM",
+      "embedUrl": "https://www.youtube.com/embed/Z2ryTsJpjJM",
+      "title": "Torah Tuesday - Genesis 14:18-20",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:14:18",
+        "verse:gen:14:19",
+        "verse:gen:14:20"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 14:18,14:19,14:20; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:Z5lGJrALNfc",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Z5lGJrALNfc",
+      "embedUrl": "https://www.youtube.com/embed/Z5lGJrALNfc",
+      "title": "Torah Tuesday - Exodus 7:3-5: Part 2",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:7:3",
+        "verse:exod:7:4",
+        "verse:exod:7:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 7:3,7:4,7:5; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:zdPzMTHOrek",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=zdPzMTHOrek",
+      "embedUrl": "https://www.youtube.com/embed/zdPzMTHOrek",
+      "title": "Torah Tuesday - Exodus 6:6-8",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:6:6",
+        "verse:exod:6:7",
+        "verse:exod:6:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 6:6,6:7,6:8; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:ZF8JHkjDMCE",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ZF8JHkjDMCE",
+      "embedUrl": "https://www.youtube.com/embed/ZF8JHkjDMCE",
+      "title": "Torah Tuesday - Exodus 3:19-20",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:19",
+        "verse:exod:3:20"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 3:19,3:20; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:ZGhMKAnqbGM",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ZGhMKAnqbGM",
+      "embedUrl": "https://www.youtube.com/embed/ZGhMKAnqbGM",
+      "title": "Torah Tuesday - Exodus 5:1-2",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:5:1",
+        "verse:exod:5:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 5:1,5:2; mapped to 2 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:zHLTehJ5a6s",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=zHLTehJ5a6s",
+      "embedUrl": "https://www.youtube.com/embed/zHLTehJ5a6s",
+      "title": "Torah Tuesday - Exodus 3:13-15 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:3:13",
+        "verse:exod:3:14",
+        "verse:exod:3:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 3:13,3:14,3:15; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:zHxeT_pPFgY",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=zHxeT_pPFgY",
+      "embedUrl": "https://www.youtube.com/embed/zHxeT_pPFgY",
+      "title": "Torah Tuesday - Exodus 2:15-22 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:2:15",
+        "verse:exod:2:16",
+        "verse:exod:2:17",
+        "verse:exod:2:18",
+        "verse:exod:2:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 2:15,2:16,2:17,2:18,2:19,2:20,2:21,2:22; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:zIleviXSr1o",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=zIleviXSr1o",
+      "embedUrl": "https://www.youtube.com/embed/zIleviXSr1o",
+      "title": "Torah Tuesday - Exodus 6:12-13, 26-30",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:6:12",
+        "verse:exod:6:13",
+        "verse:exod:6:26",
+        "verse:exod:6:27",
+        "verse:exod:6:28"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 6:12,6:13,6:26,6:27,6:28,6:29,6:30; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:ZmTSup8o60E",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ZmTSup8o60E",
+      "embedUrl": "https://www.youtube.com/embed/ZmTSup8o60E",
+      "title": "Torah Tuesday - Leviticus 23",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:lev:23"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Chapter-level target(s): lev 23. Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:Zr6cT3G-wdo",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Zr6cT3G-wdo",
+      "embedUrl": "https://www.youtube.com/embed/Zr6cT3G-wdo",
+      "title": "Torah Tuesday - Exodus 1:8-10 (Spanish)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:1:8",
+        "verse:exod:1:9",
+        "verse:exod:1:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 1:8,1:9,1:10; mapped to 3 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:ZtyIppGAKqk",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ZtyIppGAKqk",
+      "embedUrl": "https://www.youtube.com/embed/ZtyIppGAKqk",
+      "title": "Torah Tuesday - Exodus 21:18-21",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:21:18",
+        "verse:exod:21:19",
+        "verse:exod:21:20",
+        "verse:exod:21:21"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 21:18,21:19,21:20,21:21; mapped to 4 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:ZwXkvR9u4wQ",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ZwXkvR9u4wQ",
+      "embedUrl": "https://www.youtube.com/embed/ZwXkvR9u4wQ",
+      "title": "Torah Tuesday - Exodus 21:33-36",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:21:33",
+        "verse:exod:21:34",
+        "verse:exod:21:35",
+        "verse:exod:21:36"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 21:33,21:34,21:35,21:36; mapped to 4 Jewish-verse target(s). Torah Tuesday series."
+    },
+    {
+      "id": "youtube:video:zz6wvoKNV_w",
+      "provider": "Carmen Joy Imes",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=zz6wvoKNV_w",
+      "embedUrl": "https://www.youtube.com/embed/zz6wvoKNV_w",
+      "title": "Torah Tuesday - Exodus 25:31-40 (Menorah)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:25:31",
+        "verse:exod:25:32",
+        "verse:exod:25:33",
+        "verse:exod:25:34",
+        "verse:exod:25:35"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 25:31,25:32,25:33,25:34,25:35,25:36,25:37,25:38,25:39,25:40; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Torah Tuesday series."
+    }
+  ],
+  "generatedAt": "2026-08-22T03:54:46.004Z"
+}

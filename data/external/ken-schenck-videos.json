@@ -1,0 +1,3978 @@
+{
+  "sourceUrl": "https://www.youtube.com/@KenSchenck",
+  "resources": [
+    {
+      "id": "youtube:video:_inJt9uuVHw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=_inJt9uuVHw",
+      "embedUrl": "https://www.youtube.com/embed/_inJt9uuVHw",
+      "title": "Daniel 2:13 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:13; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:_xnsaUx8Kuk",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=_xnsaUx8Kuk",
+      "embedUrl": "https://www.youtube.com/embed/_xnsaUx8Kuk",
+      "title": "Ruth 4:2 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:2; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:-9GpWCTFr8U",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=-9GpWCTFr8U",
+      "embedUrl": "https://www.youtube.com/embed/-9GpWCTFr8U",
+      "title": "Ruth 2:20 (Hebrew of the Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:20"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:20; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:-TCI6AwfHP4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=-TCI6AwfHP4",
+      "embedUrl": "https://www.youtube.com/embed/-TCI6AwfHP4",
+      "title": "Ruth 4:7 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:7; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:-TpXWILb2xg",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=-TpXWILb2xg",
+      "embedUrl": "https://www.youtube.com/embed/-TpXWILb2xg",
+      "title": "Jonah 2:10 (first aleph, middle weak)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:2:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 2:10; mapped to 1 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:0lmgLPpLRYU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=0lmgLPpLRYU",
+      "embedUrl": "https://www.youtube.com/embed/0lmgLPpLRYU",
+      "title": "Jonah 1:5a (masculine plural-object marker)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:5; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:0MFq4H-_DG0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=0MFq4H-_DG0",
+      "embedUrl": "https://www.youtube.com/embed/0MFq4H-_DG0",
+      "title": "7.3 Isaiah 6:1-3 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:6:1",
+        "verse:isa:6:2",
+        "verse:isa:6:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 6:1,6:2,6:3; mapped to 3 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:0Smgmsj-yus",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=0Smgmsj-yus",
+      "embedUrl": "https://www.youtube.com/embed/0Smgmsj-yus",
+      "title": "Ruth 2:1 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:1; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:0t5WRoFpdNg",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=0t5WRoFpdNg",
+      "embedUrl": "https://www.youtube.com/embed/0t5WRoFpdNg",
+      "title": "Learn Hebrew: Hiphil, Pilpel, and Weqatal (Ruth 4:15)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:15; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:1excbkgNU18",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=1excbkgNU18",
+      "embedUrl": "https://www.youtube.com/embed/1excbkgNU18",
+      "title": "Ruth 1:17 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:17"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:17; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:1mZ3Xf5_PL4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=1mZ3Xf5_PL4",
+      "embedUrl": "https://www.youtube.com/embed/1mZ3Xf5_PL4",
+      "title": "Daniel 2:39 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:39"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:39; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:1qNVZU9rPnU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=1qNVZU9rPnU",
+      "embedUrl": "https://www.youtube.com/embed/1qNVZU9rPnU",
+      "title": "Jonah 4:10 (D perf)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:4:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 4:10; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:2enMHgYjMXA",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=2enMHgYjMXA",
+      "embedUrl": "https://www.youtube.com/embed/2enMHgYjMXA",
+      "title": "2.3 Genesis 14:18-19 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:14:18",
+        "verse:gen:14:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 14:18,14:19; mapped to 2 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:2qiwPKuGah0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=2qiwPKuGah0",
+      "embedUrl": "https://www.youtube.com/embed/2qiwPKuGah0",
+      "title": "Ruth 1:18 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:18; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:2SgzQtKKytw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=2SgzQtKKytw",
+      "embedUrl": "https://www.youtube.com/embed/2SgzQtKKytw",
+      "title": "Learn Hebrew: The Women Name the Baby (Ruth 4:17)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:17"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:17; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:2VoqIz3SBKk",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=2VoqIz3SBKk",
+      "embedUrl": "https://www.youtube.com/embed/2VoqIz3SBKk",
+      "title": "Jonah 1:16 (pleonasm)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:16; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:2VY0JVqAXBI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=2VY0JVqAXBI",
+      "embedUrl": "https://www.youtube.com/embed/2VY0JVqAXBI",
+      "title": "Jonah 3:3a (middle weak, הלך)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:3:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 3:3; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:2wNqB2zCOx0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=2wNqB2zCOx0",
+      "embedUrl": "https://www.youtube.com/embed/2wNqB2zCOx0",
+      "title": "Jonah 3:1 (third he infinitive construct)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:3:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 3:1; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:3YFBFMINCF4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=3YFBFMINCF4",
+      "embedUrl": "https://www.youtube.com/embed/3YFBFMINCF4",
+      "title": "1.11 Genesis 1:11 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:11; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:4-0OgvfvEsw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=4-0OgvfvEsw",
+      "embedUrl": "https://www.youtube.com/embed/4-0OgvfvEsw",
+      "title": "Ruth 2:22 (Hebrew of the Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:22"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:22; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:4ByzaXgMfEA",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=4ByzaXgMfEA",
+      "embedUrl": "https://www.youtube.com/embed/4ByzaXgMfEA",
+      "title": "2.2 Isaiah 40:9-15",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:40:9",
+        "verse:isa:40:10",
+        "verse:isa:40:11",
+        "verse:isa:40:12",
+        "verse:isa:40:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 40:9,40:10,40:11,40:12,40:13,40:14,40:15; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:4rHioRsSSF4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=4rHioRsSSF4",
+      "embedUrl": "https://www.youtube.com/embed/4rHioRsSSF4",
+      "title": "1.4 Isaiah 40:1-8 (NT view)",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:40:1",
+        "verse:isa:40:2",
+        "verse:isa:40:3",
+        "verse:isa:40:4",
+        "verse:isa:40:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 40:1,40:2,40:3,40:4,40:5,40:6,40:7,40:8; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:4Sg3g6BAmN0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=4Sg3g6BAmN0",
+      "embedUrl": "https://www.youtube.com/embed/4Sg3g6BAmN0",
+      "title": "Daniel 2:19 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:19; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:4ZQ9cZpBjCg",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=4ZQ9cZpBjCg",
+      "embedUrl": "https://www.youtube.com/embed/4ZQ9cZpBjCg",
+      "title": "Jonah 1:9 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:9; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:5GIvBNOznxw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=5GIvBNOznxw",
+      "embedUrl": "https://www.youtube.com/embed/5GIvBNOznxw",
+      "title": "1.9 Genesis 1:9 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:9; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:5IP9oE5NoEM",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=5IP9oE5NoEM",
+      "embedUrl": "https://www.youtube.com/embed/5IP9oE5NoEM",
+      "title": "Ruth 1:9 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:9; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:67TW6jVgukg",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=67TW6jVgukg",
+      "embedUrl": "https://www.youtube.com/embed/67TW6jVgukg",
+      "title": "Ruth 2:15 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:15; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:6bHv2bJb7Hg",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=6bHv2bJb7Hg",
+      "embedUrl": "https://www.youtube.com/embed/6bHv2bJb7Hg",
+      "title": "5.3 Psalm 139:1-6 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ps:139:1",
+        "verse:ps:139:2",
+        "verse:ps:139:3",
+        "verse:ps:139:4",
+        "verse:ps:139:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ps 139:1,139:2,139:3,139:4,139:5,139:6; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:6FuqbOKZLEQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=6FuqbOKZLEQ",
+      "embedUrl": "https://www.youtube.com/embed/6FuqbOKZLEQ",
+      "title": "Jonah 1:13a (review of converted imperfect)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:13; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:6IIiwW-r_AI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=6IIiwW-r_AI",
+      "embedUrl": "https://www.youtube.com/embed/6IIiwW-r_AI",
+      "title": "Transliteration of Jonah 1:2-3a",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:2",
+        "verse:jonah:1:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:2,1:3; mapped to 2 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:6jtgV4awZEE",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=6jtgV4awZEE",
+      "embedUrl": "https://www.youtube.com/embed/6jtgV4awZEE",
+      "title": "Jonah 3:7 Hebrew (more conv impf)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:3:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 3:7; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:6WyB94usS7M",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=6WyB94usS7M",
+      "embedUrl": "https://www.youtube.com/embed/6WyB94usS7M",
+      "title": "Daniel 2:29 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:29"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:29; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:7dBn2i-nI4A",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=7dBn2i-nI4A",
+      "embedUrl": "https://www.youtube.com/embed/7dBn2i-nI4A",
+      "title": "Ruth 3:8 (Hebrew of the Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:8; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:7INB04jgW2c",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=7INB04jgW2c",
+      "embedUrl": "https://www.youtube.com/embed/7INB04jgW2c",
+      "title": "5.3 Isaiah 42:5 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:42:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 42:5; mapped to 1 Jewish-verse target(s). Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:7nv5D0KrLOA",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=7nv5D0KrLOA",
+      "embedUrl": "https://www.youtube.com/embed/7nv5D0KrLOA",
+      "title": "Ruth 3:16 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:16; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:7XJ5CWw9ow0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=7XJ5CWw9ow0",
+      "embedUrl": "https://www.youtube.com/embed/7XJ5CWw9ow0",
+      "title": "Daniel 2:38 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:38"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:38; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:82j08vEeHa0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=82j08vEeHa0",
+      "embedUrl": "https://www.youtube.com/embed/82j08vEeHa0",
+      "title": "Jonah 2:5 (Qal passive participle)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:2:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 2:5; mapped to 1 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:8FpG54EoxXo",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=8FpG54EoxXo",
+      "embedUrl": "https://www.youtube.com/embed/8FpG54EoxXo",
+      "title": "Ruth 4:8 (Hebrew imperative chops off the yod)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:8; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:8KikjcA4aNQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=8KikjcA4aNQ",
+      "embedUrl": "https://www.youtube.com/embed/8KikjcA4aNQ",
+      "title": "Ruth 2:3 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:3; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:8shwen_U-bQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=8shwen_U-bQ",
+      "embedUrl": "https://www.youtube.com/embed/8shwen_U-bQ",
+      "title": "2. Genesis 14:18-19 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:14:18",
+        "verse:gen:14:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 14:18,14:19; mapped to 2 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:8ym5NwXxdKo",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=8ym5NwXxdKo",
+      "embedUrl": "https://www.youtube.com/embed/8ym5NwXxdKo",
+      "title": "Learn Hebrew: Naomi Holds the Baby (Ruth 4:16)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:16; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:9f9Dv5QBlsg",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=9f9Dv5QBlsg",
+      "embedUrl": "https://www.youtube.com/embed/9f9Dv5QBlsg",
+      "title": "Jonah 4:6 (inf const - first nun)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:4:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 4:6; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:9K7R3P3Ixso",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=9K7R3P3Ixso",
+      "embedUrl": "https://www.youtube.com/embed/9K7R3P3Ixso",
+      "title": "Jonah 1:12c (present \"tense\")",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:12; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:9oMhRQPGTOc",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=9oMhRQPGTOc",
+      "embedUrl": "https://www.youtube.com/embed/9oMhRQPGTOc",
+      "title": "4.1 Deuteronomy 6:4-5 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:deut:6:4",
+        "verse:deut:6:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference deut 6:4,6:5; mapped to 2 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:9qV642-W6Oo",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=9qV642-W6Oo",
+      "embedUrl": "https://www.youtube.com/embed/9qV642-W6Oo",
+      "title": "Ruth 1:19 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:19; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:a48DKmaXsDc",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=a48DKmaXsDc",
+      "embedUrl": "https://www.youtube.com/embed/a48DKmaXsDc",
+      "title": "3.4 Isaiah 41:1-7",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:41:1",
+        "verse:isa:41:2",
+        "verse:isa:41:3",
+        "verse:isa:41:4",
+        "verse:isa:41:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 41:1,41:2,41:3,41:4,41:5,41:6,41:7; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:a9MOs9E70Tw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=a9MOs9E70Tw",
+      "embedUrl": "https://www.youtube.com/embed/a9MOs9E70Tw",
+      "title": "2.3 Isaiah 40:9 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:40:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 40:9; mapped to 1 Jewish-verse target(s). Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:aAJwvSZat98",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=aAJwvSZat98",
+      "embedUrl": "https://www.youtube.com/embed/aAJwvSZat98",
+      "title": "11.3 Numbers 15:22, 24, 27 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:num:15:22",
+        "verse:num:15:24",
+        "verse:num:15:27"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference num 15:22,15:24,15:27; mapped to 3 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:AApTQvDXNPE",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=AApTQvDXNPE",
+      "embedUrl": "https://www.youtube.com/embed/AApTQvDXNPE",
+      "title": "Ruth 4:12 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:12; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:agpsuNCS1B8",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=agpsuNCS1B8",
+      "embedUrl": "https://www.youtube.com/embed/agpsuNCS1B8",
+      "title": "Jonah 4:2a (interrogative ה, infinitive construct)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:4:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 4:2; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:amh2knPIfEU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=amh2knPIfEU",
+      "embedUrl": "https://www.youtube.com/embed/amh2knPIfEU",
+      "title": "Ruth 1:12-13a (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:12",
+        "verse:ruth:1:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:12,1:13; mapped to 2 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:AnRhuncpatA",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=AnRhuncpatA",
+      "embedUrl": "https://www.youtube.com/embed/AnRhuncpatA",
+      "title": "Daniel 2:41 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:41"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:41; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:atoKr8uNbcc",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=atoKr8uNbcc",
+      "embedUrl": "https://www.youtube.com/embed/atoKr8uNbcc",
+      "title": "1.8 Genesis 1:8 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:8; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:B-ZdqzYOxFo",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=B-ZdqzYOxFo",
+      "embedUrl": "https://www.youtube.com/embed/B-ZdqzYOxFo",
+      "title": "Daniel 2:44 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:44"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:44; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:BcJ9MJBhPM4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=BcJ9MJBhPM4",
+      "embedUrl": "https://www.youtube.com/embed/BcJ9MJBhPM4",
+      "title": "Ruth 2:2 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:2; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:BEi5mC1VCxo",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=BEi5mC1VCxo",
+      "embedUrl": "https://www.youtube.com/embed/BEi5mC1VCxo",
+      "title": "Daniel 2:36-37 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:36",
+        "verse:dan:2:37"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:36,2:37; mapped to 2 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:BoA2457C0IU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=BoA2457C0IU",
+      "embedUrl": "https://www.youtube.com/embed/BoA2457C0IU",
+      "title": "15.3 Deuteronomy 28:1-2, 15 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:deut:28:1",
+        "verse:deut:28:2",
+        "verse:deut:28:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference deut 28:1,28:2,28:15; mapped to 3 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:bqU3yBKLUJI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=bqU3yBKLUJI",
+      "embedUrl": "https://www.youtube.com/embed/bqU3yBKLUJI",
+      "title": "Ruth 4:10 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:10; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:bRBYFtGhN8Q",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=bRBYFtGhN8Q",
+      "embedUrl": "https://www.youtube.com/embed/bRBYFtGhN8Q",
+      "title": "Ruth 4:1 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:1; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:c8Qm2TFmMr4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=c8Qm2TFmMr4",
+      "embedUrl": "https://www.youtube.com/embed/c8Qm2TFmMr4",
+      "title": "Jonah 1:2 (Hebrew vowels)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:2; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:c9ttslxUOTQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=c9ttslxUOTQ",
+      "embedUrl": "https://www.youtube.com/embed/c9ttslxUOTQ",
+      "title": "Ruth 4:3 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:3; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:CAZdEtTwSOI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=CAZdEtTwSOI",
+      "embedUrl": "https://www.youtube.com/embed/CAZdEtTwSOI",
+      "title": "Daniel 2:26 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:26"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:26; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:ccl0G1_eKts",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ccl0G1_eKts",
+      "embedUrl": "https://www.youtube.com/embed/ccl0G1_eKts",
+      "title": "Daniel 2:23 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:23"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:23; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:CF1u715uI88",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=CF1u715uI88",
+      "embedUrl": "https://www.youtube.com/embed/CF1u715uI88",
+      "title": "Jonah 4:4 (H infinitive absolute)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:4:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 4:4; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:cG1ErtR-fLc",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=cG1ErtR-fLc",
+      "embedUrl": "https://www.youtube.com/embed/cG1ErtR-fLc",
+      "title": "Ruth 3:4 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:4; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:cHgMZ9YVAkE",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=cHgMZ9YVAkE",
+      "embedUrl": "https://www.youtube.com/embed/cHgMZ9YVAkE",
+      "title": "Ruth 3:18 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:18; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:ckty2DyrmPI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ckty2DyrmPI",
+      "embedUrl": "https://www.youtube.com/embed/ckty2DyrmPI",
+      "title": "Jonah 4:2b (D perfect, N participle)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:4:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 4:2; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:ckvfhzuzf8U",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ckvfhzuzf8U",
+      "embedUrl": "https://www.youtube.com/embed/ckvfhzuzf8U",
+      "title": "Hebrew Adjectives (Jonah 1:4a)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:4; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:cnnGAXDP4YU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=cnnGAXDP4YU",
+      "embedUrl": "https://www.youtube.com/embed/cnnGAXDP4YU",
+      "title": "Jonah 2:2 (1cp, 2ms)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:2:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 2:2; mapped to 1 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:cowUY-ZmoHo",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=cowUY-ZmoHo",
+      "embedUrl": "https://www.youtube.com/embed/cowUY-ZmoHo",
+      "title": "Genesis 1:1 (Hebrew perfect)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:1; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:ct_LcIy1RSI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ct_LcIy1RSI",
+      "embedUrl": "https://www.youtube.com/embed/ct_LcIy1RSI",
+      "title": "Ruth 3:3 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:3; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:cvQzFKhRwyc",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=cvQzFKhRwyc",
+      "embedUrl": "https://www.youtube.com/embed/cvQzFKhRwyc",
+      "title": "Ruth 2:18 (Hebrew of the Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:18; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:CYekfNmA0Cc",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=CYekfNmA0Cc",
+      "embedUrl": "https://www.youtube.com/embed/CYekfNmA0Cc",
+      "title": "1.6 Genesis 1:6 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:6; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:d9IytFoH-Xw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=d9IytFoH-Xw",
+      "embedUrl": "https://www.youtube.com/embed/d9IytFoH-Xw",
+      "title": "Ruth 1:14 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:14; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:DFt0AOC6S9A",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=DFt0AOC6S9A",
+      "embedUrl": "https://www.youtube.com/embed/DFt0AOC6S9A",
+      "title": "Ruth 2:21 (Hebrew of the Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:21"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:21; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:DHSPxRhaWqU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=DHSPxRhaWqU",
+      "embedUrl": "https://www.youtube.com/embed/DHSPxRhaWqU",
+      "title": "Ruth 4:5 (Hebrew of the 2 Weeks)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:5; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:dixCSGJFpGA",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=dixCSGJFpGA",
+      "embedUrl": "https://www.youtube.com/embed/dixCSGJFpGA",
+      "title": "1.15 Genesis 1:15 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:15; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:dJiQcgXxi8E",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=dJiQcgXxi8E",
+      "embedUrl": "https://www.youtube.com/embed/dJiQcgXxi8E",
+      "title": "Ruth 2:5 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:5; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:dvl3Bqq37S4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=dvl3Bqq37S4",
+      "embedUrl": "https://www.youtube.com/embed/dvl3Bqq37S4",
+      "title": "Jonah 4:9 (H inf abs)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:4:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 4:9; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:dwnVuzWv8jI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=dwnVuzWv8jI",
+      "embedUrl": "https://www.youtube.com/embed/dwnVuzWv8jI",
+      "title": "Jonah 1:6b Hebrew (pronomial suffixes)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:6; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:E0YBcDKVXdo",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=E0YBcDKVXdo",
+      "embedUrl": "https://www.youtube.com/embed/E0YBcDKVXdo",
+      "title": "Ruth 1:7 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:7; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:e6CYrZ_gZC8",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=e6CYrZ_gZC8",
+      "embedUrl": "https://www.youtube.com/embed/e6CYrZ_gZC8",
+      "title": "Jonah 1:12b (imperfect tense)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:12; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:eED5D-GhUd4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=eED5D-GhUd4",
+      "embedUrl": "https://www.youtube.com/embed/eED5D-GhUd4",
+      "title": "Jonah 2:1 (stems and HtD)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:2:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 2:1; mapped to 1 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:EedCTa-Pmiw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=EedCTa-Pmiw",
+      "embedUrl": "https://www.youtube.com/embed/EedCTa-Pmiw",
+      "title": "Hebrew Letters (Jonah 1:3)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:3; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:EuH9519jj9Q",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=EuH9519jj9Q",
+      "embedUrl": "https://www.youtube.com/embed/EuH9519jj9Q",
+      "title": "Ruth 3:6 (Hebrew of the Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:6; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:f0rqYRCSGWU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=f0rqYRCSGWU",
+      "embedUrl": "https://www.youtube.com/embed/f0rqYRCSGWU",
+      "title": "Ruth 2:17 (Hebrew of the Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:17"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:17; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:f8-tnaXlYFg",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=f8-tnaXlYFg",
+      "embedUrl": "https://www.youtube.com/embed/f8-tnaXlYFg",
+      "title": "1.5 Genesis 1:5 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:5; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:FAiDKlZ_raw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=FAiDKlZ_raw",
+      "embedUrl": "https://www.youtube.com/embed/FAiDKlZ_raw",
+      "title": "Ruth 3:2 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:2; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:fchyzy6VsbU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=fchyzy6VsbU",
+      "embedUrl": "https://www.youtube.com/embed/fchyzy6VsbU",
+      "title": "Ruth 3:9 (Hebrew of the Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:9; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:FeBUYRnvu-0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=FeBUYRnvu-0",
+      "embedUrl": "https://www.youtube.com/embed/FeBUYRnvu-0",
+      "title": "Jonah 3:6 (H 3ms conv impf)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:3:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 3:6; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:FeJhxKGaEz0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=FeJhxKGaEz0",
+      "embedUrl": "https://www.youtube.com/embed/FeJhxKGaEz0",
+      "title": "Ruth 2:12 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:12; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:fNQVuCKZ5PE",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=fNQVuCKZ5PE",
+      "embedUrl": "https://www.youtube.com/embed/fNQVuCKZ5PE",
+      "title": "Learn Hebrew: From Boaz to David (Ruth 4:18-22)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:18",
+        "verse:ruth:4:19",
+        "verse:ruth:4:20",
+        "verse:ruth:4:21",
+        "verse:ruth:4:22"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:18,4:19,4:20,4:21,4:22; mapped to 5 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:ftm92UQjBYA",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ftm92UQjBYA",
+      "embedUrl": "https://www.youtube.com/embed/ftm92UQjBYA",
+      "title": "1. The Hebrew Letters of Jonah 1:1",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:1; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:fUQt_AAaxvk",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=fUQt_AAaxvk",
+      "embedUrl": "https://www.youtube.com/embed/fUQt_AAaxvk",
+      "title": "Daniel 2:15 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:15; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:FWTG8X9W5YY",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=FWTG8X9W5YY",
+      "embedUrl": "https://www.youtube.com/embed/FWTG8X9W5YY",
+      "title": "2. Hebrew Letters (Jonah 1:2)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:2; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:gk0QZIbUUGY",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=gk0QZIbUUGY",
+      "embedUrl": "https://www.youtube.com/embed/gk0QZIbUUGY",
+      "title": "Daniel 2:25 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:25"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:25; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:gNV14Fr1GPE",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=gNV14Fr1GPE",
+      "embedUrl": "https://www.youtube.com/embed/gNV14Fr1GPE",
+      "title": "1.2 Genesis 1:2 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:2; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:GqDSZekoEr0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=GqDSZekoEr0",
+      "embedUrl": "https://www.youtube.com/embed/GqDSZekoEr0",
+      "title": "5.2 Isaiah 42:1-9",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:42:1",
+        "verse:isa:42:2",
+        "verse:isa:42:3",
+        "verse:isa:42:4",
+        "verse:isa:42:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 42:1,42:2,42:3,42:4,42:5,42:6,42:7,42:8,42:9; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:H-Aov3qr3HE",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=H-Aov3qr3HE",
+      "embedUrl": "https://www.youtube.com/embed/H-Aov3qr3HE",
+      "title": "Jonah 1:1 (Hebrew vowels)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:1; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:h1gLVxrb-xw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=h1gLVxrb-xw",
+      "embedUrl": "https://www.youtube.com/embed/h1gLVxrb-xw",
+      "title": "Ruth 2:4 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:4; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:hCZkOBV8Lv8",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=hCZkOBV8Lv8",
+      "embedUrl": "https://www.youtube.com/embed/hCZkOBV8Lv8",
+      "title": "3.3 Deuteronomy 32:8 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:deut:32:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference deut 32:8; mapped to 1 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:HErl1u3FDiM",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=HErl1u3FDiM",
+      "embedUrl": "https://www.youtube.com/embed/HErl1u3FDiM",
+      "title": "Jonah 3:2b (2ms imperative)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:3:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 3:2; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:Hl3G0vIlBVE",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Hl3G0vIlBVE",
+      "embedUrl": "https://www.youtube.com/embed/Hl3G0vIlBVE",
+      "title": "Ruth 1:15 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:15; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:HlEQ98uGJ1s",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=HlEQ98uGJ1s",
+      "embedUrl": "https://www.youtube.com/embed/HlEQ98uGJ1s",
+      "title": "1.1 Exodus 6:3 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:6:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 6:3; mapped to 1 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:hnu2AHTkFXQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=hnu2AHTkFXQ",
+      "embedUrl": "https://www.youtube.com/embed/hnu2AHTkFXQ",
+      "title": "4.4 Isaiah 41:20-29 (Video)",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:41:20",
+        "verse:isa:41:21",
+        "verse:isa:41:22",
+        "verse:isa:41:23",
+        "verse:isa:41:24"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 41:20,41:21,41:22,41:23,41:24,41:25,41:26,41:27,41:28,41:29; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:hqu5vfXJsSM",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=hqu5vfXJsSM",
+      "embedUrl": "https://www.youtube.com/embed/hqu5vfXJsSM",
+      "title": "8.1 Exodus 42:6-7 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:34:6",
+        "verse:exod:34:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title says \"Exodus 42:6-7\" but Exodus has 40 chapters; the companion video 8.3 references Exodus 34:6-7, so this was mapped to Exodus 34:6-7 on the owner's confirmation. Title reference exod 42:6,42:7; mapped to 2 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:HwPIQQoua_U",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=HwPIQQoua_U",
+      "embedUrl": "https://www.youtube.com/embed/HwPIQQoua_U",
+      "title": "Daniel 2:40 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:40"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:40; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:HYj1isS45qw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=HYj1isS45qw",
+      "embedUrl": "https://www.youtube.com/embed/HYj1isS45qw",
+      "title": "Jonah 2:6 (third he Hiph'il)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:2:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 2:6; mapped to 1 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:i1jqBX1tkMQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=i1jqBX1tkMQ",
+      "embedUrl": "https://www.youtube.com/embed/i1jqBX1tkMQ",
+      "title": "Jonah 3:10a (Niph'al converted imperfect)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:3:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 3:10; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:iaT1oR3QHJs",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=iaT1oR3QHJs",
+      "embedUrl": "https://www.youtube.com/embed/iaT1oR3QHJs",
+      "title": "Ruth 4:4 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:4; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:Iht1HdhWIqg",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Iht1HdhWIqg",
+      "embedUrl": "https://www.youtube.com/embed/Iht1HdhWIqg",
+      "title": "Ruth 2:16 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:16; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:iPcp4rh9JNk",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=iPcp4rh9JNk",
+      "embedUrl": "https://www.youtube.com/embed/iPcp4rh9JNk",
+      "title": "15.1 Deuteronomy 28:1-2, 15 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:deut:28:1",
+        "verse:deut:28:2",
+        "verse:deut:28:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference deut 28:1,28:2,28:15; mapped to 3 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:IqB_qjoS6yc",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=IqB_qjoS6yc",
+      "embedUrl": "https://www.youtube.com/embed/IqB_qjoS6yc",
+      "title": "Jonah 2:9 (D cohortative)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:2:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 2:9; mapped to 1 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:IqxmhAu_wKQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=IqxmhAu_wKQ",
+      "embedUrl": "https://www.youtube.com/embed/IqxmhAu_wKQ",
+      "title": "Ruth 2:6 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:6; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:IWcv_1pEZpI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=IWcv_1pEZpI",
+      "embedUrl": "https://www.youtube.com/embed/IWcv_1pEZpI",
+      "title": "Daniel 2:43 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:43"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:43; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:IWl4meTPwek",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=IWl4meTPwek",
+      "embedUrl": "https://www.youtube.com/embed/IWl4meTPwek",
+      "title": "2.1 Isaiah 40:9 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:40:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 40:9; mapped to 1 Jewish-verse target(s). Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:IY8OtbWkMiY",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=IY8OtbWkMiY",
+      "embedUrl": "https://www.youtube.com/embed/IY8OtbWkMiY",
+      "title": "13.1 Leviticus 18:6, 22, 24 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:lev:18:6",
+        "verse:lev:18:22",
+        "verse:lev:18:24"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference lev 18:6,18:22,18:24; mapped to 3 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:J24J1Jj2U1I",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=J24J1Jj2U1I",
+      "embedUrl": "https://www.youtube.com/embed/J24J1Jj2U1I",
+      "title": "Daniel 2:27 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:27"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:27; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:j6D7fkNyGPc",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=j6D7fkNyGPc",
+      "embedUrl": "https://www.youtube.com/embed/j6D7fkNyGPc",
+      "title": "Jonah 4:3 (לָקַח imperative)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:4:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 4:3; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:JbaCdJ-TSfY",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=JbaCdJ-TSfY",
+      "embedUrl": "https://www.youtube.com/embed/JbaCdJ-TSfY",
+      "title": "8.3 Exodus 34:6-7 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:34:6",
+        "verse:exod:34:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 34:6,34:7; mapped to 2 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:JDM0mZeCyo4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=JDM0mZeCyo4",
+      "embedUrl": "https://www.youtube.com/embed/JDM0mZeCyo4",
+      "title": "1.18 Genesis 1:18 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:18; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:JehVJ_XVpp4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=JehVJ_XVpp4",
+      "embedUrl": "https://www.youtube.com/embed/JehVJ_XVpp4",
+      "title": "13.3 Leviticus 18:6, 22, 24 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:lev:18:6",
+        "verse:lev:18:22",
+        "verse:lev:18:24"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference lev 18:6,18:22,18:24; mapped to 3 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:JePJizK3r44",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=JePJizK3r44",
+      "embedUrl": "https://www.youtube.com/embed/JePJizK3r44",
+      "title": "Ruth 2:10 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:10; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:JR3fSLVXkIQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=JR3fSLVXkIQ",
+      "embedUrl": "https://www.youtube.com/embed/JR3fSLVXkIQ",
+      "title": "2.4 Isaiah 40:16-24",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:40:16",
+        "verse:isa:40:17",
+        "verse:isa:40:18",
+        "verse:isa:40:19",
+        "verse:isa:40:20"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 40:16,40:17,40:18,40:19,40:20,40:21,40:22,40:23,40:24; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:jU-W4dj3xVg",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jU-W4dj3xVg",
+      "embedUrl": "https://www.youtube.com/embed/jU-W4dj3xVg",
+      "title": "Jonah 1:3 (Hebrew letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:3; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:Juzpy9ZFOfU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Juzpy9ZFOfU",
+      "embedUrl": "https://www.youtube.com/embed/Juzpy9ZFOfU",
+      "title": "Jonah 1:14a (imperfect 1cp)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:14; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:k5tHWVQ0pp0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=k5tHWVQ0pp0",
+      "embedUrl": "https://www.youtube.com/embed/k5tHWVQ0pp0",
+      "title": "Jonah 2:7 (HtD inf const)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:2:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 2:7; mapped to 1 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:k7TZek1Kv2c",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=k7TZek1Kv2c",
+      "embedUrl": "https://www.youtube.com/embed/k7TZek1Kv2c",
+      "title": "Daniel 2:7 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:7; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:k846uyuP2AI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=k846uyuP2AI",
+      "embedUrl": "https://www.youtube.com/embed/k846uyuP2AI",
+      "title": "4.3 Isaiah 41:10 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:41:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 41:10; mapped to 1 Jewish-verse target(s). Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:KBFUIZGU0bs",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=KBFUIZGU0bs",
+      "embedUrl": "https://www.youtube.com/embed/KBFUIZGU0bs",
+      "title": "Jonah 1:4a (again, H perfect)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:4; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:KBoHLAqKfAc",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=KBoHLAqKfAc",
+      "embedUrl": "https://www.youtube.com/embed/KBoHLAqKfAc",
+      "title": "Jonah 4:2 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:4:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 4:2; mapped to 1 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:Kbt3ux8Vq3o",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Kbt3ux8Vq3o",
+      "embedUrl": "https://www.youtube.com/embed/Kbt3ux8Vq3o",
+      "title": "Daniel 2:30 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:30"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:30; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:KfzqnvOCncI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=KfzqnvOCncI",
+      "embedUrl": "https://www.youtube.com/embed/KfzqnvOCncI",
+      "title": "Ruth 2:14 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:14; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:KH_AlaQX5do",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=KH_AlaQX5do",
+      "embedUrl": "https://www.youtube.com/embed/KH_AlaQX5do",
+      "title": "Ruth 1:13b (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:13; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:kH-NyYcDBS4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=kH-NyYcDBS4",
+      "embedUrl": "https://www.youtube.com/embed/kH-NyYcDBS4",
+      "title": "Ruth 1:11 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:11; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:kHYEfMJuROk",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=kHYEfMJuROk",
+      "embedUrl": "https://www.youtube.com/embed/kHYEfMJuROk",
+      "title": "1.16 Genesis 1:16 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:16; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:KKvk1e5bmq4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=KKvk1e5bmq4",
+      "embedUrl": "https://www.youtube.com/embed/KKvk1e5bmq4",
+      "title": "11.1 Numbers 15:22, 24, 27 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:num:15:22",
+        "verse:num:15:24",
+        "verse:num:15:27"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference num 15:22,15:24,15:27; mapped to 3 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:L-0WsrfMCOU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=L-0WsrfMCOU",
+      "embedUrl": "https://www.youtube.com/embed/L-0WsrfMCOU",
+      "title": "Ruth 2:7 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:7; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:lApEcALZqig",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=lApEcALZqig",
+      "embedUrl": "https://www.youtube.com/embed/lApEcALZqig",
+      "title": "Daniel 2:32-33 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:32",
+        "verse:dan:2:33"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:32,2:33; mapped to 2 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:lgUc_DxptjQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=lgUc_DxptjQ",
+      "embedUrl": "https://www.youtube.com/embed/lgUc_DxptjQ",
+      "title": "Daniel 2:45 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:45"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:45; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:ljsIERLq5gw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ljsIERLq5gw",
+      "embedUrl": "https://www.youtube.com/embed/ljsIERLq5gw",
+      "title": "Jonah 1:11 (converted imperfect)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:11; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:LyjsYhffRMk",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=LyjsYhffRMk",
+      "embedUrl": "https://www.youtube.com/embed/LyjsYhffRMk",
+      "title": "Jonah 2:8 (D participle)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:2:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 2:8; mapped to 1 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:mcJD6HEvm74",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=mcJD6HEvm74",
+      "embedUrl": "https://www.youtube.com/embed/mcJD6HEvm74",
+      "title": "Daniel 2:14 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:14; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:me5mOCz7BIk",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=me5mOCz7BIk",
+      "embedUrl": "https://www.youtube.com/embed/me5mOCz7BIk",
+      "title": "Jonah 1:10 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:10; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:mFpyK6oAOaM",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=mFpyK6oAOaM",
+      "embedUrl": "https://www.youtube.com/embed/mFpyK6oAOaM",
+      "title": "1.19 Genesis 1:19 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:19; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:mhcZaFMEpvE",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=mhcZaFMEpvE",
+      "embedUrl": "https://www.youtube.com/embed/mhcZaFMEpvE",
+      "title": "Jonah 3:3b (3fs הָיָה)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:3:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 3:3; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:Mitbk1CM15o",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Mitbk1CM15o",
+      "embedUrl": "https://www.youtube.com/embed/Mitbk1CM15o",
+      "title": "Ruth 1:6 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:6; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:MiYQw2Sk7JA",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=MiYQw2Sk7JA",
+      "embedUrl": "https://www.youtube.com/embed/MiYQw2Sk7JA",
+      "title": "Daniel 2:6 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:6; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:ML8ORBG3fMQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ML8ORBG3fMQ",
+      "embedUrl": "https://www.youtube.com/embed/ML8ORBG3fMQ",
+      "title": "Jonah 2:4b (H stem--1 yod--1 nun)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:2:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 2:4; mapped to 1 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:MqWiZKqBcn8",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=MqWiZKqBcn8",
+      "embedUrl": "https://www.youtube.com/embed/MqWiZKqBcn8",
+      "title": "Daniel 2:17 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:17"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:17; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:muXdjMTBQRo",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=muXdjMTBQRo",
+      "embedUrl": "https://www.youtube.com/embed/muXdjMTBQRo",
+      "title": "Ruth 1:21 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:21"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:21; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:mzqESSNXZCo",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=mzqESSNXZCo",
+      "embedUrl": "https://www.youtube.com/embed/mzqESSNXZCo",
+      "title": "Daniel 2:34 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:34"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:34; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:n38QUMzT4aQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=n38QUMzT4aQ",
+      "embedUrl": "https://www.youtube.com/embed/n38QUMzT4aQ",
+      "title": "Jonah 1:14b (Hebrew 2ms perfect)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:14; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:nCxC_LPYb3k",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=nCxC_LPYb3k",
+      "embedUrl": "https://www.youtube.com/embed/nCxC_LPYb3k",
+      "title": "Ruth 1:2 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:2; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:ndEWwue7hGs",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ndEWwue7hGs",
+      "embedUrl": "https://www.youtube.com/embed/ndEWwue7hGs",
+      "title": "Ruth 1:10 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:10; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:NGYKvDRdBYQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=NGYKvDRdBYQ",
+      "embedUrl": "https://www.youtube.com/embed/NGYKvDRdBYQ",
+      "title": "Ruth 1:4 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:4; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:nLyJQ0CcTjs",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=nLyJQ0CcTjs",
+      "embedUrl": "https://www.youtube.com/embed/nLyJQ0CcTjs",
+      "title": "Ruth 2:9 (Hebrew with GPT4o)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:9; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:nQkp2k7B4fg",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=nQkp2k7B4fg",
+      "embedUrl": "https://www.youtube.com/embed/nQkp2k7B4fg",
+      "title": "1.7 Genesis 1:7 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:7; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:nS3cBuxpElU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=nS3cBuxpElU",
+      "embedUrl": "https://www.youtube.com/embed/nS3cBuxpElU",
+      "title": "Daniel 2:21 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:21"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:21; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:nZruM80d6yc",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=nZruM80d6yc",
+      "embedUrl": "https://www.youtube.com/embed/nZruM80d6yc",
+      "title": "Transliteration of Jonah 1:1",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:1; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:O1_K9jhGosI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=O1_K9jhGosI",
+      "embedUrl": "https://www.youtube.com/embed/O1_K9jhGosI",
+      "title": "Ruth 1:5 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:5; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:o15brQYrSRQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=o15brQYrSRQ",
+      "embedUrl": "https://www.youtube.com/embed/o15brQYrSRQ",
+      "title": "Ruth 3:11 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:11; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:oakUZ7s8uJo",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=oakUZ7s8uJo",
+      "embedUrl": "https://www.youtube.com/embed/oakUZ7s8uJo",
+      "title": "1.3 Exodus 6:3 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:6:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference exod 6:3; mapped to 1 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:oC3jBvheAZc",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=oC3jBvheAZc",
+      "embedUrl": "https://www.youtube.com/embed/oC3jBvheAZc",
+      "title": "Daniel 2:16 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:16; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:OKbFxluYTg0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=OKbFxluYTg0",
+      "embedUrl": "https://www.youtube.com/embed/OKbFxluYTg0",
+      "title": "Daniel 2:10 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:10; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:ORjRRMQ5pAM",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ORjRRMQ5pAM",
+      "embedUrl": "https://www.youtube.com/embed/ORjRRMQ5pAM",
+      "title": "Ruth 4:11 (Hebrew of the Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:11; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:oT2yQO8WlJU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=oT2yQO8WlJU",
+      "embedUrl": "https://www.youtube.com/embed/oT2yQO8WlJU",
+      "title": "Ruth 1:1 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:1; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:OW7mPufakSI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=OW7mPufakSI",
+      "embedUrl": "https://www.youtube.com/embed/OW7mPufakSI",
+      "title": "1.14 Genesis 1:14 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:14; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:oZEf-mzuY2g",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=oZEf-mzuY2g",
+      "embedUrl": "https://www.youtube.com/embed/oZEf-mzuY2g",
+      "title": "6.1 Isaiah 43:2 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:43:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 43:2; mapped to 1 Jewish-verse target(s). Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:ozntDWW4g-4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ozntDWW4g-4",
+      "embedUrl": "https://www.youtube.com/embed/ozntDWW4g-4",
+      "title": "5.1 Psalm 139:1-6 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ps:139:1",
+        "verse:ps:139:2",
+        "verse:ps:139:3",
+        "verse:ps:139:4",
+        "verse:ps:139:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ps 139:1,139:2,139:3,139:4,139:5,139:6; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:p0Sz0E_tpS4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=p0Sz0E_tpS4",
+      "embedUrl": "https://www.youtube.com/embed/p0Sz0E_tpS4",
+      "title": "1.4 Genesis 1:4 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:4; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:percbT_iQ_A",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=percbT_iQ_A",
+      "embedUrl": "https://www.youtube.com/embed/percbT_iQ_A",
+      "title": "4.3 Deuteronomy 6:4-5 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:deut:6:4",
+        "verse:deut:6:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference deut 6:4,6:5; mapped to 2 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:pqeG15zJCJU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=pqeG15zJCJU",
+      "embedUrl": "https://www.youtube.com/embed/pqeG15zJCJU",
+      "title": "1.1 Isaiah 40:1 Hebrew",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:40:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 40:1; mapped to 1 Jewish-verse target(s). Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:Pr5DI4THIkE",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Pr5DI4THIkE",
+      "embedUrl": "https://www.youtube.com/embed/Pr5DI4THIkE",
+      "title": "6.1 Psalm 139:7-12 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ps:139:7",
+        "verse:ps:139:8",
+        "verse:ps:139:9",
+        "verse:ps:139:10",
+        "verse:ps:139:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ps 139:7,139:8,139:9,139:10,139:11,139:12; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:pTA_8cZq9m8",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=pTA_8cZq9m8",
+      "embedUrl": "https://www.youtube.com/embed/pTA_8cZq9m8",
+      "title": "3.2 Isaiah 40:25-31",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:40:25",
+        "verse:isa:40:26",
+        "verse:isa:40:27",
+        "verse:isa:40:28",
+        "verse:isa:40:29"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 40:25,40:26,40:27,40:28,40:29,40:30,40:31; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:PZaowg0PHO0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=PZaowg0PHO0",
+      "embedUrl": "https://www.youtube.com/embed/PZaowg0PHO0",
+      "title": "1.17 Genesis 1:17 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:17"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:17; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:PZSv-M4MPVs",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=PZSv-M4MPVs",
+      "embedUrl": "https://www.youtube.com/embed/PZSv-M4MPVs",
+      "title": "Jonah 1:5b Hebrew (fem-sg--mp-construct)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:5; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:Q_l12qn7B7o",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Q_l12qn7B7o",
+      "embedUrl": "https://www.youtube.com/embed/Q_l12qn7B7o",
+      "title": "Let's Learn Hebrew: Ruth 4:13 (Boaz Marries Ruth)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:13; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:Q530BkBE0VU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Q530BkBE0VU",
+      "embedUrl": "https://www.youtube.com/embed/Q530BkBE0VU",
+      "title": "Jonah 1:3 (Hebrew vowels)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:3; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:qCP3ZFMAiss",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=qCP3ZFMAiss",
+      "embedUrl": "https://www.youtube.com/embed/qCP3ZFMAiss",
+      "title": "10.3 Genesis 3:15-16 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:3:15",
+        "verse:gen:3:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 3:15,3:16; mapped to 2 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:qFB4Odna_UI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=qFB4Odna_UI",
+      "embedUrl": "https://www.youtube.com/embed/qFB4Odna_UI",
+      "title": "Ruth 2:19 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:19; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:Ql2xoPoQhRE",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Ql2xoPoQhRE",
+      "embedUrl": "https://www.youtube.com/embed/Ql2xoPoQhRE",
+      "title": "Jonah 4:7 (double weak and much more)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:4:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 4:7; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:qSTY9gq34Z4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=qSTY9gq34Z4",
+      "embedUrl": "https://www.youtube.com/embed/qSTY9gq34Z4",
+      "title": "Daniel 2:28 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:28"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:28; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:QwutXiBR8BA",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=QwutXiBR8BA",
+      "embedUrl": "https://www.youtube.com/embed/QwutXiBR8BA",
+      "title": "Jonah 3:4 (geminates - Niph'al participle)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:3:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 3:4; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:qXhIThBAZ7U",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=qXhIThBAZ7U",
+      "embedUrl": "https://www.youtube.com/embed/qXhIThBAZ7U",
+      "title": "Ruth 1:3 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:3; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:r70Ws_Xy17o",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=r70Ws_Xy17o",
+      "embedUrl": "https://www.youtube.com/embed/r70Ws_Xy17o",
+      "title": "Daniel 2:31 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:31"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:31; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:re6AyddclcE",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=re6AyddclcE",
+      "embedUrl": "https://www.youtube.com/embed/re6AyddclcE",
+      "title": "Jonah 1:15 (first nun, first guttural)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:15; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:rL6KWTGWhe0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=rL6KWTGWhe0",
+      "embedUrl": "https://www.youtube.com/embed/rL6KWTGWhe0",
+      "title": "1.1 Genesis 1:1 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:1; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:S-iTZIgnsCQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=S-iTZIgnsCQ",
+      "embedUrl": "https://www.youtube.com/embed/S-iTZIgnsCQ",
+      "title": "Daniel 2:24 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:24"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:24; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:S1AshabDSZQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=S1AshabDSZQ",
+      "embedUrl": "https://www.youtube.com/embed/S1AshabDSZQ",
+      "title": "3.1 Isaiah 40:31 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:40:31"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 40:31; mapped to 1 Jewish-verse target(s). Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:s9oBSEwQ4KM",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=s9oBSEwQ4KM",
+      "embedUrl": "https://www.youtube.com/embed/s9oBSEwQ4KM",
+      "title": "12.3 Ezekiel 18:2, 3, 32 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ezek:18:2",
+        "verse:ezek:18:3",
+        "verse:ezek:18:32"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ezek 18:2,18:3,18:32; mapped to 3 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:saz__JEtn80",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=saz__JEtn80",
+      "embedUrl": "https://www.youtube.com/embed/saz__JEtn80",
+      "title": "Jonah 4:5 (first yod)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:4:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 4:5; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:SE6UxNU58QA",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=SE6UxNU58QA",
+      "embedUrl": "https://www.youtube.com/embed/SE6UxNU58QA",
+      "title": "1.13 Genesis 1:13 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:13; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:sGkSJ-fyp8s",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=sGkSJ-fyp8s",
+      "embedUrl": "https://www.youtube.com/embed/sGkSJ-fyp8s",
+      "title": "Jonah 1:12a (\"converted imperfect\")",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:12; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:SHVz4tKJ950",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=SHVz4tKJ950",
+      "embedUrl": "https://www.youtube.com/embed/SHVz4tKJ950",
+      "title": "Jonah 1:4 (Hebrew--and-in-the)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:4; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:sjXI3KnnboE",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=sjXI3KnnboE",
+      "embedUrl": "https://www.youtube.com/embed/sjXI3KnnboE",
+      "title": "Jonah 4:1 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:4:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 4:1; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:smg3XUyQON0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=smg3XUyQON0",
+      "embedUrl": "https://www.youtube.com/embed/smg3XUyQON0",
+      "title": "Ruth 2:23 (Hebrew of the Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:23"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:23; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:sPenPI7zyU4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=sPenPI7zyU4",
+      "embedUrl": "https://www.youtube.com/embed/sPenPI7zyU4",
+      "title": "5.1 Isaiah 42:5 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:42:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 42:5; mapped to 1 Jewish-verse target(s). Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:ST5HGPKtN4g",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ST5HGPKtN4g",
+      "embedUrl": "https://www.youtube.com/embed/ST5HGPKtN4g",
+      "title": "Ruth 1:8 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:8; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:StKiKq5n4zg",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=StKiKq5n4zg",
+      "embedUrl": "https://www.youtube.com/embed/StKiKq5n4zg",
+      "title": "7.1 Isaiah 6:1-3 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:6:1",
+        "verse:isa:6:2",
+        "verse:isa:6:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 6:1,6:2,6:3; mapped to 3 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:szU9sHzl2Gs",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=szU9sHzl2Gs",
+      "embedUrl": "https://www.youtube.com/embed/szU9sHzl2Gs",
+      "title": "Jonah 1:13b (perfect 3rd common plural)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:13; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:T0JmspgiDaI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=T0JmspgiDaI",
+      "embedUrl": "https://www.youtube.com/embed/T0JmspgiDaI",
+      "title": "14.1 Leviticus 16:7-10 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:lev:16:7",
+        "verse:lev:16:8",
+        "verse:lev:16:9",
+        "verse:lev:16:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference lev 16:7,16:8,16:9,16:10; mapped to 4 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:t2vbOOqpDx4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=t2vbOOqpDx4",
+      "embedUrl": "https://www.youtube.com/embed/t2vbOOqpDx4",
+      "title": "1.10 Genesis 1:10 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:10; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:t363MG8cDHc",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=t363MG8cDHc",
+      "embedUrl": "https://www.youtube.com/embed/t363MG8cDHc",
+      "title": "Daniel 2:5 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:5; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:T4OSaC3Q0h0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=T4OSaC3Q0h0",
+      "embedUrl": "https://www.youtube.com/embed/T4OSaC3Q0h0",
+      "title": "3.3 Isaiah 40:31 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:40:31"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 40:31; mapped to 1 Jewish-verse target(s). Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:t6s4Fa-3WMc",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=t6s4Fa-3WMc",
+      "embedUrl": "https://www.youtube.com/embed/t6s4Fa-3WMc",
+      "title": "12.1 Ezekiel 18 2-3, 32 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ezek:18:2",
+        "verse:ezek:18:3",
+        "verse:ezek:18:32"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ezek 18:2,18:3,18:32; mapped to 3 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:T7VG4vd7Q3I",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=T7VG4vd7Q3I",
+      "embedUrl": "https://www.youtube.com/embed/T7VG4vd7Q3I",
+      "title": "Daniel 2:9 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:9; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:tdnyGRAnWCc",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=tdnyGRAnWCc",
+      "embedUrl": "https://www.youtube.com/embed/tdnyGRAnWCc",
+      "title": "Jonah 3:8 (HtD jussive)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:3:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 3:8; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:TgFqkKjrNG4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=TgFqkKjrNG4",
+      "embedUrl": "https://www.youtube.com/embed/TgFqkKjrNG4",
+      "title": "Jonah 3:5 (H converted imperfect)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:3:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 3:5; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:thFuzHL9q6c",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=thFuzHL9q6c",
+      "embedUrl": "https://www.youtube.com/embed/thFuzHL9q6c",
+      "title": "9.1 Genesis 1:1-3 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:1",
+        "verse:gen:1:2",
+        "verse:gen:1:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:1,1:2,1:3; mapped to 3 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:tLFEIvyZ5-I",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=tLFEIvyZ5-I",
+      "embedUrl": "https://www.youtube.com/embed/tLFEIvyZ5-I",
+      "title": "Daniel 2:18 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:18; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:TutAZH86_Ow",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=TutAZH86_Ow",
+      "embedUrl": "https://www.youtube.com/embed/TutAZH86_Ow",
+      "title": "Ruth 1:16 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:16; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:TzY5smFAJU4",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=TzY5smFAJU4",
+      "embedUrl": "https://www.youtube.com/embed/TzY5smFAJU4",
+      "title": "Daniel 2:11 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:11; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:U2ZDezeUVEw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=U2ZDezeUVEw",
+      "embedUrl": "https://www.youtube.com/embed/U2ZDezeUVEw",
+      "title": "Jonah 3:2a (irregular imperatives)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:3:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 3:2; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:u6JIlk0TJAg",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=u6JIlk0TJAg",
+      "embedUrl": "https://www.youtube.com/embed/u6JIlk0TJAg",
+      "title": "Ruth 3:14 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:14; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:UC5LlCf6XdU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=UC5LlCf6XdU",
+      "embedUrl": "https://www.youtube.com/embed/UC5LlCf6XdU",
+      "title": "Ruth 3:10 (Hebrew of the Month)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:10; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:Ui_mla4NmA8",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Ui_mla4NmA8",
+      "embedUrl": "https://www.youtube.com/embed/Ui_mla4NmA8",
+      "title": "Ruth 3:17 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:17"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:17; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:uKgc7yN0Wzs",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=uKgc7yN0Wzs",
+      "embedUrl": "https://www.youtube.com/embed/uKgc7yN0Wzs",
+      "title": "Daniel 2:42 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:42"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:42; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:uYCwqLQ9r8Q",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=uYCwqLQ9r8Q",
+      "embedUrl": "https://www.youtube.com/embed/uYCwqLQ9r8Q",
+      "title": "5.4 Isaiah 42:10-18",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:42:10",
+        "verse:isa:42:11",
+        "verse:isa:42:12",
+        "verse:isa:42:13",
+        "verse:isa:42:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 42:10,42:11,42:12,42:13,42:14,42:15,42:16,42:17,42:18; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:UyJNJe6NXFg",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=UyJNJe6NXFg",
+      "embedUrl": "https://www.youtube.com/embed/UyJNJe6NXFg",
+      "title": "1.3 Isaiah 40:1 Hebrew Grammar (video)",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:40:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 40:1; mapped to 1 Jewish-verse target(s). Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:UZZ8iwGrOKQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=UZZ8iwGrOKQ",
+      "embedUrl": "https://www.youtube.com/embed/UZZ8iwGrOKQ",
+      "title": "4.1 Isaiah 41:10 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:41:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 41:10; mapped to 1 Jewish-verse target(s). Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:V-6daymvygE",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=V-6daymvygE",
+      "embedUrl": "https://www.youtube.com/embed/V-6daymvygE",
+      "title": "Jonah 1:6a Hebrew (The Article)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:6; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:V5-aNO54gfw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=V5-aNO54gfw",
+      "embedUrl": "https://www.youtube.com/embed/V5-aNO54gfw",
+      "title": "10.1 Genesis 3:15-16 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:3:15",
+        "verse:gen:3:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 3:15,3:16; mapped to 2 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:Vfsd1G_jcVY",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Vfsd1G_jcVY",
+      "embedUrl": "https://www.youtube.com/embed/Vfsd1G_jcVY",
+      "title": "Daniel 2:4 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:4; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:Vgizut3dNfU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Vgizut3dNfU",
+      "embedUrl": "https://www.youtube.com/embed/Vgizut3dNfU",
+      "title": "Ruth 3:5 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:5; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:vJ-sM7DNoQI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=vJ-sM7DNoQI",
+      "embedUrl": "https://www.youtube.com/embed/vJ-sM7DNoQI",
+      "title": "Daniel 2:8 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:8; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:VMOFG2QNoGw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=VMOFG2QNoGw",
+      "embedUrl": "https://www.youtube.com/embed/VMOFG2QNoGw",
+      "title": "Jonah 3:9 (N and conv perf)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:3:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 3:9; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:vObkKADzp6c",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=vObkKADzp6c",
+      "embedUrl": "https://www.youtube.com/embed/vObkKADzp6c",
+      "title": "Ruth 2:8 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:8; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:VXxe-z1XFKk",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=VXxe-z1XFKk",
+      "embedUrl": "https://www.youtube.com/embed/VXxe-z1XFKk",
+      "title": "Ruth 2:11 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:11; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:W24bizLaWkI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=W24bizLaWkI",
+      "embedUrl": "https://www.youtube.com/embed/W24bizLaWkI",
+      "title": "Jonah 2:4a (N stem)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:2:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 2:4; mapped to 1 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:WDWeeEsx0Jw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=WDWeeEsx0Jw",
+      "embedUrl": "https://www.youtube.com/embed/WDWeeEsx0Jw",
+      "title": "Ruth 3:13 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:13; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:WK7INSOqjuM",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=WK7INSOqjuM",
+      "embedUrl": "https://www.youtube.com/embed/WK7INSOqjuM",
+      "title": "Ruth 3:12 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:12; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:WL_S8jHLiwU",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=WL_S8jHLiwU",
+      "embedUrl": "https://www.youtube.com/embed/WL_S8jHLiwU",
+      "title": "1.3 Genesis 1:3 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:3; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:wlCSQpwiFb0",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=wlCSQpwiFb0",
+      "embedUrl": "https://www.youtube.com/embed/wlCSQpwiFb0",
+      "title": "Daniel 1:12 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:1:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 1:12; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:wmmKocfOTIQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=wmmKocfOTIQ",
+      "embedUrl": "https://www.youtube.com/embed/wmmKocfOTIQ",
+      "title": "Ruth 1:22 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:22"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:22; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:X_RJf4Gt9xs",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=X_RJf4Gt9xs",
+      "embedUrl": "https://www.youtube.com/embed/X_RJf4Gt9xs",
+      "title": "3.1 Deuteronomy 32:8 (Hebrew Letters)",
+      "targetType": "verse",
+      "targets": [
+        "verse:deut:32:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference deut 32:8; mapped to 1 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:X4Pc8I8VCSE",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=X4Pc8I8VCSE",
+      "embedUrl": "https://www.youtube.com/embed/X4Pc8I8VCSE",
+      "title": "Ruth 4:6 (Hebrew of Two Weeks)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:6; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:X5jMqTpm9Gw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=X5jMqTpm9Gw",
+      "embedUrl": "https://www.youtube.com/embed/X5jMqTpm9Gw",
+      "title": "Ruth 2:13 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:2:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 2:13; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:X5WIYCFGR4g",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=X5WIYCFGR4g",
+      "embedUrl": "https://www.youtube.com/embed/X5WIYCFGR4g",
+      "title": "Jonah 3:10b (Pi'el and Infinitive construct)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:3:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 3:10; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:xGsLNVjSFPs",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=xGsLNVjSFPs",
+      "embedUrl": "https://www.youtube.com/embed/xGsLNVjSFPs",
+      "title": "Daniel 2:22 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:22"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:22; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:xJ_XBkE-eBA",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=xJ_XBkE-eBA",
+      "embedUrl": "https://www.youtube.com/embed/xJ_XBkE-eBA",
+      "title": "Ruth 1:20 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:1:20"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 1:20; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:XjhZM4vGm0g",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=XjhZM4vGm0g",
+      "embedUrl": "https://www.youtube.com/embed/XjhZM4vGm0g",
+      "title": "Jonah 4:11 (numbers)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:4:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 4:11; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:xNpZHq6ltq8",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=xNpZHq6ltq8",
+      "embedUrl": "https://www.youtube.com/embed/xNpZHq6ltq8",
+      "title": "Daniel 2:35 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:35"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:35; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:xZ04vjJLhsc",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=xZ04vjJLhsc",
+      "embedUrl": "https://www.youtube.com/embed/xZ04vjJLhsc",
+      "title": "Jonah 2:3 (3cp perfect)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:2:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 2:3; mapped to 1 Jewish-verse target(s). Verse numbering diverges between Christian and Jewish systems; converted via the citation map. Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:xzWm_o3tXac",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=xzWm_o3tXac",
+      "embedUrl": "https://www.youtube.com/embed/xzWm_o3tXac",
+      "title": "Jonah 1:7 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:7; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:Y3T1-PpGT_o",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Y3T1-PpGT_o",
+      "embedUrl": "https://www.youtube.com/embed/Y3T1-PpGT_o",
+      "title": "1.12 Genesis 1:12 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:12; mapped to 1 Jewish-verse target(s). Playlist: Genesis in Hebrew."
+    },
+    {
+      "id": "youtube:video:Y6dhHRbhmYo",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Y6dhHRbhmYo",
+      "embedUrl": "https://www.youtube.com/embed/Y6dhHRbhmYo",
+      "title": "Ruth 3:1 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:1; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:yB8S4nNU6bQ",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=yB8S4nNU6bQ",
+      "embedUrl": "https://www.youtube.com/embed/yB8S4nNU6bQ",
+      "title": "4.2 Isaiah 40:8-20",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:40:8",
+        "verse:isa:40:9",
+        "verse:isa:40:10",
+        "verse:isa:40:11",
+        "verse:isa:40:12"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 40:8,40:9,40:10,40:11,40:12,40:13,40:14,40:15,40:16,40:17,40:18,40:19,40:20; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:Yhz-gli044M",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Yhz-gli044M",
+      "embedUrl": "https://www.youtube.com/embed/Yhz-gli044M",
+      "title": "Learn Hebrew: The Women Bless Naomi (Ruth 4:14)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:14; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:YkBz1Wn6hjw",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=YkBz1Wn6hjw",
+      "embedUrl": "https://www.youtube.com/embed/YkBz1Wn6hjw",
+      "title": "6.3 Psalm 139:7-12 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ps:139:7",
+        "verse:ps:139:8",
+        "verse:ps:139:9",
+        "verse:ps:139:10",
+        "verse:ps:139:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ps 139:7,139:8,139:9,139:10,139:11,139:12; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:yov5fYYz0Eg",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=yov5fYYz0Eg",
+      "embedUrl": "https://www.youtube.com/embed/yov5fYYz0Eg",
+      "title": "9.3 Genesis 1:1-3 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:1:1",
+        "verse:gen:1:2",
+        "verse:gen:1:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference gen 1:1,1:2,1:3; mapped to 3 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    },
+    {
+      "id": "youtube:video:YOyKoEuaUQI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=YOyKoEuaUQI",
+      "embedUrl": "https://www.youtube.com/embed/YOyKoEuaUQI",
+      "title": "Jonah 4:8 (third he--D conv impf)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:4:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 4:8; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:YXswwSJWjz8",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=YXswwSJWjz8",
+      "embedUrl": "https://www.youtube.com/embed/YXswwSJWjz8",
+      "title": "Daniel 2:20 (Aramaic)",
+      "targetType": "verse",
+      "targets": [
+        "verse:dan:2:20"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference dan 2:20; mapped to 1 Jewish-verse target(s). Playlist: Learning Aramaic in Daniel."
+    },
+    {
+      "id": "youtube:video:Z58PKImTZsI",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Z58PKImTZsI",
+      "embedUrl": "https://www.youtube.com/embed/Z58PKImTZsI",
+      "title": "1.2 Isaiah 40:1-8 Video",
+      "targetType": "verse",
+      "targets": [
+        "verse:isa:40:1",
+        "verse:isa:40:2",
+        "verse:isa:40:3",
+        "verse:isa:40:4",
+        "verse:isa:40:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference isa 40:1,40:2,40:3,40:4,40:5,40:6,40:7,40:8; mapped to 5 Jewish-verse target(s). Verse list capped at 5. Playlist: Isaiah 40-66."
+    },
+    {
+      "id": "youtube:video:ZGSRSDYRGzE",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ZGSRSDYRGzE",
+      "embedUrl": "https://www.youtube.com/embed/ZGSRSDYRGzE",
+      "title": "Ruth 4:9 (Hebrew of the Week) — Boaz Makes It Official",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:4:9"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 4:9; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:zJOOgu5UkYY",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=zJOOgu5UkYY",
+      "embedUrl": "https://www.youtube.com/embed/zJOOgu5UkYY",
+      "title": "Ruth 3:15 (Hebrew of Week)",
+      "targetType": "verse",
+      "targets": [
+        "verse:ruth:3:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference ruth 3:15; mapped to 1 Jewish-verse target(s). Playlist: Ruth in Hebrew."
+    },
+    {
+      "id": "youtube:video:ZJwo_ScJdug",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ZJwo_ScJdug",
+      "embedUrl": "https://www.youtube.com/embed/ZJwo_ScJdug",
+      "title": "Jonah 1:8 (Hebrew)",
+      "targetType": "verse",
+      "targets": [
+        "verse:jonah:1:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference jonah 1:8; mapped to 1 Jewish-verse target(s). Playlist: Hebrew through Jonah."
+    },
+    {
+      "id": "youtube:video:ZwO3il21wDA",
+      "provider": "Ken Schenck",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ZwO3il21wDA",
+      "embedUrl": "https://www.youtube.com/embed/ZwO3il21wDA",
+      "title": "14.3 Leviticus 16:7-10 (Hebrew Grammar)",
+      "targetType": "verse",
+      "targets": [
+        "verse:lev:16:7",
+        "verse:lev:16:8",
+        "verse:lev:16:9",
+        "verse:lev:16:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-reference",
+      "notes": "Title reference lev 16:7,16:8,16:9,16:10; mapped to 4 Jewish-verse target(s). Playlist: Key Old Testament Theology (Hebrew) Verses."
+    }
+  ],
+  "generatedAt": "2026-08-22T03:54:46.000Z"
+}

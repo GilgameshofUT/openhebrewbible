@@ -26,15 +26,19 @@ export async function GET(request: Request) {
   const lemma = params.get('lemma')
 
   try {
-    const [daily, gilgamesh, leningrad] = await Promise.all([
+    const [daily, gilgamesh, aramaic, carmen, schenck, hebreways, leningrad] = await Promise.all([
       getExternalCatalog('daily-dose-of-hebrew-videos.json'),
       getExternalCatalog('gilgamesh-vocabulary-videos.json'),
+      getExternalCatalog('daily-dose-of-aramaic-videos.json'),
+      getExternalCatalog('carmen-joy-imes-videos.json'),
+      getExternalCatalog('ken-schenck-videos.json'),
+      getExternalCatalog('hebreways-videos.json'),
       getExternalCatalog('leningrad-codex-chapter-images.json'),
     ])
 
     const chapterTarget = `chapter:${book.id}:${chapter}`
     const verseTarget = verse ? `verse:${book.id}:${chapter}:${verse}` : ''
-    const studyResources = [...daily.resources, ...gilgamesh.resources]
+    const studyResources = [...daily.resources, ...gilgamesh.resources, ...aramaic.resources, ...carmen.resources, ...schenck.resources, ...hebreways.resources]
 
     let lemmaIds = new Set<string>()
     if (lemma) {
@@ -46,7 +50,7 @@ export async function GET(request: Request) {
       )
     }
 
-    const chapterResources = [daily, gilgamesh, leningrad].flatMap((catalog) =>
+    const chapterResources = [daily, gilgamesh, aramaic, carmen, schenck, hebreways, leningrad].flatMap((catalog) =>
       catalog.resources.filter((resource) => resource.targets.includes(chapterTarget)),
     )
     const chapterNotes = [

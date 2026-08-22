@@ -1,0 +1,66 @@
+{
+  "sourceUrl": "https://www.youtube.com/@Hebreways",
+  "resources": [
+    {
+      "id": "youtube:video:66VslIqvi60",
+      "provider": "Hebreways",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=66VslIqvi60",
+      "embedUrl": "https://www.youtube.com/embed/66VslIqvi60",
+      "title": "66VslIqvi60",
+      "targetType": "verse",
+      "targets": [
+        "verse:deut:6:4"
+      ],
+      "status": "published",
+      "mappingMethod": "user-specified",
+      "notes": "Target provided by the site owner."
+    },
+    {
+      "id": "youtube:video:cTlIhe_AT-c",
+      "provider": "Hebreways",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=cTlIhe_AT-c",
+      "embedUrl": "https://www.youtube.com/embed/cTlIhe_AT-c",
+      "title": "cTlIhe_AT-c",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:ps:121"
+      ],
+      "status": "published",
+      "mappingMethod": "user-specified",
+      "notes": "Target provided by the site owner."
+    },
+    {
+      "id": "youtube:video:GfNDJrg27xI",
+      "provider": "Hebreways",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=GfNDJrg27xI",
+      "embedUrl": "https://www.youtube.com/embed/GfNDJrg27xI",
+      "title": "GfNDJrg27xI",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:ps:23"
+      ],
+      "status": "published",
+      "mappingMethod": "user-specified",
+      "notes": "Target provided by the site owner."
+    },
+    {
+      "id": "youtube:video:hRO6NZ7ewXE",
+      "provider": "Hebreways",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=hRO6NZ7ewXE",
+      "embedUrl": "https://www.youtube.com/embed/hRO6NZ7ewXE",
+      "title": "hRO6NZ7ewXE",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:ps:1"
+      ],
+      "status": "published",
+      "mappingMethod": "user-specified",
+      "notes": "Target provided by the site owner."
+    }
+  ],
+  "generatedAt": "2026-08-22T03:54:45.999Z"
+}
