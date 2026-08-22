@@ -3,6 +3,49 @@
   "channelId": "UCZf-IYjLW8R1lsyNwGjbwUA",
   "resources": [
     {
+      "id": "youtube:video:av_FvQCwoJU",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=av_FvQCwoJU",
+      "embedUrl": "https://www.youtube.com/embed/av_FvQCwoJU",
+      "title": "Babylon is Coming - Isaiah 39",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:isa:39"
+      ],
+      "status": "published",
+      "mappingMethod": "document-level-and-title-reference",
+      "notes": "Chapter target parsed from title: Isaiah 39."
+    },
+    {
+      "id": "youtube:video:r_yjC5n033U",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=r_yjC5n033U",
+      "embedUrl": "https://www.youtube.com/embed/r_yjC5n033U",
+      "title": "New Website to Study Hebrew Bible - Openhebrewbible.com",
+      "targetType": "unmapped",
+      "targets": [],
+      "status": "review",
+      "mappingMethod": "document-review",
+      "notes": "Promotional video for the Open Hebrew Bible reader itself; no canonical verse reference parsed from title."
+    },
+    {
+      "id": "youtube:video:vWTAtSBY2Ic",
+      "provider": "Hebrew Bible with Gilgamesh",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=vWTAtSBY2Ic",
+      "embedUrl": "https://www.youtube.com/embed/vWTAtSBY2Ic",
+      "title": "Vocabulary word noun תֹּף (tōp) \"drum\" from the Bible #biblestudy #hebrewbible",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:nvu"
+      ],
+      "status": "published",
+      "mappingMethod": "title-lexicon-headword",
+      "notes": "Title Hebrew: תֹּף; transliteration: tōp; gloss: drum. Matched OSHB HebrewLexicon entry nvu (tōp \"timbrel\")."
+    },
+    {
       "id": "youtube:video:2OKN7a7GSWE",
       "provider": "Hebrew Bible with Gilgamesh",
       "kind": "video",
@@ -23,7 +66,7 @@
       "kind": "video",
       "url": "https://www.youtube.com/watch?v=AvJDqNejDqM",
       "embedUrl": "https://www.youtube.com/embed/AvJDqNejDqM",
-      "title": "Hezekiah's Music - Isaiah 38 Part 2",
+      "title": "Hezekiah's Music of Life - Isaiah 38 Part 2",
       "targetType": "chapter",
       "targets": [
         "chapter:isa:38"
@@ -83,7 +126,7 @@
       "kind": "video",
       "url": "https://www.youtube.com/watch?v=vb5xunt3kAk",
       "embedUrl": "https://www.youtube.com/embed/vb5xunt3kAk",
-      "title": "Hezekiah’s Illness and Sundial Significance",
+      "title": "Hezekiah’s Illness and the Sundial - Isaiah 38",
       "targetType": "chapter",
       "targets": [
         "chapter:isa:38"
