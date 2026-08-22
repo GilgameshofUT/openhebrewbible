@@ -28,7 +28,7 @@ type Index = { source: string; places: Record<string, GeoPlace>; byVerse: Record
 
 maybe('geocoding index', () => {
   const index = JSON.parse(readFileSync(geocodingPath, 'utf8')) as Index
-  const lexicon = JSON.parse(readFileSync(lexiconPath, 'utf8')) as Record<string, { id: string }>
+  const lexicon = JSON.parse(readFileSync(lexiconPath, 'utf8')) as Record<string, { id: string; gloss?: string }>
 
   it('every place has a valid lonlat coordinate pair', () => {
     const offenders = Object.values(index.places).filter((place) => {
@@ -90,5 +90,29 @@ maybe('geocoding index', () => {
     if (!amanaId || !damascusId || !abana || !damascus) throw new Error('expected lexicon entries or places missing')
     expect(index.byLexicon[amanaId]).toContain(abana.id)
     expect(index.byLexicon[damascusId]).toContain(damascus.id)
+  })
+
+  it('links spelling variants but not unrelated translation renderings', () => {
+    // Ebronah/Abronah is a legitimate spelling variant recorded upstream.
+    const ebronah = Object.values(lexicon).find((entry) => entry.id === 'jaj')
+    const abronah = Object.values(index.places).find((place) => place.name === 'Abronah')
+    expect(ebronah && abronah ? index.byLexicon[ebronah.id] : undefined).toContain(abronah?.id)
+  })
+
+  it('never links a place to an entry via a cross-name rendering', () => {
+    // Upstream records "Tyre" as a translation rendering of Babylon in one
+    // verse, and "Gilgal" of Galilee. Those are disagreements between English
+    // translations, not the Hebrew name's referent — linking them would show
+    // a Babylon card when the reader clicks צֹר. Only near-spelling variants
+    // may auto-link; scholarly equivalences belong in the override map.
+    const tyre = Object.values(lexicon).find((entry) => entry.id === 'lad')
+    const babylon1 = Object.values(index.places).find((place) => place.name === 'Babylon 1')
+    expect(tyre && babylon1 ? index.byLexicon[tyre.id] : []).not.toContain(babylon1?.id)
+
+    const galilee2 = Object.values(index.places).find((place) => place.name === 'Galilee 2')
+    const gilgalEntries = Object.values(lexicon).filter((entry) => entry.gloss === 'Gilgal')
+    for (const entry of gilgalEntries) {
+      if (galilee2) expect(index.byLexicon[entry.id] ?? []).not.toContain(galilee2.id)
+    }
   })
 })

@@ -39,13 +39,15 @@ type AncientPlace = {
   friendly_id: string
   url_slug: string
   types: string[]
-  verses?: Array<{ usx: string }>
+  verses?: Array<{ usx: string; instance_types?: Record<string, number> }>
   identifications?: Array<{
     resolutions?: Array<{ lonlat?: string }>
     media?: { thumbnail?: { image_id?: string } }
   }>
   media?: { thumbnail?: { image_id?: string } }
   modern_associations?: Record<string, { name: string; score: number }>
+  /** English renderings across the ten source translations, e.g. Abanah/Acco/Akko. */
+  translation_name_counts?: Record<string, number>
 }
 
 type ImageRecord = { id: string; thumbnail_url_pattern: string }
@@ -76,6 +78,37 @@ function normalizeName(value: string) {
     // Strip leading article and possessive "of the"-style prefixes.
     .replace(/^(the|mount|valley of|plain of|wilderness of|sea of)\s+/i, '')
     .replace(/[^a-z]/g, '')
+}
+
+function levenshtein(a: string, b: string) {
+  const row = Array.from({ length: b.length + 1 }, (_, i) => i)
+  for (let i = 1; i <= a.length; i++) {
+    let previous = row[0]
+    row[0] = i
+    for (let j = 1; j <= b.length; j++) {
+      const current = row[j]
+      row[j] = Math.min(row[j] + 1, row[j - 1] + 1, previous + (a[i - 1] === b[j - 1] ? 0 : 1))
+      previous = current
+    }
+  }
+  return row[b.length]
+}
+
+/**
+ * Upstream's translation_name_counts mixes two kinds of variants: genuine
+ * spellings of the same name (Abronah/Ebronah, Accho/Akko) and places other
+ * translations rendered with a different name entirely ("Tyre" for Babylon,
+ * "Gilgal" for Galilee). Only the first kind may auto-link — a cross-name
+ * rendering would attach a Babylon card to the word צֹר. So a variant counts
+ * only when it is plausibly the same name spelled differently: within two
+ * edits of the canonical name, or a shared stem of at least four letters
+ * (which also admits compound parts like "Abel" in Abel-beth-maacah).
+ */
+function isSpellingVariant(variant: string, canonical: string) {
+  if (variant === canonical) return true
+  if (levenshtein(variant, canonical) <= 2) return true
+  return Math.min(variant.length, canonical.length) >= 4
+    && (variant.startsWith(canonical) || canonical.startsWith(variant))
 }
 
 function memoizeByKey<T>(load: (key: string) => Promise<T>): (key: string) => Promise<T> {
@@ -146,9 +179,22 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
 
   const places: Record<string, GeoPlace> = {}
   const byVerse: Record<string, string[]> = {}
+  // Mentions the word-linker may consider: upstream marks how each translation
+  // renders the instance, and only proper-name usages correspond to a tagged
+  // Hebrew place word (the rest are "person", "common_noun", ...).
+  const linkableByVerse = new Map<string, Set<string>>()
   const byLexicon: Record<string, string[]> = {}
   let mentionCount = 0
   let mappableCount = 0
+  let nonNameMentions = 0
+
+  /** friendly_id first so the canonical spelling wins over variants. */
+  function nameVariants(place: AncientPlace) {
+    const canonical = normalizeName(place.friendly_id)
+    const names = [...new Set([place.friendly_id, ...Object.keys(place.translation_name_counts ?? {})])]
+      .map(normalizeName)
+    return names.filter((name) => name && isSpellingVariant(name, canonical))
+  }
 
   for (const place of ancient) {
     const lonlat = place.identifications
@@ -182,8 +228,18 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
       const jewishCandidates = christianToJewish.get(`${citationName} ${reference}`)
       if (!jewishCandidates?.length) continue
       mappableCount += 1
+      // A Christian ref can resolve to several Jewish verses (Psalm heading
+      // splits); index under each so chapter bars and word matching both see it.
       for (const jewishKey of jewishCandidates) {
-        ;(byVerse[jewishKey] ??= []).push(place.id)
+        const ids = byVerse[jewishKey] ??= []
+        if (!ids.includes(place.id)) ids.push(place.id)
+        if (verse.instance_types?.name) {
+          const linkable = linkableByVerse.get(jewishKey) ?? new Set<string>()
+          linkable.add(place.id)
+          linkableByVerse.set(jewishKey, linkable)
+        } else {
+          nonNameMentions += 1
+        }
       }
     }
   }
@@ -192,7 +248,19 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
   // verse the place is mentioned in. The verse is the search window; the link
   // is stored against the word's lexicon entry, not the verse.
   const byVerseLinked: Record<string, number> = {}
-  for (const [jewishKey, placeIds] of Object.entries(byVerse)) {
+  let linkedExact = 0
+  let linkedVariant = 0
+  const variantNames = new Map<string, { names: string[]; canonical: string }>()
+  for (const place of ancient) if (places[place.id]) variantNames.set(place.id, { names: nameVariants(place), canonical: normalizeName(place.friendly_id) })
+
+  function addLink(entryId: string, placeId: string, jewishKey: string, isCanonical: boolean) {
+    byVerseLinked[jewishKey] = (byVerseLinked[jewishKey] ?? 0) + 1
+    if (isCanonical) linkedExact += 1
+    else linkedVariant += 1
+    if (!(byLexicon[entryId] ?? []).includes(placeId)) byLexicon[entryId] = [...(byLexicon[entryId] ?? []), placeId]
+  }
+
+  for (const [jewishKey, placeIds] of linkableByVerse) {
     const [bookId, chapter, verseNumber] = jewishKey.split(':')
     const chapterVerses = await bookCache(bookId)
     const verse = chapterVerses[chapter]?.find((item) => item.number === Number(verseNumber))
@@ -205,17 +273,18 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
       // (unprefixed, so HVNp3cs Niphal verbs are excluded).
       const isProper = (entry?.partOfSpeech ?? []).some((pos) => /^n\.pr/.test(pos))
         || /\bNp\b/.test(word.morphology ?? '')
-      if (entry && isProper) {
+      // First-wins per normalized gloss keeps a repeated gloss deterministic.
+      if (entry && isProper && !properNouns.has(normalizeName(entry.gloss))) {
         properNouns.set(normalizeName(entry.gloss), entry.id)
       }
     }
+    if (!properNouns.size) continue
     for (const placeId of placeIds) {
-      const place = places[placeId]
-      const name = normalizeName(place.name)
-      const entryId = properNouns.get(name)
-      if (!entryId) continue
-      byVerseLinked[jewishKey] = (byVerseLinked[jewishKey] ?? 0) + 1
-      if (!(byLexicon[entryId] ?? []).includes(placeId)) byLexicon[entryId] = [...(byLexicon[entryId] ?? []), placeId]
+      const info = variantNames.get(placeId)
+      if (!info) continue
+      const matched = info.names.find((name) => properNouns.has(name))
+      if (!matched) continue
+      addLink(properNouns.get(matched)!, placeId, jewishKey, matched === info.canonical)
     }
   }
 
@@ -243,11 +312,14 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
     places: Object.keys(places).length,
     mentions: mentionCount,
     mappableMentions: mappableCount,
+    nonNameMentions,
     versesCovered: Object.keys(byVerse).length,
     versesWithWordLink: Object.keys(byVerseLinked).length,
     wordLinkedMentions: linkedMentions,
+    wordLinkedExact: linkedExact,
+    wordLinkedByVariant: linkedVariant,
     lexiconEntriesLinked: Object.keys(byLexicon).length,
-    overrideEntries: Object.keys(overrides).length,
+    overrideEntries: Object.keys(overrides).filter((key) => !key.startsWith('_')).length,
   }
   await writeFile(join(generated, 'geocoding-manifest.json'), JSON.stringify(manifest, null, 2) + '\n')
   console.log(JSON.stringify(manifest, null, 2))

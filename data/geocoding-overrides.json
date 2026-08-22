@@ -1,4 +1,10 @@
 {
   "_comment": "Maps lexicon entry ids to geocoding place ids for places the automatic proper-noun matcher cannot link. Place ids come from data/generated/geocoding-index.json (or the upstream ancient.jsonl 'id' field). See scripts/import-geocoding.ts.",
-  "avx": ["aea17b7"]
+  "avx": ["aea17b7"],
+  "_rationale_asshur": "BDB glosses אַשּׁוּר 'Asshur'; upstream names the region 'Assyria'. Rejected by the spelling gate, correct as a scholarly equivalence.",
+  "bfr": ["a3d1321"],
+  "_rationale_zion": "Zion / City of David / Jerusalem denote one site; link each lexicon entry to all three place records.",
+  "ktl": ["a15257a", "a84f426"],
+  "fis": ["af20c46", "a84f426"],
+  "olp": ["af20c46", "a84f426"]
 }
