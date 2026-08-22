@@ -26,19 +26,20 @@ export async function GET(request: Request) {
   const lemma = params.get('lemma')
 
   try {
-    const [daily, gilgamesh, aramaic, carmen, schenck, hebreways, leningrad] = await Promise.all([
+    const [daily, gilgamesh, aramaic, carmen, schenck, hebreways, henry, leningrad] = await Promise.all([
       getExternalCatalog('daily-dose-of-hebrew-videos.json'),
       getExternalCatalog('gilgamesh-vocabulary-videos.json'),
       getExternalCatalog('daily-dose-of-aramaic-videos.json'),
       getExternalCatalog('carmen-joy-imes-videos.json'),
       getExternalCatalog('ken-schenck-videos.json'),
       getExternalCatalog('hebreways-videos.json'),
+      getExternalCatalog('henry-abramson-videos.json'),
       getExternalCatalog('leningrad-codex-chapter-images.json'),
     ])
 
     const chapterTarget = `chapter:${book.id}:${chapter}`
     const verseTarget = verse ? `verse:${book.id}:${chapter}:${verse}` : ''
-    const studyResources = [...daily.resources, ...gilgamesh.resources, ...aramaic.resources, ...carmen.resources, ...schenck.resources, ...hebreways.resources]
+    const studyResources = [...daily.resources, ...gilgamesh.resources, ...aramaic.resources, ...carmen.resources, ...schenck.resources, ...hebreways.resources, ...henry.resources]
 
     let lemmaIds = new Set<string>()
     if (lemma) {
@@ -50,7 +51,7 @@ export async function GET(request: Request) {
       )
     }
 
-    const chapterResources = [daily, gilgamesh, aramaic, carmen, schenck, hebreways, leningrad].flatMap((catalog) =>
+    const chapterResources = [daily, gilgamesh, aramaic, carmen, schenck, hebreways, henry, leningrad].flatMap((catalog) =>
       catalog.resources.filter((resource) => resource.targets.includes(chapterTarget)),
     )
     const chapterNotes = [
@@ -69,7 +70,7 @@ export async function GET(request: Request) {
 
     const notes = groupResources([
       ...studyResources.filter((resource) => verseTarget && resource.targets.includes(verseTarget)),
-      ...gilgamesh.resources.filter((resource) =>
+      ...studyResources.filter((resource) =>
         resource.targets.some((target) => target.startsWith('lemma:') && lemmaIds.has(target.split(':').at(-1) ?? '')),
       ),
     ], 'Study resources')

@@ -1,0 +1,1062 @@
+{
+  "sourceUrl": "https://www.youtube.com/@HenryAbramson",
+  "channelId": "UCeNr6gwqin_7e_atjVnJcCQ",
+  "resources": [
+    {
+      "id": "youtube:video:_XVfOC0Gglk",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=_XVfOC0Gglk",
+      "embedUrl": "https://www.youtube.com/embed/_XVfOC0Gglk",
+      "title": "Egyptian Vocabulary Jewish History in the Torah Miketz",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:41:45"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. Egyptian vocab: Joseph Egyptian name Zaphenath-paneah"
+    },
+    {
+      "id": "youtube:video:1cdLZ0fw5nc",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=1cdLZ0fw5nc",
+      "embedUrl": "https://www.youtube.com/embed/1cdLZ0fw5nc",
+      "title": "Pharaoh Merneptah Jewish History in the Torah Bo",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:5:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. transcript: identity of exodus Pharaoh"
+    },
+    {
+      "id": "youtube:video:2WEtVsQk9l8",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=2WEtVsQk9l8",
+      "embedUrl": "https://www.youtube.com/embed/2WEtVsQk9l8",
+      "title": "New Clothes Vayigash Jewish History in the Torah",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:45:22"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript: 45:22 gifts of clothes"
+    },
+    {
+      "id": "youtube:video:3CEbSSW1dgo",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=3CEbSSW1dgo",
+      "embedUrl": "https://www.youtube.com/embed/3CEbSSW1dgo",
+      "title": "Date Honey or Bee Honey? Jewish History in the Torah Ki Tissa",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:33:3",
+        "verse:deut:8:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. USER"
+    },
+    {
+      "id": "youtube:video:4MIr-vGc5ag",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=4MIr-vGc5ag",
+      "embedUrl": "https://www.youtube.com/embed/4MIr-vGc5ag",
+      "title": "Near Eastern Law Codes Jewish History in the Torah Mishpatim",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:exod:21"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. covenant code corpus"
+    },
+    {
+      "id": "youtube:video:5-HfmcGDgpc",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=5-HfmcGDgpc",
+      "embedUrl": "https://www.youtube.com/embed/5-HfmcGDgpc",
+      "title": "Incense Jewish History in the Torah Tetsaveh",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:30:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. incense altar morning incense"
+    },
+    {
+      "id": "youtube:video:5eoeVaA_xv8",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=5eoeVaA_xv8",
+      "embedUrl": "https://www.youtube.com/embed/5eoeVaA_xv8",
+      "title": "City Gates in Antiquity Jewish History in the Torah",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:23:10"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. transcript: gate in Machpelah purchase"
+    },
+    {
+      "id": "youtube:video:60EpcmbDRS8",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=60EpcmbDRS8",
+      "embedUrl": "https://www.youtube.com/embed/60EpcmbDRS8",
+      "title": "Nikur Jewish History in the Torah Vayishlah",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:32:33"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. gid hanasheh"
+    },
+    {
+      "id": "youtube:video:7XkAaQLP-RE",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=7XkAaQLP-RE",
+      "embedUrl": "https://www.youtube.com/embed/7XkAaQLP-RE",
+      "title": "Divergences in Flood Narratives: Jewish History in the Torah 2 (Noach)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:7:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. flood begins"
+    },
+    {
+      "id": "youtube:video:8wX0piSGnN8",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=8wX0piSGnN8",
+      "embedUrl": "https://www.youtube.com/embed/8wX0piSGnN8",
+      "title": "Edom Jewish History in the Torah Toledot",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:25:30"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. Edom from red pottage"
+    },
+    {
+      "id": "youtube:video:9jtguXrMDW8",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=9jtguXrMDW8",
+      "embedUrl": "https://www.youtube.com/embed/9jtguXrMDW8",
+      "title": "Tutelary Idols Jewish History in the Torah Vayetse",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:31:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. Rachel hides teraphim"
+    },
+    {
+      "id": "youtube:video:apgfkaclGGw",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=apgfkaclGGw",
+      "embedUrl": "https://www.youtube.com/embed/apgfkaclGGw",
+      "title": "Who are the Hapiru? Jewish History in the Torah Mishpatim",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:21:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. Hebrew servant; Hapiru parallel"
+    },
+    {
+      "id": "youtube:video:b6xLmJrEQzU",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=b6xLmJrEQzU",
+      "embedUrl": "https://www.youtube.com/embed/b6xLmJrEQzU",
+      "title": "How to Pick up a Snake Jewish History in the Torah Shemot",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:4:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript: take snake by tail"
+    },
+    {
+      "id": "youtube:video:bIPObRMv36U",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=bIPObRMv36U",
+      "embedUrl": "https://www.youtube.com/embed/bIPObRMv36U",
+      "title": "What Color were the Israelites? Jewish History in the Torah Tazria-Metzora",
+      "targetType": "verse",
+      "targets": [
+        "verse:lev:13:31"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript cites Lev 13:31"
+    },
+    {
+      "id": "youtube:video:c2ekjdAtZn8",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=c2ekjdAtZn8",
+      "embedUrl": "https://www.youtube.com/embed/c2ekjdAtZn8",
+      "title": "Timing of the Plagues Jewish History in the Torah Vaera",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:9:31"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript quotes flax/barley hail timing"
+    },
+    {
+      "id": "youtube:video:c42RsiQSmc0",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=c42RsiQSmc0",
+      "embedUrl": "https://www.youtube.com/embed/c42RsiQSmc0",
+      "title": "The Sabbath Jewish History in the Torah Yitro",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:20:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. sabbath"
+    },
+    {
+      "id": "youtube:video:cQATZLM1CUI",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=cQATZLM1CUI",
+      "embedUrl": "https://www.youtube.com/embed/cQATZLM1CUI",
+      "title": "Limits of Israelite Control Jewish History in the Torah Vayehi",
+      "targetType": "chapter",
+      "targets": [
+        "chapter:gen:49"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. transcript: tribal land allocation in blessings"
+    },
+    {
+      "id": "youtube:video:cQLn7Ax_mOs",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=cQLn7Ax_mOs",
+      "embedUrl": "https://www.youtube.com/embed/cQLn7Ax_mOs",
+      "title": "The Legend of King Snofru Jewish History in the Torah Beshalah",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:14:21"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. transcript: splitting of the sea contrast"
+    },
+    {
+      "id": "youtube:video:D0yLvbi9fHA",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=D0yLvbi9fHA",
+      "embedUrl": "https://www.youtube.com/embed/D0yLvbi9fHA",
+      "title": "The Locust Plague of 1915 Jewish History in the Torah Bo",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:10:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. locusts"
+    },
+    {
+      "id": "youtube:video:EEw-ArUlz44",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=EEw-ArUlz44",
+      "embedUrl": "https://www.youtube.com/embed/EEw-ArUlz44",
+      "title": "Hittites Jewish History in the Torah Toledot",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:26:34"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. Esau Hittite wives (transcript covers Gen 23+26)"
+    },
+    {
+      "id": "youtube:video:EMjb0tUvS1Y",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=EMjb0tUvS1Y",
+      "embedUrl": "https://www.youtube.com/embed/EMjb0tUvS1Y",
+      "title": "Hittite Suzerainty Treaties Jewish History and the Torah Yitro",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:20:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. covenant/treaty structure"
+    },
+    {
+      "id": "youtube:video:ESDUzL7uqgQ",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ESDUzL7uqgQ",
+      "embedUrl": "https://www.youtube.com/embed/ESDUzL7uqgQ",
+      "title": "The River Yabbok (Jabbok) Jewish History in the Torah Vayishlach",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:32:23"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. ford of Jabbok"
+    },
+    {
+      "id": "youtube:video:eZrMzfIo-1c",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=eZrMzfIo-1c",
+      "embedUrl": "https://www.youtube.com/embed/eZrMzfIo-1c",
+      "title": "Dotan and the Trade Routes Jewish History in the Torah Vayeshev",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:37:17"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. Dothan"
+    },
+    {
+      "id": "youtube:video:fX7QXwiwKb8",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=fX7QXwiwKb8",
+      "embedUrl": "https://www.youtube.com/embed/fX7QXwiwKb8",
+      "title": "Moabites Jewish History in the Torah",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:19:37"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. Moab from Lot (origin); Mesha stele/2Kgs 3 noted but not targeted"
+    },
+    {
+      "id": "youtube:video:icfMtDcZJOY",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=icfMtDcZJOY",
+      "embedUrl": "https://www.youtube.com/embed/icfMtDcZJOY",
+      "title": "Abraham's Peregrinations Jewish History in the Torah 6 (Lech Lecha)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:12:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. Lech Lecha trek"
+    },
+    {
+      "id": "youtube:video:j5tCo-h0PFQ",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=j5tCo-h0PFQ",
+      "embedUrl": "https://www.youtube.com/embed/j5tCo-h0PFQ",
+      "title": "Ash Heap of the Temple Jewish History in the Torah Vayikra",
+      "targetType": "verse",
+      "targets": [
+        "verse:lev:6:3",
+        "verse:lev:6:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. USER (Jewish)"
+    },
+    {
+      "id": "youtube:video:jjv5EWGTvNo",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=jjv5EWGTvNo",
+      "embedUrl": "https://www.youtube.com/embed/jjv5EWGTvNo",
+      "title": "The Latin Translation of Olah Jewish History in the Torah Vayikra",
+      "targetType": "verse",
+      "targets": [
+        "verse:lev:1:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. olah word-study"
+    },
+    {
+      "id": "youtube:video:JTjNBCP6tbQ",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=JTjNBCP6tbQ",
+      "embedUrl": "https://www.youtube.com/embed/JTjNBCP6tbQ",
+      "title": "Mandrakes Jewish History in the Torah Vayetse",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:30:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript: 30:14 mandrakes"
+    },
+    {
+      "id": "youtube:video:JuyLncSjmws",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=JuyLncSjmws",
+      "embedUrl": "https://www.youtube.com/embed/JuyLncSjmws",
+      "title": "The Tower of Babel: Jewish History in the Torah 3  (Noach)",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:11:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. Tower of Babel"
+    },
+    {
+      "id": "youtube:video:KGrx1aqakqg",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=KGrx1aqakqg",
+      "embedUrl": "https://www.youtube.com/embed/KGrx1aqakqg",
+      "title": "Tekhelet Jewish History in the Torah Tetsaveh",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:28:31"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. techelet robe all blue"
+    },
+    {
+      "id": "youtube:video:kk0L95Za8NM",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=kk0L95Za8NM",
+      "embedUrl": "https://www.youtube.com/embed/kk0L95Za8NM",
+      "title": "Abraham's Expectations Jewish History in the Torah Vayera",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:18:25"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript: Sodom negotiation quote"
+    },
+    {
+      "id": "youtube:video:KSY-kMqsTUg",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=KSY-kMqsTUg",
+      "embedUrl": "https://www.youtube.com/embed/KSY-kMqsTUg",
+      "title": "The Menorah Jewish History in the Torah Terumah",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:25:31"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. menorah"
+    },
+    {
+      "id": "youtube:video:L5MMxLpRdHU",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=L5MMxLpRdHU",
+      "embedUrl": "https://www.youtube.com/embed/L5MMxLpRdHU",
+      "title": "Hebrews, Jews, and Ashkenazim Jewish History in the Torah 4",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:10:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. transcript: Ashkenaz in Table of Nations"
+    },
+    {
+      "id": "youtube:video:MqIM1Ws66tg",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=MqIM1Ws66tg",
+      "embedUrl": "https://www.youtube.com/embed/MqIM1Ws66tg",
+      "title": "Routes of the Exodus Jewish History in the Torah Beshalah",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:13:18"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. route via wilderness"
+    },
+    {
+      "id": "youtube:video:nD6XccYrVjc",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=nD6XccYrVjc",
+      "embedUrl": "https://www.youtube.com/embed/nD6XccYrVjc",
+      "title": "The Plague of Darkness Jewish History in the Torah Bo",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:10:22"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. darkness"
+    },
+    {
+      "id": "youtube:video:Nx4ASzs8g1s",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Nx4ASzs8g1s",
+      "embedUrl": "https://www.youtube.com/embed/Nx4ASzs8g1s",
+      "title": "Where is Goshen? Jewish History in the Torah Miketz",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:47:27"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. Goshen geography; settlement verse"
+    },
+    {
+      "id": "youtube:video:nz6NRp4OGMU",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=nz6NRp4OGMU",
+      "embedUrl": "https://www.youtube.com/embed/nz6NRp4OGMU",
+      "title": "Where is Per-Ramsses? Jewish History in the Torah Vayigash",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:47:11"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript cites Gen 47:11 Rameses"
+    },
+    {
+      "id": "youtube:video:o2yDre-17HM",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=o2yDre-17HM",
+      "embedUrl": "https://www.youtube.com/embed/o2yDre-17HM",
+      "title": "One Change of Clothes? Jewish History in the Torah Tazria Metzora",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:45:22"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. USER"
+    },
+    {
+      "id": "youtube:video:oahP04fTmQk",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=oahP04fTmQk",
+      "embedUrl": "https://www.youtube.com/embed/oahP04fTmQk",
+      "title": "Temple at Tel Arad Jewish History in the Torah Tsav",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:27:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. transcript: altar dimensions match the Torah; altar of burnt offering"
+    },
+    {
+      "id": "youtube:video:OtJq1t4UXTQ",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=OtJq1t4UXTQ",
+      "embedUrl": "https://www.youtube.com/embed/OtJq1t4UXTQ",
+      "title": "Extispicy Divination Jewish History in the Torah Vayetze",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:30:27"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript: 30:27 I have divined"
+    },
+    {
+      "id": "youtube:video:Oz61_9ZlGtU",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Oz61_9ZlGtU",
+      "embedUrl": "https://www.youtube.com/embed/Oz61_9ZlGtU",
+      "title": "Helbena Jewish History in the Torah Ki Tissa",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:30:34"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript: 30:34 galbanum"
+    },
+    {
+      "id": "youtube:video:p5nBNHH2WHw",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=p5nBNHH2WHw",
+      "embedUrl": "https://www.youtube.com/embed/p5nBNHH2WHw",
+      "title": "Hansen's Disease Jewish History in the Torah Shemot",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:4:6"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript: 4:6 leprous hand"
+    },
+    {
+      "id": "youtube:video:pErKb9-RoN8",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=pErKb9-RoN8",
+      "embedUrl": "https://www.youtube.com/embed/pErKb9-RoN8",
+      "title": "Viper Jewish History in the Torah Vayehi",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:49:17"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript cites Gen 49:17 viper"
+    },
+    {
+      "id": "youtube:video:pKwX4yUbTHY",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=pKwX4yUbTHY",
+      "embedUrl": "https://www.youtube.com/embed/pKwX4yUbTHY",
+      "title": "Metsad haShavyahu Ostracon Jewish History in the Torah Mishpatim",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:22:26"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. garment pledge; Yavne-Yam parallel"
+    },
+    {
+      "id": "youtube:video:Q9IqNU8-UyU",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Q9IqNU8-UyU",
+      "embedUrl": "https://www.youtube.com/embed/Q9IqNU8-UyU",
+      "title": "Frogs, Frogs Everywhere Jewish History in the Torah Vaera",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:7:28"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. frogs swarm (Jewish numbering)"
+    },
+    {
+      "id": "youtube:video:QQaZmcQ4sbg",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=QQaZmcQ4sbg",
+      "embedUrl": "https://www.youtube.com/embed/QQaZmcQ4sbg",
+      "title": "Why a Golden Calf? Jewish History in the Torah Ki Tissa",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:32:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. USER"
+    },
+    {
+      "id": "youtube:video:rBjlD9zgzrs",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=rBjlD9zgzrs",
+      "embedUrl": "https://www.youtube.com/embed/rBjlD9zgzrs",
+      "title": "Puncta Extraordinaria Jewish History in the Torah Vayishlah",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:33:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. puncta on the kiss"
+    },
+    {
+      "id": "youtube:video:rBUIHfj8xgA",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=rBUIHfj8xgA",
+      "embedUrl": "https://www.youtube.com/embed/rBUIHfj8xgA",
+      "title": "Redemption of Captives Jewish History in the Torah Lech Lecha",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:14:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. Abraham rescues Lot"
+    },
+    {
+      "id": "youtube:video:Ro7WQxejRvc",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Ro7WQxejRvc",
+      "embedUrl": "https://www.youtube.com/embed/Ro7WQxejRvc",
+      "title": "The Tomb of the Patriarchs Chaye Sara Jewish History in the Torah",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:23:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. Machpelah"
+    },
+    {
+      "id": "youtube:video:RS_YttxbNTU",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=RS_YttxbNTU",
+      "embedUrl": "https://www.youtube.com/embed/RS_YttxbNTU",
+      "title": "What is an Ephod? Jewish History in the Torah Tsav",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:azi",
+        "lemma:oshb-lexicon:azh"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. USER ephod"
+    },
+    {
+      "id": "youtube:video:S5zHVGR2nWY",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=S5zHVGR2nWY",
+      "embedUrl": "https://www.youtube.com/embed/S5zHVGR2nWY",
+      "title": "Philistines Jewish History in the Torah",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:21:32"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript cites Gen 21:32 Philistines"
+    },
+    {
+      "id": "youtube:video:sSBGioaXtK4",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=sSBGioaXtK4",
+      "embedUrl": "https://www.youtube.com/embed/sSBGioaXtK4",
+      "title": "Israelites, Philistines, and Pig Remains Jewish History and the Torah Shemini",
+      "targetType": "verse",
+      "targets": [
+        "verse:lev:11:7",
+        "verse:lev:11:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. USER"
+    },
+    {
+      "id": "youtube:video:Sz8Aa_hkOZg",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Sz8Aa_hkOZg",
+      "embedUrl": "https://www.youtube.com/embed/Sz8Aa_hkOZg",
+      "title": "What is a Heavy Heart? Jewish History in the Torah Vaera",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:7:14"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript quotes heavy-heart verse"
+    },
+    {
+      "id": "youtube:video:T8saUfs1Il4",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=T8saUfs1Il4",
+      "embedUrl": "https://www.youtube.com/embed/T8saUfs1Il4",
+      "title": "What is a Beka? Jewish History in the Torah Vayakhel-Pekudei",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:38:26"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. USER"
+    },
+    {
+      "id": "youtube:video:Tg9k_NqRkf4",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Tg9k_NqRkf4",
+      "embedUrl": "https://www.youtube.com/embed/Tg9k_NqRkf4",
+      "title": "Why two Midwives? Jewish History in the Torah Shemot",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:1:15"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. USER"
+    },
+    {
+      "id": "youtube:video:TLEpR_wFbJ4",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=TLEpR_wFbJ4",
+      "embedUrl": "https://www.youtube.com/embed/TLEpR_wFbJ4",
+      "title": "Temples in Antiquity Jewish History in the Torah Terumah",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:25:8"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. transcript: make me a sanctuary"
+    },
+    {
+      "id": "youtube:video:U0tt1fMNSXw",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=U0tt1fMNSXw",
+      "embedUrl": "https://www.youtube.com/embed/U0tt1fMNSXw",
+      "title": "Nash Papyrus Jewish History in the Torah Yitro",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:20:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. Nash papyrus = Decalogue"
+    },
+    {
+      "id": "youtube:video:U3u3LxF_W-4",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=U3u3LxF_W-4",
+      "embedUrl": "https://www.youtube.com/embed/U3u3LxF_W-4",
+      "title": "Kadesh Inscription Jewish History in the Torah Beshalah",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:15:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript: Song of the Sea contrast"
+    },
+    {
+      "id": "youtube:video:u9qUpdLqyzQ",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=u9qUpdLqyzQ",
+      "embedUrl": "https://www.youtube.com/embed/u9qUpdLqyzQ",
+      "title": "When did the Patriarchs Live? Jewish History in the Torah Toledot",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:25:7"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. transcript cites Gen 25:7 lifespan"
+    },
+    {
+      "id": "youtube:video:unRkPt3xODs",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=unRkPt3xODs",
+      "embedUrl": "https://www.youtube.com/embed/unRkPt3xODs",
+      "title": "Joseph in Egypt  Jewish History in the Torah Vayeshev",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:39:1"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. Joseph sold to Egypt"
+    },
+    {
+      "id": "youtube:video:VnTIUbpBAy4",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=VnTIUbpBAy4",
+      "embedUrl": "https://www.youtube.com/embed/VnTIUbpBAy4",
+      "title": "Embalming Jewish History in the Torah Vayehi",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:50:2"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. Jacob embalmed"
+    },
+    {
+      "id": "youtube:video:WPnlM_ZefvM",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=WPnlM_ZefvM",
+      "embedUrl": "https://www.youtube.com/embed/WPnlM_ZefvM",
+      "title": "Secondary Burials in Antiquity Chaye Sarah Jewish History in the Torah",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:23:19"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. secondary burial at Machpelah"
+    },
+    {
+      "id": "youtube:video:wrE7zr5KZDE",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=wrE7zr5KZDE",
+      "embedUrl": "https://www.youtube.com/embed/wrE7zr5KZDE",
+      "title": "Bet Alfa Mosaic Jewish History in the Torah",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:22:13"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript: Akedah, ram in thicket"
+    },
+    {
+      "id": "youtube:video:Wx3xg54r5jA",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Wx3xg54r5jA",
+      "embedUrl": "https://www.youtube.com/embed/Wx3xg54r5jA",
+      "title": "Robes of the HIgh Priest Jewish History in the Torah Tetsaveh",
+      "targetType": "verse",
+      "targets": [
+        "verse:exod:28:4"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. holy garments"
+    },
+    {
+      "id": "youtube:video:XC29FoNM4Hc",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=XC29FoNM4Hc",
+      "embedUrl": "https://www.youtube.com/embed/XC29FoNM4Hc",
+      "title": "Horses Vayigash Jewish History in the Torah",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:47:17"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. USER"
+    },
+    {
+      "id": "youtube:video:xGvV3WjLqB4",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=xGvV3WjLqB4",
+      "embedUrl": "https://www.youtube.com/embed/xGvV3WjLqB4",
+      "title": "What is Tahash? Jewish History in the Torah Vayakhel-Pekudei",
+      "targetType": "lemma",
+      "targets": [
+        "lemma:oshb-lexicon:nra",
+        "lemma:oshb-lexicon:nqz"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. USER tahash"
+    },
+    {
+      "id": "youtube:video:xRjmVP7srYA",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=xRjmVP7srYA",
+      "embedUrl": "https://www.youtube.com/embed/xRjmVP7srYA",
+      "title": "The Coat of Many Colors Jewish History in the Torah Vayeshev",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:37:3"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. ketonet passim"
+    },
+    {
+      "id": "youtube:video:Z8MsaFXrk58",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=Z8MsaFXrk58",
+      "embedUrl": "https://www.youtube.com/embed/Z8MsaFXrk58",
+      "title": "Camels Jewish History in the Torah  Lech Lecha",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:12:16"
+      ],
+      "status": "published",
+      "mappingMethod": "title-transcript-inferred",
+      "notes": "Whisper transcript verified. Confidence: med. camels anachronism"
+    },
+    {
+      "id": "youtube:video:zFFiETzvfK8",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=zFFiETzvfK8",
+      "embedUrl": "https://www.youtube.com/embed/zFFiETzvfK8",
+      "title": "On Right and Left Jewish History in the Torah Tsav",
+      "targetType": "verse",
+      "targets": [
+        "verse:lev:8:23"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript: right ear/thumb/toe ordination"
+    },
+    {
+      "id": "youtube:video:zJy5Xhsj7KI",
+      "provider": "Henry Abramson",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=zJy5Xhsj7KI",
+      "embedUrl": "https://www.youtube.com/embed/zJy5Xhsj7KI",
+      "title": "Joseph's Cup for Divination Jewish History in the Torah Miketz",
+      "targetType": "verse",
+      "targets": [
+        "verse:gen:44:5"
+      ],
+      "status": "published",
+      "mappingMethod": "title-and-transcript",
+      "notes": "Whisper transcript verified. Confidence: high. transcript cites 44:5 divination goblet"
+    }
+  ],
+  "generatedAt": "2026-08-22T18:40:32.748Z"
+}
