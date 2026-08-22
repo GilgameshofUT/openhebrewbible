@@ -24,7 +24,7 @@ const nextConfig: NextConfig = {
             "img-src 'self' data: https:",
             "media-src 'self' https:",
             "font-src 'self'",
-            "frame-src https://w.soundcloud.com https://www.youtube.com https://youtube.com",
+            "frame-src https://w.soundcloud.com https://www.youtube.com https://youtube.com https://www.google.com/maps",
             "connect-src 'self' https://api-v2.soundcloud.com",
             "base-uri 'self'",
             "form-action 'self'",

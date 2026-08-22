@@ -79,6 +79,28 @@ export type ExternalResource = {
   resources?: ExternalResource[]
 }
 
+export type GeoPlace = {
+  id: string
+  name: string
+  slug: string
+  types: string[]
+  lonlat: string
+  modernName?: string
+  thumbnailUrl?: string
+}
+
+/** Verse place mentions and lexicon links, keyed for the reader's lookups. */
+export type GeocodingIndex = {
+  source: string
+  generatedAt: string
+  /** placeId -> place. */
+  places: Record<string, GeoPlace>
+  /** "bookId:chapter:verse" -> placeId[] (Jewish versification). */
+  byVerse: Record<string, string[]>
+  /** lexicon entry id -> placeId[]. */
+  byLexicon: Record<string, string[]>
+}
+
 async function readJson<T>(path: string): Promise<T> {
   return JSON.parse(await readFile(path, 'utf8')) as T
 }
@@ -125,6 +147,10 @@ export const getCitationMap = memoize(() =>
 
 export const getOccurrenceIndex = memoize(() =>
   readJson<OccurrenceIndex>(join(generated, 'occurrence-index.json')),
+)
+
+export const getGeocodingIndex = memoize(() =>
+  readJson<GeocodingIndex>(join(generated, 'geocoding-index.json')),
 )
 
 export const getExternalCatalog = memoizeByKey<{ resources: ExternalResource[] }>((name) =>

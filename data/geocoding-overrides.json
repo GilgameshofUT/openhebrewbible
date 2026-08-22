@@ -1,0 +1,4 @@
+{
+  "_comment": "Maps lexicon entry ids to geocoding place ids for places the automatic proper-noun matcher cannot link. Place ids come from data/generated/geocoding-index.json (or the upstream ancient.jsonl 'id' field). See scripts/import-geocoding.ts.",
+  "avx": ["aea17b7"]
+}

@@ -50,6 +50,16 @@ export type Word = {
   lexiconId: string
 }
 
+export type GeoPlace = {
+  id: string
+  name: string
+  slug: string
+  types: string[]
+  lonlat: string
+  modernName?: string
+  thumbnailUrl?: string
+}
+
 export type Verse = {
   number: number
   hebrew: string
@@ -101,4 +111,20 @@ export async function loadLexiconEntry(id: string): Promise<LexiconEntry | undef
   if (!response.ok) return undefined
   const data = await response.json() as { entry?: LexiconEntry }
   return data.entry
+}
+
+/** Places linked to a lexicon entry, for the word-study panel. */
+export async function loadPlacesForLexicon(lexiconId: string): Promise<GeoPlace[]> {
+  const response = await fetch(`/api/places?lexiconId=${encodeURIComponent(lexiconId)}`)
+  if (!response.ok) return []
+  const data = await response.json() as { places?: GeoPlace[] }
+  return data.places ?? []
+}
+
+/** Places mentioned in a chapter, grouped by verse number. */
+export async function loadPlacesForChapter(bookId: string, chapter: number): Promise<Record<string, GeoPlace[]>> {
+  const response = await fetch(`/api/places?book=${encodeURIComponent(bookId)}&chapter=${chapter}`)
+  if (!response.ok) return {}
+  const data = await response.json() as { byVerse?: Record<string, GeoPlace[]> }
+  return data.byVerse ?? {}
 }

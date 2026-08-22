@@ -267,3 +267,22 @@ button { cursor: pointer; }
 .boundary-digest { color: var(--muted); font: 11px Arial, sans-serif; }
 .boundary-action { display: inline-block; padding: 10px 16px; border: 1px solid var(--maroon); background: var(--maroon); color: var(--white); font: 12px Arial, sans-serif; text-decoration: none; }
 .boundary-action:hover, .boundary-action:focus-visible { border-color: var(--ink); background: var(--ink); }
+
+/* Place mapping (openbible.info geocoding index). */
+.chapter-places { max-width: 1500px; margin: 0 auto; padding: 8px 5vw 0; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.chapter-places-label { color: var(--muted); font: 9px Arial, sans-serif; letter-spacing: .13em; text-transform: uppercase; }
+.chapter-place-links { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.place-chip { border: 1px solid #cdbba8; border-radius: 3px; padding: 5px 11px; background: transparent; color: var(--maroon); font: 12px Arial, sans-serif; white-space: nowrap; }
+.place-chip:hover, .place-chip:focus-visible { border-color: var(--maroon); background: #ead3d0; color: var(--maroon); }
+.study-panel .places { display: grid; gap: 14px; }
+.place-card header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.place-card header strong { font-weight: 400; font-size: 17px; }
+.place-modern { color: var(--muted); font: 10px Arial, sans-serif; }
+.place-type { display: block; color: var(--muted); font: 10px Arial, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+.place-map { display: block; width: 100%; height: 200px; border: 1px solid var(--line); background: var(--paper); }
+.place-map-large { height: 380px; }
+.place-link { display: inline-block; margin-top: 8px; color: var(--maroon); font: 12px Arial, sans-serif; text-decoration: none; }
+.place-link:hover { text-decoration: underline; }
+.place-modal p.place-type, .place-modal p.place-modern { margin: 0 0 10px; }
+.place-modal .modal-status { padding: 0 25px 28px; }
+@media (max-width: 640px) { .chapter-places { align-items: flex-start; }.chapter-place-links { flex: 1 1 100%; }.place-map-large { height: 240px; } }

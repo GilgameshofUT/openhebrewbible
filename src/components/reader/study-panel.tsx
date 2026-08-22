@@ -1,9 +1,23 @@
 'use client'
 
-import type { LexiconEntry, LexiconSense, Word } from '@/data/tanakh'
+import type { GeoPlace, LexiconEntry, LexiconSense, Word } from '@/data/tanakh'
 import type { NoteResource } from './types'
 
 type Relationship = NonNullable<LexiconEntry['lexicalRelationships']>[number]
+
+/**
+ * Keyless Google Maps embed for a coordinate pair. lonlat is stored as
+ * "lon,lat" (upstream format); the embed wants "lat,lon".
+ */
+export function mapEmbedUrl(place: GeoPlace) {
+  const [lon, lat] = place.lonlat.split(',')
+  return `https://www.google.com/maps?q=${lat.trim()},${lon.trim()}&z=9&output=embed`
+}
+
+export function mapLinkUrl(place: GeoPlace) {
+  const [lon, lat] = place.lonlat.split(',')
+  return `https://www.google.com/maps/search/?api=1&query=${lat.trim()},${lon.trim()}`
+}
 
 /**
  * Renders the BDB sense tree as an outline. Verb entries group senses by
@@ -31,6 +45,7 @@ export function StudyPanel({
   entry,
   loading,
   lemmaNotes,
+  places,
   renderNoteButton,
   onDismiss,
   onOpenOccurrences,
@@ -40,6 +55,7 @@ export function StudyPanel({
   entry: LexiconEntry | undefined
   loading: boolean
   lemmaNotes: NoteResource[]
+  places: GeoPlace[]
   renderNoteButton: (note: NoteResource) => React.ReactNode
   onDismiss: () => void
   onOpenOccurrences: () => void
@@ -165,6 +181,33 @@ export function StudyPanel({
           ))}
         </div>
       </div>
+
+      {places.length > 0 && (
+        <div className="study-section places">
+          <span className="label">Location</span>
+          {places.map((place) => (
+            <article className="place-card" key={place.id}>
+              <header>
+                <strong>{place.name}</strong>
+                {place.modernName && place.modernName !== place.name ? (
+                  <span className="place-modern">modern {place.modernName}</span>
+                ) : null}
+              </header>
+              {place.types.length ? <span className="place-type">{place.types.join(' · ')}</span> : null}
+              <iframe
+                title={`Map of ${place.name}`}
+                src={mapEmbedUrl(place)}
+                className="place-map"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+              <a className="place-link" href={mapLinkUrl(place)} target="_blank" rel="noreferrer">
+                Open in Google Maps ↗
+              </a>
+            </article>
+          ))}
+        </div>
+      )}
 
       <div className="panel-footer">
         <span>OSHB · WLC</span>

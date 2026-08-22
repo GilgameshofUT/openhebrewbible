@@ -1,11 +1,12 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
-import { books, findBook, loadChapter, loadLexiconEntry, parseReference, type Book, type LexiconEntry, type Verse, type Word } from '@/data/tanakh'
+import { books, findBook, loadChapter, loadLexiconEntry, loadPlacesForLexicon, parseReference, type Book, type GeoPlace, type LexiconEntry, type Verse, type Word } from '@/data/tanakh'
 import { ChapterResources } from './chapter-resources'
 import { ContextBar, NavigationDrawer, ReaderToolbar, TopBar } from './chrome'
 import { ImageViewer, NoteModal, OccurrencesModal } from './modals'
 import { ParallelView, PassageView } from './passage'
+import { ChapterPlaces } from './places-bar'
 import { StudyPanel } from './study-panel'
 import type { EnglishMode, NoteResource, Occurrence, PendingReference, TranslationId } from './types'
 import { useAudio } from './use-audio'
@@ -21,6 +22,7 @@ export default function Reader() {
 
   const [selectedWord, setSelectedWord] = useState<Word | null>(null)
   const [selectedEntry, setSelectedEntry] = useState<LexiconEntry | null>(null)
+  const [selectedPlaces, setSelectedPlaces] = useState<GeoPlace[]>([])
   const [entryLoading, setEntryLoading] = useState(false)
   // Guards against a slow lexicon fetch resolving after a newer selection.
   const entryRequestRef = useRef(0)
@@ -70,11 +72,11 @@ export default function Reader() {
     return () => { active = false }
   }, [book.id, chapter, translation])
 
-  function loadEntry(id: string) {
-    const request = ++entryRequestRef.current
+  function loadEntry(id: string, request?: number) {
+    const guard = request ?? ++entryRequestRef.current
     setEntryLoading(true)
     void loadLexiconEntry(id).then((entry) => {
-      if (entryRequestRef.current === request) {
+      if (entryRequestRef.current === guard) {
         setSelectedEntry(entry ?? null)
         setEntryLoading(false)
       }
@@ -91,7 +93,13 @@ export default function Reader() {
     const targetWord = targetVerse?.words.find((word) => word.lexiconId === selectedWord?.lexiconId)
     if (!targetVerse || !targetWord) return
     setSelectedWord(targetWord)
-    if (targetWord.lexiconId) loadEntry(targetWord.lexiconId)
+    if (targetWord.lexiconId) {
+      const request = ++entryRequestRef.current
+      loadEntry(targetWord.lexiconId, request)
+      void loadPlacesForLexicon(targetWord.lexiconId).then((places) => {
+        if (entryRequestRef.current === request) setSelectedPlaces(places)
+      })
+    }
     setPendingOccurrence(null)
     requestAnimationFrame(() => {
       document
@@ -133,13 +141,19 @@ export default function Reader() {
   }
 
   function selectWord(word: Word) {
+    const request = ++entryRequestRef.current
     setSelectedWord(word)
     setSelectedEntry(null)
+    setSelectedPlaces([])
     setOccurrencesOpen(false)
     setOccurrences([])
     void loadLemmaNotes(word.lexiconId)
-    if (word.lexiconId) loadEntry(word.lexiconId)
-    else setEntryLoading(false)
+    if (word.lexiconId) {
+      loadEntry(word.lexiconId, request)
+      void loadPlacesForLexicon(word.lexiconId).then((places) => {
+        if (entryRequestRef.current === request) setSelectedPlaces(places)
+      })
+    } else setEntryLoading(false)
   }
 
   function goToBook(target: Book) {
@@ -150,6 +164,7 @@ export default function Reader() {
     setMenuOpen(false)
     setSelectedWord(null)
     setSelectedEntry(null)
+    setSelectedPlaces([])
     setOccurrencesOpen(false)
   }
 
@@ -166,6 +181,7 @@ export default function Reader() {
     setVerses([])
     setSelectedWord(null)
     setSelectedEntry(null)
+    setSelectedPlaces([])
     setOccurrencesOpen(false)
     setPendingReference({ bookId: parsed.book.id, chapter: parsed.chapter, verse: parsed.verse })
     setReferenceQuery('')
@@ -190,6 +206,7 @@ export default function Reader() {
       return
     }
     // The related lemma is absent from this chapter, so show the entry alone.
+    const request = ++entryRequestRef.current
     setSelectedWord({
       id: relationship.id,
       text: relationship.headword,
@@ -199,10 +216,14 @@ export default function Reader() {
       lexiconId: relationship.id,
     })
     setSelectedEntry(null)
+    setSelectedPlaces([])
     setOccurrences([])
     setOccurrencesOpen(false)
     void loadLemmaNotes(relationship.id)
-    loadEntry(relationship.id)
+    loadEntry(relationship.id, request)
+    void loadPlacesForLexicon(relationship.id).then((places) => {
+      if (entryRequestRef.current === request) setSelectedPlaces(places)
+    })
   }
 
   function renderNoteButton(note: NoteResource) {
@@ -262,6 +283,8 @@ export default function Reader() {
 
       <ChapterResources chapterNotes={chapterNotes} renderNoteButton={renderNoteButton} audio={audio} />
 
+      <ChapterPlaces bookId={book.id} chapter={chapter} />
+
       <section className={englishMode === 'parallel' ? 'reading-layout parallel' : 'reading-layout'}>
         {englishMode === 'parallel'
           ? <ParallelView {...passageProps} />
@@ -271,8 +294,13 @@ export default function Reader() {
           entry={selectedLexicon ?? undefined}
           loading={entryLoading}
           lemmaNotes={lemmaNotes}
+          places={selectedPlaces}
           renderNoteButton={renderNoteButton}
-          onDismiss={() => setSelectedWord(null)}
+          onDismiss={() => {
+            setSelectedWord(null)
+            setSelectedEntry(null)
+            setSelectedPlaces([])
+          }}
           onOpenOccurrences={openOccurrences}
           onSelectRelationship={selectRelationship}
         />
