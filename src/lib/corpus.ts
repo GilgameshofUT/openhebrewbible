@@ -89,8 +89,18 @@ export type GeoPlace = {
   thumbnailUrl?: string
   confidence?: { voteAverage: number; voteCount: number }
   wikidataId?: string
-  geometry?: { file: string; kind: 'point' | 'path' | 'polygon'; url: string; kmlUrl?: string }
+  /** Shape geometry: kind (region/river/etc.) and the id into geometry.json. */
+  geometry?: {
+    kind: 'point' | 'path' | 'polygon'
+    geometryId: string
+  }
   flags?: string[]
+}
+
+/** Self-hosted shape for a place: polygons and/or polylines, [lat,lng] rings. */
+export type GeocodingGeometry = {
+  polygons: number[][][][]
+  paths: number[][][]
 }
 
 /** Verse place mentions and lexicon links, keyed for the reader's lookups. */
@@ -155,6 +165,10 @@ export const getOccurrenceIndex = memoize(() =>
 
 export const getGeocodingIndex = memoize(() =>
   readJson<GeocodingIndex>(join(generated, 'geocoding-index.json')),
+)
+
+export const getGeocodingGeometry = memoize(() =>
+  readJson<Record<string, GeocodingGeometry>>(join(generated, 'geocoding-geometry.json')),
 )
 
 export const getExternalCatalog = memoizeByKey<{ resources: ExternalResource[] }>((name) =>

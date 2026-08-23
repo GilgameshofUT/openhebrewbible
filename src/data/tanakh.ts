@@ -60,8 +60,16 @@ export type GeoPlace = {
   thumbnailUrl?: string
   confidence?: { voteAverage: number; voteCount: number }
   wikidataId?: string
-  geometry?: { file: string; kind: 'point' | 'path' | 'polygon'; url: string; kmlUrl?: string }
+  geometry?: {
+    kind: 'point' | 'path' | 'polygon'
+    geometryId: string
+  }
   flags?: string[]
+  /** Polygon/path coordinates, [lat,lng], served with the place payload. */
+  shape?: {
+    polygons: number[][][][]
+    paths: number[][][]
+  }
 }
 
 export type Verse = {

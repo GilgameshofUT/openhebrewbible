@@ -23,7 +23,7 @@ const booksDir = join(generated, 'books')
 const derived = existsSync(geocodingPath) && existsSync(lexiconPath)
 const maybe = derived ? describe : describe.skip
 
-type GeoPlace = { id: string; name: string; slug: string; types: string[]; lonlat: string; modernName?: string; thumbnailUrl?: string; confidence?: { voteAverage: number; voteCount: number }; wikidataId?: string; geometry?: { file: string; kind: 'point' | 'path' | 'polygon'; url: string }; flags?: string[] }
+type GeoPlace = { id: string; name: string; slug: string; types: string[]; lonlat: string; modernName?: string; thumbnailUrl?: string; confidence?: { voteAverage: number; voteCount: number }; wikidataId?: string; geometry?: { kind: 'point' | 'path' | 'polygon'; geometryId: string }; flags?: string[]; shape?: { polygons: number[][][][]; paths: number[][][] } }
 type Index = { source: string; places: Record<string, GeoPlace>; byVerse: Record<string, string[]>; byLexicon: Record<string, string[]> }
 
 maybe('geocoding index', () => {
@@ -46,7 +46,7 @@ maybe('geocoding index', () => {
       if (place.wikidataId) expect(place.wikidataId).toMatch(/^Q\d+$/)
       if (place.geometry) {
         expect(place.geometry.kind).toMatch(/^(point|path|polygon)$/)
-        expect(place.geometry.url).toMatch(/^https:\/\//)
+        expect(place.geometry.geometryId).toMatch(/^a[0-9a-f]{6}$/)
       }
     }
     // A known region keeps its shape and a settlement its point.
@@ -55,6 +55,24 @@ maybe('geocoding index', () => {
     expect(seaOfGalilee?.geometry?.kind).toBe('polygon')
     expect(seaOfGalilee?.wikidataId).toBeDefined()
     expect(damascus?.geometry?.kind).toBe('point')
+  })
+
+  it('ships a self-hosted shape for every non-point place', () => {
+    const geometryPath = join(generated, 'geocoding-geometry.json')
+    if (!existsSync(geometryPath)) return
+    const geometry = JSON.parse(readFileSync(geometryPath, 'utf8')) as Record<string, { polygons: number[][][][]; paths: number[][][] }>
+    const missing: string[] = []
+    for (const place of Object.values(index.places)) {
+      if (place.geometry && place.geometry.kind !== 'point') {
+        const shape = geometry[place.geometry.geometryId]
+        if (!shape || (!shape.polygons.length && !shape.paths.length)) missing.push(place.name)
+      }
+    }
+    expect(missing).toEqual([])
+    // The shape is in [lat, lng] order for Leaflet.
+    const seaOfGalilee = Object.values(index.places).find((place) => place.name === 'Sea of Galilee')
+    const shape = seaOfGalilee?.geometry ? geometry[seaOfGalilee.geometry.geometryId] : undefined
+    if (shape?.polygons?.[0]?.[0]?.[0]) expect(shape.polygons[0][0][0].length).toBe(2)
   })
 
   it('every verse key resolves to a real corpus verse', () => {

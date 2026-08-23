@@ -74,11 +74,14 @@ describe('study panel location section', () => {
     )
   }
 
-  it('shows the place name and a map embed when places exist', () => {
+  it('shows the place name and a map when places exist', async () => {
     renderPanel([place])
     // "Damascus" appears as both the entry gloss and the place card name.
     expect(screen.getAllByText('Damascus').length).toBeGreaterThanOrEqual(1)
-    expect(screen.getByTitle('Map of Damascus')).toBeDefined()
+    // The place card mounts the map widget (Leaflet container or, when that
+    // cannot render, the embed iframe — both carry the place name).
+    const mapEl = await screen.findByLabelText('Map of Damascus')
+    expect(mapEl).toBeDefined()
     expect(screen.getByRole('link', { name: /Open in Google Maps/ }).getAttribute('target')).toBe('_blank')
   })
 
@@ -100,7 +103,8 @@ describe('study panel location section', () => {
       confidence: { voteAverage: 500, voteCount: 3 },
       flags: ['multiple possible locations', 'identification uncertain'],
       wikidataId: 'Q1000',
-      geometry: { file: 'a.geojson', kind: 'polygon' as const, url: 'https://example.com/a.geojson' },
+      geometry: { kind: 'polygon' as const, geometryId: 'a1' },
+      shape: { polygons: [[[[31.7, 35.2]]]], paths: [] },
     }
     renderPanel([rich])
     expect(screen.getByText('Identification medium confidence (3 sources)')).toBeDefined()
@@ -116,11 +120,12 @@ describe('study panel location section', () => {
 })
 
 describe('PlaceMap', () => {
-  // Without a key (the test environment), the map must fall back to the
-  // keyless embed iframe rather than attempting the JS API.
-  it('falls back to the embed iframe when no API key is configured', () => {
-    const shaped = { ...place, geometry: { file: 'a.geojson', kind: 'polygon' as const, url: 'https://example.com/a.geojson' } }
+  // In the jsdom test environment Leaflet cannot render (no layout), so the
+  // component must fall back to the keyless embed iframe rather than leaving
+  // a blank box.
+  it('falls back to the embed iframe when the map cannot render', async () => {
+    const shaped = { ...place, geometry: { kind: 'polygon' as const, geometryId: 'a1' }, shape: { polygons: [[[[31.7, 35.2]]]], paths: [] } }
     render(<PlaceMap place={shaped} />)
-    expect(screen.getByTitle('Map of Damascus')).toBeDefined()
+    expect(await screen.findByTitle('Map of Damascus')).toBeDefined()
   })
 })

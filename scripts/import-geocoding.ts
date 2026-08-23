@@ -75,19 +75,22 @@ type GeoPlace = {
   confidence?: { voteAverage: number; voteCount: number }
   /** Wikidata entity id, e.g. Q1218 for Jerusalem. */
   wikidataId?: string
-  /** Shape geometry: a polygon/path GeoJSON hosted upstream, when the place
-   * is a region, river, or other non-point feature. */
+  /** Shape geometry: kind (region/river/etc.) and the id into the geometry file. */
   geometry?: {
-    file: string
     kind: 'point' | 'path' | 'polygon'
-    url: string
-    kmlUrl?: string
+    geometryId: string
   }
   /** Flags from upstream: uncertain identification, not a place, etc. */
   flags?: string[]
 }
 
 type LexiconEntry = { id: string; gloss: string; transliteration?: string; partOfSpeech?: string[] }
+
+/** Self-hosted shape for a place: polygons and/or polylines, [lat,lng] rings. */
+type GeocodingGeometry = {
+  polygons: number[][][][]
+  paths: number[][][]
+}
 
 type Lexicon = Record<string, LexiconEntry>
 
@@ -115,6 +118,38 @@ function normalizeName(value: string) {
  * names with diacritics and prefixed glottal marks (ʾābēl kĕrāmîm); stripping
  * those yields the plain name, which is how upstream spells the same place.
  */
+/**
+ * Fetches a place's geometry file from the pinned upstream into
+ * data/sources/geocoding/geometry/ on first use, so the shapes are owned by
+ * this project rather than fetched from GitHub at runtime.
+ */
+async function downloadGeometry(file: string) {
+  const target = join(sourceDir, 'geometry', file)
+  try {
+    return await readFile(target, 'utf8')
+  } catch {
+    // fall through to fetch
+  }
+  const response = await fetch(`${geometryBase}/${file}`)
+  if (!response.ok) throw new Error(`Could not fetch geometry ${file}: ${response.status}`)
+  const text = await response.text()
+  await mkdir(join(sourceDir, 'geometry'), { recursive: true })
+  await writeFile(target, text)
+  return text
+}
+
+/** Keeps every Nth point of a ring/line so a 5 MB river fits a 273px map. */
+function decimate(coords: number[][], max = 180): number[][] {
+  if (coords.length <= max) return coords
+  const step = Math.ceil(coords.length / max)
+  const out: number[][] = []
+  for (let i = 0; i < coords.length; i += step) out.push(coords[i])
+  // Keep the closing point so the ring stays closed.
+  const last = coords[coords.length - 1]
+  if (out[out.length - 1] !== last) out.push(last)
+  return out
+}
+
 function normalizeTransliteration(value: string) {
   return (value ?? '')
     .toLowerCase()
@@ -299,12 +334,10 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
       ...(wikidataId ? { wikidataId } : {}),
       ...(shapeKind && place.geojson_file ? {
         geometry: {
-          file: place.geojson_file,
           kind: shapeKind,
-          url: `${geometryBase}/${place.geojson_file}`,
-          // The KML counterpart shares the file's base name; Google Maps can
-          // render it as a layer on the JS API map.
-          kmlUrl: `${geometryBase}/${place.geojson_file.replace(/\.geojson$/i, '.kml')}`,
+          // Key into data/generated/geocoding-geometry.json, served with the
+          // place payload so the client never fetches upstream geometry.
+          geometryId: place.id,
         },
       } : {}),
       ...(flags.length ? { flags } : {}),
@@ -509,6 +542,71 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
   }
 
   await mkdir(generated, { recursive: true })
+  // Extract a compact, self-hosted shape for each shape place. The upstream
+  // geometry files are large (a river can be megabytes of coordinates); the
+  // study-panel map is a few hundred pixels, so simplified features are used
+  // when the file carries them and the rest are decimated.
+  const geometryData: Record<string, GeocodingGeometry> = {}
+  let geometryBytes = 0
+  for (const place of ancient) {
+    const kind = places[place.id]?.geometry?.kind
+    if (!kind || kind === 'point' || !place.geojson_file) continue
+    try {
+      const raw = await downloadGeometry(place.geojson_file)
+      const geo = JSON.parse(raw) as {
+        features?: Array<{
+          geometry?: { type?: string; coordinates?: unknown }
+          properties?: { id?: string }
+        }>
+      }
+      const polygons: number[][][][] = []
+      const paths: number[][][] = []
+      for (const feature of geo.features ?? []) {
+        const coords = feature.geometry?.coordinates
+        if (feature.geometry?.type === 'LineString' && Array.isArray(coords)) {
+          paths.push(decimate((coords as number[][]).map(([lng, lat]) => [lat, lng])))
+        } else if (feature.geometry?.type === 'MultiLineString' && Array.isArray(coords)) {
+          paths.push(...(coords as number[][][]).map((line) => decimate(line.map(([lng, lat]) => [lat, lng]))))
+        } else if (feature.geometry?.type === 'Polygon' && Array.isArray(coords)) {
+          // Keep the whole ring so multi-ring polygons (islands) stay whole;
+          // decimation happens below on the chosen feature set.
+          polygons.push((coords as number[][][]).map((ring) => ring.map(([lng, lat]) => [lat, lng])))
+        } else if (feature.geometry?.type === 'MultiPolygon' && Array.isArray(coords)) {
+          polygons.push(...(coords as number[][][][]).map((poly) =>
+            poly.map((ring) => ring.map(([lng, lat]) => [lat, lng]))))
+        }
+      }
+      // Prefer the file's own simplified features (they are ~10x smaller);
+      // otherwise keep the full polygons, decimated to the panel's scale.
+      const simplifiedFeatures = geo.features?.filter((f) => f.properties?.id?.endsWith('.simplified'))
+      if (simplifiedFeatures?.length) {
+        const kept: number[][][][] = []
+        for (const feature of simplifiedFeatures) {
+          const coords = feature.geometry?.coordinates
+          if (feature.geometry?.type === 'Polygon' && Array.isArray(coords)) {
+            kept.push((coords as number[][][]).map((ring) => decimate(ring.map(([lng, lat]) => [lat, lng]))))
+          } else if (feature.geometry?.type === 'MultiPolygon' && Array.isArray(coords)) {
+            kept.push(...(coords as number[][][][]).map((poly) =>
+              poly.map((ring) => decimate(ring.map(([lng, lat]) => [lat, lng])))))
+          }
+        }
+        polygons.splice(0, polygons.length, ...kept)
+      } else {
+        for (let i = 0; i < polygons.length; i++) {
+          polygons[i] = polygons[i].map((ring) => decimate(ring))
+        }
+      }
+      if (polygons.length || paths.length) {
+        geometryData[place.id] = { polygons, paths }
+        geometryBytes += JSON.stringify(geometryData[place.id]).length
+      }
+    } catch (error) {
+      console.warn(`Could not load geometry for ${place.friendly_id}: ${error instanceof Error ? error.message : error}`)
+    }
+  }
+  await writeFile(join(generated, 'geocoding-geometry.json'), JSON.stringify(geometryData))
+  console.log(`Geometry: ${Object.keys(geometryData).length} shapes, ${(geometryBytes / 1024).toFixed(0)} KB`)
+
   await writeFile(
     join(generated, 'geocoding-index.json'),
     JSON.stringify({ source, generatedAt: new Date().toISOString(), places, byVerse, byLexicon }),
