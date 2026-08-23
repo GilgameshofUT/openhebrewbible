@@ -99,6 +99,18 @@ maybe('geocoding index', () => {
     expect(ebronah && abronah ? index.byLexicon[ebronah.id] : undefined).toContain(abronah?.id)
   })
 
+  it('links unprefixed proper nouns without an explicit part of speech', () => {
+    // The word for Mount Nebo in Deut 32:49 has morphology HNp and an empty
+    // lexicon partOfSpeech. A boundary-anchored \bNp\b regex matches neither
+    // that nor any bare HNp form (the H is a word character, so there is no
+    // boundary before Np), silently dropping every unprefixed place word
+    // lacking an n.pr.* tag. Np must be terminal or slash-delimited, which
+    // still excludes Niphal verbs (HVNp3cs).
+    const nebo = Object.values(lexicon).find((entry) => entry.id === 'hyf')
+    const mountNebo = Object.values(index.places).find((place) => place.name === 'Mount Nebo')
+    expect(nebo && mountNebo ? index.byLexicon[nebo.id] : undefined).toContain(mountNebo?.id)
+  })
+
   it('never links a place to an entry via a cross-name rendering', () => {
     // Upstream records "Tyre" as a translation rendering of Babylon in one
     // verse, and "Gilgal" of Galilee. Those are disagreements between English

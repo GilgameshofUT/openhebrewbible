@@ -269,10 +269,11 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
     for (const word of verse.words) {
       const entry = lexicon[lemmaKey(word.lemma)]
       // A place is a proper noun. Trust the lexicon part-of-speech when it
-      // declares one; fall back to the word's own Np morphology segment
-      // (unprefixed, so HVNp3cs Niphal verbs are excluded).
+      // declares one; fall back to the word's own Np morphology segment. Np
+      // is terminal or slash-prefixed (HNp, HTd/Np), never part of a Niphal
+      // verb, which always continues into person/number (HVNp3cs).
       const isProper = (entry?.partOfSpeech ?? []).some((pos) => /^n\.pr/.test(pos))
-        || /\bNp\b/.test(word.morphology ?? '')
+        || /Np(?=\/|$)/.test(word.morphology ?? '')
       // First-wins per normalized gloss keeps a repeated gloss deterministic.
       if (entry && isProper && !properNouns.has(normalizeName(entry.gloss))) {
         properNouns.set(normalizeName(entry.gloss), entry.id)
