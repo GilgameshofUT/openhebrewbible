@@ -111,6 +111,22 @@ maybe('geocoding index', () => {
     expect(chebar && chebarPlace ? index.byLexicon[chebar.id] : undefined).toContain(chebarPlace?.id)
   })
 
+  it('links a place word by transliteration when its gloss is a definition', () => {
+    // BDB glosses אָבֵל כְּרָמִים as "plain of the vineyards" (a definition),
+    // but its transliteration is ʾābēl kĕrāmîm = the place name. The word is
+    // still a proper noun (HNp) and appears in Judg 11:33, which upstream
+    // cites for Abel-keramim — so it must link despite the gloss mismatch.
+    const abelKeramim = Object.values(lexicon).find((entry) => entry.gloss === 'plain of the vineyards')
+    const place = Object.values(index.places).find((item) => item.name === 'Abel-keramim')
+    expect(abelKeramim && place ? index.byLexicon[abelKeramim.id] : undefined).toContain(place?.id)
+
+    // Same class: Dan's word resolves to the entry glossed "Daniel" (the
+    // person), but its transliteration dān is the city Dan.
+    const daniel = Object.values(lexicon).find((entry) => entry.gloss === 'Daniel' && entry.id === 'cvn')
+    const dan = Object.values(index.places).find((item) => item.name === 'Dan')
+    expect(daniel && dan ? index.byLexicon[daniel.id] : undefined).toContain(dan?.id)
+  })
+
   it('links unprefixed proper nouns without an explicit part of speech', () => {
     // The word for Mount Nebo in Deut 32:49 has morphology HNp and an empty
     // lexicon partOfSpeech. A boundary-anchored \bNp\b regex matches neither

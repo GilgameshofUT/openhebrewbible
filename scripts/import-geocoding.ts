@@ -62,7 +62,7 @@ type GeoPlace = {
   thumbnailUrl?: string
 }
 
-type LexiconEntry = { id: string; gloss: string; partOfSpeech?: string[] }
+type LexiconEntry = { id: string; gloss: string; transliteration?: string; partOfSpeech?: string[] }
 
 type Lexicon = Record<string, LexiconEntry>
 
@@ -82,6 +82,22 @@ function normalizeName(value: string) {
     .replace(/\s+\d+$/, '')
     // Strip leading article and possessive "of the"-style prefixes.
     .replace(/^(the|mount|valley of|plain of|wilderness of|sea of)\s+/i, '')
+    .replace(/[^a-z]/g, '')
+}
+
+/**
+ * Normalises a BDB transliteration to its bare letters. BDB writes Hebrew
+ * names with diacritics and prefixed glottal marks (ʾābēl kĕrāmîm); stripping
+ * those yields the plain name, which is how upstream spells the same place.
+ */
+function normalizeTransliteration(value: string) {
+  return (value ?? '')
+    .toLowerCase()
+    .normalize('NFD')
+    // Strip combining diacritics (macrons, breves, acute marks).
+    .replace(/[\u0300-\u036f]/g, '')
+    // Strip glottal/apostrophe marks used by BDB for aleph/ayin.
+    .replace(/[\u02b9\u02bf\u02c8\u2018\u2019]/g, '')
     .replace(/[^a-z]/g, '')
 }
 
@@ -256,6 +272,7 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
   let linkedExact = 0
   let linkedVariant = 0
   let linkedFuzzy = 0
+  let linkedTranslit = 0
   const variantNames = new Map<string, { names: string[]; canonical: string }>()
   for (const place of ancient) if (places[place.id]) variantNames.set(place.id, { names: nameVariants(place), canonical: normalizeName(place.friendly_id) })
 
@@ -278,6 +295,10 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
     const verse = chapterVerses[chapter]?.find((item) => item.number === Number(verseNumber))
     if (!verse) continue
     const properNouns = new Map<string, string>()
+    // BDB glosses are definitions, not names — "plain of the vineyards" for
+    // אָבֵל כְּרָמִים — so a word can be a place its gloss never says. The
+    // transliteration carries the name, so index both.
+    const translitNames = new Map<string, string>()
     for (const word of verse.words) {
       const entry = lexicon[lemmaKey(word.lemma)]
       // A place is a proper noun. Trust the lexicon part-of-speech when it
@@ -290,8 +311,11 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
       if (entry && isProper && !properNouns.has(normalizeName(entry.gloss))) {
         properNouns.set(normalizeName(entry.gloss), entry.id)
       }
+      if (entry && isProper && entry.transliteration && !translitNames.has(normalizeTransliteration(entry.transliteration))) {
+        translitNames.set(normalizeTransliteration(entry.transliteration), entry.id)
+      }
     }
-    if (!properNouns.size) continue
+    if (!properNouns.size && !translitNames.size) continue
     for (const placeId of placeIds) {
       const info = variantNames.get(placeId)
       if (!info) continue
@@ -319,7 +343,19 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
         }
         if (fuzzy) break
       }
-      if (!fuzzy) continue
+      if (!fuzzy) {
+        // Last resort: the word's BDB transliteration is its name even when
+        // the gloss is a definition (Abel-keramim glosses as "plain of the
+        // vineyards"; Dan's word resolves to the entry glossed "Daniel").
+        const info2 = variantNames.get(placeId)
+        const translitEntry = info2 ? translitNames.get(info2.canonical) : undefined
+        if (translitEntry) {
+          byVerseLinked[jewishKey] = (byVerseLinked[jewishKey] ?? 0) + 1
+          linkedTranslit += 1
+          if (!(byLexicon[translitEntry] ?? []).includes(placeId)) byLexicon[translitEntry] = [...(byLexicon[translitEntry] ?? []), placeId]
+        }
+        continue
+      }
       addFuzzyLink(fuzzy.entryId, placeId, jewishKey)
     }
   }
@@ -355,6 +391,7 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
     wordLinkedExact: linkedExact,
     wordLinkedByVariant: linkedVariant,
     wordLinkedFuzzy: linkedFuzzy,
+    wordLinkedByTransliteration: linkedTranslit,
     lexiconEntriesLinked: Object.keys(byLexicon).length,
     overrideEntries: Object.keys(overrides).filter((key) => !key.startsWith('_')).length,
   }
