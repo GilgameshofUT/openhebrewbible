@@ -250,6 +250,7 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
   const byVerseLinked: Record<string, number> = {}
   let linkedExact = 0
   let linkedVariant = 0
+  let linkedFuzzy = 0
   const variantNames = new Map<string, { names: string[]; canonical: string }>()
   for (const place of ancient) if (places[place.id]) variantNames.set(place.id, { names: nameVariants(place), canonical: normalizeName(place.friendly_id) })
 
@@ -257,6 +258,12 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
     byVerseLinked[jewishKey] = (byVerseLinked[jewishKey] ?? 0) + 1
     if (isCanonical) linkedExact += 1
     else linkedVariant += 1
+    if (!(byLexicon[entryId] ?? []).includes(placeId)) byLexicon[entryId] = [...(byLexicon[entryId] ?? []), placeId]
+  }
+
+  function addFuzzyLink(entryId: string, placeId: string, jewishKey: string) {
+    byVerseLinked[jewishKey] = (byVerseLinked[jewishKey] ?? 0) + 1
+    linkedFuzzy += 1
     if (!(byLexicon[entryId] ?? []).includes(placeId)) byLexicon[entryId] = [...(byLexicon[entryId] ?? []), placeId]
   }
 
@@ -283,9 +290,32 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
     for (const placeId of placeIds) {
       const info = variantNames.get(placeId)
       if (!info) continue
-      const matched = info.names.find((name) => properNouns.has(name))
-      if (!matched) continue
-      addLink(properNouns.get(matched)!, placeId, jewishKey, matched === info.canonical)
+      // Exact spelling first; only then fall back to fuzzy. The threshold is
+      // length-aware so genuine transliteration drift is caught but distinct
+      // places that merely look alike are not: Gath and Gaza are two edits
+      // apart at four letters, so the short class allows only one edit;
+      // longer names like Jotbath/Jotbathah tolerate two. Names under four
+      // letters never fuzzy-match (Pul/Put is a cross-name rendering).
+      const exact = info.names.find((name) => properNouns.has(name))
+      if (exact) {
+        addLink(properNouns.get(exact)!, placeId, jewishKey, exact === info.canonical)
+        continue
+      }
+      let fuzzy: { name: string; entryId: string } | undefined
+      for (const [gloss, entryId] of properNouns) {
+        for (const name of info.names) {
+          const short = Math.min(gloss.length, name.length)
+          if (short < 4) continue
+          const tolerance = short >= 6 ? 2 : 1
+          if (levenshtein(gloss, name) <= tolerance) {
+            fuzzy = { name, entryId }
+            break
+          }
+        }
+        if (fuzzy) break
+      }
+      if (!fuzzy) continue
+      addFuzzyLink(fuzzy.entryId, placeId, jewishKey)
     }
   }
 
@@ -319,6 +349,7 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
     wordLinkedMentions: linkedMentions,
     wordLinkedExact: linkedExact,
     wordLinkedByVariant: linkedVariant,
+    wordLinkedFuzzy: linkedFuzzy,
     lexiconEntriesLinked: Object.keys(byLexicon).length,
     overrideEntries: Object.keys(overrides).filter((key) => !key.startsWith('_')).length,
   }

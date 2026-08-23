@@ -111,6 +111,25 @@ maybe('geocoding index', () => {
     expect(nebo && mountNebo ? index.byLexicon[nebo.id] : undefined).toContain(mountNebo?.id)
   })
 
+  it('fuzzy-matches transliteration drift but not lookalike places', () => {
+    // BDB spells Josh 12:20 "Shimon-meron" where upstream says Shimron-meron;
+    // one edit apart, so the length-aware fuzzy rule links them.
+    const shimonMeron = Object.values(lexicon).find((entry) => entry.id === 'nbp')
+    const shimronMeron = Object.values(index.places).find((place) => place.name === 'Shimron-meron')
+    expect(shimonMeron && shimronMeron ? index.byLexicon[shimonMeron.id] : undefined).toContain(shimronMeron?.id)
+
+    // Gath and Gaza are two edits apart at four letters — distinct Philistine
+    // cities that must never share a link.
+    const gath = Object.values(lexicon).find((entry) => entry.gloss === 'Gath')
+    const gaza = Object.values(index.places).find((place) => place.name === 'Gaza')
+    expect(gath && gaza ? index.byLexicon[gath.id] : []).not.toContain(gaza?.id)
+
+    // Sodom and Edom likewise differ in two letters at four.
+    const sodom = Object.values(lexicon).find((entry) => entry.gloss === 'Sodom')
+    const edom = Object.values(index.places).find((place) => place.name === 'Edom')
+    expect(sodom && edom ? index.byLexicon[sodom.id] : []).not.toContain(edom?.id)
+  })
+
   it('never links a place to an entry via a cross-name rendering', () => {
     // Upstream records "Tyre" as a translation rendering of Babylon in one
     // verse, and "Gilgal" of Galilee. Those are disagreements between English
