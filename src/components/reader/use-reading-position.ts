@@ -50,15 +50,22 @@ export function useReadingPosition(
   }, [restored, book.id, chapter])
 
   // Track the topmost visible verse so the position survives a reload
-  // mid-chapter.
+  // mid-chapter. Verse elements are cached per chapter so scroll doesn't
+  // re-query the DOM on every frame; the cache resets on chapter change.
   useEffect(() => {
     if (!restored) return
     let frame = 0
+    let cachedVerses: HTMLElement[] | null = null
+    const getVerses = () => {
+      if (cachedVerses && cachedVerses.length > 0 && document.contains(cachedVerses[0])) return cachedVerses
+      cachedVerses = [...document.querySelectorAll<HTMLElement>('[id^="verse-"]')]
+      return cachedVerses
+    }
     const onScroll = () => {
       if (frame) return
       frame = requestAnimationFrame(() => {
         frame = 0
-        const verses = [...document.querySelectorAll<HTMLElement>('[id^="verse-"]')]
+        const verses = getVerses()
         const current = verses.find((verse) => verse.getBoundingClientRect().bottom >= 120) ?? verses.at(-1)
         const verse = current?.id.split('-').at(-1)
         if (verse) {

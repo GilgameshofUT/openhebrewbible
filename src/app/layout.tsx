@@ -7,5 +7,12 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body>{children}</body></html>
+  return (
+    <html lang="en">
+      <head>
+        <link rel="preload" href="/fonts/SILEOT.woff" as="font" type="font/woff" crossOrigin="anonymous" />
+      </head>
+      <body>{children}</body>
+    </html>
+  )
 }

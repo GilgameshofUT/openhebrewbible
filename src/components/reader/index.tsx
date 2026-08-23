@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { books, findBook, loadChapter, loadLexiconEntry, loadPlacesForLexicon, parseReference, type Book, type GeoPlace, type LexiconEntry, type Verse, type Word } from '@/data/tanakh'
 import { ChapterResources } from './chapter-resources'
 import { ContextBar, NavigationDrawer, ReaderToolbar, TopBar } from './chrome'
@@ -51,12 +51,15 @@ export default function Reader() {
   // Alignment order is identical to the chapter's word order (enforced by the
   // alignment data-shape tests), so each verse's start is the first word whose
   // alignment window begins. Used by the verse play icons.
-  const verseStartById = words.length ? new Map(words.map((word) => [word.id, word.start])) : new Map<string, number>()
-  const verseStarts = verses.reduce<Record<number, number>>((map, verse) => {
+  const verseStartById = useMemo(
+    () => (words.length ? new Map(words.map((word) => [word.id, word.start])) : new Map<string, number>()),
+    [words],
+  )
+  const verseStarts = useMemo(() => verses.reduce<Record<number, number>>((map, verse) => {
     const first = verse.words[0]?.id
     if (first && verseStartById.has(first)) map[verse.number] = verseStartById.get(first)!
     return map
-  }, {})
+  }, {}), [verses, verseStartById])
   const { chapterNotes, verseNotes, lemmaNotes, loadLemmaNotes } = useNotes(book.id, chapter)
   useReadingPosition(book, chapter, setBook, setChapter, setPendingReference)
 
@@ -72,7 +75,7 @@ export default function Reader() {
     return () => { active = false }
   }, [book.id, chapter, translation])
 
-  function loadEntry(id: string, request?: number) {
+  const loadEntry = useCallback((id: string, request?: number) => {
     const guard = request ?? ++entryRequestRef.current
     setEntryLoading(true)
     void loadLexiconEntry(id).then((entry) => {
@@ -81,7 +84,7 @@ export default function Reader() {
         setEntryLoading(false)
       }
     })
-  }
+  }, [])
 
   const selectedLexicon = selectedEntry
 
@@ -106,7 +109,7 @@ export default function Reader() {
         .getElementById(`verse-${pendingOccurrence.book}-${pendingOccurrence.chapter}-${pendingOccurrence.verse}`)
         ?.scrollIntoView({ behavior: 'smooth', block: 'center' })
     })
-  }, [verses, pendingOccurrence, selectedWord?.lexiconId])
+  }, [verses, pendingOccurrence, selectedWord?.lexiconId, loadEntry])
 
   useEffect(() => {
     if (!pendingReference || !verses.length) return
@@ -140,7 +143,7 @@ export default function Reader() {
     }
   }
 
-  function selectWord(word: Word) {
+  const selectWord = useCallback((word: Word) => {
     const request = ++entryRequestRef.current
     setSelectedWord(word)
     setSelectedEntry(null)
@@ -154,7 +157,7 @@ export default function Reader() {
         if (entryRequestRef.current === request) setSelectedPlaces(places)
       })
     } else setEntryLoading(false)
-  }
+  }, [loadEntry, loadLemmaNotes])
 
   function goToBook(target: Book) {
     setBook(target)
@@ -226,14 +229,14 @@ export default function Reader() {
     })
   }
 
-  function renderNoteButton(note: NoteResource) {
+  const renderNoteButton = useCallback((note: NoteResource) => {
     const variant = note.title.startsWith('Manuscript') ? 'note-link manuscript-link' : 'note-link resource-link'
     return (
       <button key={note.id} type="button" className={variant} onClick={() => setNoteOpen(note)}>
         {note.title} ↗
       </button>
     )
-  }
+  }, [])
 
   const passageProps = {
     book,

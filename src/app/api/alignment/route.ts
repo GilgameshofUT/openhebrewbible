@@ -20,11 +20,11 @@ export async function GET(request: Request) {
   try {
     const alignment = await getExternalCatalog(`${source}/${book.id}-${chapter}.json`) as unknown as WordAlignment
     if (!Array.isArray(alignment.words) || alignment.words.length === 0) {
-      return NextResponse.json({ words: [] })
+      return NextResponse.json({ words: [] }, { headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } })
     }
-    return NextResponse.json({ words: alignment.words })
+    return NextResponse.json({ words: alignment.words }, { headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } })
   } catch {
     // Karaoke is optional enrichment; a missing alignment must not break reading.
-    return NextResponse.json({ words: [] })
+    return NextResponse.json({ words: [] }, { headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } })
   }
 }

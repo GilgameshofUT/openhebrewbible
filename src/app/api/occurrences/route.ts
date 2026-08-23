@@ -51,5 +51,5 @@ export async function GET(request: Request) {
     }]
   })
 
-  return NextResponse.json({ occurrences, total, truncated: total > page.length })
+  return NextResponse.json({ occurrences, total, truncated: total > page.length }, { headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } })
 }

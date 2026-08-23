@@ -57,6 +57,16 @@ async function main() {
   let wordCount = 0
 
   for (const [bookId, chapters] of Object.entries(corpus)) {
+    // Bake lexiconId and morphologyLabel into the stored book so the chapter
+    // route never needs to parse the 4.2 MB lexicon at request time.
+    for (const verses of Object.values(chapters)) {
+      for (const verse of verses) {
+        for (const word of verse.words) {
+          ;(word as unknown as Record<string, unknown>).lexiconId = keyToEntryId.get(lemmaKey(word.lemma)) ?? null
+          if (!word.morphologyLabel) word.morphologyLabel = word.morphology
+        }
+      }
+    }
     await writeFile(join(booksDir, `${bookId}.json`), JSON.stringify(chapters))
 
     for (const [chapter, verses] of Object.entries(chapters)) {

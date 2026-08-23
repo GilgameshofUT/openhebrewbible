@@ -1,5 +1,6 @@
 'use client'
 
+import { memo } from 'react'
 import { DIVINE_NAME_CLOSE, DIVINE_NAME_OPEN, normalizeTranslation } from '@/lib/text'
 import type { Verse, Word } from '@/data/tanakh'
 import type { NoteResource } from './types'
@@ -22,7 +23,7 @@ export function wordClass(word: Word, selected: boolean, active: boolean) {
  * separate from `aria-label`: coupling the two caused the tooltip to break
  * every time the accessible name was reworded.
  */
-export function HebrewVerse({
+export const HebrewVerse = memo(function HebrewVerse({
   verse,
   selectedWordId,
   activeWordId,
@@ -59,10 +60,10 @@ export function HebrewVerse({
       ))}
     </>
   )
-}
+})
 
 /** Renders translation markup, preserving paragraphs, line breaks, and small caps. */
-export function Translation({ text }: { text: string }) {
+export const Translation = memo(function Translation({ text }: { text: string }) {
   const normalized = normalizeTranslation(text)
   return (
     <>
@@ -86,7 +87,7 @@ export function Translation({ text }: { text: string }) {
       ))}
     </>
   )
-}
+})
 
 /** Highlights each matched word inside an occurrence snippet. */
 export function highlightWords(text: string, words: string[]) {

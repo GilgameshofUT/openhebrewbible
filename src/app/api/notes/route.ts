@@ -75,9 +75,9 @@ export async function GET(request: Request) {
       ),
     ], 'Study resources')
 
-    return NextResponse.json({ chapter: chapterTarget, chapterNotes, verseNotes, notes })
+    return NextResponse.json({ chapter: chapterTarget, chapterNotes, verseNotes, notes }, { headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400' } })
   } catch {
     // External catalogues are optional enrichment; reading must not fail.
-    return NextResponse.json({ notes: [], chapterNotes: [], verseNotes: {} })
+    return NextResponse.json({ notes: [], chapterNotes: [], verseNotes: {} }, { headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400' } })
   }
 }

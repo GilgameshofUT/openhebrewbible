@@ -24,7 +24,6 @@ export async function GET(request: Request) {
     )
   }
 
-  const lexicon = await getLexicon()
   const selected = chapters[String(chapter)] ?? []
   let verses: CorpusVerse[] = selected
 
@@ -40,17 +39,34 @@ export async function GET(request: Request) {
     })
   }
 
-  const enriched = verses.map((verse) => ({
-    ...verse,
-    words: verse.words.map((word) => {
-      const entry = lexicon[lemmaKey(word.lemma)]
-      return {
+  // Books baked by build:derived already carry lexiconId + morphologyLabel.
+  // Fall back to a live lexicon lookup only for corpora built before this
+  // optimization, so a missing rebuild doesn't break the route.
+  const needsLexicon = verses.length > 0 && verses[0].words.length > 0 && verses[0].words[0].lexiconId === undefined
+  let enriched: CorpusVerse[]
+  if (needsLexicon) {
+    const lexicon = await getLexicon()
+    enriched = verses.map((verse) => ({
+      ...verse,
+      words: verse.words.map((word) => {
+        const entry = lexicon[lemmaKey(word.lemma)]
+        return {
+          ...word,
+          morphologyLabel: word.morphologyLabel ?? word.morphology,
+          lexiconId: entry?.id ?? null,
+        }
+      }),
+    }))
+  } else {
+    enriched = verses.map((verse) => ({
+      ...verse,
+      words: verse.words.map((word) => ({
         ...word,
         morphologyLabel: word.morphologyLabel ?? word.morphology,
-        lexiconId: entry?.id ?? null,
-      }
-    }),
-  }))
+        lexiconId: word.lexiconId ?? null,
+      })),
+    }))
+  }
 
-  return NextResponse.json({ book: book.id, chapter, verses: enriched })
+  return NextResponse.json({ book: book.id, chapter, verses: enriched }, { headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } })
 }

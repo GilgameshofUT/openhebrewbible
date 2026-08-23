@@ -166,9 +166,11 @@ export function useKaraoke(
     }
   }, [open, enabled, isMechon, activeId, frame, nativeAudio])
   // Extrapolate between playProgress anchors and move the highlight on
-  // word changes only.
+  // word changes only. Gated on `open` so the loop doesn't spin at 60 Hz
+  // all session once alignment has loaded — it burned battery even with the
+  // player closed.
   useEffect(() => {
-    if (words.length === 0) return
+    if (words.length === 0 || !open) return
     let raf = 0
 
     const tick = () => {
@@ -185,7 +187,7 @@ export function useKaraoke(
     }
     raf = requestAnimationFrame(tick)
     return () => cancelAnimationFrame(raf)
-  }, [words])
+  }, [words, open])
 
   return { activeWordId, words }
 }

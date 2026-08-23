@@ -18,9 +18,9 @@ export async function GET(request: Request) {
     const resources = [project929, mechon].flatMap((catalog) =>
       catalog.resources.filter((resource) => resource.targets.includes(target)),
     )
-    return NextResponse.json({ resources })
+    return NextResponse.json({ resources }, { headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400' } })
   } catch {
     // Audio is optional enrichment; a missing catalogue must not break reading.
-    return NextResponse.json({ resources: [] })
+    return NextResponse.json({ resources: [] }, { headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400' } })
   }
 }

@@ -22,6 +22,7 @@ export type CorpusWord = {
   lemma: string
   morphology: string
   morphologyLabel?: string
+  lexiconId?: string | null
 }
 
 export type CorpusVerse = {
@@ -154,6 +155,18 @@ export const getBook = memoizeByKey<BookChapters>((bookId) =>
 )
 
 export const getLexicon = memoize(() => readJson<Lexicon>(join(generated, 'oshb-lexicon.json')))
+
+let lexiconByIdCache: Map<string, LexiconEntry> | undefined
+let lexiconByIdSource: Lexicon | undefined
+
+export async function getLexiconById(id: string): Promise<LexiconEntry | undefined> {
+  const lexicon = await getLexicon()
+  if (lexiconByIdSource !== lexicon) {
+    lexiconByIdCache = new Map(Object.values(lexicon).map((entry) => [entry.id, entry]))
+    lexiconByIdSource = lexicon
+  }
+  return lexiconByIdCache!.get(id)
+}
 
 export const getCitationMap = memoize(() =>
   readJson<CitationMap>(join(generated, 'jewish-to-christian-citation-map.json')),
