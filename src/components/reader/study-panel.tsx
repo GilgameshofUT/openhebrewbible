@@ -1,6 +1,7 @@
 'use client'
 
 import type { GeoPlace, LexiconEntry, LexiconSense, Word } from '@/data/tanakh'
+import { PlaceMap } from './place-map'
 import type { NoteResource } from './types'
 
 type Relationship = NonNullable<LexiconEntry['lexicalRelationships']>[number]
@@ -201,13 +202,7 @@ export function StudyPanel({
                 </div>
               ) : null}
 
-              <iframe
-                title={`Map of ${place.name}`}
-                src={mapEmbedUrl(place)}
-                className="place-map"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
+              <PlaceMap place={place} />
 
               <div className="place-meta">
                 {place.confidence ? (
@@ -215,11 +210,6 @@ export function StudyPanel({
                     Identification {place.confidence.voteAverage >= 750 ? 'high' : place.confidence.voteAverage >= 250 ? 'medium' : 'low'} confidence
                     {place.confidence.voteCount > 1 ? ` (${place.confidence.voteCount} sources)` : ''}
                   </span>
-                ) : null}
-                {place.geometry && place.geometry.kind !== 'point' ? (
-                  <a className="place-shape" href={place.geometry.url} target="_blank" rel="noreferrer">
-                    View {place.geometry.kind === 'polygon' ? 'region' : 'path'} shape ↗
-                  </a>
                 ) : null}
                 {place.wikidataId ? (
                   <a className="place-wikidata" href={`https://www.wikidata.org/wiki/${place.wikidataId}`} target="_blank" rel="noreferrer">

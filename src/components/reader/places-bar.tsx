@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from 'react'
 import { loadPlacesForChapter, type GeoPlace } from '@/data/tanakh'
-import { mapEmbedUrl, mapLinkUrl } from './study-panel'
+import { mapLinkUrl } from './study-panel'
+import { PlaceMap } from './place-map'
 import { Modal } from './modal'
 
 /**
@@ -55,23 +56,13 @@ export function ChapterPlaces({ bookId, chapter }: { bookId: string; chapter: nu
                 {openPlace.flags.map((flag) => <span key={flag}>⚠ {flag}</span>)}
               </div>
             ) : null}
-            <iframe
-              title={`Map of ${openPlace.name}`}
-              src={mapEmbedUrl(openPlace)}
-              className="place-map place-map-large"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
+            <PlaceMap place={openPlace} large />
             <div className="place-meta">
               {openPlace.confidence ? (
                 <span className="place-confidence">
                   Identification {openPlace.confidence.voteAverage >= 750 ? 'high' : openPlace.confidence.voteAverage >= 250 ? 'medium' : 'low'} confidence
                   {openPlace.confidence.voteCount > 1 ? ` (${openPlace.confidence.voteCount} sources)` : ''}
                 </span>
-              ) : null}
-              {openPlace.geometry && openPlace.geometry.kind !== 'point' ? (
-                <a className="place-shape" href={openPlace.geometry.url} target="_blank" rel="noreferrer">
-                  View {openPlace.geometry.kind === 'polygon' ? 'region' : 'path'} shape ↗
-                </a>
               ) : null}
               {openPlace.wikidataId ? (
                 <a className="place-wikidata" href={`https://www.wikidata.org/wiki/${openPlace.wikidataId}`} target="_blank" rel="noreferrer">

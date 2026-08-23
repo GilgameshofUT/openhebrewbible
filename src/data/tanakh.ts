@@ -60,7 +60,7 @@ export type GeoPlace = {
   thumbnailUrl?: string
   confidence?: { voteAverage: number; voteCount: number }
   wikidataId?: string
-  geometry?: { file: string; kind: 'point' | 'path' | 'polygon'; url: string }
+  geometry?: { file: string; kind: 'point' | 'path' | 'polygon'; url: string; kmlUrl?: string }
   flags?: string[]
 }
 

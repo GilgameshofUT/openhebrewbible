@@ -81,6 +81,7 @@ type GeoPlace = {
     file: string
     kind: 'point' | 'path' | 'polygon'
     url: string
+    kmlUrl?: string
   }
   /** Flags from upstream: uncertain identification, not a place, etc. */
   flags?: string[]
@@ -297,7 +298,14 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
       ...(score?.vote_average != null ? { confidence: { voteAverage: score.vote_average, voteCount: score.vote_count ?? 1 } } : {}),
       ...(wikidataId ? { wikidataId } : {}),
       ...(shapeKind && place.geojson_file ? {
-        geometry: { file: place.geojson_file, kind: shapeKind, url: `${geometryBase}/${place.geojson_file}` },
+        geometry: {
+          file: place.geojson_file,
+          kind: shapeKind,
+          url: `${geometryBase}/${place.geojson_file}`,
+          // The KML counterpart shares the file's base name; Google Maps can
+          // render it as a layer on the JS API map.
+          kmlUrl: `${geometryBase}/${place.geojson_file.replace(/\.geojson$/i, '.kml')}`,
+        },
       } : {}),
       ...(flags.length ? { flags } : {}),
     }

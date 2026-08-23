@@ -287,8 +287,11 @@ button { cursor: pointer; }
 .place-flags span { color: #7a5c00; font: 11px/1.4 Arial, sans-serif; }
 .place-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; margin-top: 8px; }
 .place-confidence { color: var(--muted); font: 11px Arial, sans-serif; }
-.place-shape, .place-wikidata { color: var(--maroon); font: 11px Arial, sans-serif; text-decoration: none; }
-.place-shape:hover, .place-wikidata:hover { text-decoration: underline; }
+.place-wikidata { color: var(--maroon); font: 11px Arial, sans-serif; text-decoration: none; }
+.place-wikidata:hover { text-decoration: underline; }
+.place-map-fallback { display: grid; place-items: center; gap: 6px; color: var(--muted); font: 12px Arial, sans-serif; }
+.place-map-fallback a { color: var(--maroon); text-decoration: none; }
+.place-map-fallback a:hover { text-decoration: underline; }
 .place-modal p.place-type, .place-modal p.place-modern { margin: 0 0 10px; }
 .place-modal .modal-status { padding: 0 25px 28px; }
 @media (max-width: 640px) { .chapter-places { align-items: flex-start; }.chapter-place-links { flex: 1 1 100%; }.place-map-large { height: 240px; } }

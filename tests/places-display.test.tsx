@@ -9,6 +9,7 @@
 import { render, screen } from '@testing-library/react'
 import { afterEach, describe, expect, it } from 'vitest'
 import { mapEmbedUrl, mapLinkUrl, StudyPanel } from '@/components/reader/study-panel'
+import { PlaceMap } from '@/components/reader/place-map'
 import type { GeoPlace, LexiconEntry, Word } from '@/data/tanakh'
 import type { NoteResource } from '@/components/reader/types'
 
@@ -104,7 +105,6 @@ describe('study panel location section', () => {
     renderPanel([rich])
     expect(screen.getByText('Identification medium confidence (3 sources)')).toBeDefined()
     expect(screen.getByText('⚠ multiple possible locations')).toBeDefined()
-    expect(screen.getByRole('link', { name: /View region shape/ }).getAttribute('href')).toBe('https://example.com/a.geojson')
     expect(screen.getByRole('link', { name: 'Wikidata ↗' }).getAttribute('href')).toBe('https://www.wikidata.org/wiki/Q1000')
   })
 
@@ -112,5 +112,15 @@ describe('study panel location section', () => {
     renderPanel([place])
     expect(screen.queryByText(/Identification/)).toBeNull()
     expect(screen.queryByRole('link', { name: 'Wikidata ↗' })).toBeNull()
+  })
+})
+
+describe('PlaceMap', () => {
+  // Without a key (the test environment), the map must fall back to the
+  // keyless embed iframe rather than attempting the JS API.
+  it('falls back to the embed iframe when no API key is configured', () => {
+    const shaped = { ...place, geometry: { file: 'a.geojson', kind: 'polygon' as const, url: 'https://example.com/a.geojson' } }
+    render(<PlaceMap place={shaped} />)
+    expect(screen.getByTitle('Map of Damascus')).toBeDefined()
   })
 })
