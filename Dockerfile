@@ -25,8 +25,9 @@ COPY data/generated/manifest.json ./data/generated/manifest.json
 RUN npm run import:oshb \
  && npm run import:citations \
  && npm run build:derived \
- # The raw upstream cache is only needed during import.
- && rm -rf data/sources/1* data/sources/2* data/sources/[A-Z]* data/sources/lexicon-* data/sources/translation-*
+ && npm run import:geocoding \
+  # The raw upstream cache is only needed during import.
+ && rm -rf data/sources/1* data/sources/2* data/sources/[A-Z]* data/sources/lexicon-* data/sources/translation-* data/sources/geocoding
 
 # ---------------------------------------------------------------- build
 FROM node:22-alpine AS builder
