@@ -25,9 +25,8 @@ COPY data/generated/manifest.json ./data/generated/manifest.json
 RUN npm run import:oshb \
  && npm run import:citations \
  && npm run build:derived \
- && npm run import:geocoding \
   # The raw upstream cache is only needed during import.
- && rm -rf data/sources/1* data/sources/2* data/sources/[A-Z]* data/sources/lexicon-* data/sources/translation-* data/sources/geocoding
+ && rm -rf data/sources/1* data/sources/2* data/sources/[A-Z]* data/sources/lexicon-* data/sources/translation-*
 
 # ---------------------------------------------------------------- build
 FROM node:22-alpine AS builder
@@ -35,7 +34,12 @@ WORKDIR /app
 ENV NEXT_TELEMETRY_DISABLED=1
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+# Preserve pre-generated geocoding (12 MB) that would be overwritten by the
+# data stage's output — it is not regenerated inside the data stage to avoid
+# a 12 MB fetch at build time.
+RUN mkdir -p /tmp/geocoding && cp data/generated/geocoding*.json /tmp/geocoding/ 2>/dev/null || true
 COPY --from=data /app/data/generated ./data/generated
+RUN cp /tmp/geocoding/*.json data/generated/ 2>/dev/null || true
 RUN npm run build
 
 # ---------------------------------------------------------------- runtime
@@ -55,7 +59,9 @@ COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 COPY --from=builder --chown=nextjs:nodejs /app/public ./public
 
 # Read at request time by src/lib/corpus.ts, resolved against process.cwd().
-COPY --from=data    --chown=nextjs:nodejs /app/data/generated ./data/generated
+# Builder's data/generated is the merged set: baked books from the data stage
+# plus pre-generated geocoding from the host (preserved above).
+COPY --from=builder --chown=nextjs:nodejs /app/data/generated ./data/generated
 COPY --from=builder --chown=nextjs:nodejs /app/data/external ./data/external
 # Committed translation texts, converted to Jewish versification at import
 # time, so the runner needs no citation-map work.

@@ -15,8 +15,12 @@ __pycache__
 
 # Regenerated inside the image by the data stage. manifest.json is the one
 # tracked file the data stage needs to seed the provenance record.
+# Geocoding is pre-generated locally (12 MB) to avoid fetching at build time.
 data/generated/*
 !data/generated/manifest.json
+!data/generated/geocoding-index.json
+!data/generated/geocoding-geometry.json
+!data/generated/geocoding-manifest.json
 # Committed translation texts (converted to Jewish versification) are read
 # at runtime, so they must reach the runner stage.
 data/sources
