@@ -76,8 +76,17 @@ export function PlaceMap({ place, large = false }: { place: GeoPlace; large?: bo
           // expect), so draw polygons/polylines directly rather than routing
           // through GeoJSON, which would re-interpret the pair order.
           const layerGroup = L.featureGroup().addTo(map)
+          // A single polygon is a firm identification and keeps its outline.
+          // Multiple polygons are overlapping uncertainty bands: outlining
+          // each makes a messy tangle, so drop the stroke and let the
+          // translucent fills stack — darker where the bands overlap, fainter
+          // toward the uncertain edges.
+          const overlapped = shape.polygons.length > 1
+          const polygonStyle = overlapped
+            ? { color: 'transparent', weight: 0, fillColor: '#792d39', fillOpacity: 0.12 }
+            : { color: '#792d39', weight: 2, fillOpacity: 0.15 }
           for (const polygon of shape.polygons) {
-            L.polygon(polygon as never, { color: '#792d39', weight: 2, fillOpacity: 0.15 }).addTo(layerGroup)
+            L.polygon(polygon as never, polygonStyle).addTo(layerGroup)
           }
           for (const path of shape.paths) {
             L.polyline(path as never, { color: '#792d39', weight: 2 }).addTo(layerGroup)

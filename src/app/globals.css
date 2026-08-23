@@ -292,6 +292,11 @@ button { cursor: pointer; }
 .place-map-fallback { display: grid; place-items: center; gap: 6px; color: var(--muted); font: 12px Arial, sans-serif; }
 .place-map-fallback a { color: var(--maroon); text-decoration: none; }
 .place-map-fallback a:hover { text-decoration: underline; }
-.place-modal p.place-type, .place-modal p.place-modern { margin: 0 0 10px; }
-.place-modal .modal-status { padding: 0 25px 28px; }
+.place-modal p.place-type, .place-modal p.place-modern { margin-top: 16px; }
+.place-modal .place-type, .place-modal .place-modern, .place-modal .place-flags, .place-modal .place-meta { margin-inline: 25px; }
+.place-modal .place-flags { margin-block: 12px 0; }
+.place-modal .place-map { width: calc(100% - 50px); margin-inline: 25px; }
+.place-modal .place-map-large { height: 380px; margin-block: 16px 0; }
+.place-modal .place-meta { margin-block: 12px 0; }
+.place-modal .modal-status { margin: 0; padding: 16px 25px 28px; }
 @media (max-width: 640px) { .chapter-places { align-items: flex-start; }.chapter-place-links { flex: 1 1 100%; }.place-map-large { height: 240px; } }
