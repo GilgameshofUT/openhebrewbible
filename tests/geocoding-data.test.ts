@@ -99,6 +99,24 @@ maybe('geocoding index', () => {
     expect(ebronah && abronah ? index.byLexicon[ebronah.id] : undefined).toContain(abronah?.id)
   })
 
+  it('links a place word by alternate root when the place is cited elsewhere', () => {
+    // Num 34:11's word כִּנֶּרֶת is the Sea of Galilee, but upstream cites
+    // that verse for the place "Sea of Galilee" whose alternate root is
+    // Chinnereth — the same lake, linked from the same word.
+    const chinnereth = Object.values(lexicon).find((entry) => entry.gloss === 'Chinnereth')
+    const seaOfGalilee = Object.values(index.places).find((place) => place.name === 'Sea of Galilee')
+    expect(chinnereth && seaOfGalilee ? index.byLexicon[chinnereth.id] : undefined).toContain(seaOfGalilee?.id)
+  })
+
+  it('never links a person-name entry to a lookalike place', () => {
+    // KJV spells Tyre "Tyrus", one edit from "Cyrus" — the king, mentioned in
+    // the same Ezra 3:7 that names Tyre. The fuzzy matcher must not collapse
+    // them, or clicking כּוֹרֶשׁ shows a Tyre card.
+    const cyrus = Object.values(lexicon).find((entry) => entry.gloss === 'Cyrus')
+    const tyre = Object.values(index.places).find((place) => place.name === 'Tyre')
+    expect(cyrus && tyre ? (index.byLexicon[cyrus.id] ?? []) : []).not.toContain(tyre?.id)
+  })
+
   it('strips BDB cross-reference annotations from glosses before matching', () => {
     // BDB glosses carry notes like "Abdon. Compare" and "Lebaoth. See also";
     // those notes must not be part of the name, or the place never links.

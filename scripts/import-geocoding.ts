@@ -39,7 +39,12 @@ type AncientPlace = {
   friendly_id: string
   url_slug: string
   types: string[]
-  verses?: Array<{ usx: string; instance_types?: Record<string, number> }>
+  verses?: Array<{
+    usx: string
+    instance_types?: Record<string, number>
+    /** Other ancient place ids the same word may refer to in this verse. */
+    alternate_roots?: Record<string, number>
+  }>
   identifications?: Array<{
     resolutions?: Array<{ lonlat?: string }>
     media?: { thumbnail?: { image_id?: string } }
@@ -204,6 +209,8 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
   // renders the instance, and only proper-name usages correspond to a tagged
   // Hebrew place word (the rest are "person", "common_noun", ...).
   const linkableByVerse = new Map<string, Set<string>>()
+  // placeId -> alternate placeIds it shares a word with, per Jewish verse.
+  const alternateRootsByVerse = new Map<string, Map<string, string[]>>()
   const byLexicon: Record<string, string[]> = {}
   let mentionCount = 0
   let mappableCount = 0
@@ -261,6 +268,17 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
         } else {
           nonNameMentions += 1
         }
+        // Upstream notes which other places the same word may denote here —
+        // Sea of Galilee's word is the same כִּנֶּרֶת that names Chinnereth.
+        // Record the alternate root so the word, once linked to either, can
+        // carry both place cards.
+        for (const alternateId of Object.keys(verse.alternate_roots ?? {})) {
+          const alt = alternateRootsByVerse.get(jewishKey) ?? new Map<string, string[]>()
+          const list = alt.get(place.id) ?? []
+          if (!list.includes(alternateId)) list.push(alternateId)
+          alt.set(place.id, list)
+          alternateRootsByVerse.set(jewishKey, alt)
+        }
       }
     }
   }
@@ -269,6 +287,8 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
   // verse the place is mentioned in. The verse is the search window; the link
   // is stored against the word's lexicon entry, not the verse.
   const byVerseLinked: Record<string, number> = {}
+  // jewishKey -> (placeId -> entryId that matched it), for the alternate pass.
+  const entryByPlace = new Map<string, Map<string, string>>()
   let linkedExact = 0
   let linkedVariant = 0
   let linkedFuzzy = 0
@@ -280,13 +300,53 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
     byVerseLinked[jewishKey] = (byVerseLinked[jewishKey] ?? 0) + 1
     if (isCanonical) linkedExact += 1
     else linkedVariant += 1
-    if (!(byLexicon[entryId] ?? []).includes(placeId)) byLexicon[entryId] = [...(byLexicon[entryId] ?? []), placeId]
+    linkEntry(entryId, placeId, jewishKey)
   }
 
   function addFuzzyLink(entryId: string, placeId: string, jewishKey: string) {
     byVerseLinked[jewishKey] = (byVerseLinked[jewishKey] ?? 0) + 1
     linkedFuzzy += 1
+    linkEntry(entryId, placeId, jewishKey)
+  }
+
+  function linkEntry(entryId: string, placeId: string, jewishKey: string) {
     if (!(byLexicon[entryId] ?? []).includes(placeId)) byLexicon[entryId] = [...(byLexicon[entryId] ?? []), placeId]
+    // Record which entry matched which place, so the alternate-root pass can
+    // copy the link to the alternate place the same word also denotes.
+    const byPlace = entryByPlace.get(jewishKey) ?? new Map<string, string>()
+    byPlace.set(placeId, entryId)
+    entryByPlace.set(jewishKey, byPlace)
+  }
+
+  /**
+   * Matches a place's gated name variants against a verse's proper-noun
+   * words. Returns the lexicon entry id of the matching word, or undefined.
+   * Order: exact gloss, length-aware fuzzy, then transliteration.
+   */
+  // Fuzzy collisions between unrelated names that are one edit apart at five
+  // letters. Each is verified: the Hebrew word is a person or distinct place
+  // whose name merely resembles the place's spelling (KJV "Tyrus" vs "Cyrus",
+  // the king mentioned in the same verse as Tyre). Do not link them.
+  const fuzzyExclusions = new Set(['cyrus|tyrus'])
+  function fuzzyAllowed(gloss: string, name: string) {
+    return !fuzzyExclusions.has(`${gloss}|${name}`)
+  }
+  function matchPlace(
+    info: { names: string[]; canonical: string },
+    properNouns: Map<string, string>,
+    translitNames: Map<string, string>,
+  ): string | undefined {
+    const exact = info.names.find((name) => properNouns.has(name))
+    if (exact) return properNouns.get(exact)!
+    for (const [gloss, entryId] of properNouns) {
+      for (const name of info.names) {
+        const short = Math.min(gloss.length, name.length)
+        if (short < 4) continue
+        const tolerance = short >= 6 ? 2 : 1
+        if (levenshtein(gloss, name) <= tolerance && fuzzyAllowed(gloss, name)) return entryId
+      }
+    }
+    return translitNames.get(info.canonical)
   }
 
   for (const [jewishKey, placeIds] of linkableByVerse) {
@@ -319,44 +379,59 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
     for (const placeId of placeIds) {
       const info = variantNames.get(placeId)
       if (!info) continue
-      // Exact spelling first; only then fall back to fuzzy. The threshold is
-      // length-aware so genuine transliteration drift is caught but distinct
-      // places that merely look alike are not: Gath and Gaza are two edits
-      // apart at four letters, so the short class allows only one edit;
-      // longer names like Jotbath/Jotbathah tolerate two. Names under four
-      // letters never fuzzy-match (Pul/Put is a cross-name rendering).
-      const exact = info.names.find((name) => properNouns.has(name))
-      if (exact) {
+      const matched = matchPlace(info, properNouns, translitNames)
+      if (!matched) continue
+      // Attribute by how it matched: exact/variant vs fuzzy vs transliteration.
+      if (info.names.some((name) => properNouns.has(name))) {
+        const exact = info.names.find((name) => properNouns.has(name))!
         addLink(properNouns.get(exact)!, placeId, jewishKey, exact === info.canonical)
-        continue
+      } else if (translitNames.get(info.canonical) === matched) {
+        byVerseLinked[jewishKey] = (byVerseLinked[jewishKey] ?? 0) + 1
+        linkedTranslit += 1
+        linkEntry(matched, placeId, jewishKey)
+      } else {
+        addFuzzyLink(matched, placeId, jewishKey)
       }
-      let fuzzy: { name: string; entryId: string } | undefined
-      for (const [gloss, entryId] of properNouns) {
-        for (const name of info.names) {
-          const short = Math.min(gloss.length, name.length)
-          if (short < 4) continue
-          const tolerance = short >= 6 ? 2 : 1
-          if (levenshtein(gloss, name) <= tolerance) {
-            fuzzy = { name, entryId }
-            break
-          }
-        }
-        if (fuzzy) break
+    }
+  }
+
+// Alternate-root pass: upstream notes that a verse's word for one place may
+  // denote another (Sea of Galilee's word is the same כִּנֶּרֶת as Chinnereth,
+  // and Chinnereth is cited elsewhere, not here). Match each alternate place's
+  // name against the verse words with the same machinery, and link the word to
+  // both the alternate and the place that lists it.
+  let linkedAlternate = 0
+  for (const [jewishKey, placeIds] of linkableByVerse) {
+    const altRoots = alternateRootsByVerse.get(jewishKey)
+    if (!altRoots) continue
+    const [bookId, chapter, verseNumber] = jewishKey.split(':')
+    const chapterVerses = await bookCache(bookId)
+    const verse = chapterVerses[chapter]?.find((item) => item.number === Number(verseNumber))
+    if (!verse) continue
+    const properNouns = new Map<string, string>()
+    const translitNames = new Map<string, string>()
+    for (const word of verse.words) {
+      const entry = lexicon[lemmaKey(word.lemma)]
+      const isProper = (entry?.partOfSpeech ?? []).some((pos) => /^n\.pr/.test(pos))
+        || /Np(?=\/|$)/.test(word.morphology ?? '')
+      if (entry && isProper && !properNouns.has(normalizeName(entry.gloss))) {
+        properNouns.set(normalizeName(entry.gloss), entry.id)
       }
-      if (!fuzzy) {
-        // Last resort: the word's BDB transliteration is its name even when
-        // the gloss is a definition (Abel-keramim glosses as "plain of the
-        // vineyards"; Dan's word resolves to the entry glossed "Daniel").
-        const info2 = variantNames.get(placeId)
-        const translitEntry = info2 ? translitNames.get(info2.canonical) : undefined
-        if (translitEntry) {
-          byVerseLinked[jewishKey] = (byVerseLinked[jewishKey] ?? 0) + 1
-          linkedTranslit += 1
-          if (!(byLexicon[translitEntry] ?? []).includes(placeId)) byLexicon[translitEntry] = [...(byLexicon[translitEntry] ?? []), placeId]
-        }
-        continue
+      if (entry && isProper && entry.transliteration && !translitNames.has(normalizeTransliteration(entry.transliteration))) {
+        translitNames.set(normalizeTransliteration(entry.transliteration), entry.id)
       }
-      addFuzzyLink(fuzzy.entryId, placeId, jewishKey)
+    }
+    if (!properNouns.size && !translitNames.size) continue
+    for (const [listingPlaceId, alternates] of altRoots) {
+      for (const alternateId of alternates) {
+        const alternateInfo = variantNames.get(alternateId)
+        if (!alternateInfo) continue
+        const matched = matchPlace(alternateInfo, properNouns, translitNames)
+        if (!matched) continue
+        linkEntry(matched, alternateId, jewishKey)
+        linkEntry(matched, listingPlaceId, jewishKey)
+        linkedAlternate += 1
+      }
     }
   }
 
@@ -392,6 +467,7 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
     wordLinkedByVariant: linkedVariant,
     wordLinkedFuzzy: linkedFuzzy,
     wordLinkedByTransliteration: linkedTranslit,
+    wordLinkedByAlternate: linkedAlternate,
     lexiconEntriesLinked: Object.keys(byLexicon).length,
     overrideEntries: Object.keys(overrides).filter((key) => !key.startsWith('_')).length,
   }
