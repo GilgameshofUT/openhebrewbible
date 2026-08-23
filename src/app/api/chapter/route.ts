@@ -68,5 +68,5 @@ export async function GET(request: Request) {
     }))
   }
 
-  return NextResponse.json({ book: book.id, chapter, verses: enriched }, { headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } })
+  return NextResponse.json({ book: book.id, chapter, verses: enriched }, { headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=31536000, stale-while-revalidate=86400' } })
 }

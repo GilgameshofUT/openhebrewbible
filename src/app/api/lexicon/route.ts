@@ -15,5 +15,5 @@ export async function GET(request: Request) {
   const entry = await getLexiconById(id)
   if (!entry) return NextResponse.json({ error: `No lexicon entry with id "${id}".` }, { status: 404 })
 
-  return NextResponse.json({ entry }, { headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } })
+  return NextResponse.json({ entry }, { headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=31536000, stale-while-revalidate=86400' } })
 }

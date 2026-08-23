@@ -53,14 +53,14 @@ export async function GET(request: Request) {
     const needsGeometry = rawPlaces.some((p) => Boolean(p.geometry?.geometryId))
     const geometry = needsGeometry ? await getGeocodingGeometry().catch(() => null) : null
     const places = rawPlaces.map((place) => attachGeometry(place, geometry))
-    return NextResponse.json({ places }, { headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } })
+    return NextResponse.json({ places }, { headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=31536000, stale-while-revalidate=86400' } })
   }
 
   const validated = validateBookChapter(params.get('book'), params.get('chapter'))
   if (!validated.ok) return NextResponse.json({ byVerse: {}, error: validated.error }, { status: 400 })
 
   const { book, chapter } = validated.value
-  if (!index) return NextResponse.json({ byVerse: {} }, { headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } })
+  if (!index) return NextResponse.json({ byVerse: {} }, { headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=31536000, stale-while-revalidate=86400' } })
 
   const byVerseForChapter = getByVerseForChapter(index, book.id, chapter)
   const needsGeometry = Object.values(byVerseForChapter).some((ids) =>
@@ -73,5 +73,5 @@ export async function GET(request: Request) {
     const rawPlaces = placeIds.map((id) => index.places[id]).filter((place): place is GeoPlace => Boolean(place))
     byVerse[verseNumber] = rawPlaces.map((place) => attachGeometry(place, geometry))
   }
-  return NextResponse.json({ byVerse }, { headers: { 'Cache-Control': 'public, max-age=31536000, immutable' } })
+  return NextResponse.json({ byVerse }, { headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=31536000, stale-while-revalidate=86400' } })
 }

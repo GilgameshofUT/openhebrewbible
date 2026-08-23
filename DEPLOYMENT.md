@@ -129,9 +129,18 @@ docker build -t openhebrewbible .
 docker stop openhebrewbible && docker rm openhebrewbible
 docker run -d --name openhebrewbible --restart unless-stopped -p 127.0.0.1:3000:3000 openhebrewbible
 docker image prune -f
+# Clear Cloudflare edge cache so the new corpus is visible immediately.
+# Browser caches expire on their own (max-age=1h); edge would otherwise hold
+# the old chapter for up to a year (s-maxage=1y).
+CF_PURGE_TOKEN="$(cat ~/.config/cloudflare/ohb-purge-token)" ./scripts/purge-cache.sh
 ```
 
 Rollback is `git checkout <previous-sha>` and rebuild.
+
+Create the purge token once at https://dash.cloudflare.com/profile/api-tokens
+(Use the "Purge Cache" template, scope to openhebrewbible.com + cipherandstone.net,
+`Zone → Cache Purge → Purge`) and store it in `~/.config/cloudflare/ohb-purge-token`
+on the deploy host.
 
 ---
 
@@ -214,6 +223,7 @@ cd ~/openhebrewbible && git pull && npm ci && npm run build
 cp -r .next/static .next/standalone/.next/ && cp -r public data .next/standalone/
 exit
 systemctl restart openhebrewbible
+CF_PURGE_TOKEN="$(cat ~/.config/cloudflare/ohb-purge-token)" ./scripts/purge-cache.sh
 ```
 
 Re-run the import steps only when the pinned OSHB release changes.
@@ -278,6 +288,21 @@ systemctl status certbot.timer     # auto-renewal
 The application sets its own security headers, including a CSP that allows the
 SoundCloud and YouTube embeds. Do not add a second CSP in Nginx — two policies
 intersect, and the stricter one wins, which will break the players.
+
+### Cloudflare Cache (tunnel deployments)
+
+If the site is served via a Cloudflare Tunnel, the edge will not cache
+`/api/*` by default even though the app sends `Cache-Control`. Create two
+**Cache Rules** at `dash.cloudflare.com` → `openhebrewbible.com` →
+`Caching → Cache Rules`:
+
+* **Immutable APIs** — path in `{"/api/chapter","/api/lexicon","/api/occurrences","/api/places","/api/alignment"}` → *Eligible for cache*, Edge TTL 1 year, Browser TTL 1 hour
+* **Mutable catalogs** — path in `{"/api/notes","/api/audio"}` → *Eligible for cache*, Edge TTL 1 day, Browser TTL 1 hour
+
+The app sends `s-maxage=1y / 1d` respectively; the rule's *Eligible* toggle is
+what actually puts the response on the edge. Verify with
+`curl -I https://your-domain.com/api/chapter?book=gen&chapter=1` — second hit
+should return `cf-cache-status: HIT`.
 
 ---
 
