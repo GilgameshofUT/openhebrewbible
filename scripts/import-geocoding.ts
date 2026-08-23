@@ -24,6 +24,8 @@ const sourceDir = join(root, 'data', 'sources', 'geocoding')
 const generated = join(root, 'data', 'generated')
 const booksDir = join(generated, 'books')
 const source = 'https://github.com/openbibleinfo/Bible-Geocoding-Data'
+/** Raw geometry files (GeoJSON/KML shapes) hosted alongside the data. */
+const geometryBase = 'https://raw.githubusercontent.com/openbibleinfo/Bible-Geocoding-Data/master/geometry'
 
 /** Upstream USX book code -> the name the citation map uses for Christian refs. */
 const usxToCitation: Record<string, string> = {
@@ -46,13 +48,17 @@ type AncientPlace = {
     alternate_roots?: Record<string, number>
   }>
   identifications?: Array<{
-    resolutions?: Array<{ lonlat?: string }>
+    resolutions?: Array<{ lonlat?: string; ancient_geometry?: string }>
     media?: { thumbnail?: { image_id?: string } }
+    special?: string
+    score?: { vote_average?: number; vote_count?: number }
   }>
   media?: { thumbnail?: { image_id?: string } }
   modern_associations?: Record<string, { name: string; score: number }>
   /** English renderings across the ten source translations, e.g. Abanah/Acco/Akko. */
   translation_name_counts?: Record<string, number>
+  geojson_file?: string
+  linked_data?: Record<string, { id?: string; ids?: string[]; review?: string; url?: string }>
 }
 
 type ImageRecord = { id: string; thumbnail_url_pattern: string }
@@ -65,6 +71,19 @@ type GeoPlace = {
   lonlat: string
   modernName?: string
   thumbnailUrl?: string
+  /** Identification confidence, 0-1000, and how many sources voted. */
+  confidence?: { voteAverage: number; voteCount: number }
+  /** Wikidata entity id, e.g. Q1218 for Jerusalem. */
+  wikidataId?: string
+  /** Shape geometry: a polygon/path GeoJSON hosted upstream, when the place
+   * is a region, river, or other non-point feature. */
+  geometry?: {
+    file: string
+    kind: 'point' | 'path' | 'polygon'
+    url: string
+  }
+  /** Flags from upstream: uncertain identification, not a place, etc. */
+  flags?: string[]
 }
 
 type LexiconEntry = { id: string; gloss: string; transliteration?: string; partOfSpeech?: string[] }
@@ -225,18 +244,47 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
   }
 
   for (const place of ancient) {
-    const lonlat = place.identifications
-      ?.flatMap((identification) => identification.resolutions ?? [])
+    const identifications = place.identifications ?? []
+    const lonlat = identifications
+      .flatMap((identification) => identification.resolutions ?? [])
       .find((resolution) => resolution.lonlat)?.lonlat
     if (!lonlat) continue
 
     const imageId = place.media?.thumbnail?.image_id
-      ?? place.identifications?.find((identification) => identification.media?.thumbnail?.image_id)?.media?.thumbnail?.image_id
+      ?? identifications.find((identification) => identification.media?.thumbnail?.image_id)?.media?.thumbnail?.image_id
     const image = imageId ? images.get(imageId) : undefined
     const thumbnailUrl = image?.thumbnail_url_pattern?.replace('####', '512')
 
     const modernAssociation = Object.values(place.modern_associations ?? {})
       .sort((a, b) => b.score - a.score)[0]
+
+    // Confidence comes from the vote on the first (primary) identification;
+    // upstream also flags identifications that may not be places at all.
+    const primary = identifications[0]
+    const score = primary?.score
+    const special = primary?.special
+    const flags: string[] = []
+    if (special === 'not_a_place' || special === 'not_a_proper_name') flags.push('possibly not a place')
+    if (special === 'multiple_locations') flags.push('multiple possible locations')
+    if (special === 'unknown_place') flags.push('location uncertain')
+    if (special === 'nonspecific_place') flags.push('nonspecific location')
+    const uncertainReview = Object.values(place.linked_data ?? {}).some((entry) => entry.review === 'uncertain')
+    if (uncertainReview) flags.push('identification uncertain')
+
+    // Wikidata id appears in linked_data under an entry whose id looks like
+    // Q<digits>; the shared schema source uses s7cc8b2 for those.
+    const wikidataId = Object.values(place.linked_data ?? {})
+      .map((entry) => entry.id)
+      .find((id) => /^Q\d+$/.test(id ?? ''))
+
+    // Regions, rivers, and valleys have a shape; settlements are points.
+    const firstGeometry = identifications
+      .flatMap((identification) => identification.resolutions ?? [])
+      .find((resolution) => resolution.ancient_geometry)
+    const shapeKind = firstGeometry?.ancient_geometry === 'path' ? 'path'
+      : firstGeometry?.ancient_geometry === 'polygon' ? 'polygon'
+      : firstGeometry?.ancient_geometry === 'point' ? 'point'
+      : undefined
 
     places[place.id] = {
       id: place.id,
@@ -246,6 +294,12 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
       lonlat,
       ...(modernAssociation ? { modernName: modernAssociation.name } : {}),
       ...(thumbnailUrl ? { thumbnailUrl } : {}),
+      ...(score?.vote_average != null ? { confidence: { voteAverage: score.vote_average, voteCount: score.vote_count ?? 1 } } : {}),
+      ...(wikidataId ? { wikidataId } : {}),
+      ...(shapeKind && place.geojson_file ? {
+        geometry: { file: place.geojson_file, kind: shapeKind, url: `${geometryBase}/${place.geojson_file}` },
+      } : {}),
+      ...(flags.length ? { flags } : {}),
     }
 
     for (const verse of place.verses ?? []) {

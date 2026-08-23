@@ -23,7 +23,7 @@ const booksDir = join(generated, 'books')
 const derived = existsSync(geocodingPath) && existsSync(lexiconPath)
 const maybe = derived ? describe : describe.skip
 
-type GeoPlace = { id: string; name: string; slug: string; types: string[]; lonlat: string; modernName?: string; thumbnailUrl?: string }
+type GeoPlace = { id: string; name: string; slug: string; types: string[]; lonlat: string; modernName?: string; thumbnailUrl?: string; confidence?: { voteAverage: number; voteCount: number }; wikidataId?: string; geometry?: { file: string; kind: 'point' | 'path' | 'polygon'; url: string }; flags?: string[] }
 type Index = { source: string; places: Record<string, GeoPlace>; byVerse: Record<string, string[]>; byLexicon: Record<string, string[]> }
 
 maybe('geocoding index', () => {
@@ -36,6 +36,25 @@ maybe('geocoding index', () => {
       return !(lon && lat && Number.isFinite(Number(lon)) && Number.isFinite(Number(lat)))
     })
     expect(offenders.map((place) => place.id)).toEqual([])
+  })
+
+  it('carries confidence, geometry, and linked-data enrichment', () => {
+    const places = Object.values(index.places)
+    // Every place carries an upstream vote, and a valid Wikidata id or none.
+    expect(places.filter((place) => !place.confidence?.voteAverage)).toEqual([])
+    for (const place of places) {
+      if (place.wikidataId) expect(place.wikidataId).toMatch(/^Q\d+$/)
+      if (place.geometry) {
+        expect(place.geometry.kind).toMatch(/^(point|path|polygon)$/)
+        expect(place.geometry.url).toMatch(/^https:\/\//)
+      }
+    }
+    // A known region keeps its shape and a settlement its point.
+    const seaOfGalilee = places.find((place) => place.name === 'Sea of Galilee')
+    const damascus = places.find((place) => place.name === 'Damascus')
+    expect(seaOfGalilee?.geometry?.kind).toBe('polygon')
+    expect(seaOfGalilee?.wikidataId).toBeDefined()
+    expect(damascus?.geometry?.kind).toBe('point')
   })
 
   it('every verse key resolves to a real corpus verse', () => {

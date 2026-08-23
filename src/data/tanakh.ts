@@ -58,6 +58,10 @@ export type GeoPlace = {
   lonlat: string
   modernName?: string
   thumbnailUrl?: string
+  confidence?: { voteAverage: number; voteCount: number }
+  wikidataId?: string
+  geometry?: { file: string; kind: 'point' | 'path' | 'polygon'; url: string }
+  flags?: string[]
 }
 
 export type Verse = {

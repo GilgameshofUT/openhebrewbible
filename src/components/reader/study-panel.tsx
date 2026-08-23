@@ -194,6 +194,13 @@ export function StudyPanel({
                 ) : null}
               </header>
               {place.types.length ? <span className="place-type">{place.types.join(' · ')}</span> : null}
+
+              {place.flags?.length ? (
+                <div className="place-flags" role="note">
+                  {place.flags.map((flag) => <span key={flag}>⚠ {flag}</span>)}
+                </div>
+              ) : null}
+
               <iframe
                 title={`Map of ${place.name}`}
                 src={mapEmbedUrl(place)}
@@ -201,6 +208,26 @@ export function StudyPanel({
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
+
+              <div className="place-meta">
+                {place.confidence ? (
+                  <span className="place-confidence">
+                    Identification {place.confidence.voteAverage >= 750 ? 'high' : place.confidence.voteAverage >= 250 ? 'medium' : 'low'} confidence
+                    {place.confidence.voteCount > 1 ? ` (${place.confidence.voteCount} sources)` : ''}
+                  </span>
+                ) : null}
+                {place.geometry && place.geometry.kind !== 'point' ? (
+                  <a className="place-shape" href={place.geometry.url} target="_blank" rel="noreferrer">
+                    View {place.geometry.kind === 'polygon' ? 'region' : 'path'} shape ↗
+                  </a>
+                ) : null}
+                {place.wikidataId ? (
+                  <a className="place-wikidata" href={`https://www.wikidata.org/wiki/${place.wikidataId}`} target="_blank" rel="noreferrer">
+                    Wikidata ↗
+                  </a>
+                ) : null}
+              </div>
+
               <a className="place-link" href={mapLinkUrl(place)} target="_blank" rel="noreferrer">
                 Open in Google Maps ↗
               </a>

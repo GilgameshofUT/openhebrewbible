@@ -92,4 +92,25 @@ describe('study panel location section', () => {
     expect(screen.getByText('Abana')).toBeDefined()
     expect(screen.getByText('modern Barada River')).toBeDefined()
   })
+
+  it('shows confidence, uncertainty flags, Wikidata, and shape links', () => {
+    const rich = {
+      ...place,
+      confidence: { voteAverage: 500, voteCount: 3 },
+      flags: ['multiple possible locations', 'identification uncertain'],
+      wikidataId: 'Q1000',
+      geometry: { file: 'a.geojson', kind: 'polygon' as const, url: 'https://example.com/a.geojson' },
+    }
+    renderPanel([rich])
+    expect(screen.getByText('Identification medium confidence (3 sources)')).toBeDefined()
+    expect(screen.getByText('⚠ multiple possible locations')).toBeDefined()
+    expect(screen.getByRole('link', { name: /View region shape/ }).getAttribute('href')).toBe('https://example.com/a.geojson')
+    expect(screen.getByRole('link', { name: 'Wikidata ↗' }).getAttribute('href')).toBe('https://www.wikidata.org/wiki/Q1000')
+  })
+
+  it('omits confidence and links when the data is absent', () => {
+    renderPanel([place])
+    expect(screen.queryByText(/Identification/)).toBeNull()
+    expect(screen.queryByRole('link', { name: 'Wikidata ↗' })).toBeNull()
+  })
 })
