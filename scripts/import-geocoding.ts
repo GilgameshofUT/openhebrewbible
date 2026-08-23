@@ -72,6 +72,11 @@ function lemmaKey(lemma: string) {
 
 function normalizeName(value: string) {
   return (value ?? '')
+    // BDB glosses append cross-reference notes like "Abdon. Compare" or
+    // "Lebaoth. See also"; the note is not part of the name.
+    .replace(/\s*\.\s*(Compare|See also|See)(\s.*)?$/i, '')
+    .replace(/\s*\.\s*$/i, '')
+    .replace(/\s*\([^)]*\)\s*$/, '')
     .toLowerCase()
     // Drop disambiguation suffixes like "Achzib 1" / "Geba 1".
     .replace(/\s+\d+$/, '')

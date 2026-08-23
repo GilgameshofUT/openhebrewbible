@@ -99,6 +99,18 @@ maybe('geocoding index', () => {
     expect(ebronah && abronah ? index.byLexicon[ebronah.id] : undefined).toContain(abronah?.id)
   })
 
+  it('strips BDB cross-reference annotations from glosses before matching', () => {
+    // BDB glosses carry notes like "Abdon. Compare" and "Lebaoth. See also";
+    // those notes must not be part of the name, or the place never links.
+    const abdon = Object.values(lexicon).find((entry) => entry.gloss === 'Abdon. Compare')
+    const abdonPlace = Object.values(index.places).find((place) => place.name === 'Abdon')
+    expect(abdon && abdonPlace ? index.byLexicon[abdon.id] : undefined).toContain(abdonPlace?.id)
+
+    const chebar = Object.values(lexicon).find((entry) => entry.gloss === 'Chebar. Compare')
+    const chebarPlace = Object.values(index.places).find((place) => place.name === 'Chebar')
+    expect(chebar && chebarPlace ? index.byLexicon[chebar.id] : undefined).toContain(chebarPlace?.id)
+  })
+
   it('links unprefixed proper nouns without an explicit part of speech', () => {
     // The word for Mount Nebo in Deut 32:49 has morphology HNp and an empty
     // lexicon partOfSpeech. A boundary-anchored \bNp\b regex matches neither
