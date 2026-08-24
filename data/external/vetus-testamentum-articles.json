@@ -2,13 +2,13 @@
   "sourceUrl": "https://www.jstor.org/journal/vetustestamentum",
   "sourceReferenceSystem": "jewish",
   "targetReferenceSystem": "jewish",
-  "crawledAt": "2026-08-24T00:00:00Z",
+  "crawledAt": "2026-08-24T15:22:06Z",
   "resources": [
     {
       "id": "jstor:article:10.1163/15685330-12341365",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Reading%20and%20Running%3A%20Notes%20on%20the%20History%20of%20Translating%20the%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26741990",
       "title": "Reading and Running: Notes on the History of Translating the Final Clause of Hab 2:2 — Renz, 2019",
       "targetType": "verse",
       "targets": [
@@ -26,7 +26,7 @@
       "id": "jstor:article:10.1163/15685330-12341399",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Solving%20the%20Mystery%20of%20Genesis%2049%3A10b%3F%20The%20Numerical%20Key%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48594336",
       "title": "Solving the Mystery of Genesis 49:10b? The Numerical Key — Knohl, 2020",
       "targetType": "verse",
       "targets": [
@@ -44,7 +44,7 @@
       "id": "jstor:article:10.1163/15685330-12341401",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Philology%20and%20Theory%3A%20Exodus%2012%3A21-27%20as%20a%20Case%20Study%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48594332",
       "title": "Philology and Theory: Exodus 12:21-27 as a Case Study — Gesundheit, 2019",
       "targetType": "verse",
       "targets": [
@@ -68,7 +68,7 @@
       "id": "jstor:article:10.1163/15685330-12341432",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Amos%20against%20Amaziah%20%28Amos%207%3A10-17%29%3A%20a%20Case%20of%20Mutual%20Exclus%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26893746",
       "title": "Amos against Amaziah (Amos 7:10-17): a Case of Mutual Exclusion — Wazana, 2020",
       "targetType": "verse",
       "targets": [
@@ -133,7 +133,7 @@
       "id": "jstor:article:10.1163/15685330-12341303",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Dan%207%3A2%20%D7%A2%D6%B4%D7%9D%20%D7%9C%D6%B5%D7%99%D7%9C%D6%B0%D7%99%D6%B8%D7%90%20%E2%80%98by%20night%E2%80%99%3F%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566769",
       "title": "Dan 7:2 עִם לֵילְיָא ‘by night’? — Muraoka, 2017",
       "targetType": "verse",
       "targets": [
@@ -151,7 +151,7 @@
       "id": "jstor:article:10.1163/15685330-12301222",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Janus%20Parallelism%20in%20Job%201%3A20%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894351",
       "title": "Janus Parallelism in Job 1:20 — Carasik, 2016",
       "targetType": "verse",
       "targets": [
@@ -169,7 +169,7 @@
       "id": "jstor:article:10.1163/15685330-12341271",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22%D7%A4%D7%A8%D7%90%20%D7%90%D7%93%D7%9D/%E2%80%98An%20Onager%20Man%E2%80%99%20%28Gen%2016%3A12%CE%B1%29%20as%20a%20Metaphor%20of%20Social%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/44648215",
       "title": "פרא אדם/‘An Onager Man’ (Gen 16:12α) as a Metaphor of Social Oppression — Kozlova, 2017",
       "targetType": "verse",
       "targets": [
@@ -223,7 +223,7 @@
       "id": "jstor:article:10.1163/156853310x511678",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Vom%20Propheten%20und%20seiner%20Frau%2C%20einem%20Ephod%20und%20einem%20Teraphi%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41062674",
       "title": "Vom Propheten und seiner Frau, einem Ephod und einem Teraphim—Anmerkungen zu Hos 3:1-4, 5 — Rudnig-Zelt, 2010",
       "targetType": "verse",
       "targets": [
@@ -244,7 +244,7 @@
       "id": "jstor:article:10.1163/15685330-12341396",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22%E2%80%9CAnd%20the%20Name%20of%20the%20City%20from%20That%20Day%20on%3A%20%E2%80%98YHWH%E2%80%99%20is%20There%E2%80%9D%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48594270",
       "title": "“And the Name of the City from That Day on: ‘YHWH’ is There” (Ezek. 48:35): A New Interpretation — Ganzel, 2019",
       "targetType": "verse",
       "targets": [
@@ -262,7 +262,7 @@
       "id": "jstor:article:10.1163/15685330-12341421",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Deuteronomy%E2%80%99s%20Book%20and%20Hammurapi%E2%80%99s%20Stela%3A%20The%20Referent%20of%20%E2%80%9CT%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636852",
       "title": "Deuteronomy’s Book and Hammurapi’s Stela: The Referent of “This Sēper” in Deuteronomy 28:58 — Arnold, 2020",
       "targetType": "verse",
       "targets": [
@@ -280,7 +280,7 @@
       "id": "jstor:article:10.1163/15685330-12341074",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22%D7%A2%D7%93%20%D7%93%D7%95%D7%93%20%D7%94%D7%92%D7%93%D7%99%D7%9C%20%281%20Sam%2020%3A41%29%20%E2%80%93%20%D7%A2%D7%93%20%D7%91%D7%95%D7%A8%20%D7%94%D7%92%D7%93%D7%95%D7%9C%20%281%20Sam%2019%3A22%29%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636891",
       "title": "עד דוד הגדיל (1 Sam 20:41) – עד בור הגדול (1 Sam 19:22) — Goldstein, 2021",
       "targetType": "verse",
       "targets": [
@@ -299,7 +299,7 @@
       "id": "jstor:article:10.1163/15685330-12341132",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Zoroastrian%20and%20Hindu%20Connections%20in%20the%20Priestly%20Strata%20of%20%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894069",
       "title": "Zoroastrian and Hindu Connections in the Priestly Strata of the Pentateuch: The Case of Numbers 31:19-24 — Kiel, 2013",
       "targetType": "verse",
       "targets": [
@@ -379,7 +379,7 @@
       "id": "jstor:article:10.1163/156853312x637703",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22T.%20B.%20Dozeman%E2%80%99s%20Revision%20of%20Exod%202%3A11-13%3A%20A%20Critique%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41583769",
       "title": "T. B. Dozeman’s Revision of Exod 2:11-13: A Critique — Makujina, 2012",
       "targetType": "verse",
       "targets": [
@@ -399,7 +399,7 @@
       "id": "jstor:article:10.1163/15685330-12341386",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20Stairway%20to%20Heaven%3F%20Jacob%E2%80%99s%20Dream%20in%20Genesis%2028%3A10-22%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26842732",
       "title": "A Stairway to Heaven? Jacob’s Dream in Genesis 28:10-22 — van Wolde, 2019",
       "targetType": "verse",
       "targets": [
@@ -429,7 +429,7 @@
       "id": "jstor:article:10.1163/15685330-12341305",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%222%20Sam%204%3A6%3A%20A%20Case%20of%20Textual%20Criticism%20Interfacing%20with%20Hebr%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566812",
       "title": "2 Sam 4:6: A Case of Textual Criticism Interfacing with Hebrew Verb Syntax — Muraoka, 2018",
       "targetType": "verse",
       "targets": [
@@ -447,7 +447,7 @@
       "id": "jstor:article:10.1163/156853310x486857",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Covenant%20with%20Mut%3A%20A%20New%20Interpretation%20of%20Isaiah%2028%3A1-2%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/20700080",
       "title": "The Covenant with Mut: A New Interpretation of Isaiah 28:1-22 — Hays, 2010",
       "targetType": "verse",
       "targets": [
@@ -504,7 +504,7 @@
       "id": "jstor:article:10.1163/15685330-12341118",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20Suggestion%20Regarding%20the%20Meaning%20of%202%20Kings%2017%3A9%20and%20the%20C%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496502",
       "title": "A Suggestion Regarding the Meaning of 2 Kings 17:9 and the Composition of 2 Kings 17:7-23 — Goldstein, 2013",
       "targetType": "verse",
       "targets": [
@@ -556,7 +556,7 @@
       "id": "jstor:article:10.1163/15685330-12341103",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Plante%20Absalom%20eine%20Reform%20der%20Gerichtsordnung%20in%20Israel%3F%20%282%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496457",
       "title": "Plante Absalom eine Reform der Gerichtsordnung in Israel? (2 Sam 15:2-4) — Wagner, 2013",
       "targetType": "verse",
       "targets": [
@@ -576,7 +576,7 @@
       "id": "jstor:article:10.1163/15685330-bja10048",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%221%20Samuel%202%3A6%3A%20Time%20and%20Wayyiqtol%20in%20Hannah%E2%80%99s%20Song%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48653654",
       "title": "1 Samuel 2:6: Time and Wayyiqtol in Hannah’s Song — Jones, 2021",
       "targetType": "verse",
       "targets": [
@@ -612,7 +612,7 @@
       "id": "jstor:article:10.1163/156853311x560736",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Paronomasia%2C%20Ambiguities%20and%20Shifts%20in%20Hos%205%3A1-2%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41309099",
       "title": "Paronomasia, Ambiguities and Shifts in Hos 5:1-2 — Kwakkel, 2011",
       "targetType": "verse",
       "targets": [
@@ -668,7 +668,7 @@
       "id": "jstor:article:10.1163/15685330-12341096",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Did%20Eve%20Acquire%2C%20Create%2C%20or%20Procreate%20with%20Yahweh%3F%20A%20Grammat%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496447",
       "title": "Did Eve Acquire, Create, or Procreate with Yahweh? A Grammatical and Contextual Reassessment Of קנה in Genesis 4:1 — Bokovoy, 2013",
       "targetType": "verse",
       "targets": [
@@ -704,7 +704,7 @@
       "id": "jstor:article:10.1163/15685330-12341099",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22There%20and%20Back%20Again%3A%20%E2%80%9CTin%E2%80%9D%20or%20%E2%80%9CLead%E2%80%9D%20in%20Amos%207%3A7-9%3F%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496410",
       "title": "There and Back Again: “Tin” or “Lead” in Amos 7:7-9? — Noonan, 2013",
       "targetType": "verse",
       "targets": [
@@ -724,7 +724,7 @@
       "id": "jstor:article:10.1163/15685330-12301207",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20Short%20Note%20on%20Hos%203%3A1a%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894559",
       "title": "A Short Note on Hos 3:1a — Moon, 2015",
       "targetType": "verse",
       "targets": [
@@ -760,7 +760,7 @@
       "id": "jstor:article:10.1163/15685330-12301194",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Raamses%2C%20Pithom%2C%20and%20the%20Exodus%3A%20A%20Critical%20Evaluation%20of%20Ex%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894525",
       "title": "Raamses, Pithom, and the Exodus: A Critical Evaluation of Ex 1:11 — Schipper, 2015",
       "targetType": "verse",
       "targets": [
@@ -778,7 +778,7 @@
       "id": "jstor:article:10.1163/15685330-12341377",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Garments%20of%20Shame%2C%20Garments%20of%20War%3A%20Clothing%20Imagery%20in%201%20Ma%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26842729",
       "title": "Garments of Shame, Garments of War: Clothing Imagery in 1 Maccabees 1:25-28, 14:9 — Livneh, 2019",
       "targetType": "verse",
       "targets": [
@@ -799,7 +799,7 @@
       "id": "jstor:article:10.1163/15685330-12341318",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22What%20Were%20the%20Qualifications%20for%20Being%20a%20Leader%20in%20Ancient%20I%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566771",
       "title": "What Were the Qualifications for Being a Leader in Ancient Israel? Revelation, Authority, and Philological Issues in Deut 1:13 and 1:15 — Boyd, 2018",
       "targetType": "verse",
       "targets": [
@@ -817,7 +817,7 @@
       "id": "jstor:article:10.1163/156853312x637712",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22God%20consists%20of%20both%20the%20Male%20and%20the%20Female%20Genders%3A%20A%20shor%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41583767",
       "title": "God consists of both the Male and the Female Genders: A short note on Gen 1:27 — Gudbergsen, 2012",
       "targetType": "verse",
       "targets": [
@@ -871,7 +871,7 @@
       "id": "jstor:article:10.1163/15685330-12341455",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22What%20Symmetry%20Can%20Do%20That%20Parallelism%20Can%E2%80%99t%3A%20Line%20Perception%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636865",
       "title": "What Symmetry Can Do That Parallelism Can’t: Line Perception and Poetic Effects in the Song of Deborah (Judges 5:2–31) — Grosser, 2021",
       "targetType": "verse",
       "targets": [
@@ -936,7 +936,7 @@
       "id": "jstor:article:10.1163/15685330-12341080",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Entd%C3%A4monisierung%20von%20Dtn%2032%3A24%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496683",
       "title": "Entdämonisierung von Dtn 32:24 — Kató, 2012",
       "targetType": "verse",
       "targets": [
@@ -954,7 +954,7 @@
       "id": "jstor:article:10.1163/15685330-12341363",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Enjoying%20the%20Tension%3A%20Reading%20Qoh%202%3A25%20in%20the%20Context%20of%20Qoh%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26741993",
       "title": "Enjoying the Tension: Reading Qoh 2:25 in the Context of Qoh 2:24-26 — Dell et al., 2019",
       "targetType": "verse",
       "targets": [
@@ -1058,7 +1058,7 @@
       "id": "jstor:article:10.1163/15685330-12341138",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20%E2%80%9CMock%20Building%20Account%E2%80%9D%20of%20Genesis%2011%3A1-9%3A%20Polemic%20again%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894095",
       "title": "The “Mock Building Account” of Genesis 11:1-9: Polemic against Mesopotamian Royal Ideology — Giorgetti, 2014",
       "targetType": "verse",
       "targets": [
@@ -1102,7 +1102,7 @@
       "id": "jstor:article:10.1163/15685330-12341414",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Deuteronomy%2028%3A58%2C%20CTH%2053%2C%20and%20the%20Rhetoric%20of%20Self-Referenc%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636841",
       "title": "Deuteronomy 28:58, CTH 53, and the Rhetoric of Self-Reference — Lester, 2020",
       "targetType": "verse",
       "targets": [
@@ -1156,7 +1156,7 @@
       "id": "jstor:article:10.1163/15685330-123411261",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Nahum%202%3A14%20Text-Critical%20Notes%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894066",
       "title": "Nahum 2:14 Text-Critical Notes — Hartog, 2013",
       "targetType": "verse",
       "targets": [
@@ -1174,7 +1174,7 @@
       "id": "jstor:article:10.1163/15685330-12301192",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Zechariah%205%3A5-11%3A%20Why%20an%20ephah%3F%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894526",
       "title": "Zechariah 5:5-11: Why an ephah? — Seufert, 2015",
       "targetType": "verse",
       "targets": [
@@ -1252,7 +1252,7 @@
       "id": "jstor:article:10.1163/15685330-12341351",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22On%20the%20Odd%20%D7%9C%D7%90%D7%A8%D7%A6%D7%95%20in%20Job%2037%3A13%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26741975",
       "title": "On the Odd לארצו in Job 37:13 — Pinker, 2019",
       "targetType": "verse",
       "targets": [
@@ -1270,7 +1270,7 @@
       "id": "jstor:article:10.1163/004249310x12631787271796",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20Philological%20Approach%20to%20the%20Problem%20of%20King%20So%20%282%20Kgs%2017%3A%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/20700081",
       "title": "A Philological Approach to the Problem of King So (2 Kgs 17:4) — Kang, 2010",
       "targetType": "verse",
       "targets": [
@@ -1306,7 +1306,7 @@
       "id": "jstor:article:10.1163/15685330-12301200",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Of%20Whores%20and%20Hounds%3A%20A%20New%20Interpretation%20of%20the%20Subject%20of%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894549",
       "title": "Of Whores and Hounds: A New Interpretation of the Subject of Deuteronomy 23:19 — Bird, 2015",
       "targetType": "verse",
       "targets": [
@@ -1324,7 +1324,7 @@
       "id": "jstor:article:10.1163/15685330-12341121",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Ezekiel%2029%3A3%20and%20Its%20Ancient%20Near%20Eastern%20Context%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496508",
       "title": "Ezekiel 29:3 and Its Ancient Near Eastern Context — Yoder, 2013",
       "targetType": "verse",
       "targets": [
@@ -1361,7 +1361,7 @@
       "id": "jstor:article:10.1163/15685330-12341085",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Syntax%20and%20Rhetoric%20of%20Ruth%201%3A9a%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496684",
       "title": "The Syntax and Rhetoric of Ruth 1:9a — Schipper, 2012",
       "targetType": "verse",
       "targets": [
@@ -1379,7 +1379,7 @@
       "id": "jstor:article:10.1163/15685330-12341091",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Saul%E2%80%99s%20Two%20Year%20Reign%20in%201%20Samuel%2013%3A1%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496455",
       "title": "Saul’s Two Year Reign in 1 Samuel 13:1 — Gilmour et al., 2013",
       "targetType": "verse",
       "targets": [
@@ -1397,7 +1397,7 @@
       "id": "jstor:article:10.1163/15685330-12341156",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Festbankett%20oder%20Henkersmahl%3F%20Die%20zwei%20Gesichter%20von%20Jes%2025%3A%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894172",
       "title": "Festbankett oder Henkersmahl? Die zwei Gesichter von Jes 25:6-8 — Maier, 2014",
       "targetType": "verse",
       "targets": [
@@ -1417,7 +1417,7 @@
       "id": "jstor:article:10.1163/156853311x592326",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22%E2%80%9CBread%20of%20the%20Dungheap%E2%80%9D%3A%20Light%20on%20Num.%2021%3A5%20from%20the%20Tell%20Fe%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41309034",
       "title": "“Bread of the Dungheap”: Light on Num. 21:5 from the Tell Fekherye Inscription — Aster, 2011",
       "targetType": "verse",
       "targets": [
@@ -1435,7 +1435,7 @@
       "id": "jstor:article:10.1163/15685330-12341172",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Jeremiah%20as%20yhwh%E2%80%99s%20Stronghold%20%28Jer%201%3A18%29%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894187",
       "title": "Jeremiah as yhwh’s Stronghold (Jer 1:18) — Maier, 2014",
       "targetType": "verse",
       "targets": [
@@ -1453,7 +1453,7 @@
       "id": "jstor:article:10.1163/156853311x585586",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22War%20Commemoration%20and%20the%20Interpretation%20of%20Judges%205%3A15b-17%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41309046",
       "title": "War Commemoration and the Interpretation of Judges 5:15b-17 — Wright, 2011",
       "targetType": "verse",
       "targets": [
@@ -1558,7 +1558,7 @@
       "id": "jstor:article:10.1163/15685330-bja10045",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20New%20Defense%20for%20the%20Masoretic%20Text%20and%20%D7%9E%D7%90%D7%A1%20I%20in%20Job%2036%3A5%3A%20%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48653658",
       "title": "A New Defense for the Masoretic Text and מאס I in Job 36:5: Functional Repetition and an Unrecognized Allusion — Smith, 2021",
       "targetType": "verse",
       "targets": [
@@ -1576,7 +1576,7 @@
       "id": "jstor:article:10.1163/15685330-12341407",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Libations%20of%20Blood%20in%20Psalm%2016%3A4%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636847",
       "title": "The Libations of Blood in Psalm 16:4 — Verburg, 2019",
       "targetType": "verse",
       "targets": [
@@ -1594,7 +1594,7 @@
       "id": "jstor:article:10.1163/15685330-12341300",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20qdesha%20in%20Hosea%204%3A14%3A%20Putting%20the%20%28Myth%20of%20the%29%20Sacred%20P%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566803",
       "title": "The qdesha in Hosea 4:14: Putting the (Myth of the) Sacred Prostitute to Bed — DeGrado, 2018",
       "targetType": "verse",
       "targets": [
@@ -1630,7 +1630,7 @@
       "id": "jstor:article:10.1163/004249310x12597406253328",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Zechariah%E2%80%99s%20Vision%20of%20the%20Ephah%20%28Zech.%205%3A5-11%29%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/20700044",
       "title": "Zechariah’s Vision of the Ephah (Zech. 5:5-11) — Assis, 2010",
       "targetType": "verse",
       "targets": [
@@ -1654,7 +1654,7 @@
       "id": "jstor:article:10.1163/15685330-12341459",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22%E2%80%9CTo%20the%20Moles%E2%80%9D%3F%20A%20Note%20on%20Isaiah%202%3A20%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636871",
       "title": "“To the Moles”? A Note on Isaiah 2:20 — Yurovitskaya, 2021",
       "targetType": "verse",
       "targets": [
@@ -1692,7 +1692,7 @@
       "id": "jstor:article:10.1163/15685330-12341334",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Genealogy%20and%20Theology%20of%20Isaiah%2011%3A1%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566799",
       "title": "The Genealogy and Theology of Isaiah 11:1 — Sumner, 2018",
       "targetType": "verse",
       "targets": [
@@ -1729,7 +1729,7 @@
       "id": "jstor:article:10.1163/15685330-12341450",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Proverbs%2021%3A1%20and%20Ancient%20Near%20Eastern%20Hydrology%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636866",
       "title": "Proverbs 21:1 and Ancient Near Eastern Hydrology — Keefer, 2020",
       "targetType": "verse",
       "targets": [
@@ -1784,7 +1784,7 @@
       "id": "jstor:article:10.1163/156853311x580671",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Great%20Wall%20of%20Tell%20en-Nasbeh%20%28Mizpah%29%2C%20The%20First%20Fortifi%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41583795",
       "title": "The Great Wall of Tell en-Nasbeh (Mizpah), The First Fortifications in Judah, and 1 Kings 15:16-22 — Finkelstein, 2012",
       "targetType": "verse",
       "targets": [
@@ -1888,7 +1888,7 @@
       "id": "jstor:article:10.1163/15685330-12341344",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20Subdued%20Demon%20in%20Exodus%2015%3A7-8%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48572130",
       "title": "A Subdued Demon in Exodus 15:7-8 — Korpel, 2019",
       "targetType": "verse",
       "targets": [
@@ -1997,7 +1997,7 @@
       "id": "jstor:article:10.1163/15685330-12341111",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Metaphor%20at%20Stake%20in%20Ezra%209%3A8%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496409",
       "title": "The Metaphor at Stake in Ezra 9:8 — Moffat, 2013",
       "targetType": "verse",
       "targets": [
@@ -2015,7 +2015,7 @@
       "id": "jstor:article:10.1163/15685330-12341319",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20Text-Linguistics%20Approach%20to%20the%20Literary%20Structure%20and%20Co%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566773",
       "title": "A Text-Linguistics Approach to the Literary Structure and Coherence of 2 Kings 17:7-23 — Lovell, 2018",
       "targetType": "verse",
       "targets": [
@@ -2085,7 +2085,7 @@
       "id": "jstor:article:10.1163/15685330-12341094",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22One%20Bow%20or%20Another%3F%20A%20Study%20of%20the%20Bow%20in%20Genesis%209%3A8-17%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496454",
       "title": "One Bow or Another? A Study of the Bow in Genesis 9:8-17 — van Wolde, 2013",
       "targetType": "verse",
       "targets": [
@@ -2112,7 +2112,7 @@
       "id": "jstor:article:10.1163/15685330-12341411",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Ritual%20or%20Military%20Action%3F%3A%20Interpreting%20Israel%E2%80%99s%20Muster%20at%20%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636839",
       "title": "Ritual or Military Action?: Interpreting Israel’s Muster at Mizpah in 1 Sam 7:2-17 — Keimer, 2020",
       "targetType": "verse",
       "targets": [
@@ -2163,7 +2163,7 @@
       "id": "jstor:article:10.1163/156853304772932988",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22JANUS%20PARALLELISM%20IN%20HAB.%20III%204%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496496",
       "title": "JANUS PARALLELISM IN HAB. III 4 — Tsumura, 2004",
       "targetType": "verse",
       "targets": [
@@ -2181,7 +2181,7 @@
       "id": "jstor:article:10.1163/15685330-12301189",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20Note%20on%20the%20Translation%20and%20Meaning%20of%20Hosea%2013%3A9%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894522",
       "title": "A Note on the Translation and Meaning of Hosea 13:9 — Irvine, 2015",
       "targetType": "verse",
       "targets": [
@@ -2199,7 +2199,7 @@
       "id": "jstor:article:10.1163/156853312x637677",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Le%20souffle%20du%20jour%20et%20la%20fuite%20des%20ombres%20en%20Ct%202%3A17%20%284%3A6%29%20%3A%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41583735",
       "title": "Le souffle du jour et la fuite des ombres en Ct 2:17 (4:6) : matin ou soir? — Van de Sande, 2012",
       "targetType": "verse",
       "targets": [
@@ -2387,7 +2387,7 @@
       "id": "jstor:article:10.1163/15685330-12341159",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Justification%20of%20God%20in%20His%20Word%20in%20Ps%2051%3A6%20and%20Rom%203%3A4%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894170",
       "title": "Justification of God in His Word in Ps 51:6 and Rom 3:4 — Krašovec, 2014",
       "targetType": "verse",
       "targets": [
@@ -2405,7 +2405,7 @@
       "id": "jstor:article:10.1163/15685330-12341415",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Indecent%20Exposure%3A%20Social%20Shame%2C%20%CA%BFerw%C3%A2%20and%20the%20Interpretatio%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636843",
       "title": "Indecent Exposure: Social Shame, ʿerwâ and the Interpretation of Gen 9:20-27 — Rainey, 2020",
       "targetType": "verse",
       "targets": [
@@ -2430,7 +2430,7 @@
       "id": "jstor:article:10.1163/15685330-12341438",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22What%20Did%20the%20Psalmist%20Say%20about%20His%20Hands%20and%20Feet%20in%20Psalm%20%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636855",
       "title": "What Did the Psalmist Say about His Hands and Feet in Psalm 22:17? — Flowers, 2020",
       "targetType": "verse",
       "targets": [
@@ -2448,7 +2448,7 @@
       "id": "jstor:article:10.1163/004249310x12597406253283",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22%E2%80%98What%20Shall%20We%20Do%20with%20the%20Sabbath-Gatherer%3F%E2%80%99%20A%20Narrative%20Ap%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/20700046",
       "title": "‘What Shall We Do with the Sabbath-Gatherer?’ A Narrative Approach to a ‘Hard Case’ in Biblical Law (Numbers 15:32-36) — Burnside, 2010",
       "targetType": "verse",
       "targets": [
@@ -2470,7 +2470,7 @@
       "id": "jstor:article:10.1163/156853311x613746",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Textualizing%20Divination%3A%20The%20Writing%20on%20the%20Wall%20in%20Daniel%205%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41583794",
       "title": "Textualizing Divination: The Writing on the Wall in Daniel 5:25 — Broida, 2012",
       "targetType": "verse",
       "targets": [
@@ -2524,7 +2524,7 @@
       "id": "jstor:article:10.1163/156853310x536770",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Tense%20and%20Aspect%20of%20Hebrew%20Verbs%20in%202%20Samuel%207%3A%208-16%20%E2%80%94from%20t%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41062724",
       "title": "Tense and Aspect of Hebrew Verbs in 2 Samuel 7: 8-16 —from the Point of View of Discourse Grammar— — Tsumura, 2010",
       "targetType": "verse",
       "targets": [
@@ -2550,7 +2550,7 @@
       "id": "jstor:article:10.1163/156853311x542123",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Group%20Identity%20of%20the%20Human%20Beneficiaries%20in%20the%20Sabbati%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41308985",
       "title": "The Group Identity of the Human Beneficiaries in the Sabbatical Year (Lev 25:6). — Kim, 2011",
       "targetType": "verse",
       "targets": [
@@ -2568,7 +2568,7 @@
       "id": "jstor:article:10.1163/15685330-12341285",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Foul%20Grapes%3A%20Figurative%20Smells%20and%20the%20Message%20of%20the%20Song%20o%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566683",
       "title": "Foul Grapes: Figurative Smells and the Message of the Song of the Vineyard (Isa 5:1-7) — Avrahami, 2017",
       "targetType": "verse",
       "targets": [
@@ -2628,7 +2628,7 @@
       "id": "jstor:article:10.1163/15685330-12341168",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Habakkuk%203%3A10-11%3A%20In%20Defence%20of%20a%20Masoretic%20Unit%20Division%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894176",
       "title": "Habakkuk 3:10-11: In Defence of a Masoretic Unit Division — Wearne, 2014",
       "targetType": "verse",
       "targets": [
@@ -2647,7 +2647,7 @@
       "id": "jstor:article:10.1163/15685330-12341324",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Another%20People%20of%20God%3F%20Exegesis%20and%20Reception%20of%20Zech%202%3A15%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566785",
       "title": "Another People of God? Exegesis and Reception of Zech 2:15 — Maier, 2018",
       "targetType": "verse",
       "targets": [
@@ -2665,7 +2665,7 @@
       "id": "jstor:article:10.1163/15685330-12341378",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22%E2%80%9CSwearing%20to%20Yahweh%2C%20but%20Swearing%20by%20M%C5%8Dlek-Sacrifices%E2%80%9D%3A%20Zeph%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26842733",
       "title": "“Swearing to Yahweh, but Swearing by Mōlek-Sacrifices”: Zephaniah 1:5b — Dewrell, 2019",
       "targetType": "verse",
       "targets": [
@@ -2719,7 +2719,7 @@
       "id": "jstor:article:10.1163/156853310x489070",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Endangerment%20of%20Moses%3A%20Towards%20a%20New%20Reading%20of%20Exodus%204%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/20700078",
       "title": "The Endangerment of Moses: Towards a New Reading of Exodus 4:24-26 — Embry, 2010",
       "targetType": "verse",
       "targets": [
@@ -2739,7 +2739,7 @@
       "id": "jstor:article:10.1163/004249310x12577537066918",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22%E2%80%9C.%20.%20.%20A%20Mighty%20Hunter%20before%20YHWH%E2%80%9D%3A%20Genesis%2010%3A9%20and%20the%20Mo%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/20700047",
       "title": "“. . . A Mighty Hunter before YHWH”: Genesis 10:9 and the Moral-Theological Evaluation of Nimrod — Hom, 2010",
       "targetType": "verse",
       "targets": [
@@ -2757,7 +2757,7 @@
       "id": "jstor:article:10.1163/15685330-12341338",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Numbers%2020%3A14-21%20as%20a%20Reply%20to%20Deuteronomy%2023%3A4-9%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48572134",
       "title": "Numbers 20:14-21 as a Reply to Deuteronomy 23:4-9 — Orian, 2019",
       "targetType": "verse",
       "targets": [
@@ -2788,7 +2788,7 @@
       "id": "jstor:article:10.1163/156853311x592335",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20%E2%80%98Song%E2%80%99%20of%20the%20Servant%E2%80%94Gen%2024%3A23%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41309045",
       "title": "The ‘Song’ of the Servant—Gen 24:23 — Vermeulen, 2011",
       "targetType": "verse",
       "targets": [
@@ -2806,7 +2806,7 @@
       "id": "jstor:article:10.1163/15685330-12341187",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Imagery%20and%20Analogy%20in%20Psalm%2058%3A4-9%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894225",
       "title": "Imagery and Analogy in Psalm 58:4-9 — Miglio, 2015",
       "targetType": "verse",
       "targets": [
@@ -2829,7 +2829,7 @@
       "id": "jstor:article:10.1163/15685330-bja10020",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Must%20Animals%20Die%3F%20Genesis%203%3A21%2C%20En%C5%ABma%20Eli%C5%A1%20IV%2C%20and%20the%20Power%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48653659",
       "title": "Must Animals Die? Genesis 3:21, Enūma Eliš IV, and the Power of Divine Creation — Strawn, 2021",
       "targetType": "verse",
       "targets": [
@@ -2865,7 +2865,7 @@
       "id": "jstor:article:10.1163/15685330-12301226",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Notes%20on%202%20Kings%209%3A36-37%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894411",
       "title": "Notes on 2 Kings 9:36-37 — Rendsburg, 2016",
       "targetType": "verse",
       "targets": [
@@ -2902,7 +2902,7 @@
       "id": "jstor:article:10.1163/15685330-12341336",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Levite%E2%80%99s%20Concubine%20%28Judg%2019%3A2%29%20and%20the%20Tradition%20of%20Sexu%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566793",
       "title": "The Levite’s Concubine (Judg 19:2) and the Tradition of Sexual Slander in the Hebrew Bible: How the Nature of Her Departure Illustrates a Tradition’s Tendency — Bembry, 2018",
       "targetType": "verse",
       "targets": [
@@ -2971,7 +2971,7 @@
       "id": "jstor:article:10.1163/15685330-12341433",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Description%20of%20Solomon%E2%80%99s%20Wedding%3A%20Song%203%3A6-11%20as%20a%20Key%20t%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26893744",
       "title": "The Description of Solomon’s Wedding: Song 3:6-11 as a Key to the Overall Understanding of the Song of Songs — Schellenberg, 2020",
       "targetType": "verse",
       "targets": [
@@ -2994,7 +2994,7 @@
       "id": "jstor:article:10.1163/15685330-12341424",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Isaiah%2013%3A18%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26893747",
       "title": "Isaiah 13:18 — Williamson, 2020",
       "targetType": "verse",
       "targets": [
@@ -3066,7 +3066,7 @@
       "id": "jstor:article:10.1163/15685330-12341123",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Verb%20Transitivity%20and%20Ancient%20Hebrew%20%D7%9E%D7%95%D7%A9%D7%81%20in%20Zechariah%203%3A9%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496509",
       "title": "Verb Transitivity and Ancient Hebrew מושׁ in Zechariah 3:9 — Rogland, 2013",
       "targetType": "verse",
       "targets": [
@@ -3084,7 +3084,7 @@
       "id": "jstor:article:10.1163/004249310x12580043372264",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22%C2%AB%20Toutefois%2C%20il%20n%E2%80%99y%20aura%20pas%20de%20n%C3%A9cessiteux%20chez%20toi%20%C2%BB%20La%20st%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/20700048",
       "title": "« Toutefois, il n’y aura pas de nécessiteux chez toi » La stratégie argumentative de Deut. 15:1-11 — Mukenge, 2010",
       "targetType": "verse",
       "targets": [
@@ -3112,7 +3112,7 @@
       "id": "jstor:article:10.1163/15685330-12341245",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Rereading%20Samuel%E2%80%99s%20Silence%20in%201%20Samuel%207%3A8%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894620",
       "title": "Rereading Samuel’s Silence in 1 Samuel 7:8 — Noll, 2016",
       "targetType": "verse",
       "targets": [
@@ -3185,7 +3185,7 @@
       "id": "jstor:article:10.1163/15685330-12341097",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Milesian%20Connection%3A%20Dan%2011%3A23%20and%20Antiochus%20IV%E2%80%99s%20Rise%20t%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496452",
       "title": "The Milesian Connection: Dan 11:23 and Antiochus IV’s Rise to Power — Scolnic, 2013",
       "targetType": "verse",
       "targets": [
@@ -3203,7 +3203,7 @@
       "id": "jstor:article:10.1163/15685330-12341186",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22When%20God%20Abandoned%20the%20Garden%20of%20Eden%3A%20A%20Forgotten%20Reading%20o%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894219",
       "title": "When God Abandoned the Garden of Eden: A Forgotten Reading of Genesis 3:24 — Eichler, 2015",
       "targetType": "verse",
       "targets": [
@@ -3239,7 +3239,7 @@
       "id": "jstor:article:10.1163/15685330-12341254",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22What%20Did%20YHWH%20Do%20in%20Lam%201%3A12%3F%3A%20Correcting%20a%20Misreading%20in%20th%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/44647538",
       "title": "What Did YHWH Do in Lam 1:12?: Correcting a Misreading in the djd Edition of 4QLam — Flanders, 2016",
       "targetType": "verse",
       "targets": [
@@ -3275,7 +3275,7 @@
       "id": "jstor:article:10.1163/15685330-12341102",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20Friend%E2%80%99s%20First%20Words%20in%20Job%204%3A2%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496451",
       "title": "A Friend’s First Words in Job 4:2 — Pinker, 2013",
       "targetType": "verse",
       "targets": [
@@ -3327,7 +3327,7 @@
       "id": "jstor:article:10.1163/156853312x637695",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20%E2%80%9CBitter%20Waters%E2%80%9D%20of%20Numbers%205%3A11-31%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41583758",
       "title": "The “Bitter Waters” of Numbers 5:11-31 — Feinstein, 2012",
       "targetType": "verse",
       "targets": [
@@ -3423,7 +3423,7 @@
       "id": "jstor:article:10.1163/15685330-12341460",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Tightening%20the%20Bonds%20between%20Edom%20and%20Israel%20%28Gen%2033%3A1%E2%80%9317%2A%29%3A%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636893",
       "title": "Tightening the Bonds between Edom and Israel (Gen 33:1–17*): On the Further Development of Edom’s Role within the Fortschreibung of the Jacob Cycle in the Exilic and Early Persian Periods — Hensel, 2021",
       "targetType": "verse",
       "targets": [
@@ -3457,7 +3457,7 @@
       "id": "jstor:article:10.1163/15685330-12341309",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Battle%20of%20Gibeah%20Reconsidered%20%28Judges%2020%3A29-48%29%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566808",
       "title": "The Battle of Gibeah Reconsidered (Judges 20:29-48) — Naʼaman, 2018",
       "targetType": "verse",
       "targets": [
@@ -3494,7 +3494,7 @@
       "id": "jstor:article:10.1163/15685330-12341328",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Of%20Gods%20and%20Kings%3A%20The%20Case%20for%20Reading%20%E2%80%9CMilcom%E2%80%9D%20in%20Zephania%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566790",
       "title": "Of Gods and Kings: The Case for Reading “Milcom” in Zephaniah 1:5bβ — Werse, 2018",
       "targetType": "verse",
       "targets": [
@@ -3512,7 +3512,7 @@
       "id": "jstor:article:10.1163/15685330-12341272",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22%E2%80%9CHe%20Will%20Cast%20their%20Sins%20into%20the%20Depths%20of%20the%20Sea%20.%20.%20.%E2%80%9D%20E%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/44647551",
       "title": "“He Will Cast their Sins into the Depths of the Sea . . .” Exodus Allusions and the Personification of Sin in Micah 7:7-20 — DiFransico, 2017",
       "targetType": "verse",
       "targets": [
@@ -3543,7 +3543,7 @@
       "id": "jstor:article:10.1163/15685330-12341259",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Water%2C%20Wisdom%2C%20and%20Life%3A%20Literary%20Insights%20on%20the%20Use%20of%20%D7%A0%D6%B7%D7%97%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/44648213",
       "title": "Water, Wisdom, and Life: Literary Insights on the Use of נַחַל in Job 28:4 with Reference to 28:1-28 and 38:22-30 — Hom, 2017",
       "targetType": "verse",
       "targets": [
@@ -3584,7 +3584,7 @@
       "id": "jstor:article:10.1163/156853310x498980",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20Forgotten%20Reference%20to%20Divine%20Procreation%3F%20Psalm%202%3A6%20in%20Li%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41062670",
       "title": "A Forgotten Reference to Divine Procreation? Psalm 2:6 in Light of Egyptian Royal Ideology — Granerød, 2010",
       "targetType": "verse",
       "targets": [
@@ -3639,7 +3639,7 @@
       "id": "jstor:article:10.1163/15685330-12341308",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Sanctified%20or%20Dedicated%3F%20%D7%94%D7%A7%D7%93%D7%99%D7%A9%D7%81%20in%20Zephaniah%201%3A7%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566807",
       "title": "Sanctified or Dedicated? הקדישׁ in Zephaniah 1:7 — de Jong, 2018",
       "targetType": "verse",
       "targets": [
@@ -3713,7 +3713,7 @@
       "id": "jstor:article:10.1163/156853310x511696",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20Place%20in%20the%20Dust%3A%20Text%2C%20Topography%20and%20a%20Toponymic%20Note%20o%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41062677",
       "title": "A Place in the Dust: Text, Topography and a Toponymic Note on Micah 1:10-12a — Suriano, 2010",
       "targetType": "verse",
       "targets": [
@@ -3770,7 +3770,7 @@
       "id": "jstor:article:10.1163/15685330-12301247",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Der%20unvergleichliche%20Gott%E2%80%94Psalm%20113%20im%20Spiegel%20von%201%20Sam%202%3A1%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894407",
       "title": "Der unvergleichliche Gott—Psalm 113 im Spiegel von 1 Sam 2:1-10 — Neef, 2016",
       "targetType": "verse",
       "targets": [
@@ -3815,7 +3815,7 @@
       "id": "jstor:article:10.1163/15685330-12341380",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20%E2%80%98Rock%E2%80%99%20of%20the%20King%E2%80%99s%20Sword%3F%20A%20Note%20on%20%D7%A6%D7%95%D7%A8%20in%20Psalm%2089%3A44%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26842734",
       "title": "The ‘Rock’ of the King’s Sword? A Note on צור in Psalm 89:44 — Irvine, 2019",
       "targetType": "verse",
       "targets": [
@@ -3833,7 +3833,7 @@
       "id": "jstor:article:10.1163/15685330-12341093",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Isaiah%E2%80%99s%20Prophetic%20Instruction%20and%20the%20Disciples%20in%20Isaiah%208%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496446",
       "title": "Isaiah’s Prophetic Instruction and the Disciples in Isaiah 8:16 — Balogh, 2013",
       "targetType": "verse",
       "targets": [
@@ -3851,7 +3851,7 @@
       "id": "jstor:article:10.1163/15685330-12301203",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Daughter%20of%20a%20Foreign%20God%3A%20Wordplay%20as%20an%20Interpretive%20K%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894558",
       "title": "The Daughter of a Foreign God: Wordplay as an Interpretive Key in Malachi 2:11 — Lear, 2015",
       "targetType": "verse",
       "targets": [
@@ -3869,7 +3869,7 @@
       "id": "jstor:article:10.1163/15685330-12341417",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Lord%20of%20the%20Storm%20and%20Oracular%20Decisions%3A%20Competing%20Construa%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636840",
       "title": "Lord of the Storm and Oracular Decisions: Competing Construals of Storm God Imagery in Hosea 6:1–6 — Lancaster et al., 2020",
       "targetType": "verse",
       "targets": [
@@ -3910,7 +3910,7 @@
       "id": "jstor:article:10.1163/15685330-bja10018",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Vow%20to%20Kill%20Elisha%3A%20Function%20and%20Meaning%20in%202%20Kings%206%3A31%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48653655",
       "title": "The Vow to Kill Elisha: Function and Meaning in 2 Kings 6:31–33 — Kislev, 2021",
       "targetType": "verse",
       "targets": [
@@ -3930,7 +3930,7 @@
       "id": "jstor:article:10.1163/156853312x629171",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Phinehas%E2%80%99%20Zeal%20and%20the%20Death%20of%20Cozbi%3A%20Unearthing%20a%20Human%20Sc%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41583732",
       "title": "Phinehas’ Zeal and the Death of Cozbi: Unearthing a Human Scapegoat Tradition in Numbers 25:1-18 — Monroe, 2012",
       "targetType": "verse",
       "targets": [
@@ -3965,7 +3965,7 @@
       "id": "jstor:article:10.1163/15685330-12341332",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22On%20the%20Possible%20Interpretations%20of%20Amos%207%3A14%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566798",
       "title": "On the Possible Interpretations of Amos 7:14 — Ridge, 2018",
       "targetType": "verse",
       "targets": [
@@ -3983,7 +3983,7 @@
       "id": "jstor:article:10.1163/15685330-12341307",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Strange%20Use%20of%20%D7%93%D7%92%D7%9C%20in%20Song%20of%20Songs%205%3A10%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566802",
       "title": "The Strange Use of דגל in Song of Songs 5:10 — Andruska, 2018",
       "targetType": "verse",
       "targets": [
@@ -4001,7 +4001,7 @@
       "id": "jstor:article:10.1163/15685330-12341349",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22An%20Unnoted%20Nuance%20in%20Genesis%202%3A21-22%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48572138",
       "title": "An Unnoted Nuance in Genesis 2:21-22 — Baden, 2019",
       "targetType": "verse",
       "targets": [
@@ -4020,7 +4020,7 @@
       "id": "jstor:article:10.1163/156853311x548569",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20Linguistic%20Inquiry%20Solves%20an%20Ancient%20Crime%3A%20Re-examination%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41308986",
       "title": "A Linguistic Inquiry Solves an Ancient Crime: Re-examination of 2 Samuel 4:6* — Mastéy, 2011",
       "targetType": "verse",
       "targets": [
@@ -4038,7 +4038,7 @@
       "id": "jstor:article:10.1163/15685330-12341176",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Judith%205%3A5-21%20ou%20le%20r%C3%A9cit%20d%E2%80%99Akhior%3A%20les%20m%C3%A9moires%20dans%20la%20con%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894183",
       "title": "Judith 5:5-21 ou le récit d’Akhior: les mémoires dans la construction de l’identité narrative du peuple d’Israël — Gil et al., 2014",
       "targetType": "verse",
       "targets": [
@@ -4072,7 +4072,7 @@
       "id": "jstor:article:10.1163/156853311x580662",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20%E2%80%9CSeven%20Eyes%E2%80%9D%20of%20Zech%203%3A9%20and%20the%20Meaning%20of%20the%20Dual%20For%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41583801",
       "title": "The “Seven Eyes” of Zech 3:9 and the Meaning of the Dual Form — Thomson, 2012",
       "targetType": "verse",
       "targets": [
@@ -4156,7 +4156,7 @@
       "id": "jstor:article:10.1163/15685330-12341416",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Spirit%20of%20God%20in%20Haggai%202%3A5%3A%20Prophecy%20as%20a%20Sign%20of%20God%E2%80%99s%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636833",
       "title": "The Spirit of God in Haggai 2:5: Prophecy as a Sign of God’s Spirit — Abernethy, 2020",
       "targetType": "verse",
       "targets": [
@@ -4174,7 +4174,7 @@
       "id": "jstor:article:10.1163/15685330-12341440",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Hosea%206%3A5%20and%20the%20Decalogue%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636856",
       "title": "Hosea 6:5 and the Decalogue — Leuchter, 2020",
       "targetType": "verse",
       "targets": [
@@ -4210,7 +4210,7 @@
       "id": "jstor:article:10.1163/15685330-12301143",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Conundrum%20of%20%E1%B8%A5tr%20in%20Jonah%201%3A13%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894103",
       "title": "The Conundrum of ḥtr in Jonah 1:13 — Meredith, 2014",
       "targetType": "verse",
       "targets": [
@@ -4252,7 +4252,7 @@
       "id": "jstor:article:10.1163/15685330-12341410",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22How%20a%20Sheep%20Turned%20into%20a%20Giraffe%3A%20The%20Case%20of%20Deuteronomy%201%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636846",
       "title": "How a Sheep Turned into a Giraffe: The Case of Deuteronomy 14:5 — Miziur-Moździoch, 2020",
       "targetType": "verse",
       "targets": [
@@ -4270,7 +4270,7 @@
       "id": "jstor:article:10.1163/15685330-12341088",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22%E2%80%9CMy%20Beloved%20Son%2C%20Come%20and%20Rest%20in%20Me%E2%80%9D%3A%20Job%E2%80%99s%20Return%20to%20His%20M%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496681",
       "title": "“My Beloved Son, Come and Rest in Me”: Job’s Return to His Mother’s Womb (Job 1:21a) in Light of Egyptian Mythology — Hays, 2012",
       "targetType": "verse",
       "targets": [
@@ -4288,7 +4288,7 @@
       "id": "jstor:article:10.1163/15685330-12301113",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Sons%20of%20Seleucus%20ii%20and%20the%20Historicity%20of%20Dan%2011%3A10%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894410",
       "title": "The Sons of Seleucus ii and the Historicity of Dan 11:10 — Scolnic, 2016",
       "targetType": "verse",
       "targets": [
@@ -4306,7 +4306,7 @@
       "id": "jstor:article:10.1163/15685330-12341278",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Casting%20Aspersions%2C%20Writing%20a%20Kingdom%3A%20Sexual%20Slander%20and%20Po%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566688",
       "title": "Casting Aspersions, Writing a Kingdom: Sexual Slander and Political Rhetoric in 2 Sam 3:6-11, 2 Sam 6:16; 20-23, and 1 Kgs 2:13-25 — Fleming, 2017",
       "targetType": "verse",
       "targets": [
@@ -4343,7 +4343,7 @@
       "id": "jstor:article:10.1163/15685330-12341260",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Noch%20einmal%3A%20Das%20Verh%C3%A4ltnis%20von%20Ez%2040%3A44-46%20und%2044%3A14-16%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/44648214",
       "title": "Noch einmal: Das Verhältnis von Ez 40:44-46 und 44:14-16 — Kilchör, 2017",
       "targetType": "verse",
       "targets": [
@@ -4363,7 +4363,7 @@
       "id": "jstor:article:10.1163/15685330-12341290",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Justice%20and%20the%20City%3A%20A%20Reading%20of%20Amos%203%3A9-15%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566761",
       "title": "Justice and the City: A Reading of Amos 3:9-15 — Ben-Dov, 2017",
       "targetType": "verse",
       "targets": [
@@ -4405,7 +4405,7 @@
       "id": "jstor:article:10.1163/15685330-12341086",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Antiochus%20IV%20as%20the%20Scorned%20Prince%20in%20Dan%2011%3A21%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496679",
       "title": "Antiochus IV as the Scorned Prince in Dan 11:21 — Scolnic, 2012",
       "targetType": "verse",
       "targets": [
@@ -4423,7 +4423,7 @@
       "id": "jstor:article:10.1163/156853311x585540",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Meaning%20of%20z%C5%8Dl%C4%93l%C3%A2%20%28Lam%201%3A11%29%20One%20More%20Time%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41309044",
       "title": "The Meaning of zōlēlâ (Lam 1:11) One More Time — Thomas, 2011",
       "targetType": "verse",
       "targets": [
@@ -4588,7 +4588,7 @@
       "id": "jstor:article:10.1163/15685330-12341350",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Aesop%20and%20Jotham%E2%80%99s%20Parable%20of%20the%20Trees%20%28Judges%209%3A8-15%29%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48572132",
       "title": "Aesop and Jotham’s Parable of the Trees (Judges 9:8-15) — Margulies, 2019",
       "targetType": "verse",
       "targets": [
@@ -4631,7 +4631,7 @@
       "id": "jstor:article:10.1163/156853311x585559",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20Note%20on%20Psalm%2017%3A7%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41309038",
       "title": "A Note on Psalm 17:7 — Mosca, 2011",
       "targetType": "verse",
       "targets": [
@@ -4649,7 +4649,7 @@
       "id": "jstor:article:10.1163/15685330-12341428",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Standing%20at%20the%20Edge%20of%20Reconstructable%20Transmission-History%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26893735",
       "title": "Standing at the Edge of Reconstructable Transmission-History: Signs of a Secondary Sabbath-Oriented Stratum in Genesis 1:1-2:3 — Carr, 2020",
       "targetType": "verse",
       "targets": [
@@ -4758,7 +4758,7 @@
       "id": "jstor:article:10.1163/15685330-12341120",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Un%20r%C3%AAve%20qui%20tombe%20%C3%A0%20pic%20La%20rh%C3%A9torique%20de%20Jacob%20en%20Gn%2031%3A4-13%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496505",
       "title": "Un rêve qui tombe à pic La rhétorique de Jacob en Gn 31:4-13 — Salman et al., 2013",
       "targetType": "verse",
       "targets": [
@@ -4822,7 +4822,7 @@
       "id": "jstor:article:10.1163/15685330-12341169",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Who%20Changes%20His%20Mind%20about%20Dust%20and%20Ashes%3F%20The%20Rhetorical%20St%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894186",
       "title": "Who Changes His Mind about Dust and Ashes? The Rhetorical Structure of Job 42:2-6 — Pieter, 2014",
       "targetType": "verse",
       "targets": [
@@ -4891,7 +4891,7 @@
       "id": "jstor:article:10.1163/15685330-12301246",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Prose%20Writing%20in%20an%20Age%20of%20Orality%3A%20A%20Study%20of%202%20Sam%205%3A6-9%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894408",
       "title": "Prose Writing in an Age of Orality: A Study of 2 Sam 5:6-9 — Pioske, 2016",
       "targetType": "verse",
       "targets": [
@@ -4976,7 +4976,7 @@
       "id": "jstor:article:10.1163/156853311x548587",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22%C2%ABQue%20sont%20mes%20amis%20devenus%3F%C2%BB%20Note%20sur%20Job%2013%3A4%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41308987",
       "title": "«Que sont mes amis devenus?» Note sur Job 13:4 — Mies, 2011",
       "targetType": "verse",
       "targets": [
@@ -5012,7 +5012,7 @@
       "id": "jstor:article:10.1163/15685330-12341301",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20Mother%E2%80%99s%20Refrain%3A%20Judges%205%3A28-30%20in%20Cultural%20Context%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566759",
       "title": "A Mother’s Refrain: Judges 5:28-30 in Cultural Context — Baker, 2017",
       "targetType": "verse",
       "targets": [
@@ -5032,7 +5032,7 @@
       "id": "jstor:article:10.1163/15685330-12341345",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22What%20the%20Holy%20Seed%20Defiled%3A%20The%20Textual%20Problem%20of%20Genesis%204%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48572126",
       "title": "What the Holy Seed Defiled: The Textual Problem of Genesis 49:4 — Albanese, 2019",
       "targetType": "verse",
       "targets": [
@@ -5050,7 +5050,7 @@
       "id": "jstor:article:10.1163/15685330-12341299",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22H%C3%AAl%C4%93l%20ben-%C5%A0a%E1%B8%A5ar%20and%20the%20Chthonic%20Sun%3A%20A%20New%20Suggestion%20for%20t%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566810",
       "title": "Hêlēl ben-Šaḥar and the Chthonic Sun: A New Suggestion for the Mythological Background of Isa 14:12-15 — Quick, 2018",
       "targetType": "verse",
       "targets": [
@@ -5134,7 +5134,7 @@
       "id": "jstor:article:10.1163/15685330-12341448",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Punning%20on%20Running%3A%20Verbal%20Horseplay%20at%20Psalm%20147%3A10%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48636873",
       "title": "Punning on Running: Verbal Horseplay at Psalm 147:10 — Shnider et al., 2020",
       "targetType": "verse",
       "targets": [
@@ -5227,7 +5227,7 @@
       "id": "jstor:article:10.1163/15685330-12301220",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Sacrificial%20Life%20and%20Death%20of%20the%20Servant%20%28Isaiah%2052%3A13-%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894343",
       "title": "The Sacrificial Life and Death of the Servant (Isaiah 52:13-53:12) — Blenkinsopp, 2016",
       "targetType": "verse",
       "targets": [
@@ -5445,7 +5445,7 @@
       "id": "jstor:article:10.1163/15685330-12341274",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20City%20Who%20Surrenders%3A%20Song%208%3A8-10%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26566690",
       "title": "A City Who Surrenders: Song 8:8-10 — James, 2017",
       "targetType": "verse",
       "targets": [
@@ -5504,7 +5504,7 @@
       "id": "jstor:article:10.1163/15685330-12341362",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Nineveh%E2%80%99s%20Pretensions%20to%20Divine%20Power%20in%20Nahum%203%3A16%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/26741995",
       "title": "Nineveh’s Pretensions to Divine Power in Nahum 3:16 — Quine, 2019",
       "targetType": "verse",
       "targets": [
@@ -5548,7 +5548,7 @@
       "id": "jstor:article:10.1163/15685330-12341261",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Understanding%20Genesis%2034%3A2%3A%20%E2%80%98Inn%C3%A2%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/44647546",
       "title": "Understanding Genesis 34:2: ‘Innâ — Joseph, 2016",
       "targetType": "verse",
       "targets": [
@@ -5648,7 +5648,7 @@
       "id": "jstor:article:10.1163/15685330-12341095",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22What%20Is%20Cush%20Doing%20in%20Amos%209%3A7%3F%20The%20Poetics%20of%20Exodus%20in%20the%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496453",
       "title": "What Is Cush Doing in Amos 9:7? The Poetics of Exodus in the Plural — Strawn, 2013",
       "targetType": "verse",
       "targets": [
@@ -5720,7 +5720,7 @@
       "id": "jstor:article:10.1163/15685330-12341185",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Seventy%20Bulls%20Sacrificed%20at%20Sukkot%20%28Num%2029%3A12-34%29%20in%20Lig%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894218",
       "title": "The Seventy Bulls Sacrificed at Sukkot (Num 29:12-34) in Light of a Ritual Text from Emar (Emar 6, 373) — Ayali-Darshan, 2015",
       "targetType": "verse",
       "targets": [
@@ -5778,7 +5778,7 @@
       "id": "jstor:article:10.1163/15685330-12341157",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Adriel%20de%20Mehola%20%281%20Sam%2018%3A19%29%20%3A%20%C2%AB%20Vous%20chantiez%20%3F%20j%E2%80%99en%20suis%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894139",
       "title": "Adriel de Mehola (1 Sam 18:19) : « Vous chantiez ? j’en suis fort aise. Eh bien : dansez maintenant » — Luciani, 2014",
       "targetType": "verse",
       "targets": [
@@ -5796,7 +5796,7 @@
       "id": "jstor:article:10.1163/15685330-12341241",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Bildad%E2%80%99s%20Contribution%20to%20the%20Debate%E2%80%94A%20New%20Interpretation%20of%20%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894621",
       "title": "Bildad’s Contribution to the Debate—A New Interpretation of Job 8:17–19 — Pinker, 2016",
       "targetType": "verse",
       "targets": [
@@ -5816,7 +5816,7 @@
       "id": "jstor:article:10.1163/15685330-12341167",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22A%20New%20Interpretation%20and%20Translation%20of%20Job%205%3A5%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894180",
       "title": "A New Interpretation and Translation of Job 5:5 — Burnight, 2014",
       "targetType": "verse",
       "targets": [
@@ -5870,7 +5870,7 @@
       "id": "jstor:article:10.1163/15685330-00001402",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Transmission%20History%20of%202%20Kings%2021%3A13b%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48594330",
       "title": "The Transmission History of 2 Kings 21:13b — Brown-deVost, 2019",
       "targetType": "verse",
       "targets": [
@@ -5925,7 +5925,7 @@
       "id": "jstor:article:10.1163/15685330-12341346",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Path%20Metaphor%20and%20the%20Construction%20of%20a%20Schicksalwirkend%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/48572133",
       "title": "The Path Metaphor and the Construction of a Schicksalwirkende Tatsphäre in Proverbs 10:1-22:16 — Millar, 2019",
       "targetType": "verse",
       "targets": [
@@ -5964,7 +5964,7 @@
       "id": "jstor:article:10.1163/156853311x560745",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22%E2%80%9CDeciphering%20the%20Shema%3A%20Staircase%20Parallelism%20and%20the%20Syntax%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41309098",
       "title": "“Deciphering the Shema: Staircase Parallelism and the Syntax of Deuteronomy 6:4” — Kraut, 2011",
       "targetType": "verse",
       "targets": [
@@ -6036,7 +6036,7 @@
       "id": "jstor:article:10.1163/15685330-99000013",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Janus%20Parallelism%20in%20Hab.%20III%204%2A%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/23496496",
       "title": "Janus Parallelism in Hab. III 4* — Tsumura, 2013",
       "targetType": "verse",
       "targets": [
@@ -6072,7 +6072,7 @@
       "id": "jstor:article:10.1163/156853311x560727",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Why%20Does%20the%20Plague%20of%20Darkness%20Last%20for%20Three%20Days%3F%20Source%20%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/41309103",
       "title": "Why Does the Plague of Darkness Last for Three Days? Source Ascription and Literary Motif in Exodus 10:21-23, 27 — Stackert, 2011",
       "targetType": "verse",
       "targets": [
@@ -6110,7 +6110,7 @@
       "id": "jstor:article:10.1163/15685330-12341135",
       "provider": "Vetus Testamentum",
       "kind": "article",
-      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22The%20Death%20of%20David%E2%80%99s%20Son%20by%20Bathsheba%20%28II%20Sam%2012%3A13-25%29%3A%20A%20N%22%20Vetus%20Testamentum",
+      "url": "https://www.jstor.org/stable/43894068",
       "title": "The Death of David’s Son by Bathsheba (II Sam 12:13-25): A Narrative in Context — Jacobs, 2013",
       "targetType": "verse",
       "targets": [
