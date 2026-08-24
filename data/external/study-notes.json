@@ -1,0 +1,1091 @@
+{
+  "sourceUrl": "https://docs.google.com/document/d/1qKjSM7iHuDs2uSXOrGMZuY_frvADyJr4ubE5qGzRWXs",
+  "sourceReferenceSystem": "jewish",
+  "targetReferenceSystem": "jewish",
+  "crawledAt": "2026-08-24T00:00:00Z",
+  "resources": [
+    {
+      "id": "study-note:isa:1:4:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "נָזֹרוּ אָחוֹר — Isaiah 1:4",
+      "text": "The Septuagint lacks the final clause in the Masoretic Text (MT). This suggests either a shorter Hebrew Vorlage (the underlying Hebrew text used by the Greek translator) or an omission by the Septuagint translators.",
+      "hebrew": "נָזֹרוּ אָחוֹר",
+      "targets": [
+        "verse:isa:1:4"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:4"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:4 — נָזֹרוּ אָחוֹר"
+    },
+    {
+      "id": "study-note:isa:1:7:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "זָרִים — Isaiah 1:7",
+      "text": "The MT's phrase is כְּמַהְפֵּכַת זָרִים (“like the overthrow of strangers”). There is a widely accepted conjectural emendation, reconstructing the word as סְדֹם (“Sodom”) to read כְּמַהְפֵּכַת סְדֹם (“like the overthrow of Sodom”). The noun מַהְפֵּכָה (“overthrow”) is a technical term used exclusively for the divine destruction of Sodom and Gomorrah (cf. Genesis 19:29; Deuteronomy 29:22; Jeremiah 50:40; Amos 4:11). This reading is strongly supported by verse 9, which explicitly mentions Sodom and Gomorrah. The textual corruption likely arose from a graphic confusion where a scribe misread the letters of סדם as זרים.",
+      "hebrew": "זָרִים",
+      "targets": [
+        "verse:isa:1:7"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:7"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:7 — זָרִים"
+    },
+    {
+      "id": "study-note:isa:1:8:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "כִּמְלוּנָה — Isaiah 1:8",
+      "text": "The Great Isaiah Scroll from Qumran, the Septuagint, the Peshitta, and the Vulgate support reading וְכִמְלוּנָה, with the prefixed conjunction vav.",
+      "hebrew": "כִּמְלוּנָה",
+      "targets": [
+        "verse:isa:1:8"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:8"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:8 — כִּמְלוּנָה"
+    },
+    {
+      "id": "study-note:isa:1:8:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "נְצוּרָֽה — Isaiah 1:8",
+      "text": "The Septuagint, with the agreement of the Peshitta and the Targum, translates as πολιορκουμένη (“besieged”); compare the Vulgate, which reads quae vastatur (“which is laid waste”); It is proposed to read as נְצוֹרָה derived from the root צור (“to besiege/bind”).",
+      "hebrew": "נְצוּרָֽה",
+      "targets": [
+        "verse:isa:1:8"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:8"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:8 — נְצוּרָֽה"
+    },
+    {
+      "id": "study-note:isa:1:9:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "כִּמְעָט — Isaiah 1:9",
+      "text": "The adverb כִּמְעָט is missing in the Greek, Syriac, and Latin witnesses. The original Hebrew text may have placed כִּמְעָט before שָׂרִיד, reading כִּמְעָט שָׂרִיד to denote “almost a remnant” or “a very small remnant.”",
+      "hebrew": "כִּמְעָט",
+      "targets": [
+        "verse:isa:1:9"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:9"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:9 — כִּמְעָט"
+    },
+    {
+      "id": "study-note:isa:1:11:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "וְעַתּוּדִ֖ים — Isaiah 1:11",
+      "text": "The Septuagint omits וְעַתּוּדִ֖ים",
+      "hebrew": "וְעַתּוּדִ֖ים",
+      "targets": [
+        "verse:isa:1:11"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:11"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:11 — וְעַתּוּדִ֖ים"
+    },
+    {
+      "id": "study-note:isa:1:12:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "לֵרָא֣וֹת — Isaiah 1:12",
+      "text": "Read with some Hebrew manuscripts and the Peshitta as לִרְאוֹת The MT's passive לֵרָאוֹת פָּנָי (“to appear before my face”) represents a later theologically motivated emendation of לִרְאוֹת פָּנָי (“to see my face”). MT frequently altered the active \"to see God's face\" to the passive \"to appear before God.”",
+      "hebrew": "לֵרָא֣וֹת",
+      "targets": [
+        "verse:isa:1:12"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:12"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:12 — לֵרָא֣וֹת"
+    },
+    {
+      "id": "study-note:isa:1:12:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "רְמֹ֥ס — Isaiah 1:12",
+      "text": "There is a proposed emendation to read the infinitive construct רְמֹ֥ס instead as the participle רוֹמְסֵי “tramplers of.”",
+      "hebrew": "רְמֹ֥ס",
+      "targets": [
+        "verse:isa:1:12"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:12"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:12 — רְמֹ֥ס"
+    },
+    {
+      "id": "study-note:isa:1:18:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "כַּשָּׁנִים — Isaiah 1:18",
+      "text": "Read with the Great Isaiah Scroll and some Hebrew manuscripts as the singular כַּשָּׁנִי (kaš-šānî / “like crimson”); compare the Septuagint, the Peshitta, and the Vulgate.",
+      "hebrew": "כַּשָּׁנִים",
+      "targets": [
+        "verse:isa:1:18"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:18"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:18 — כַּשָּׁנִים"
+    },
+    {
+      "id": "study-note:isa:1:20:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "חֶרֶב — Isaiah 1:20",
+      "text": "The Great Isaiah Scroll, the Peshitta, and the Targum support reading בַּחֶרֶב (ba-ḥereb / “by the sword”). It is also proposed to read מֵחֶרֶב (mē-ḥereb / “from/by the sword”), where the initial mem (מ) may have been lost by haplography due to its graphic proximity to the final mem (ם) of the preceding word וּמְריתֶם.",
+      "hebrew": "חֶרֶב",
+      "targets": [
+        "verse:isa:1:20"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:20"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:20 — חֶרֶב"
+    },
+    {
+      "id": "study-note:isa:1:20:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "תְּאֻכְּל֔וּ — Isaiah 1:20",
+      "text": "It is proposed to read the passive Pual verb תְּאֻכְּל֔וּ as תֹּאכֵלוּ tōḵēlû / “you shall consume,” an active Qal.",
+      "hebrew": "תְּאֻכְּל֔וּ",
+      "targets": [
+        "verse:isa:1:20"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:20"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:20 — תְּאֻכְּל֔וּ"
+    },
+    {
+      "id": "study-note:isa:1:21:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "קִרְיָה נֶאֱמָנָה — Isaiah 1:21",
+      "text": "The Septuagint adds Σιων (“Zion”); compare the parallel descriptions of Zion in verses 26 and 27.",
+      "hebrew": "קִרְיָה נֶאֱמָנָה",
+      "targets": [
+        "verse:isa:1:21"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:21"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:21 — קִרְיָה נֶאֱמָנָה"
+    },
+    {
+      "id": "study-note:isa:1:21:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "וְעַתָּה מְרַצְּחִים׃ — Isaiah 1:21",
+      "text": "It is suggested these words are perhaps a later addition.",
+      "hebrew": "וְעַתָּה מְרַצְּחִים׃",
+      "targets": [
+        "verse:isa:1:21"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:21"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:21 — וְעַתָּה מְרַצְּחִים׃"
+    },
+    {
+      "id": "study-note:isa:1:22:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "מָהוּל — Isaiah 1:22",
+      "text": "It is proposed to read the word as מוֹהַל (môhal / “diluter” or “mixture”). The passive participle מָהוּל (“mixed, diluted”) is a hapax legomenon.",
+      "hebrew": "מָהוּל",
+      "targets": [
+        "verse:isa:1:22"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:22"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:22 — מָהוּל"
+    },
+    {
+      "id": "study-note:isa:1:22:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "בַּמָּיִם׃ — Isaiah 1:22",
+      "text": "It is suggested this word is perhaps a later addition.",
+      "hebrew": "בַּמָּיִם׃",
+      "targets": [
+        "verse:isa:1:22"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:22"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:22 — בַּמָּיִם׃"
+    },
+    {
+      "id": "study-note:isa:1:27:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "וְשָׁבֶ֖יהָ — Isaiah 1:27",
+      "text": "The Septuagint, with the agreement of the Peshitta, translates as ἡ αἰχμαλωσία αὐτῆς (“her captives”). Instead of וְשָׁבֶ֖יהָ (“and her returning ones”) It is proposed to read וְיֹשְׁבֶיהָ (“and her inhabitants”).",
+      "hebrew": "וְשָׁבֶ֖יהָ",
+      "targets": [
+        "verse:isa:1:27"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:27"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:27 — וְשָׁבֶ֖יהָ"
+    },
+    {
+      "id": "study-note:isa:1:29:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "יֵבֹשׁוּ — Isaiah 1:29",
+      "text": "Read with several manuscripts, and the Targum as the second-person plural תֵּבֹשׁוּ (tēḇōšû / “you [plural] shall be ashamed”).",
+      "hebrew": "יֵבֹשׁוּ",
+      "targets": [
+        "verse:isa:1:29"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:29"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:29 — יֵבֹשׁוּ"
+    },
+    {
+      "id": "study-note:isa:1:31:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "הֶחָסֹן — Isaiah 1:31",
+      "text": "The Great Isaiah Scroll reads החסנכם ( “your strong/mighty one”); compare the Septuagint and the Vulgate.",
+      "hebrew": "הֶחָסֹן",
+      "targets": [
+        "verse:isa:1:31"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:31"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:31 — הֶחָסֹן"
+    },
+    {
+      "id": "study-note:isa:1:31:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "וּפֹעֲלוֹ — Isaiah 1:31",
+      "text": "The Great Isaiah Scroll reads ופעלכם (“and your work”); read as וּפָעֳלוֹ (“and his work”), comparing the Septuagint, the Peshitta, and the Targum.",
+      "hebrew": "וּפֹעֲלוֹ",
+      "targets": [
+        "verse:isa:1:31"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 1:31"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 1:31 — וּפֹעֲלוֹ"
+    },
+    {
+      "id": "study-note:isa:2:2:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "נָכוֹן — Isaiah 2:2",
+      "text": "The Syriac Peshitta transposes נָכוֹן to appear after the verb יִהְיֶה, which aligns the word order with the parallel passage found in Micah 4:1.",
+      "hebrew": "נָכוֹן",
+      "targets": [
+        "verse:isa:2:2"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:2"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:2 — נָכוֹן"
+    },
+    {
+      "id": "study-note:isa:2:2:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "אֵלָיו כָּל־הַגּוֹיִם — Isaiah 2:2",
+      "text": "For the Masoretic Text's phrase \"to it all the nations,\" the parallel text in Micah 4:1 reads עָלָיו עַמִּים (\"to it peoples\") and places the phrase \"many nations\" (גּוֹיִם רַבִּים) in the subsequent verse (Micah 4:3).",
+      "hebrew": "אֵלָיו כָּל־הַגּוֹיִם",
+      "targets": [
+        "verse:isa:2:2"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:2"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:2 — אֵלָיו כָּל־הַגּוֹיִם"
+    },
+    {
+      "id": "study-note:isa:2:6:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "מִקֶּדֶם — Isaiah 2:6",
+      "text": "For the MT's מִקֶּדֶם (\"from the east\"), there is a proposed emendation to read מִקְסָם (\"divination\"). Other proposals include reading קוֹסְמִים (\"diviners\"), מְעַקְּדִים (\"magicians\"), or combining the concepts as קוֹסְמִים מִקֶּדֶם (\"diviners from the east\"), which finds some support in the Targum.",
+      "hebrew": "מִקֶּדֶם",
+      "targets": [
+        "verse:isa:2:6"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:6"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:6 — מִקֶּדֶם"
+    },
+    {
+      "id": "study-note:isa:2:8:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "יִשְׁתַּחֲוּוּ — Isaiah 2:8",
+      "text": "It is proposed to read the verb as the singular וְיִשְׁתַּחֲוֶה (\"and he bows down\").",
+      "hebrew": "יִשְׁתַּחֲוּוּ",
+      "targets": [
+        "verse:isa:2:8"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:8"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:8 — יִשְׁתַּחֲוּוּ"
+    },
+    {
+      "id": "study-note:isa:2:9:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "וְאַל־תִּשָּׂא — Isaiah 2:9",
+      "text": "There is a proposed conjectural emendation to read the MT's וְאַל־תִּשָּׂא (\"and do not forgive/lift up\") as וְאֵין שְׂאֵת (\"and there is no lifting up\" or \"no forgiveness\").",
+      "hebrew": "וְאַל־תִּשָּׂא",
+      "targets": [
+        "verse:isa:2:9"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:9"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:9 — וְאַל־תִּשָּׂא"
+    },
+    {
+      "id": "study-note:isa:2:10:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "גְּאֹנוֹ — Isaiah 2:10",
+      "text": "Following this word, the Septuagint adds the phrase ὅταν ἀναστῇ θραῦσαι τὴν γῆν \"when he arises to terrify the earth.\" It is suggested to insert the corresponding Hebrew phrase בְּקוּמוֹ לַעֲרֹץ הָאָרֶץ, harmonizing this verse with the identical refrains found later in verses 19 and 21.",
+      "hebrew": "גְּאֹנוֹ",
+      "targets": [
+        "verse:isa:2:10"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:10"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:10 — גְּאֹנוֹ"
+    },
+    {
+      "id": "study-note:isa:2:11:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "שָׁפֵל — Isaiah 2:11",
+      "text": "The Great Isaiah Scroll from Qumran reads the verb as the feminine plural תשפלנה (\"they are brought low\"). This plural reading is conceptually supported by the Targum and the Vulgate.",
+      "hebrew": "שָׁפֵל",
+      "targets": [
+        "verse:isa:2:11"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:11"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:11 — שָׁפֵל"
+    },
+    {
+      "id": "study-note:isa:2:12:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "וְעַל כָּל־נִשָּׂא — Isaiah 2:12",
+      "text": "The Septuagint adds the phrase καὶ μετέωρον \"and lofty\" to the end of this clause. It is proposed to insert וְגָבֹהַּ.",
+      "hebrew": "וְעַל כָּל־נִשָּׂא",
+      "targets": [
+        "verse:isa:2:12"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:12"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:12 — וְעַל כָּל־נִשָּׂא"
+    },
+    {
+      "id": "study-note:isa:2:12:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "וְשָׁפֵל — Isaiah 2:12",
+      "text": "It is proposed to delete this final word (\"and is low\") from the verse entirely.",
+      "hebrew": "וְשָׁפֵל",
+      "targets": [
+        "verse:isa:2:12"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:12"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:12 — וְשָׁפֵל"
+    },
+    {
+      "id": "study-note:isa:2:13:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "הָרָמִים וְהַנִּשָּׂאִים — Isaiah 2:13",
+      "text": "It is proposed to delete this phrase (\"the high and the lifted up\") for the sake of poetic meter, likely as an intrusion influenced by its appearance in verse 14.",
+      "hebrew": "הָרָמִים וְהַנִּשָּׂאִים",
+      "targets": [
+        "verse:isa:2:13"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:13"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:13 — הָרָמִים וְהַנִּשָּׂאִים"
+    },
+    {
+      "id": "study-note:isa:2:15:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "גָּבֹהַ — Isaiah 2:15",
+      "text": "The Leningrad Codex points the word without a mappiq (a dot in the final heh to mark it as a consonant). However, many Hebrew manuscripts and editions read it with the mappiq as גָּבֹהַּ. This matches the pointing found elsewhere in Isaiah 30:25 and 40:9.",
+      "hebrew": "גָּבֹהַ",
+      "targets": [
+        "verse:isa:2:15"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:15"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:15 — גָּבֹהַ"
+    },
+    {
+      "id": "study-note:isa:2:16:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "שְׂכִיּוֹת — Isaiah 2:16",
+      "text": "For the MT's obscure noun שְׂכִיּוֹת (often translated \"beautiful craft\" or \"imagery\"), it is proposed to read שִׁכְתֵי (\"ships\"), based on a comparison to the Egyptian loanword s̄ktj’ (\"ship\") and the Septuagint translation. Alternatively, others propose reading the more common Hebrew word for ships, סְפִינוֹת.",
+      "hebrew": "שְׂכִיּוֹת",
+      "targets": [
+        "verse:isa:2:16"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:16"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:16 — שְׂכִיּוֹת"
+    },
+    {
+      "id": "study-note:isa:2:18:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "יַחֲלֹף — Isaiah 2:18",
+      "text": "Read the MT's singular verb יַחֲלֹף (\"it will pass away\") as the plural יַחֲלֹפוּ (\"they will pass away\"), in agreement with the Great Isaiah Scroll and the ancient versions. The lost plural vav suffix at the end of the word was likely mistakenly transferred by a scribe to the beginning of the following word in verse 19 (וּבָאוּ).",
+      "hebrew": "יַחֲלֹף",
+      "targets": [
+        "verse:isa:2:18"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:18"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:18 — יַחֲלֹף"
+    },
+    {
+      "id": "study-note:isa:2:19:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "וּבָאוּ — Isaiah 2:19",
+      "text": "For the MT's sequential verb וּבָאוּ (\"and they will enter\"), it is proposed to read the imperative בֹּאוּ (\"Enter!\"), based on the idea that the vav in verse 18 was accidentally transferred here and to match the imperative phrasing of verse 10.",
+      "hebrew": "וּבָאוּ",
+      "targets": [
+        "verse:isa:2:19"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:19"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:19 — וּבָאוּ"
+    },
+    {
+      "id": "study-note:isa:2:19:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "וּבִמְחִלּוֹת — Isaiah 2:19",
+      "text": "For וּבִמְחִלּוֹת (\"and into holes\"), it is proposed to insert a verb to read וְהִטָּמְנוּ בִּמְחִלּוֹת (\"and hide in holes\"), mirroring the imperative phrasing of verse 10.",
+      "hebrew": "וּבִמְחִלּוֹת",
+      "targets": [
+        "verse:isa:2:19"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:19"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:19 — וּבִמְחִלּוֹת"
+    },
+    {
+      "id": "study-note:isa:2:20:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "לַחְפֹּר פֵּרוֹת — Isaiah 2:20",
+      "text": "The MT divides this into two separate words. Following a few Hebrew manuscripts, it should be read as a single word: לַחֲפַרְפָּרוֹת (\"to the moles\"). The Great Isaiah Scroll supports reading this as a single entity with the masculine plural spelling לחפרפרים. This understanding is also supported by the Vulgate (which translates it as talpas, meaning \"moles\") and Theodotion (which simply transliterates it as pharpharoth). The Septuagint translates the concept broadly as τοῖς ματαίοις \"to the vain things.\"",
+      "hebrew": "לַחְפֹּר פֵּרוֹת",
+      "targets": [
+        "verse:isa:2:20"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 2:20"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 2:20 — לַחְפֹּר פֵּרוֹת"
+    },
+    {
+      "id": "study-note:isa:3:1:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "כֹּל מִשְׁעַן־לֶחֶם וְכֹל מִשְׁעַן־מָיִם — Isaiah 3:1",
+      "text": "It is proposed that this phrase (\"the whole supply of bread and the whole supply of water\") is a later explanatory addition (a gloss) to the text.",
+      "hebrew": "כֹּל מִשְׁעַן־לֶחֶם וְכֹל מִשְׁעַן־מָיִם",
+      "targets": [
+        "verse:isa:3:1"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:1"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:1 — כֹּל מִשְׁעַן־לֶחֶם וְכֹל מִשְׁעַן־מָיִם"
+    },
+    {
+      "id": "study-note:isa:3:8:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "נָפָל — Isaiah 3:8",
+      "text": "The Great Isaiah Scroll from Qumran reads the feminine singular verb נפלה (\"she has fallen\") instead of the MT's masculine singular נָפָל.",
+      "hebrew": "נָפָל",
+      "targets": [
+        "verse:isa:3:8"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:8"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:8 — נָפָל"
+    },
+    {
+      "id": "study-note:isa:3:8:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "עֵנֵי — Isaiah 3:8",
+      "text": "It is suggested to perhaps delete this word (\"the eyes of\").",
+      "hebrew": "עֵנֵי",
+      "targets": [
+        "verse:isa:3:8"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:8"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:8 — עֵנֵי"
+    },
+    {
+      "id": "study-note:isa:3:9:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "וְחַטָּאתָם — Isaiah 3:9",
+      "text": "The Syriac Peshitta and the Targum support reading the plural וְחַטֹּאתָם (\"and their sins\") instead of the MT's singular וְחַטָּאתָם (\"and their sin\").",
+      "hebrew": "וְחַטָּאתָם",
+      "targets": [
+        "verse:isa:3:9"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:9"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:9 — וְחַטָּאתָם"
+    },
+    {
+      "id": "study-note:isa:3:9:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "כִּסְדֹם — Isaiah 3:9",
+      "text": "It is suggested that this word (\"like Sodom\") is perhaps a later addition.",
+      "hebrew": "כִּסְדֹם",
+      "targets": [
+        "verse:isa:3:9"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:9"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:9 — כִּסְדֹם"
+    },
+    {
+      "id": "study-note:isa:3:10:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "אִמְרוּ — Isaiah 3:10",
+      "text": "Instead of the MT's plural imperative אִמְרוּ (\"Say!\"), it is proposed to read אַשְׁרֵי (\"Happy is\" / \"Blessed is\"). Additionally, the Septuagint adds δήσωμεν (\"let us bind\"), which likely reflects a Hebrew Vorlage that misread the word as being derived from the root אסר (\"to bind\"), such as אָסְרוּ.",
+      "hebrew": "אִמְרוּ",
+      "targets": [
+        "verse:isa:3:10"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:10"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:10 — אִמְרוּ"
+    },
+    {
+      "id": "study-note:isa:3:10:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "כִּי־פְרִי — Isaiah 3:10",
+      "text": "It is proposed to read this as a single word with a preposition, כִּפְרִי (\"according to the fruit of\"), instead of the MT's כִּי־פְרִי (\"that the fruit of\").",
+      "hebrew": "כִּי־פְרִי",
+      "targets": [
+        "verse:isa:3:10"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:10"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:10 — כִּי־פְרִי"
+    },
+    {
+      "id": "study-note:isa:3:11:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "רָע — Isaiah 3:11",
+      "text": "It is proposed to read כִּי־רַע (\"for it shall be ill\") instead of simply רָע (\"ill/evil\").",
+      "hebrew": "רָע",
+      "targets": [
+        "verse:isa:3:11"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:11"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:11 — רָע"
+    },
+    {
+      "id": "study-note:isa:3:11:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "כִּי־גְמוּל — Isaiah 3:11",
+      "text": "The Septuagint translates this as κατὰ τὰ ἔργα (\"according to the works\"). Based on this, it is proposed to read כִּגְמוּל (\"according to the dealing of\").",
+      "hebrew": "כִּי־גְמוּל",
+      "targets": [
+        "verse:isa:3:11"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:11"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:11 — כִּי־גְמוּל"
+    },
+    {
+      "id": "study-note:isa:3:11:3",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "יֵעָשֶׂה — Isaiah 3:11",
+      "text": "The Great Isaiah Scroll reads ישוב (\"shall return\") instead of the MT's יֵעָשֶׂה (\"shall be done\").",
+      "hebrew": "יֵעָשֶׂה",
+      "targets": [
+        "verse:isa:3:11"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:11"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:11 — יֵעָשֶׂה"
+    },
+    {
+      "id": "study-note:isa:3:12:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "נֹגְשָׂיו — Isaiah 3:12",
+      "text": "It is proposed to read the absolute plural נֹגְשִׂים (\"taskmasters\") instead of the MT's plural with a pronominal suffix נֹגְשָׂיו (\"his taskmasters\").",
+      "hebrew": "נֹגְשָׂיו",
+      "targets": [
+        "verse:isa:3:12"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:12"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:12 — נֹגְשָׂיו"
+    },
+    {
+      "id": "study-note:isa:3:12:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "מְעוֹלֵל — Isaiah 3:12",
+      "text": "The Vulgate translates this as spoliaverunt (\"they have spoiled/plundered\"); compare the Septuagint and the Targum. Based on this, it is proposed to read the plural verb עֹלְלוּ (\"they have dealt severely / gleaned / stripped\") instead of the MT's singular participle מְעוֹלֵל (\"a child\" or \"one dealing severely\").",
+      "hebrew": "מְעוֹלֵל",
+      "targets": [
+        "verse:isa:3:12"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:12"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:12 — מְעוֹלֵל"
+    },
+    {
+      "id": "study-note:isa:3:12:3",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "וְנָשִׁים — Isaiah 3:12",
+      "text": "The Septuagint, Aquila, and the Targum translate this concept as καὶ οἱ ἀπαιτοῦντες (\"and the exactors\"); compare Theodotion. Based on this, it is proposed to read וְנֹשִׁים (\"and creditors/exactors\") instead of the MT's וְנָשִׁים (\"and women\").",
+      "hebrew": "וְנָשִׁים",
+      "targets": [
+        "verse:isa:3:12"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:12"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:12 — וְנָשִׁים"
+    },
+    {
+      "id": "study-note:isa:3:13:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "עַמִּים — Isaiah 3:13",
+      "text": "The Septuagint and the Syriac Peshitta translate as τὸν λαὸν αὐτοῦ (\"his people\"). Based on this, it is proposed to read עַמּוֹ (\"his people\") instead of the MT's עַמִּים (\"peoples\").",
+      "hebrew": "עַמִּים",
+      "targets": [
+        "verse:isa:3:13"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:13"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:13 — עַמִּים"
+    },
+    {
+      "id": "study-note:isa:3:15:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "נְאֻם־אֲדֹנָי יְהוִה צְבָאוֹת׃ — Isaiah 3:15",
+      "text": "The Septuagint omits this phrase (\"declares the Lord GOD of hosts\"). It is proposed that it should be deleted.",
+      "hebrew": "נְאֻם־אֲדֹנָי יְהוִה צְבָאוֹת׃",
+      "targets": [
+        "verse:isa:3:15"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:15"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:15 — נְאֻם־אֲדֹנָי יְהוִה צְבָאוֹת׃"
+    },
+    {
+      "id": "study-note:isa:3:17:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "פָּתְהֵן — Isaiah 3:17",
+      "text": "The exact meaning of the MT's פָּתְהֵן (often translated \"their secret parts\") is obscure. It is suggested it may represent פַּתְהֶן, equivalent to פְּאַתְהֶן (\"their forehead/temples\"), comparing the Vulgate which reads crinem (\"hair\"). Alternatively, it is proposed to read the plural פֹּתֵיהֶן.",
+      "hebrew": "פָּתְהֵן",
+      "targets": [
+        "verse:isa:3:17"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:17"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:17 — פָּתְהֵן"
+    },
+    {
+      "id": "study-note:isa:3:23:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "וְהַגִּלְיֹנִים — Isaiah 3:23",
+      "text": "For the MT's וְהַגִּלְיֹנִים (often translated \"mirrors\" or \"garments\"), it is proposed to read וְהַגְּלִינִים, relating it to the Akkadian loanword gulīnu, meaning a type of garment (vestis).",
+      "hebrew": "וְהַגִּלְיֹנִים",
+      "targets": [
+        "verse:isa:3:23"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:23"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:23 — וְהַגִּלְיֹנִים"
+    },
+    {
+      "id": "study-note:isa:3:24:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "מַעֲשֶׂה — Isaiah 3:24",
+      "text": "The Syriac Peshitta omits this word (\"work of\"). It is proposed that it should be deleted.",
+      "hebrew": "מַעֲשֶׂה",
+      "targets": [
+        "verse:isa:3:24"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:24"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:24 — מַעֲשֶׂה"
+    },
+    {
+      "id": "study-note:isa:3:24:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "מַחֲגֹרֶת — Isaiah 3:24",
+      "text": "It is suggested that this word (\"a girding of\") should perhaps be deleted.",
+      "hebrew": "מַחֲגֹרֶת",
+      "targets": [
+        "verse:isa:3:24"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:24"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:24 — מַחֲגֹרֶת"
+    },
+    {
+      "id": "study-note:isa:3:24:3",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "כִּי־תַחַת יֹפִי׃ — Isaiah 3:24",
+      "text": "The Septuagint and the Vulgate omit this phrase (\"instead of beauty\"). The Great Isaiah Scroll adds the word בשת (\"shame\") to the end, reading \"for instead of beauty, shame.\"",
+      "hebrew": "כִּי־תַחַת יֹפִי׃",
+      "targets": [
+        "verse:isa:3:24"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:24"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:24 — כִּי־תַחַת יֹפִי׃"
+    },
+    {
+      "id": "study-note:isa:3:25:1",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "מְתַיִךְ — Isaiah 3:25",
+      "text": "It is proposed to read מְתֶיהָ (\"her men,\" third-person feminine singular suffix) instead of the MT's מְתַיִךְ (\"your men,\" second-person feminine singular suffix).",
+      "hebrew": "מְתַיִךְ",
+      "targets": [
+        "verse:isa:3:25"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:25"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:25 — מְתַיִךְ"
+    },
+    {
+      "id": "study-note:isa:3:25:2",
+      "provider": "Study Notes",
+      "kind": "text",
+      "url": "",
+      "title": "וּגְבוּרָתֵךְ — Isaiah 3:25",
+      "text": "It is similarly proposed to read וּגְבוּרָתָהּ (\"and her strength\") instead of the MT's וּגְבוּרָתֵךְ (\"and your strength\").",
+      "hebrew": "וּגְבוּרָתֵךְ",
+      "targets": [
+        "verse:isa:3:25"
+      ],
+      "status": "published",
+      "mappingMethod": "manual-doc",
+      "sourceReferenceSystem": "jewish",
+      "sourceReferences": [
+        "Isaiah 3:25"
+      ],
+      "notes": "Isaiah Study Notes from Google Doc: Isaiah 3:25 — וּגְבוּרָתֵךְ"
+    }
+  ]
+}

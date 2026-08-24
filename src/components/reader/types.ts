@@ -24,6 +24,8 @@ export type NoteResource = {
   url: string
   embedUrl?: string
   kind: string
+  text?: string
+  hebrew?: string
   resources?: NoteResource[]
 }
 

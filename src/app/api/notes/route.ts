@@ -26,7 +26,7 @@ export async function GET(request: Request) {
   const lemma = params.get('lemma')
 
   try {
-    const [daily, gilgamesh, aramaic, carmen, schenck, hebreways, henry, leningrad] = await Promise.all([
+    const [daily, gilgamesh, aramaic, carmen, schenck, hebreways, henry, leningrad, vetusArticles, studyNotes] = await Promise.all([
       getExternalCatalog('daily-dose-of-hebrew-videos.json'),
       getExternalCatalog('gilgamesh-vocabulary-videos.json'),
       getExternalCatalog('daily-dose-of-aramaic-videos.json'),
@@ -35,11 +35,13 @@ export async function GET(request: Request) {
       getExternalCatalog('hebreways-videos.json'),
       getExternalCatalog('henry-abramson-videos.json'),
       getExternalCatalog('leningrad-codex-chapter-images.json'),
+      getExternalCatalog('vetus-testamentum-articles.json').catch(() => ({ resources: [] as ExternalResource[] })),
+      getExternalCatalog('study-notes.json').catch(() => ({ resources: [] as ExternalResource[] })),
     ])
 
     const chapterTarget = `chapter:${book.id}:${chapter}`
     const verseTarget = verse ? `verse:${book.id}:${chapter}:${verse}` : ''
-    const studyResources = [...daily.resources, ...gilgamesh.resources, ...aramaic.resources, ...carmen.resources, ...schenck.resources, ...hebreways.resources, ...henry.resources]
+    const studyResources = [...studyNotes.resources, ...vetusArticles.resources, ...daily.resources, ...gilgamesh.resources, ...aramaic.resources, ...carmen.resources, ...schenck.resources, ...hebreways.resources, ...henry.resources]
 
     let lemmaIds = new Set<string>()
     if (lemma) {
@@ -51,29 +53,43 @@ export async function GET(request: Request) {
       )
     }
 
-    const chapterResources = [daily, gilgamesh, aramaic, carmen, schenck, hebreways, henry, leningrad].flatMap((catalog) =>
+    const chapterResources = [daily, gilgamesh, aramaic, carmen, schenck, hebreways, henry, leningrad, vetusArticles, studyNotes].flatMap((catalog) =>
       catalog.resources.filter((resource) => resource.targets.includes(chapterTarget)),
     )
     const chapterNotes = [
+      ...groupResources(chapterResources.filter((resource) => resource.kind === 'text'), 'Study Notes'),
+      ...groupResources(chapterResources.filter((resource) => resource.kind === 'article'), 'Articles'),
       ...groupResources(chapterResources.filter((resource) => resource.kind === 'image'), 'Manuscript ℒ'),
-      ...groupResources(chapterResources.filter((resource) => resource.kind !== 'image'), 'Chapter resources'),
+      ...groupResources(chapterResources.filter((resource) => resource.kind === 'video'), 'Chapter resources'),
     ]
 
     const versePrefix = `verse:${book.id}:${chapter}:`
     const verseTargets = [...new Set(
       studyResources.flatMap((resource) => resource.targets).filter((target) => target.startsWith(versePrefix)),
     )]
-    const verseNotes = Object.fromEntries(verseTargets.map((target) => [
-      target.split(':').at(-1),
-      groupResources(studyResources.filter((resource) => resource.targets.includes(target)), 'Verse resources'),
-    ]))
+    const verseNotes = Object.fromEntries(verseTargets.map((target) => {
+      const forTarget = studyResources.filter((resource) => resource.targets.includes(target))
+      return [
+        target.split(':').at(-1)!,
+        [
+          ...groupResources(forTarget.filter((resource) => resource.kind === 'text'), 'Study Notes'),
+          ...groupResources(forTarget.filter((resource) => resource.kind === 'article'), 'Articles'),
+          ...groupResources(forTarget.filter((resource) => resource.kind === 'video'), 'Verse resources'),
+        ],
+      ]
+    }))
 
-    const notes = groupResources([
+    const notesForTarget = [
       ...studyResources.filter((resource) => verseTarget && resource.targets.includes(verseTarget)),
       ...studyResources.filter((resource) =>
         resource.targets.some((target) => target.startsWith('lemma:') && lemmaIds.has(target.split(':').at(-1) ?? '')),
       ),
-    ], 'Study resources')
+    ]
+    const notes = [
+      ...groupResources(notesForTarget.filter((resource) => resource.kind === 'text'), 'Study Notes'),
+      ...groupResources(notesForTarget.filter((resource) => resource.kind === 'article'), 'Articles'),
+      ...groupResources(notesForTarget.filter((resource) => resource.kind === 'video'), 'Study resources'),
+    ]
 
     return NextResponse.json({ chapter: chapterTarget, chapterNotes, verseNotes, notes }, { headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400' } })
   } catch {

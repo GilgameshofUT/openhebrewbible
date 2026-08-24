@@ -24,10 +24,28 @@ export function NoteModal({
         </button>
       )
     }
+    if (resource.text) {
+      return (
+        <div className="note-text">
+          {resource.hebrew ? <div dir="rtl" lang="he" className="note-hebrew">{resource.hebrew}</div> : null}
+          <p>{resource.text}</p>
+        </div>
+      )
+    }
     if (resource.embedUrl) {
       return <iframe title={resource.title} src={resource.embedUrl} allow="autoplay; encrypted-media; picture-in-picture" allowFullScreen />
     }
+    if (resource.kind === 'article' && resource.url) {
+      return null
+    }
     return <a href={resource.url} target="_blank" rel="noreferrer">Open resource</a>
+  }
+
+  function titleLink(resource: NoteResource) {
+    if (resource.url && resource.kind === 'article') {
+      return <a href={resource.url} target="_blank" rel="noreferrer">{resource.title}</a>
+    }
+    return resource.title
   }
 
   return (
@@ -36,7 +54,7 @@ export function NoteModal({
         <header>
           <div>
             <span className="label">{note.provider}</span>
-            <h2 id="note-title">{note.title}</h2>
+            <h2 id="note-title">{titleLink(note)}</h2>
           </div>
           <button type="button" onClick={onClose} aria-label="Close resource">×</button>
         </header>
@@ -45,13 +63,13 @@ export function NoteModal({
               <div className="resource-group">
                 {note.resources.map((resource) => (
                   <article key={resource.id}>
-                    <h3>{resource.title}</h3>
+                    <h3>{titleLink(resource)}</h3>
                     {body(resource)}
                   </article>
                 ))}
               </div>
             )
-          : note.kind === 'image' || note.embedUrl
+          : note.kind === 'image' || note.embedUrl || note.text
             ? body(note)
             : <p className="modal-status"><a href={note.url} target="_blank" rel="noreferrer">Open resource</a></p>}
       </section>

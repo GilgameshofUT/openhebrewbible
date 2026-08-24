@@ -76,6 +76,8 @@ export type ExternalResource = {
   url: string
   embedUrl?: string
   title: string
+  text?: string
+  hebrew?: string
   targets: string[]
   resources?: ExternalResource[]
 }
