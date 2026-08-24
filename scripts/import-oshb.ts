@@ -242,18 +242,93 @@ async function main() {
       const chapterNumber = Number(String(chapterNode['@_osisID']).split('.').at(-1))
       const chapterVerses: ImportedVerse[] = []
       for (const verseNode of list(chapterNode.verse)) {
-        const qereByKetiv = new Map<string, any[]>()
+        const verseWordNodes = list(verseNode.w)
+        // Build qere assignments by matching catchWord phrases to verse word sequences.
+        // Handles 1-to-N splits (e.g. מאשתם → מֵאֵשׁ תַּם), N-to-1 merges
+        // (e.g. חרי יונים → דִּבְיוֹנִים), and N-to-N phrases where the catch
+        // includes a preceding normal word (Job 38:1 מנ ה/סערה → מִן הַסְּעָרָה).
+        const normalizeForMatch = (value: string) =>
+          value.replaceAll('/', '').replace(/[\u0591-\u05C7]/g, '').replaceAll('־', ' ').trim().replace(/\s+/g, ' ')
+        const cleanQere = (value: string) => value.replaceAll('/', '').trim()
+        const assignments = new Map<number, { qereText: string; qereNode: any }>()
+        const verseNorms = verseWordNodes.map((w: any) => normalizeForMatch(text(w)))
         for (const note of list(verseNode.note)) {
-          const qereWords = list(note.rdg).filter((reading: any) => reading['@_type'] === 'x-qere').flatMap((reading: any) => list(reading.w))
-          if (qereWords.length) qereByKetiv.set(String(note.catchWord ?? '').replaceAll('/', ''), qereWords)
+          const rdgs = list(note.rdg).filter((r: any) => r['@_type'] === 'x-qere')
+          if (!rdgs.length) continue
+          const qereNodes: any[] = rdgs.flatMap((r: any) => list(r.w))
+          if (!qereNodes.length) continue
+          const qereTexts = qereNodes.map((w: any) => cleanQere(text(w)))
+          const hasPaseq = rdgs.some((r: any) => list((r as any).seg).some((s: any) => s['@_type'] === 'x-paseq'))
+          const catchRaw = String((note as any).catchWord ?? '')
+          const catchClean = catchRaw.replaceAll('/', '').replaceAll('־', ' ')
+          const catchTokens = catchClean.trim().split(/\s+/).filter(Boolean).map((t) => normalizeForMatch(t))
+          if (!catchTokens.length) continue
+          const catchConcat = catchTokens.map((t) => t.replace(/\s+/g, '')).join('')
+          let matchStart = -1
+          let matchLen = 0
+          // Prefer token-wise match
+          for (let i = 0; i <= verseNorms.length - catchTokens.length; i++) {
+            let ok = true
+            for (let j = 0; j < catchTokens.length; j++) if (verseNorms[i + j] !== catchTokens[j]) { ok = false; break }
+            if (ok) { matchStart = i; matchLen = catchTokens.length; break }
+          }
+          // Fallback: concatenated match (e.g. חרי+יונים = חרייונים)
+          if (matchStart === -1) {
+            const verseConcats = verseNorms.map((v) => v.replace(/\s+/g, ''))
+            for (let i = 0; i < verseNorms.length; i++) {
+              for (let L = 1; L <= 3 && i + L <= verseNorms.length; L++) {
+                const concat = verseConcats.slice(i, i + L).join('')
+                if (concat === catchConcat) { matchStart = i; matchLen = L; break }
+              }
+              if (matchStart !== -1) break
+            }
+          }
+          if (matchStart === -1) continue
+          // Distribute qere to verse words in the window
+          if (matchLen === qereNodes.length) {
+            for (let j = 0; j < matchLen; j++) {
+              assignments.set(matchStart + j, { qereText: qereTexts[j], qereNode: qereNodes[j] })
+            }
+          } else if (matchLen === 1 && qereNodes.length > 1) {
+            const joined = hasPaseq ? qereTexts.join(' ׀ ') : qereTexts.join(' ')
+            assignments.set(matchStart, { qereText: joined, qereNode: qereNodes[0] })
+          } else if (qereNodes.length === 1 && matchLen > 1) {
+            // Merge: multiple written words → single read word
+            // Assign to the last ketiv word in the window (or last word)
+            let target = -1
+            for (let j = matchLen - 1; j >= 0; j--) {
+              if (verseWordNodes[matchStart + j]['@_type'] === 'x-ketiv') { target = matchStart + j; break }
+            }
+            if (target === -1) target = matchStart + matchLen - 1
+            assignments.set(target, { qereText: qereTexts[0], qereNode: qereNodes[0] })
+          } else {
+            // Mismatched counts: join qere and assign to last ketiv
+            const joined = hasPaseq ? qereTexts.join(' ׀ ') : qereTexts.join(' ')
+            let target = -1
+            for (let j = matchLen - 1; j >= 0; j--) {
+              if (verseWordNodes[matchStart + j]['@_type'] === 'x-ketiv') { target = matchStart + j; break }
+            }
+            if (target === -1) target = matchStart + matchLen - 1
+            assignments.set(target, { qereText: joined, qereNode: qereNodes[0] })
+          }
         }
-        const words = list(verseNode.w).map((wordNode, index) => {
+        const words = verseWordNodes.map((wordNode: any, index: number) => {
           const wordText = text(wordNode).replaceAll('/', '')
-          const qereWord = wordNode['@_type'] === 'x-ketiv' ? qereByKetiv.get(wordText)?.[0] : undefined
-          const qereText = qereWord ? text(qereWord).replaceAll('/', '') : undefined
+          const assignment = assignments.get(index)
+          const qereText = assignment?.qereText
+          const qereNode = assignment?.qereNode
           wordCount += 1
           const morphCode = wordNode['@_morph'] ?? ''
-          return { id: wordNode['@_id'] ?? `${bookId}-${verseNode['@_osisID']}-${index}`, text: wordText, ...(qereText ? { qere: qereText } : {}), lemma: qereWord?.['@_lemma'] ?? wordNode['@_lemma'] ?? '', morphology: qereWord?.['@_morph'] ?? morphCode, morphologyLabel: morphology[qereWord?.['@_morph'] ?? morphCode] ?? (qereWord?.['@_morph'] ?? morphCode) }
+          const lemma = qereNode?.['@_lemma'] ?? wordNode['@_lemma'] ?? ''
+          const morph = qereNode?.['@_morph'] ?? morphCode
+          return {
+            id: wordNode['@_id'] ?? `${bookId}-${verseNode['@_osisID']}-${index}`,
+            text: wordText,
+            ...(qereText ? { qere: qereText } : {}),
+            lemma,
+            morphology: morph,
+            morphologyLabel: morphology[morph] ?? morph,
+          }
         })
         const punctuation = list(verseNode.seg).map((part: any) => part['@_type'] === 'x-sof-pasuq' ? '׃' : text(part)).join('')
         const verseNumber = Number(String(verseNode['@_osisID']).split('.').at(-1))

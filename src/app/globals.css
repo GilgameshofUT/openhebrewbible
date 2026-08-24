@@ -209,7 +209,7 @@ button { cursor: pointer; }
 .relationship-list button:hover strong { color: var(--maroon); text-decoration: underline; }
 @media (max-width: 950px) { .reading-layout.parallel { grid-template-columns: minmax(0, 1fr); } }
 @media (max-width: 640px) { .parallel-table-heading, .parallel-row { grid-template-columns: minmax(0, 1fr) minmax(170px, .8fr); gap: 12px; }.parallel-hebrew, .parallel-english-cell { grid-template-columns: 22px minmax(0, 1fr); gap: 10px; }.parallel-english-cell p { font-size: 19px; line-height: 1.6; } }
-@media (max-width: 640px) { .study-panel:has(.study-head) { position: fixed; z-index: 10; inset: auto 0 0; width: 100%; max-height: 52vh; min-height: 0; border-width: 1px 0 0; padding: 16px 20px calc(16px + env(safe-area-inset-bottom)); box-shadow: 0 -12px 35px rgba(24, 21, 19, .18); }.study-panel:has(.study-head) .study-head { padding: 12px 0 15px; }.study-panel:has(.study-head) .study-head h2 { font-size: 30px; }.study-panel:has(.study-head) .study-section { padding: 12px 0; } }
+@media (max-width: 640px) { .study-panel:has(.study-head) { position: fixed; z-index: 10; inset: auto 0 0; width: 100%; max-height: 52vh; min-height: 0; border-width: 1px 0 0; padding: 16px 20px calc(16px + env(safe-area-inset-bottom)); box-shadow: 0 -12px 35px rgba(24, 21, 19, .18); }.study-panel:has(.study-head) .study-head { padding: 12px 0 15px; }.study-panel:has(.study-head) .study-head h2 { font-size: 30px; }.study-panel:has(.study-head) .study-section { padding: 12px 0; } .reading-layout:has(.study-head) { padding-bottom: calc(52vh + 32px + env(safe-area-inset-bottom)); } }
 /* Sof pasuq sits flush against the final word: cancel that word's trailing
    inline padding (3px) plus the glyph's natural left side bearing in Ezra SIL. */
 .verse-end-mark { margin-inline-start: calc(-3px - .14em); }
@@ -257,7 +257,6 @@ button { cursor: pointer; }
 .note-modal > .note-image-button { display: block; width: 100%; flex: 1 1 auto; min-height: 0; overflow: auto; overscroll-behavior: contain; }
 .note-modal > .note-image-button .note-image { width: 100%; max-height: none; }
 .study-dismiss { border: 0; padding: 4px 0; background: transparent; color: var(--maroon); font: 10px Arial, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
-@media (max-width: 640px) { .study-panel:has(.study-head) { position: fixed; z-index: 10; inset: auto 0 0; width: 100%; max-height: 52vh; min-height: 0; border-width: 1px 0 0; padding: 16px 20px calc(16px + env(safe-area-inset-bottom)); box-shadow: 0 -12px 35px rgba(24, 21, 19, .18); }.study-panel:has(.study-head) .study-head { padding: 12px 0 15px; }.study-panel:has(.study-head) .study-head h2 { font-size: 30px; }.study-panel:has(.study-head) .study-section { padding: 12px 0; } }
 
 /* Error and not-found boundaries. */
 .boundary-panel { max-width: 640px; margin: 0 auto; padding: 90px 5vw; }
