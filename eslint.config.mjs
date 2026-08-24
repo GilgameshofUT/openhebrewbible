@@ -6,7 +6,7 @@ import tseslint from 'typescript-eslint'
 
 export default tseslint.config(
   {
-    ignores: ['.next/**', 'node_modules/**', 'out/**', 'data/**', 'Screenshots/**', '.openchamber/**'],
+    ignores: ['.next/**', 'node_modules/**', 'out/**', 'data/**', 'Screenshots/**', '.openchamber/**', 'local/**'],
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,
