@@ -16,6 +16,39 @@ export function wordClass(word: Word, selected: boolean, active: boolean) {
   return `${selected ? 'word selected-word' : 'word'}${active ? ' active-word' : ''}${word.qere ? ' has-qere' : ''}`
 }
 
+const NOTE_KIND_EMOJI: Record<string, string> = {
+  text: '📝',
+  article: '🎓',
+  video: '🎬',
+}
+
+const NOTE_KIND_LABEL: Record<string, string> = {
+  text: 'text note',
+  article: 'article',
+  video: 'video',
+}
+
+/** Kinds are indicated in the same order the notes API groups them. */
+const NOTE_KIND_ORDER = ['text', 'article', 'video'] as const
+
+/** The resources a note link represents, unwrapping the single group node. */
+function noteMembers(note: NoteResource): NoteResource[] {
+  return note.kind === 'group' && note.resources?.length ? note.resources : [note]
+}
+
+/** One emoji per distinct kind, deduplicated, in NOTE_KIND_ORDER. */
+export function noteKindEmoji(note: NoteResource): string {
+  const kinds = new Set(noteMembers(note).map((member) => member.kind))
+  return NOTE_KIND_ORDER.filter((kind) => kinds.has(kind)).map((kind) => NOTE_KIND_EMOJI[kind]).join('')
+}
+
+/** Human-readable kinds for the accessible name, in the same order. */
+export function noteKindLabel(note: NoteResource): string {
+  const kinds = new Set(noteMembers(note).map((member) => member.kind))
+  const label = NOTE_KIND_ORDER.filter((kind) => kinds.has(kind)).map((kind) => NOTE_KIND_LABEL[kind]).join(', ')
+  return label ? `Notes: ${label}` : 'Notes'
+}
+
 /**
  * Renders the clickable Hebrew of a verse followed by its sof pasuq.
  *
@@ -55,7 +88,15 @@ export const HebrewVerse = memo(function HebrewVerse({
       <span className="verse-end-mark" aria-label="sof pasuq">׃</span>
       {notes?.map((note) => (
         <span key={note.id}>
-          <button type="button" className="note-link" onClick={() => onOpenNote(note)}>Info 📚</button>
+          <button
+            type="button"
+            className="note-link"
+            onClick={() => onOpenNote(note)}
+            aria-label={noteKindLabel(note)}
+            title={noteKindLabel(note)}
+          >
+            <span aria-hidden="true">{noteKindEmoji(note)}</span>
+          </button>
         </span>
       ))}
     </>
