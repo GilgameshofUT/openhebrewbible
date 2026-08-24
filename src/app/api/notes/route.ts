@@ -69,13 +69,14 @@ export async function GET(request: Request) {
     )]
     const verseNotes = Object.fromEntries(verseTargets.map((target) => {
       const forTarget = studyResources.filter((resource) => resource.targets.includes(target))
+      const ordered = [
+        ...forTarget.filter((resource) => resource.kind === 'text'),
+        ...forTarget.filter((resource) => resource.kind === 'article'),
+        ...forTarget.filter((resource) => resource.kind === 'video'),
+      ]
       return [
         target.split(':').at(-1)!,
-        [
-          ...groupResources(forTarget.filter((resource) => resource.kind === 'text'), 'Study Notes'),
-          ...groupResources(forTarget.filter((resource) => resource.kind === 'article'), 'Articles'),
-          ...groupResources(forTarget.filter((resource) => resource.kind === 'video'), 'Verse resources'),
-        ],
+        groupResources(ordered, 'Notes'),
       ]
     }))
 
