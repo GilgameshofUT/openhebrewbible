@@ -95,7 +95,7 @@ export const HebrewVerse = memo(function HebrewVerse({
             aria-label={noteKindLabel(note)}
             title={noteKindLabel(note)}
           >
-            <span aria-hidden="true">{noteKindEmoji(note)}</span>
+            Notes <span aria-hidden="true">{noteKindEmoji(note)}</span>
           </button>
         </span>
       ))}

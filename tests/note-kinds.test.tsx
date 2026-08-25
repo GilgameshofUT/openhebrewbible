@@ -102,4 +102,20 @@ describe('verse note kind indicators', () => {
     const button = screen.getByRole('button', { name: 'Notes: article' })
     expect(button.textContent).toContain('🎓')
   })
+
+  it('shows the visible Notes word alongside the icons', () => {
+    render(
+      <HebrewVerse
+        verse={verse}
+        selectedWordId={undefined}
+        activeWordId={undefined}
+        notes={group(resource('v', 'video'))}
+        onOpenNote={onOpenNote}
+        onSelectWord={onSelectWord}
+      />,
+    )
+    const button = screen.getByRole('button', { name: 'Notes: video' })
+    expect(button.textContent).toContain('Notes')
+    expect(button.textContent).toContain('🎬')
+  })
 })
