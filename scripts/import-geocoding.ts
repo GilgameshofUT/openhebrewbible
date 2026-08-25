@@ -304,8 +304,23 @@ const bookCache = memoizeByKey<Record<string, Array<{ number: number; words: Arr
     if (special === 'multiple_locations') flags.push('multiple possible locations')
     if (special === 'unknown_place') flags.push('location uncertain')
     if (special === 'nonspecific_place') flags.push('nonspecific location')
-    const uncertainReview = Object.values(place.linked_data ?? {}).some((entry) => entry.review === 'uncertain')
-    if (uncertainReview) flags.push('identification uncertain')
+    // Upstream 'linked_data' review 'uncertain' is lexical (UBS Names Database),
+    // not geographic — don't surface it as a map warning. Geographic uncertainty
+    // is captured by low vote scores and multiple competing identifications.
+    // Flag when the primary identification is disputed (low average with many votes)
+    // or when there are multiple candidate locations.
+    if (identifications.length > 1 && !flags.includes('multiple possible locations')) {
+      flags.push('multiple possible locations')
+    }
+    if (
+      score?.vote_average != null &&
+      score.vote_average < 50 &&
+      (score.vote_count ?? 0) > 1 &&
+      !flags.includes('location uncertain') &&
+      !flags.includes('multiple possible locations')
+    ) {
+      flags.push('location uncertain')
+    }
 
     // Wikidata id appears in linked_data under an entry whose id looks like
     // Q<digits>; the shared schema source uses s7cc8b2 for those.

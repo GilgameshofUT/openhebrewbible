@@ -82,7 +82,7 @@ export function ChapterPlaces({ bookId, chapter }: { bookId: string; chapter: nu
             <div className="place-meta">
               {openPlace.confidence ? (
                 <span className="place-confidence">
-                  Identification {openPlace.confidence.voteAverage >= 750 ? 'high' : openPlace.confidence.voteAverage >= 250 ? 'medium' : 'low'} confidence
+                  Identification {openPlace.confidence.voteAverage >= 400 ? 'high' : openPlace.confidence.voteAverage >= 100 ? 'medium' : 'low'} confidence
                   {openPlace.confidence.voteCount > 1 ? ` (${openPlace.confidence.voteCount} sources)` : ''}
                 </span>
               ) : null}

@@ -101,13 +101,13 @@ describe('study panel location section', () => {
     const rich = {
       ...place,
       confidence: { voteAverage: 500, voteCount: 3 },
-      flags: ['multiple possible locations', 'identification uncertain'],
+      flags: ['multiple possible locations', 'location uncertain'],
       wikidataId: 'Q1000',
       geometry: { kind: 'polygon' as const, geometryId: 'a1' },
       shape: { polygons: [[[[31.7, 35.2]]]], paths: [] },
     }
     renderPanel([rich])
-    expect(screen.getByText('Identification medium confidence (3 sources)')).toBeDefined()
+    expect(screen.getByText('Identification high confidence (3 sources)')).toBeDefined()
     expect(screen.getByText('⚠ multiple possible locations')).toBeDefined()
     expect(screen.getByRole('link', { name: 'Wikidata ↗' }).getAttribute('href')).toBe('https://www.wikidata.org/wiki/Q1000')
   })

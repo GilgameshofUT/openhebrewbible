@@ -207,7 +207,7 @@ export function StudyPanel({
               <div className="place-meta">
                 {place.confidence ? (
                   <span className="place-confidence">
-                    Identification {place.confidence.voteAverage >= 750 ? 'high' : place.confidence.voteAverage >= 250 ? 'medium' : 'low'} confidence
+                    Identification {place.confidence.voteAverage >= 400 ? 'high' : place.confidence.voteAverage >= 100 ? 'medium' : 'low'} confidence
                     {place.confidence.voteCount > 1 ? ` (${place.confidence.voteCount} sources)` : ''}
                   </span>
                 ) : null}
