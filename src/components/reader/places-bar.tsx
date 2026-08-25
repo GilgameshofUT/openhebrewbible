@@ -13,6 +13,7 @@ import { Modal } from './modal'
 export function ChapterPlaces({ bookId, chapter }: { bookId: string; chapter: number }) {
   const [byVerse, setByVerse] = useState<Record<string, GeoPlace[]>>({})
   const [openPlace, setOpenPlace] = useState<GeoPlace | null>(null)
+  const [expanded, setExpanded] = useState(true)
 
   useEffect(() => {
     let active = true
@@ -25,18 +26,39 @@ export function ChapterPlaces({ bookId, chapter }: { bookId: string; chapter: nu
 
   // A place can be mentioned in several verses of a chapter; list it once.
   const places = [...new Map(Object.values(byVerse).flat().map((place) => [place.id, place])).values()]
+  const collapsible = places.length > 3
+
+  useEffect(() => {
+    if (!places.length) return
+    setExpanded(!collapsible)
+  }, [places.length, collapsible])
+
   if (!places.length) return null
 
   return (
     <div className="chapter-places">
-      <span className="chapter-places-label">🗺 Places</span>
-      <div className="chapter-place-links">
-        {places.map((place) => (
-          <button type="button" key={place.id} className="place-chip" onClick={() => setOpenPlace(place)}>
-            {place.name} · {place.types[0] ?? 'place'}
-          </button>
-        ))}
-      </div>
+      {collapsible ? (
+        <button
+          type="button"
+          className="chapter-places-label chapter-places-toggle"
+          onClick={() => setExpanded((v) => !v)}
+          aria-expanded={expanded}
+          aria-controls="chapter-place-list"
+        >
+          Places
+        </button>
+      ) : (
+        <span className="chapter-places-label">Places</span>
+      )}
+      {(!collapsible || expanded) && (
+        <div id="chapter-place-list" className="chapter-place-links">
+          {places.map((place) => (
+            <button type="button" key={place.id} className="place-chip" onClick={() => setOpenPlace(place)}>
+              {place.name} · {place.types[0] ?? 'place'}
+            </button>
+          ))}
+        </div>
+      )}
       {openPlace && (
         <Modal className="modal-backdrop" onClose={() => setOpenPlace(null)} labelledBy="place-modal-title">
           <section className="occurrence-modal place-modal">

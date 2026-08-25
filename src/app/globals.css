@@ -270,6 +270,8 @@ button { cursor: pointer; }
 /* Place mapping (openbible.info geocoding index). */
 .chapter-places { max-width: 1500px; margin: 0 auto; padding: 8px 5vw 0; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
 .chapter-places-label { color: var(--muted); font: 9px Arial, sans-serif; letter-spacing: .13em; text-transform: uppercase; }
+button.chapter-places-label { border: 0; padding: 0; background: transparent; cursor: pointer; }
+button.chapter-places-label:hover, button.chapter-places-label:focus-visible { color: var(--maroon); text-decoration: underline; }
 .chapter-place-links { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 .place-chip { border: 1px solid #cdbba8; border-radius: 3px; padding: 5px 11px; background: transparent; color: var(--maroon); font: 12px Arial, sans-serif; white-space: nowrap; }
 .place-chip:hover, .place-chip:focus-visible { border-color: var(--maroon); background: #ead3d0; color: var(--maroon); }
